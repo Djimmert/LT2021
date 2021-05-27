@@ -2,7 +2,7 @@
 # This scripts converts the questions on Nestor to a CSV file in the required format:
 # <linenumber><tab><question>
 # Author:  Jasper Bos (s3794687)
-# Date:    June 8th, 2021
+# Date:    May 27th, 2021
 
 import argparse
 
