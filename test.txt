@@ -1,0 +1,3181 @@
+ '
+Q:	 What is most notable work from the American composer John Williams?
+E:	 {'Q131285': 'John Williams', 'Q274922': 'American composer', 'Q42213': 'work', 'Q36834': 'composer'}
+R:	 {'P800': 'notable work', 'P2338': 'American composer'}
+
+Q:	 What is Nicolas Cage's birth name?
+E:	 {'Q3340642': 'Nicolas cages', 'Q34581': 'childbirth', 'Q42869': 'Nicolas Cage'}
+R:	 {'P19': 'birth name'}
+
+Q:	 What is Omar Sy's country of citizenship?
+E:	 {'Q138263': 'Omar sys', 'Q3336843': 'country within the United Kingdom', 'Q357387': 'Omar Sy', 'Q42138': 'citizenship'}
+R:	 {'P27': 'country of citizenship'}
+
+Q:	 What is Pulp Fiction?
+E:	 {'Q395227': 'Pulp fiction', 'Q104123': 'Pulp Fiction'}
+R:	 {}
+
+Q:	 What is Quentin Tarantino's date of birth?
+E:	 {'Q3772': 'Quentin Tarantino', 'Q7612870': 'Steve Holland', 'Q34581': 'childbirth'}
+R:	 {'P569': 'date of birth'}
+
+Q:	 What is Quentin Tarantino's religion?
+E:	 {'Q3772': 'Quentin Tarantino', 'Q9174': 'religion'}
+R:	 {'P140': 'religion'}
+
+Q:	 What is Schindler's List about?
+E:	 {'Q346062': 'Schindlers list', 'Q52715628': 'Alex & the List', 'Q2236136': 'Schindler'}
+R:	 {}
+
+Q:	 What is spider-man's name?
+E:	 {'Q678822': 'spider-mans name', 'Q1071027': 'personal name', 'Q79037': 'Spider-Man'}
+R:	 {}
+
+Q:	 What is Spiderman's name?
+E:	 {'Q545227': 'Spidermans name', 'Q1071027': 'personal name', 'Q79037': 'Spider-Man'}
+R:	 {}
+
+Q:	 What is the 2009 movie 'Up' about?
+E:	 {'Q41253': '2009 movie', 'Q11424': 'film', 'Q174811': 'Up'}
+R:	 {}
+
+Q:	 What is the actor Jack Nicholson's date of birth?
+E:	 {'Q39792': 'Jack Nicholson', 'Q3016939': 'Actor  date of birth', 'Q7612870': 'Steve Holland', 'Q34581': 'childbirth'}
+R:	 {'P19': 'actor  date of birth'}
+
+Q:	 What is the birth city of Jim Carrey?
+E:	 {'Q40504': 'Jim Carrey', 'Q515': 'city'}
+R:	 {'P19': 'birth city'}
+
+Q:	 What is the box office of 8 Mile?
+E:	 {'Q196665': '8 mile', 'Q877435': 'box office', 'Q148458': 'Jean-François Millet'}
+R:	 {'P2142': 'box office'}
+
+Q:	 What is the box office of Interstellar?
+E:	 {'Q13417189': 'Interstellar', 'Q877435': 'box office'}
+R:	 {'P2142': 'box office'}
+
+Q:	 What is the box office of the movie Harry Potter and the Goblet of Fire?
+E:	 {'Q102225': 'Goblet of fire', 'Q216930': 'Harry potter', 'Q182254': 'The Movie', 'Q877435': 'box office', 'Q11424': 'film', 'Q8337': 'Harry Potter', 'Q966395': 'M-11 Shtorm', 'Q196561': 'Kindle Fire'}
+R:	 {'P2142': 'box office', 'P57': 'movie'}
+
+Q:	 What is the catchphrase of James Bond?
+E:	 {'Q844': 'James Bond', 'Q468982': 'Catchphrase of', 'Q2708515': 'catchphrase'}
+R:	 {'P31': 'catchphrase of'}
+
+Q:	 What is the catchphrase of the fictional character James Bond?
+E:	 {'Q844': 'James Bond', 'Q8253': 'Catchphrase of the fictional character', 'Q2708515': 'catchphrase', 'Q95074': 'fictional character'}
+R:	 {'P407': 'catchphrase of the fictional character'}
+
+Q:	 What is the cause of death of Paul Walker?
+E:	 {'Q16145846': 'Paul walker', 'Q1931388': 'cause of death', 'Q4': 'death', 'Q213864': 'Paul Walker'}
+R:	 {'P31': 'cause of death'}
+
+Q:	 What is the combined duration of all films in the Underworld series?
+E:	 {'Q2070413': 'Combined duration of all films in the underworld series', 'Q2341537': 'duration', 'Q11424': 'film', 'Q82332': 'Underworld'}
+R:	 {}
+
+Q:	 What is the country of citizenship of Quentin Tarantino?
+E:	 {'Q3772': 'Quentin Tarantino', 'Q3336843': 'country within the United Kingdom', 'Q42138': 'citizenship'}
+R:	 {'P27': 'country of citizenship'}
+
+Q:	 What is the country of origin of "10 Things I Hate About You"?
+E:	 {'Q13172': '10 things', 'Q3336843': 'country within the United Kingdom', 'Q7376362': 'river source', 'Q210756': 'The Thing'}
+R:	 {'P577': 'Hate', 'P495': 'country of origin'}
+
+Q:	 What is the country of origin of Black Mirror?
+E:	 {'Q21079055': 'Black mirror', 'Q3336843': 'country within the United Kingdom', 'Q7376362': 'river source', 'Q558112': 'Black Mirror'}
+R:	 {'P495': 'country of origin'}
+
+Q:	 What is the country of origin of mr. Bean?
+E:	 {'Q484020': 'Mr bean', 'Q3336843': 'country within the United Kingdom', 'Q7376362': 'river source', 'Q1025': 'Mauritania', 'Q752103': 'Bean'}
+R:	 {'P495': 'country of origin', 'P4955': 'mr'}
+
+Q:	 What is the country of origin of the animated series 'Death Note'?
+E:	 {'Q1834': 'Death Note', 'Q3336843': 'country within the United Kingdom', 'Q7376362': 'river source', 'Q581714': 'animated series'}
+R:	 {'P5031': 'animated', 'P495': 'country of origin'}
+
+Q:	 What is the country of origin of the drama film 'Mommy'?
+E:	 {'Q7560': 'drama film mommy', 'Q3336843': 'country within the United Kingdom', 'Q7376362': 'river source', 'Q130232': 'drama film', 'Q16395232': 'Mommy'}
+R:	 {'P279': 'country of origin'}
+
+Q:	 What is the date of birth of the actress Natalie Portman?
+E:	 {'Q37876': 'Natalie Portman', 'Q654810': 'dating', 'Q34581': 'childbirth', 'Q33999': 'actor'}
+R:	 {'P569': 'date of birth', 'P161': 'actress'}
+
+Q:	 What is the director Gaspar Noé employed at?
+E:	 {'Q347950': 'Gaspar Noé', 'Q2526255': 'film director'}
+R:	 {'P108': 'employed', 'P57': 'director'}
+
+Q:	 What is the dragon called in the Hobbit movies?
+E:	 {'Q369532': 'The Dragon', 'Q74229': 'Hobbit movies', 'Q7559': 'dragon', 'Q11424': 'film'}
+R:	 {'P272': 'called'}
+
+Q:	 What is the duration of 2001: A Space Odyssey?
+E:	 {'Q76829': 'A', 'Q103474': '2001:  space odyssey', 'Q2341537': 'duration', 'Q1198588': 'Space Odyssey'}
+R:	 {'P2047': 'duration'}
+
+Q:	 What is the duration of I Am Legend?
+E:	 {'Q2341537': 'duration', 'Q17182571': 'Legend'}
+R:	 {'P2047': 'duration', 'P1684': 'Legend'}
+
+Q:	 What is the duration of John Wick?
+E:	 {'Q21451640': 'John wick', 'Q2341537': 'duration', 'Q15732802': 'John Wick'}
+R:	 {'P2047': 'duration'}
+
+Q:	 What is the duration of "Star Wars Episode IV: A New Hope"?
+E:	 {'Q165603': 'Iv:', 'Q6074': 'Star wars episode  a new hope', 'Q76829': 'A', 'Q17738': 'Star wars episode iv:  new hope', 'Q2341537': 'duration', 'Q202': '4', 'Q1182069': 'New Hope'}
+R:	 {'P2047': 'duration'}
+
+Q:	 What is the duration of The Fast and the Furious?
+E:	 {'Q155476': 'Fast and the furious', 'Q2341537': 'duration', 'Q28453017': 'Fast', 'Q5509549': 'Furious'}
+R:	 {'P2047': 'duration'}
+
+Q:	 What is the duration of The Fault in Our Stars?
+E:	 {'Q412032': 'Stars', 'Q2341537': 'duration', 'Q5438142': 'Fault', 'Q28173261': 'The Star'}
+R:	 {'P2047': 'duration', 'P5095': 'Fault'}
+
+Q:	 What is the duration of The Girl with the Dragon Tattoo?
+E:	 {'Q276343': 'Girl with the dragon tattoo', 'Q2341537': 'duration', 'Q61875850': 'Girl', 'Q1148444': 'blunderbuss'}
+R:	 {'P2047': 'duration'}
+
+Q:	 What is the duration of The Grand Budapest Hotel?
+E:	 {'Q3521099': 'The Grand Budapest Hotel', 'Q2341537': 'duration'}
+R:	 {'P2047': 'duration'}
+
+Q:	  What is the duration of the movie "Avatar"(2009)?
+E:	 {'Q11572': 'movie avatar(2009)', 'Q2341537': 'duration', 'Q11424': 'film'}
+R:	 {'P2047': 'duration'}
+
+Q:	 What is the duration of the movie "Tenet"?
+E:	 {'Q201430': 'movie tenet', 'Q2341537': 'duration', 'Q63985561': 'Tenet', 'Q11424': 'film'}
+R:	 {'P69': 'duration'}
+
+Q:	 What is the Dutch age rating for the movie Bohemian Rhapsody?
+E:	 {'Q187745': 'Bohemian Rhapsody', 'Q182254': 'dutch age rating for the movie', 'Q609276': 'climbing grade', 'Q11424': 'film'}
+R:	 {'P57': 'Dutch age rating for the movie'}
+
+Q:	 What is the english name for the fictional realm from the Marvel cinematic universe named Asgard in dutch?
+E:	 {'Q642878': 'Marvel Cinematic Universe', 'Q178182': 'Asgard', 'Q7411': 'Dutch', 'Q4065173': 'English name', 'Q1250464': 'realm', 'Q597663': 'universe'}
+R:	 {'P138': 'named', 'P361': 'in dutch'}
+
+Q:	 What is the famous phrase from the movie Forrest Gump?
+E:	 {'Q134773': 'Forrest Gump', 'Q182254': 'Famous phrase from the movie', 'Q1459435': 'phrase', 'Q11424': 'film'}
+R:	 {'P57': 'famous phrase from the movie'}
+
+Q:	 What is the film Dr. Strangelove also known as in English?
+E:	 {'Q7621507': 'Strangelove', 'Q11758': 'Film dr', 'Q337881': 'English', 'Q11424': 'film', 'Q105702': 'Dr. Strangelove', 'Q1860': 'English'}
+R:	 {'P1476': 'known', 'P136': 'film Dr'}
+
+Q:	 What is the filming location of Narcos?
+E:	 {'Q20642206': 'Narcos', 'Q1045481': 'filming location'}
+R:	 {'P915': 'filming', 'P276': 'location'}
+
+Q:	 What is the filming location of the movie "Pulp Fiction"?
+E:	 {'Q104123': 'Pulp Fiction', 'Q1045481': 'filming location', 'Q11424': 'film'}
+R:	 {'P915': 'filming', 'P276': 'location'}
+
+Q:	  What is the first line from "Forest Gump"?
+E:	 {'Q134773': 'Forest gump', 'Q37105': 'Line from', 'Q2334153': 'Sviatoshynsko-Brovarska Line', 'Q19490': 'Nottingham Forest F.C.'}
+R:	 {'P144': 'line from'}
+
+Q:	 What is the first line of Citizen Kane?
+E:	 {'Q24815': 'Citizen Kane', 'Q2334153': 'Sviatoshynsko-Brovarska Line'}
+R:	 {}
+
+Q:	 What is the first movie in the Harry Potter series?
+E:	 {'Q8337': 'Harry Potter', 'Q11424': 'film'}
+R:	 {}
+
+Q:	 What is the full name of Johnny Depp?
+E:	 {'Q37175': 'Johnny Depp', 'Q1071027': 'personal name'}
+R:	 {'P1477': 'name'}
+
+Q:	 What is the full name of legendary actor Nicolas Cage?
+E:	 {'Q42869': 'Nicolas Cage', 'Q1812457': 'legendary actor', 'Q1071027': 'personal name'}
+R:	 {'P1477': 'name', 'P161': 'legendary actor'}
+
+Q:	 What is the gender of Elon Musk?
+E:	 {'Q317521': 'Elon Musk', 'Q48277': 'gender'}
+R:	 {'P21': 'gender'}
+
+Q:	 What is the genre of Dunkirk?
+E:	 {'Q21935651': 'Dunkirk', 'Q188451': 'music genre'}
+R:	 {'P136': 'genre'}
+
+Q:	 What is the genre of Enter the Void?
+E:	 {'Q19961425': 'The Void', 'Q188451': 'music genre', 'Q29245784': 'The Void'}
+R:	 {'P466': 'Enter', 'P136': 'genre'}
+
+Q:	 What is the genre of Parasite?
+E:	 {'Q20004184': 'Parasite', 'Q188451': 'music genre', 'Q61448040': 'Parasite'}
+R:	 {'P136': 'genre'}
+
+Q:	 What is the genre of Pirates of the Caribbean?
+E:	 {'Q194318': 'Pirates of the Caribbean', 'Q188451': 'music genre', 'Q664609': 'Caribbean'}
+R:	 {'P136': 'genre'}
+
+Q:	 What is the genre of the movie Interstellar?
+E:	 {'Q385447': 'Movie interstellar', 'Q188451': 'music genre', 'Q11424': 'film', 'Q13417189': 'Interstellar'}
+R:	 {'P136': 'genre'}
+
+Q:	 What is the genre of the movie "Zootopia"?
+E:	 {'Q220336': 'Zootopia', 'Q182254': 'movie', 'Q188451': 'music genre', 'Q11424': 'film', 'Q15270647': 'Zootopia'}
+R:	 {'P136': 'genre', 'P57': 'movie'}
+
+Q:	 What is the German label for the 1968 Sergio Leone film Once Upon a Time in the West?
+E:	 {'Q171913': 'German label for the 1968 sergio leone film', 'Q920820': 'The West', 'Q18127': 'record label', 'Q11424': 'film', 'Q43297': 'Time', 'Q313498': 'Benjamin West'}
+R:	 {'P585': 'Time'}
+
+Q:	 What is the highest grossing movie of all time?
+E:	 {'Q3299274': 'The Highest', 'Q41253': 'Movie of all time', 'Q11424': 'film', 'Q11471': 'time'}
+R:	 {'P1709': 'grossing'}
+
+Q:	 What is the highest grossing movie that Michael Keaton played in?
+E:	 {'Q1137016': 'The Highest', 'Q138005': 'Michael Keaton', 'Q11424': 'film'}
+R:	 {'P1709': 'grossing', 'P175': 'played', 'P345': 'movie that'}
+
+Q:	 What is the highest-grossing R-rated movie of all time?
+E:	 {'Q2119743': 'highest-grossing r-rated movie of all time', 'Q11424': 'film', 'Q11471': 'time'}
+R:	 {}
+
+Q:	 What is the IMDb ID of Coherence?
+E:	 {'Q17150929': 'Coherence', 'Q37312': 'Internet Movie Database'}
+R:	 {'P345': 'IMDb ID'}
+
+Q:	 What is the Kijkwijzer rating of IT?
+E:	 {'Q345': 'The kijkwijzer', 'Q609276': 'climbing grade'}
+R:	 {'P18': 'rating'}
+
+Q:	 What is the Kijkwijzer rating of The Hitman's Bodygard?
+E:	 {'Q19308': 'Hitman', 'Q609276': 'climbing grade'}
+R:	 {'P18': 'Kijkwijzer rating'}
+
+Q:	 What is the last name of the character Rick in Rick and Morty?
+E:	 {'Q3311735': 'Rick', 'Q23404': 'Character  in', 'Q604755': 'Morty', 'Q101352': 'family name', 'Q32483': 'character', 'Q24207815': 'Rick Sanchez', 'Q24207819': 'Morty Smith'}
+R:	 {'P460': 'name', 'P19': 'character  in'}
+
+Q:	 What is the latest Avengers movie?
+E:	 {'Q182218': 'The Avengers'}
+R:	 {}
+
+Q:	 What is the Lego Movie based on?
+E:	 {'Q2608065': 'The Lego Movie'}
+R:	 {'P144': 'based'}
+
+Q:	 What is the longest duration of the movie Just Mercy?
+E:	 {'Q253169': 'Longest duration of the movie just mercy', 'Q2341537': 'duration', 'Q11424': 'film', 'Q27959538': 'Mercy'}
+R:	 {}
+
+Q:	 What is the Lord of the ring movie called in German?
+E:	 {'Q127367': 'lord of the ring movie', 'Q188': 'German', 'Q2366336': 'seigneur', 'Q11424': 'film'}
+R:	 {'P272': 'called'}
+
+Q:	 What is the main subject of The Big Short?
+E:	 {'Q19850715': 'The Big Short', 'Q164573': 'subject'}
+R:	 {'P921': 'main subject'}
+
+Q:	 What is the main subject of the film I spit on your grave?
+E:	 {'Q6293': 'The Film', 'Q9839': 'Grave', 'Q164573': 'subject', 'Q11424': 'film', 'Q627319': 'grave accent'}
+R:	 {'P1122': 'spit', 'P910': 'main subject'}
+
+Q:	 What is the main subject of "The Godfather"?
+E:	 {'Q164573': 'subject', 'Q47703': 'The Godfather'}
+R:	 {'P921': 'main subject', 'P1290': 'Godfather'}
+
+Q:	 What is the main subject of the movie Interstellar?
+E:	 {'Q11424': 'film', 'Q164573': 'subject', 'Q13417189': 'Interstellar'}
+R:	 {'P921': 'main subject'}
+
+Q:	 What is the main subject of the movie Interstellar?
+E:	 {'Q11424': 'film', 'Q164573': 'subject', 'Q13417189': 'Interstellar'}
+R:	 {'P921': 'main subject'}
+
+Q:	 What is the main subject of the movie I, Robot?
+E:	 {'Q193064': 'I,', 'Q11424': 'film', 'Q164573': 'subject', 'Q283490': 'Enthiran'}
+R:	 {'P921': 'main subject'}
+
+Q:	 What is the main subject of the movie "Paranormal Activity"?
+E:	 {'Q11424': 'film', 'Q164573': 'subject', 'Q381028': 'Paranormal Activity'}
+R:	 {'P921': 'main subject'}
+
+Q:	 What is the motto of FIFA?
+E:	 {'Q3070809': 'Fifa', 'Q42470': 'motto', 'Q253414': 'FIFA'}
+R:	 {'P1546': 'motto'}
+
+Q:	 What is the movie The Avengers about?
+E:	 {'Q113700': 'Movie the avengers', 'Q11424': 'film', 'Q182218': 'The Avengers'}
+R:	 {}
+
+Q:	 What is the name of Kevin Hart's first spouse?
+E:	 {'Q105817': 'Kevin harts', 'Q1709770': 'First spouse', 'Q1071027': 'personal name', 'Q1196129': 'spouse', 'Q618352': 'Kevin Hart'}
+R:	 {'P1477': 'name', 'P26': 'first spouse'}
+
+Q:	 What is the name of Simba's father in the movie The Lion King?
+E:	 {'Q615544': 'Simbas father in the movie the lion king', 'Q1071027': 'personal name', 'Q7565': 'father', 'Q1649583': 'Simba', 'Q11424': 'film', 'Q2901452': 'The Lion King'}
+R:	 {'P460': 'name'}
+
+Q:	  What is the name of Spider-Man?
+E:	 {'Q59826': 'Spider-man', 'Q1071027': 'personal name', 'Q79037': 'Spider-Man'}
+R:	 {'P460': 'name'}
+
+Q:	 What is the name of the actor playing in Joh Wick?
+E:	 {'Q1691648': 'Joh wick', 'Q1071027': 'personal name', 'Q33999': 'actor', 'Q1012502': 'Wick'}
+R:	 {'P1352': 'playing', 'P460': 'name', 'P161': 'actor'}
+
+Q:	 What is the name of the actor playing Walter White in the series Breaking Bad?
+E:	 {'Q23554': 'Walter White', 'Q1079': 'In the series breaking bad', 'Q1071027': 'personal name', 'Q33999': 'actor', 'Q170198': 'series'}
+R:	 {'P1352': 'playing', 'P1477': 'name', 'P161': 'actor', 'P1113': 'in the series Breaking Bad'}
+
+Q:	 What is the name of the actor that played Alan Turing in the movie Imitation Game?
+E:	 {'Q7251': 'Alan Turing', 'Q182254': 'in the movie imitation game', 'Q1071027': 'personal name', 'Q33999': 'actor', 'Q11424': 'film', 'Q14918344': 'The Imitation Game'}
+R:	 {'P641': 'played', 'P138': 'name', 'P161': 'actor', 'P57': 'in the movie Imitation Game'}
+
+Q:	 What is the name of the actor who's father was a hitman?
+E:	 {'Q23393': 'actor whos father', 'Q8457': 'A Hitman', 'Q1071027': 'personal name', 'Q33999': 'actor', 'Q7565': 'father', 'Q19308': 'Hitman'}
+R:	 {'P138': 'name'}
+
+Q:	  What is the name of the actress playing "Rachel Green" in "Friends"?
+E:	 {'Q581353': 'Rachel Green', 'Q79784': 'Friends', 'Q1071027': 'personal name', 'Q33999': 'actor'}
+R:	 {'P1352': 'playing', 'P407': 'name', 'P161': 'actress', 'P20': 'in Friends'}
+
+Q:	 What is the name of the Alfonso Cuaron movie, released in 2018?
+E:	 {'Q11424': 'film', 'Q25291': '2018', 'Q1071027': 'personal name'}
+R:	 {'P577': 'released', 'P460': 'name'}
+
+Q:	 What is the name of the character Kate Winslet playded in the Titanic?
+E:	 {'Q202765': 'Kate Winslet', 'Q95074': 'The Character', 'Q3322': 'The titanic', 'Q1071027': 'personal name', 'Q32483': 'character', 'Q25173': 'RMS Titanic'}
+R:	 {'P175': 'playded', 'P460': 'name', 'P674': 'character'}
+
+Q:	 What is the name of the character played by Al Pacino in The Godfather?
+E:	 {'Q23404': 'The Character', 'Q41163': 'Al Pacino', 'Q633': 'In the godfather', 'Q1071027': 'personal name', 'Q32483': 'character', 'Q47703': 'The Godfather'}
+R:	 {'P175': 'played', 'P1477': 'name', 'P19': 'in The Godfather'}
+
+Q:	 What is the name of the character played by Elijah Wood in the Lord of the Rings movies?
+E:	 {'Q483771': 'Elijah Wood', 'Q2281': 'Elijah wood in the lord of the rings movies', 'Q133507': 'Wood elijah rings', 'Q1071027': 'personal name', 'Q32483': 'character', 'Q2366336': 'seigneur', 'Q11424': 'film'}
+R:	 {'P175': 'played', 'P460': 'Elijah Wood in the Lord of the  movies'}
+
+Q:	 What is the name of the dad of Steven Spielberg?
+E:	 {'Q8877': 'Steven Spielberg', 'Q1071027': 'personal name', 'Q7565': 'father'}
+R:	 {'P460': 'name', 'P570': 'dad'}
+
+Q:	 What is the name of the first film of the Star Trek film series?
+E:	 {'Q1077': 'film of the star trek film series', 'Q1071027': 'personal name', 'Q28136257': 'The First Film', 'Q24856': 'film series'}
+R:	 {'P407': 'name'}
+
+Q:	 What is the name of the hobbit played by Elijah Wood in the Lord of the Rings movies?
+E:	 {'Q483771': 'Elijah Wood', 'Q2281': 'Elijah wood in the lord of the rings movies', 'Q133507': 'Wood elijah rings', 'Q1071027': 'personal name', 'Q74287': 'The Hobbit', 'Q2366336': 'seigneur', 'Q11424': 'film'}
+R:	 {'P175': 'played', 'P460': 'Elijah Wood in the Lord of the  movies'}
+
+Q:	 What is the name of the main character from Mad Max?
+E:	 {'Q248775': 'Mad Max', 'Q16375': 'Main character from', 'Q1071027': 'personal name', 'Q32483': 'character'}
+R:	 {'P460': 'name', 'P495': 'main character from'}
+
+Q:	 What is the name of the main character of Walt Disney's first film?
+E:	 {'Q7414': 'The Walt Disney Company', 'Q1071027': 'personal name', 'Q32483': 'character', 'Q28136257': 'The First Film'}
+R:	 {'P1448': 'name'}
+
+Q:	 What is the name of the mockumentary movie, starring the Lonely Island?
+E:	 {'Q11424': 'film', 'Q863573': 'The Lonely Island', 'Q1071027': 'personal name'}
+R:	 {'P161': 'starring', 'P460': 'name'}
+
+Q:	 What is the name of the second Wonder Woman movie?
+E:	 {'Q338430': 'Second wonder woman movie', 'Q1071027': 'personal name', 'Q27958394': 'Wonder'}
+R:	 {'P460': 'name'}
+
+Q:	 What is the name of the sequel to Finding Nemo?
+E:	 {'Q132863': 'Finding Nemo', 'Q1071027': 'personal name', 'Q261636': 'sequel', 'Q28195064': 'Finding'}
+R:	 {'P138': 'name', 'P156': 'sequel'}
+
+Q:	 What is the name of the song of the series "Friends"?
+E:	 {'Q79784': 'Friends', 'Q1071027': 'personal name', 'Q7366': 'song', 'Q170198': 'series'}
+R:	 {'P407': 'name', 'P40': 'song'}
+
+Q:	 What is the name of the story that the movie Arrival is based on?
+E:	 {'Q162392': 'story that the movie arrival', 'Q1071027': 'personal name', 'Q1318295': 'narrative', 'Q11424': 'film'}
+R:	 {'P144': 'based', 'P407': 'name'}
+
+Q:	 What is the name of the theme music of Peaky Blinders?
+E:	 {'Q14944179': 'Peaky Blinders', 'Q1071027': 'personal name', 'Q1193470': 'theme music'}
+R:	 {'P138': 'name', 'P942': 'theme music'}
+
+Q:	 What is the name of the third movie of the Lord of the Rings trilogy?
+E:	 {'Q2281': 'Movie of the lord of the rings trilogy', 'Q1071027': 'personal name', 'Q11424': 'film', 'Q15228': 'The Lord of the Rings', 'Q19866947': 'Rings', 'Q149010': 'trilogy'}
+R:	 {'P460': 'name'}
+
+Q:	 What is the name of the voice actor that plays Mufasa in The Lion King?
+E:	 {'Q2287748': 'Mufasa', 'Q36479': 'In the lion king', 'Q1071027': 'personal name', 'Q622807': 'seiyū', 'Q2901452': 'The Lion King'}
+R:	 {'P54': 'plays', 'P460': 'name', 'P725': 'voice actor', 'P131': 'in The Lion King'}
+
+Q:	 What is the name of Thor's hammer in the Avengers?
+E:	 {'Q24749': 'Thors hammer in the avengers', 'Q1071027': 'personal name', 'Q25294': 'hammer', 'Q217020': 'Thor', 'Q182218': 'The Avengers'}
+R:	 {'P1448': 'name'}
+
+Q:	 What is the narrative location of Family Guy?
+E:	 {'Q2278963': 'Family guy', 'Q1318295': 'narrative', 'Q5930': 'Family Guy'}
+R:	 {'P840': 'narrative location'}
+
+Q:	 What is the narrative location of The Office?
+E:	 {'Q23831': 'The Office', 'Q1318295': 'narrative', 'Q11255': 'Microsoft Office'}
+R:	 {'P840': 'narrative location'}
+
+Q:	 What is the native label of Smeagol?
+E:	 {'Q1946147': 'Smeagol', 'Q18127': 'record label'}
+R:	 {'P17': 'native label'}
+
+Q:	 What is the native language of Gollum?
+E:	 {'Q587148': 'Gollum', 'Q36870': 'first language', 'Q15007': 'Gollum'}
+R:	 {'P17': 'native language'}
+
+Q:	 What is the Netflix ID of the film Shrek?
+E:	 {'Q6293': 'Film shrek', 'Q907311': 'Netflix', 'Q11424': 'film', 'Q483815': 'Shrek'}
+R:	 {'P244': 'Netflix ID'}
+
+Q:	 What is the net worth of George Clooney
+E:	 {'Q23844': 'George Clooney', 'Q1933764': 'net worth'}
+R:	 {'P2218': 'net worth'}
+
+Q:	 What is the official name of the Oscars?
+E:	 {'Q19020': 'Academy Awards', 'Q1071027': 'personal name'}
+R:	 {'P856': 'official name'}
+
+Q:	 What is the oldest Disney movie?
+E:	 {'Q7414': 'The Walt Disney Company'}
+R:	 {}
+
+Q:	 What is the original broadcaster of Breaking Bad?
+E:	 {'Q1209862': 'Original broadcaster', 'Q44142': 'Bad', 'Q1079': 'Breaking Bad'}
+R:	 {'P990': 'Breaking'}
+
+Q:	 What is the original Japanese name of 'Spirited Away'?
+E:	 {'Q155653': 'Original japanese name of spirited away', 'Q877834': 'Japanese name'}
+R:	 {}
+
+Q:	 What is the original language of Fight Club?
+E:	 {'Q190050': 'Fight Club', 'Q315': 'language'}
+R:	 {'P364': 'original language'}
+
+Q:	 What is the original language of Harry Potter and the Chamber of Secrets?
+E:	 {'Q5069554': 'Chamber of secrets', 'Q315': 'language', 'Q8337': 'Harry Potter', 'Q1213747': 'The Chamber', 'Q938470': 'Secrets'}
+R:	 {'P364': 'original language'}
+
+Q:	 What is the original language of Memories of Murder?
+E:	 {'Q488169': 'Memories of Murder', 'Q315': 'language', 'Q3328063': 'Murder'}
+R:	 {'P364': 'original language'}
+
+Q:	 What is the original language of movie Anna Karenina?
+E:	 {'Q80204': 'Anna karenina', 'Q182254': 'movie', 'Q315': 'language', 'Q147787': 'Anna Karenina'}
+R:	 {'P364': 'original language', 'P57': 'movie'}
+
+Q:	 What is the original language of Murder on the Orient Express?
+E:	 {'Q845889': 'Murder on the orient express', 'Q315': 'language', 'Q3328063': 'Murder', 'Q191985': 'Orient Express'}
+R:	 {'P364': 'original language'}
+
+Q:	 What is the original language of the movie Parasite?
+E:	 {'Q182254': 'Movie parasite', 'Q315': 'language', 'Q11424': 'film', 'Q61448040': 'Parasite'}
+R:	 {'P364': 'original language'}
+
+Q:	 What is the prequel of Mission: Impossible - Rogue Nation?
+E:	 {'Q17548046': 'Mission: Impossible – Rogue Nation', 'Q678345': 'prequel', 'Q302490': 'The Mission'}
+R:	 {'P155': 'prequel'}
+
+Q:	 What is the production company of Shrek?
+E:	 {'Q483815': 'Shrek', 'Q11396960': 'production company'}
+R:	 {'P272': 'production company'}
+
+Q:	 What is the production company of the movie "Black Widow"?
+E:	 {'Q965430': 'Movie black widow', 'Q11396960': 'production company', 'Q11424': 'film', 'Q23894626': 'Black Widow'}
+R:	 {'P272': 'production company'}
+
+Q:	 What is the protagonist of the movie Dumbo?
+E:	 {'Q40895': 'Dumbo', 'Q182254': 'protagonist of the movie', 'Q215972': 'protagonist', 'Q11424': 'film', 'Q24284798': 'Dumbo'}
+R:	 {'P57': 'protagonist of the movie'}
+
+Q:	 What is the publication date of Harry Potter and the Philosopher's Stone?
+E:	 {'Q8337': 'Harry Potter', 'Q43361': 'Philosophers stone', 'Q1361758': 'date of publication', 'Q483042': '9K720 Iskander', 'Q4964182': 'philosopher'}
+R:	 {'P577': 'publication date'}
+
+Q:	 What is the publication date of the film Fifty Shades of Grey?
+E:	 {'Q557867': 'Fifty shades', 'Q92592': 'Film  of grey', 'Q1361758': 'date of publication', 'Q11424': 'film', 'Q7460325': 'Shades of Grey', 'Q1147689': 'The Grey'}
+R:	 {'P577': 'publication date', 'P136': 'film  of Grey'}
+
+Q:	 What is the publication date of The Road to El Dorado?
+E:	 {'Q29907241': 'El dorado', 'Q1361758': 'date of publication', 'Q738052': 'The Road', 'Q192550': 'El Dorado'}
+R:	 {'P577': 'publication date', 'P669': 'Road'}
+
+Q:	 What is the release year of 'Die Hard'?
+E:	 {'Q105598': 'release year of die hard', 'Q577': 'year', 'Q610224': 'Hard'}
+R:	 {}
+
+Q:	 What is the religion of Sam Esmail?
+E:	 {'Q20685410': 'Sam Esmail', 'Q9174': 'religion'}
+R:	 {'P140': 'religion'}
+
+Q:	 What is the runtime of The Godfather?
+E:	 {'Q288510': 'run time', 'Q47703': 'The Godfather'}
+R:	 {'P2047': 'runtime', 'P1290': 'Godfather'}
+
+Q:	 What is the second name of Samuel L. Jackson?
+E:	 {'Q788605': 'Second name of samuel  jackson', 'Q245025': 'middle name', 'Q172678': 'Samuel L. Jackson'}
+R:	 {'P1356': 'L'}
+
+Q:	 What is the sequel of Wreck-It Ralph?
+E:	 {'Q28891': 'Wreck-it ralph', 'Q261636': 'sequel', 'Q3570100': 'Wreck', 'Q1458168': 'Ralph Wiggum'}
+R:	 {'P156': 'sequel'}
+
+Q:	 What is the sequel to Captain America : Winter Soldier?
+E:	 {'Q284512': 'Captain america : winter soldier', 'Q261636': 'sequel', 'Q190679': 'Captain America', 'Q28006858': 'Bucky Barnes'}
+R:	 {'P155': 'sequel'}
+
+Q:	 What is the sequel to Gremlins?
+E:	 {'Q241958': 'Gremlins', 'Q261636': 'sequel'}
+R:	 {'P156': 'sequel'}
+
+Q:	 What is the sequel to Monsters, Inc.?
+E:	 {'Q187726': 'Monsters, inc', 'Q261636': 'sequel', 'Q1460092': 'Monsters', 'Q167037': 'corporation'}
+R:	 {'P155': 'sequel'}
+
+Q:	 What is the sequel to the movie Rise of the Planet of the Apes?
+E:	 {'Q59534': 'movie rise of the planet of the apes', 'Q261636': 'sequel', 'Q243983': 'Rise of the Planet of the Apes', 'Q731663': 'Planet of the Apes'}
+R:	 {'P156': 'sequel'}
+
+Q:	 What is the series Game of Trones based on?
+E:	 {'Q23572': 'Series game of trones', 'Q170198': 'series', 'Q189936': 'The Game', 'Q7845500': 'Trones'}
+R:	 {'P144': 'based'}
+
+Q:	 What is the series ordinal of Detective Conan: The Private Eyes' Requiem?
+E:	 {'Q185143': 'detective conan: the private eyes requiem', 'Q170198': 'series', 'Q1356210': 'Requiem', 'Q24586565': 'Private Eyes'}
+R:	 {'P364': 'series ordinal'}
+
+Q:	 What is the site of the 1997 Titanic movie?
+E:	 {'Q25173': 'RMS Titanic', 'Q35127': 'website'}
+R:	 {'P2043': 'site'}
+
+Q:	 What is the Social Network based on?
+E:	 {'Q185888': 'The Social Network'}
+R:	 {'P144': 'based'}
+
+Q:	 What is the theme for Pulp Fiction?
+E:	 {'Q104123': 'Pulp Fiction', 'Q184148': 'plug-in'}
+R:	 {'P921': 'theme'}
+
+Q:	 What is the title of Pulp Fiction?
+E:	 {'Q104123': 'Pulp Fiction', 'Q56019': 'military rank'}
+R:	 {'P1476': 'title'}
+
+Q:	 What is the title of Steven Spielberg's film about the holocaust?
+E:	 {'Q8877': 'Steven Spielberg', 'Q72325': 'Film about the holocaust', 'Q56019': 'military rank', 'Q11424': 'film', 'Q1148722': 'holocaust'}
+R:	 {'P1476': 'title', 'P57': 'film about the holocaust'}
+
+Q:	 What is the title of the movie produced by Christopher Nolan, published in 2014?
+E:	 {'Q182254': 'The Movie', 'Q25191': 'Christopher Nolan', 'Q1999': '2014', 'Q56019': 'military rank', 'Q11424': 'film'}
+R:	 {'P162': 'produced', 'P577': 'published', 'P1476': 'title'}
+
+Q:	 What is the title of the theme music of the TV-show Friends?
+E:	 {'Q8539': 'tv-show friends', 'Q56019': 'military rank', 'Q1193470': 'theme music', 'Q79784': 'Friends'}
+R:	 {'P1476': 'title', 'P942': 'theme music'}
+
+Q:	 What is the total number of cast members of Iron Man?
+E:	 {'Q180704': 'Iron man', 'Q459895': 'cast members of', 'Q11563': 'number', 'Q496098': 'casting', 'Q192724': 'Iron Man'}
+R:	 {'P1114': 'total number', 'P22': 'cast members of'}
+
+Q:	 What is the twitter username of the Japanese TV series, Doraemon?
+E:	 {'Q672': 'tv', 'Q235311': 'Doraemon', 'Q8144386': 'Japanese  series,', 'Q918': 'Twitter', 'Q5398426': 'television series'}
+R:	 {'P2002': 'twitter username', 'P711': 'Japanese  series,'}
+
+Q:	 What is the type of Hotel Transylvania?
+E:	 {'Q249967': 'Hotel Transylvania', 'Q190087': 'data type'}
+R:	 {'P31': 'type'}
+
+Q:	 What is Tom Hanks Net worth?
+E:	 {'Q2263': 'Tom hanks net', 'Q954979': 'Worth', 'Q1933764': 'net worth'}
+R:	 {'P2218': 'worth'}
+
+Q:	 What is Total Recall based on?
+E:	 {'Q222018': 'Total Recall'}
+R:	 {'P144': 'based'}
+
+Q:	 What is Will Smith's real name?
+E:	 {'Q1218610': 'smiths real name', 'Q1071027': 'personal name', 'Q25208064': 'Will', 'Q2085488': 'Agent Smith'}
+R:	 {}
+
+Q:	 What jewelry is Smeagol owner of?
+E:	 {'Q490873': 'Jewelry', 'Q1946147': 'Smeagol owner', 'Q161439': 'jewellery', 'Q618532': 'landlord'}
+R:	 {}
+
+Q:	 What kind of film is Iron Man?
+E:	 {'Q1178576': 'Kind of film', 'Q192724': 'Iron Man', 'Q21146257': 'type', 'Q11424': 'film'}
+R:	 {}
+
+Q:	 What kind of movie is Despicable Me?
+E:	 {'Q41253': 'Kind of movie', 'Q21539872': 'despicable', 'Q21146257': 'type', 'Q11424': 'film'}
+R:	 {}
+
+Q:	 What kind of movie is Harry Potter?
+E:	 {'Q41253': 'Kind of movie', 'Q8337': 'Harry Potter', 'Q21146257': 'type', 'Q11424': 'film'}
+R:	 {}
+
+Q:	 What Korean movie won the Academy Award for Best Picture in 2020?
+E:	 {'Q157394': 'Korean movie', 'Q41417': 'Academy award for best picture in 2020', 'Q11424': 'film', 'Q4671334': 'Academy Award', 'Q7191144': 'Picture'}
+R:	 {'P31': 'won'}
+
+Q:	 What language is spoken in Parasite?
+E:	 {'Q1875899': 'Parasite', 'Q315': 'language', 'Q61448040': 'Parasite'}
+R:	 {'P1412': 'spoken', 'P277': 'language'}
+
+Q:	 What language is spoken in Parasite?
+E:	 {'Q1875899': 'Parasite', 'Q315': 'language', 'Q61448040': 'Parasite'}
+R:	 {'P1412': 'spoken', 'P277': 'language'}
+
+Q:	 What languages are spoken in Game of Trones?
+E:	 {'Q675546': 'Languages', 'Q23572': 'Game of trones', 'Q315': 'language', 'Q189936': 'The Game', 'Q7845500': 'Trones'}
+R:	 {'P1412': 'spoken'}
+
+Q:	 What languages does Christoph Waltz speak?
+E:	 {'Q675546': 'Languages', 'Q76819': 'Christoph Waltz', 'Q315': 'language'}
+R:	 {'P1412': 'speak'}
+
+Q:	 What language was the movie "Climax" produced in?
+E:	 {'Q11424': 'film', 'Q315': 'language', 'Q52000412': 'Climax'}
+R:	 {'P1056': 'produced', 'P277': 'language'}
+
+Q:	 What language was the movie "Climax" produced in?
+E:	 {'Q11424': 'film', 'Q315': 'language', 'Q52000412': 'Climax'}
+R:	 {'P1056': 'produced', 'P277': 'language'}
+
+Q:	 What locations is the film Colossal set in?
+E:	 {'Q2221906': 'geographic location', 'Q1194869': 'Film colossal', 'Q11424': 'film', 'Q21527562': 'Colossal'}
+R:	 {'P159': 'set'}
+
+Q:	 What location were the Golden Globe Awards held at in 2020?
+E:	 {'Q8671': 'Golden globe awards', 'Q181278': '2020', 'Q2221906': 'geographic location', 'Q983543': 'Golden'}
+R:	 {'P276': 'location'}
+
+Q:	 What movie did Leonardo DiCaprio receive an Academy Award for?
+E:	 {'Q11424': 'film', 'Q38111': 'Leonardo DiCaprio', 'Q19020': 'Academy award', 'Q4671334': 'Academy Award'}
+R:	 {'P166': 'receive'}
+
+Q:	 What movie did Leonardo DiCaprio win his first Oscar for?
+E:	 {'Q11424': 'film', 'Q38111': 'Leonardo DiCaprio', 'Q9941': 'O'}
+R:	 {'P361': 'win'}
+
+Q:	 What movie from Andrei Tarkovsky came out in 1972?
+E:	 {'Q853': 'Andrei Tarkovsky', 'Q11424': 'film', 'Q2476': '1972'}
+R:	 {'P460': 'came', 'P69': 'movie from'}
+
+Q:	 What movie gave Tom Hanks his first Academy Award nomination?
+E:	 {'Q11424': 'film', 'Q2263': 'Tom Hanks', 'Q19020': 'His first academy award nomination', 'Q1156895': 'nomination'}
+R:	 {'P527': 'gave', 'P140': 'his first Academy Award nomination', 'P40': 'Tom Hanks his first  nomination'}
+
+Q:	 What movie genre is How to train your Dragon?
+E:	 {'Q201658': 'film genre', 'Q7559': 'Dragon', 'Q1148444': 'blunderbuss'}
+R:	 {'P1552': 'train'}
+
+Q:	 What movie genre is "Persona"?
+E:	 {'Q201658': 'film genre', 'Q1077857': 'Persona', 'Q1083352': 'Shin Megami Tensei: Persona'}
+R:	 {}
+
+Q:	 What movie genre is The Impossible?
+E:	 {'Q201658': 'film genre', 'Q277038': 'The Impossible'}
+R:	 {}
+
+Q:	 What movie genre is the movie 'Pineapple express'?
+E:	 {'Q201658': 'film genre', 'Q1493': 'movie pineapple', 'Q11424': 'film', 'Q485610': 'Pineapple Express'}
+R:	 {'P5572': 'express'}
+
+Q:	 What movie inspired The Matrix?
+E:	 {'Q11424': 'film', 'Q83495': 'The Matrix'}
+R:	 {'P941': 'inspired'}
+
+Q:	 What movie(s) did M. Night Shyamalan direct before the year 2000?
+E:	 {'Q566098': 'Movie(s)', 'Q446153': 'M', 'Q51489': 'M. Night Shyamalan', 'Q218941': ' the year 2000', 'Q577': 'year'}
+R:	 {}
+
+Q:	 What movie(s) feature both Jack Nicholson and Meryl Streep?
+E:	 {'Q39792': 'Jack Nicholson', 'Q182254': 'movie(s) feature both', 'Q873': 'Meryl Streep'}
+R:	 {'P345': 'movie(s) feature both'}
+
+Q:	 What movies has Ben Affleck directed?
+E:	 {'Q1179487': 'Movies', 'Q483118': 'Ben Affleck', 'Q11424': 'film'}
+R:	 {'P169': 'directed'}
+
+Q:	 What movies have Lucasfilm made?
+E:	 {'Q242446': 'Lucasfilm', 'Q11424': 'film'}
+R:	 {}
+
+Q:	 What movie was Interstellar influenced by?
+E:	 {'Q11424': 'film', 'Q389979': 'Interstellar', 'Q13417189': 'Interstellar'}
+R:	 {'P737': 'influenced'}
+
+Q:	 What movie won best picture in the 2020 Academy Awards?
+E:	 {'Q11424': 'film', 'Q19020': 'Academy Awards', 'Q478798': 'image'}
+R:	 {'P31': 'won'}
+
+Q:	 What MPAA film rating did The Matrix receive?
+E:	 {'Q83495': 'The Matrix', 'Q11424': 'film'}
+R:	 {'P166': 'receive', 'P18': 'MPAA film rating'}
+
+Q:	 What nationality does Scarlett Johansson have?
+E:	 {'Q34436': 'Scarlett Johansson', 'Q231002': 'nationality'}
+R:	 {'P27': 'nationality'}
+
+Q:	 What organizations is the film "Trading Places" distributed by?
+E:	 {'Q43229': 'organization', 'Q504151': 'Trading Places', 'Q11424': 'film'}
+R:	 {'P750': 'distributed'}
+
+Q:	 What production company created the animated movie "Finding Nemo"?
+E:	 {'Q132863': 'Finding Nemo', 'Q11396960': 'production company', 'Q202866': 'animated film', 'Q28195064': 'Finding'}
+R:	 {'P364': 'created', 'P4021': 'animated', 'P272': 'production company'}
+
+Q:	 What production company made Despicable Me?
+E:	 {'Q4447': 'despicable', 'Q11396960': 'production company'}
+R:	 {'P272': 'production company'}
+
+Q:	 What species is Jean-Luc Picard?
+E:	 {'Q7432': 'species', 'Q16276': 'Jean-luc picard', 'Q3264890': 'Luc Picard'}
+R:	 {}
+
+Q:	 What sport is portrayed in the movie "Rush"?
+E:	 {'Q203871': 'Rush', 'Q182254': 'movie', 'Q349': 'sport', 'Q11424': 'film'}
+R:	 {'P175': 'portrayed', 'P641': 'sport', 'P57': 'movie'}
+
+Q:	 What sport is Space Jam about?
+E:	 {'Q207659': 'Space jam', 'Q349': 'sport', 'Q56850065': 'Space Jam'}
+R:	 {'P641': 'sport'}
+
+Q:	 What's the duration of Elysium?
+E:	 {'Q2341537': 'duration', 'Q80959': 'Elysium'}
+R:	 {}
+
+Q:	 What's the duration of Mad Max: Fury Road?
+E:	 {'Q248775': 'Mad Max', 'Q2341537': 'duration', 'Q1757288': 'Mad Max: Fury Road'}
+R:	 {}
+
+Q:	 What's the German name of Groundhog Day?
+E:	 {'Q488655': 'Groundhog Day', 'Q62977751': 'German name'}
+R:	 {}
+
+Q:	 What's the IMDb ID of the series 24?
+E:	 {'Q252': 'Id', 'Q2566552': 'Whats the imdb  of the series 24', 'Q37312': 'Internet Movie Database', 'Q170198': 'series'}
+R:	 {}
+
+Q:	 What's the name of Batman?
+E:	 {'Q41421': 'Batman', 'Q172850': 'whats the name of', 'Q1071027': 'personal name', 'Q2695156': 'Batman'}
+R:	 {'P407': 'whats the name of'}
+
+Q:	 What's the name of the character played by Samuel L. Jackson in The Avengers Saga?
+E:	 {'Q1071027': 'personal name', 'Q32483': 'character', 'Q172678': 'Samuel L. Jackson', 'Q182218': 'The Avengers'}
+R:	 {}
+
+Q:	 What's the name of the character played by Samuel L. Jackson in The Avengers Saga?
+E:	 {'Q1071027': 'personal name', 'Q32483': 'character', 'Q172678': 'Samuel L. Jackson', 'Q182218': 'The Avengers'}
+R:	 {}
+
+Q:	 What the movie "Interstellar" is influenced by?
+E:	 {'Q1405677': 'Movie interstellar', 'Q11424': 'film', 'Q13417189': 'Interstellar'}
+R:	 {'P737': 'influenced'}
+
+Q:	 What time periods is City of God set in?
+E:	 {'Q186081': 'Time periods', 'Q825': 'God', 'Q11514315': 'historical period', 'Q220741': 'City of God', 'Q190': 'God'}
+R:	 {'P21': 'set', 'P19': 'City'}
+
+Q:	 What type of movie is Korengal?
+E:	 {'Q11424': 'film', 'Q286408': 'Korengal', 'Q190087': 'data type', 'Q17093105': 'Korengal'}
+R:	 {'P31': 'type'}
+
+Q:	 What university did Adam Sandler attend?
+E:	 {'Q3918': 'university', 'Q132952': 'Adam Sandler'}
+R:	 {'P69': 'attend'}
+
+Q:	 What was George Cloony's first wife's name?
+E:	 {'Q23844': 'George cloonys', 'Q913620': 'First wifes name', 'Q1071027': 'personal name', 'Q188830': 'wife', 'Q280856': 'George VI'}
+R:	 {'P735': 'first wifes name'}
+
+Q:	 What was Martin Scorsese's first film?
+E:	 {'Q41148': 'Martin Scorsese', 'Q300552': 'First film', 'Q28136257': 'The First Film'}
+R:	 {'P57': 'first film'}
+
+Q:	 What was the box office amount for the movie Psycho
+E:	 {'Q163038': 'Movie psycho', 'Q3975': 'computer case', 'Q11424': 'film', 'Q201608': 'Dennis Rodman'}
+R:	 {'P2142': 'box office'}
+
+Q:	 What was the box office for Whiplash
+E:	 {'Q15648198': 'Whiplash', 'Q877435': 'box office'}
+R:	 {'P2142': 'box office'}
+
+Q:	 What was the box office of Avatar?
+E:	 {'Q24871': 'Avatar', 'Q877435': 'box office'}
+R:	 {'P2142': 'box office'}
+
+Q:	 What was the box office of Avatar in the United States?
+E:	 {'Q30': 'United States of America', 'Q877435': 'box office', 'Q24871': 'Avatar'}
+R:	 {'P1313': 'box office'}
+
+Q:	 What was the budget for Avatar?
+E:	 {'Q24871': 'Avatar', 'Q41263': 'budget'}
+R:	 {'P2130': 'budget'}
+
+Q:	 What was the budget for Avengers: Endgame?
+E:	 {'Q182218': 'The Avengers', 'Q41263': 'budget', 'Q1235448': 'Endgame'}
+R:	 {'P2130': 'budget'}
+
+Q:	 What was the budget of the 2009 movie, Avatar?
+E:	 {'Q24871': 'Avatar', 'Q41263': 'budget', 'Q11424': 'film'}
+R:	 {'P2130': 'budget'}
+
+Q:	 What was the cause of death of Alan Rickman?
+E:	 {'Q106481': 'Alan Rickman', 'Q1931388': 'cause of death', 'Q4': 'death'}
+R:	 {'P509': 'cause of death'}
+
+Q:	 What was the duration of Bladerunner 2049?
+E:	 {'Q164702': 'Bladerunner 2049', 'Q2341537': 'duration'}
+R:	 {'P2047': 'duration'}
+
+Q:	 What was the filming location of the film Metropolis?
+E:	 {'Q151599': 'Metropolis', 'Q147530': 'The Film', 'Q1045481': 'filming location', 'Q11424': 'film'}
+R:	 {'P413': 'filming', 'P625': 'location', 'P57': 'film'}
+
+Q:	 What was the filming location of the Harry Potter film series?
+E:	 {'Q8337': 'harry potter film series', 'Q1045481': 'filming location', 'Q24856': 'film series'}
+R:	 {'P915': 'filming', 'P276': 'location'}
+
+Q:	 What was the first movie in the world?
+E:	 {'Q41253': 'Movie in the world', 'Q11424': 'film', 'Q16502': 'world'}
+R:	 {}
+
+Q:	 What was the first movie that won the most awards?
+E:	 {'Q44978083': 'Movie', 'Q11424': 'film', 'Q618779': 'award'}
+R:	 {'P31': 'won', 'P131': 'awards'}
+
+Q:	 What was the first movie Theater?
+E:	 {'Q41253': 'Movie theater', 'Q11424': 'film', 'Q445849': 'Theater'}
+R:	 {}
+
+Q:	 What was the first movie to win an Oscar?
+E:	 {'Q11424': 'film', 'Q9941': 'O'}
+R:	 {'P361': 'win'}
+
+Q:	 What was the first movie with sound?
+E:	 {'Q300566': 'Movie with sound', 'Q11424': 'film', 'Q11461': 'sound'}
+R:	 {}
+
+Q:	 What was the first publication date of the movie Shrek?
+E:	 {'Q176384': 'Movie shrek', 'Q1361758': 'date of publication', 'Q11424': 'film', 'Q483815': 'Shrek'}
+R:	 {'P570': 'publication date'}
+
+Q:	 What was the life expectancy in The Netherlands in 1999?
+E:	 {'Q55': 'Netherlands', 'Q188419': 'life expectancy'}
+R:	 {'P2250': 'life expectancy'}
+
+Q:	 What was the movie Shawshank Redemption based on?
+E:	 {'Q172241': 'The Shawshank Redemption', 'Q11424': 'film'}
+R:	 {'P144': 'based'}
+
+Q:	 What was the name of Jean-Luc Picard as given by the Borg?
+E:	 {'Q16276': 'Jean-Luc Picard', 'Q11483': 'The borg', 'Q1071027': 'personal name', 'Q220652': 'Borg'}
+R:	 {'P735': 'given', 'P138': 'name'}
+
+Q:	 What was the name of the beer consumed by character in the Harry Potter universe?
+E:	 {'Q8337': 'Harry potter', 'Q1': 'Character in the  universe', 'Q1071027': 'personal name', 'Q44': 'beer', 'Q32483': 'character', 'Q5410773': 'Harry Potter universe'}
+R:	 {'P1889': 'consumed', 'P138': 'name', 'P227': 'character in the  universe'}
+
+Q:	 What was the original broadcaster of the TV-show Friends?
+E:	 {'Q15416': 'original broadcaster of the tv-show friends', 'Q79784': 'Friends'}
+R:	 {}
+
+Q:	 What was the original language of Fack ju Göhte?
+E:	 {'Q12755': 'Fack ju göhte', 'Q315': 'language', 'Q15268063': 'Fack ju Göhte'}
+R:	 {'P37': 'original language'}
+
+Q:	 What was the publication date of the first Jurassic Park movie?
+E:	 {'Q45805': 'Jurassic park movie', 'Q1361758': 'date of publication', 'Q11424': 'film'}
+R:	 {'P577': 'publication date'}
+
+Q:	 What was the worldwide box office result of James Cameron's Titanic?
+E:	 {'Q895522': 'worldwide box office result of james camerons titanic', 'Q12823105': 'office', 'Q25173': 'RMS Titanic', 'Q42574': 'James Cameron'}
+R:	 {}
+
+Q:	 What was Wes Anderson's first movie?
+E:	 {'Q223687': 'Wes Anderson', 'Q182254': 'First movie', 'Q11424': 'film'}
+R:	 {'P57': 'first movie'}
+
+Q:	 What were the filming locations of The Matrix?
+E:	 {'Q3238326': 'Filming locations of the matrix', 'Q1045481': 'filming location', 'Q83495': 'The Matrix'}
+R:	 {}
+
+Q:	 What year did Grease come out?
+E:	 {'Q3776108': 'Grease', 'Q577': 'year', 'Q267721': 'Grease'}
+R:	 {'P263': 'come', 'P577': 'year'}
+
+Q:	 What year did Interstellar come out?
+E:	 {'Q21186666': 'Interstellar', 'Q577': 'year', 'Q13417189': 'Interstellar'}
+R:	 {'P155': 'come', 'P577': 'year'}
+
+Q:	 What year did the film Finding Nemo come out?
+E:	 {'Q132863': 'Finding Nemo', 'Q577': 'year', 'Q11424': 'film'}
+R:	 {'P263': 'come', 'P577': 'year'}
+
+Q:	 What year did the Godfather come out?
+E:	 {'Q577': 'year', 'Q47703': 'The Godfather'}
+R:	 {'P263': 'come', 'P585': 'year', 'P1290': 'Godfather'}
+
+Q:	 What year did Will Smith start acting?
+E:	 {'Q507606': 'Smith', 'Q681071': 'smith start', 'Q577': 'year', 'Q40096': 'Will Smith'}
+R:	 {'P397': 'start', 'P607': 'acting', 'P569': 'year'}
+
+Q:	 What year is Hacksaw Ridge set in?
+E:	 {'Q21010856': 'Hacksaw Ridge', 'Q577': 'year'}
+R:	 {'P21': 'set', 'P577': 'year'}
+
+Q:	 What year was Christopher Nolan's 'Inception' originally released?
+E:	 {'Q25188': 'Inception', 'Q596778': 'Originally', 'Q577': 'year', 'Q25191': 'Christopher Nolan'}
+R:	 {'P577': 'released', 'P569': 'year', 'P571': 'Inception originally'}
+
+Q:	 What year was Grave of the Fireflies initially released?
+E:	 {'Q230496': 'Grave of the fireflies initially', 'Q577': 'year', 'Q274520': 'Grave of the Fireflies', 'Q1165917': 'Fireflies'}
+R:	 {'P577': 'year'}
+
+Q:	 What year was Japanese film director Hayao Miyazaki born?
+E:	 {'Q55400': 'Hayao Miyazaki', 'Q3384497': 'japanese film director', 'Q577': 'year'}
+R:	 {'P19': 'born', 'P569': 'year', 'P136': 'Japanese film director'}
+
+Q:	 What year was the movie 'The Matrix' published?
+E:	 {'Q182254': 'Movie the matrix', 'Q577': 'year', 'Q11424': 'film', 'Q83495': 'The Matrix'}
+R:	 {'P577': 'year'}
+
+Q:	 What year was the notebook made?
+E:	 {'Q15106179': 'The Notebook', 'Q577': 'year', 'Q43013': 'notebook'}
+R:	 {'P577': 'year'}
+
+Q:	 What year were the first Academy Awards hosted?
+E:	 {'Q19020': 'Academy Awards', 'Q577': 'year'}
+R:	 {'P371': 'hosted', 'P571': 'year'}
+
+Q:	 When did Alan Rickman die?
+E:	 {'Q106481': 'Alan Rickman'}
+R:	 {'P20': 'die'}
+
+Q:	 When did Chadwick Boseman die?
+E:	 {'Q5066520': 'Chadwick Boseman'}
+R:	 {'P20': 'die'}
+
+Q:	 When did Charlie Chaplin pass away?
+E:	 {'Q882': 'Charlie Chaplin', 'Q400960': 'Away'}
+R:	 {'P2067': 'pass'}
+
+Q:	 When did Christopher lee die?
+E:	 {'Q180338': 'Christopher Lee'}
+R:	 {'P20': 'die'}
+
+Q:	 When did Christopher Lee die?
+E:	 {'Q180338': 'Christopher Lee'}
+R:	 {'P20': 'die'}
+
+Q:	 When did David Fincher start working?
+E:	 {'Q184903': 'David Fincher', 'Q970797': 'start'}
+R:	 {'P397': 'start', 'P108': 'working'}
+
+Q:	 When did Disney have less than 100,000 employees?
+E:	 {'Q7414': 'The Walt Disney Company', 'Q13440398': 'workforce'}
+R:	 {}
+
+Q:	 When did Herman Brood die?
+E:	 {'Q719447': 'Herman Brood'}
+R:	 {'P20': 'die'}
+
+Q:	 When did Kung Fu Panda came out as a movie?
+E:	 {'Q152791': 'Kung fu panda', 'Q11424': 'film', 'Q129193': 'Kung Fu Panda'}
+R:	 {'P460': 'came'}
+
+Q:	 When did Leonardo DiCaprio start acting?
+E:	 {'Q38111': 'Leonardo DiCaprio', 'Q970797': 'start'}
+R:	 {'P397': 'start', 'P2031': 'acting'}
+
+Q:	 When did Leonardo DiCaprio win his first award?
+E:	 {'Q38111': 'Leonardo DiCaprio', 'Q618779': 'award'}
+R:	 {'P166': 'award'}
+
+Q:	 When did Leonardo DiCario win an Oscar?
+E:	 {'Q38111': 'Leonardo dicario', 'Q9941': 'O', 'Q762': 'Leonardo da Vinci'}
+R:	 {'P166': 'win'}
+
+Q:	 When did "Nomadland" premiere?
+E:	 {'Q493758': 'Nomadland', 'Q204854': 'première', 'Q61740820': 'Nomadland'}
+R:	 {'P6': 'premiere'}
+
+Q:	 When did Paul Walker die?
+E:	 {'Q213864': 'Paul Walker'}
+R:	 {'P20': 'die'}
+
+Q:	 When did Quentin Tarantino first start working on movies?
+E:	 {'Q3772': 'Quentin Tarantino', 'Q681071': 'First start', 'Q1179487': 'Movies', 'Q11424': 'film'}
+R:	 {'P108': 'working', 'P449': 'first start'}
+
+Q:	 When did Roberto Benigni receive a Nastro D'Argento for Best Actor?
+E:	 {'Q23301': 'Roberto Benigni', 'Q1061238': 'Nastro dargento for best actor', 'Q1636955': "Nastro d'Argento", 'Q103916': 'Academy Award for Best Actor'}
+R:	 {'P166': 'receive'}
+
+Q:	 When did Robin Williams die?
+E:	 {'Q13131119': 'Robin williams', 'Q83338': 'Robin Williams'}
+R:	 {'P194': 'die'}
+
+Q:	 When did Rushmore come out?
+E:	 {'Q1347393': 'Rushmore'}
+R:	 {'P263': 'come'}
+
+Q:	 When did Stan Lee die?
+E:	 {'Q181900': 'Stan Lee'}
+R:	 {'P20': 'die'}
+
+Q:	 When did Star Wars: Episode IV – A New Hope get published in the United States?
+E:	 {'Q462': 'Star Wars', 'Q202': '4', 'Q1182069': 'New Hope', 'Q30': 'United States of America'}
+R:	 {}
+
+Q:	 When did the Avatar film hit cinemas in Germany?
+E:	 {'Q24871': 'Avatar', 'Q4220932': 'Cinemas in germany', 'Q41253': 'movie theater', 'Q183': 'Germany'}
+R:	 {'P700': 'hit'}
+
+Q:	 When did the awarded actress Katharine Hepburn die?
+E:	 {'Q56016': 'Katharine Hepburn', 'Q33999': 'actor'}
+R:	 {'P166': 'awarded', 'P268': 'actress  die', 'P856': 'awarded actress'}
+
+Q:	 When did the first Harry Potter movie come out?
+E:	 {'Q8337': 'Harry potter', 'Q182254': 'Movie', 'Q11424': 'film'}
+R:	 {'P156': 'come', 'P57': 'movie'}
+
+Q:	 When did the movie Full Metal Jacket air?
+E:	 {'Q11424': 'film', 'Q2637489': 'air'}
+R:	 {}
+
+Q:	 When did the pilot episode of The Blacklist air?
+E:	 {'Q653916': 'television pilot', 'Q13148212': 'The Blacklist'}
+R:	 {}
+
+Q:	 When did the richest actress die?
+E:	 {'Q33999': 'actor'}
+R:	 {'P194': 'die'}
+
+Q:	 When did the TV-series Doctor Who first start?
+E:	 {'Q575373': 'tv-series doctor', 'Q170198': 'series'}
+R:	 {'P397': 'start'}
+
+Q:	 When did Walt Disney die?
+E:	 {'Q8704': 'Walt disney', 'Q7414': 'The Walt Disney Company'}
+R:	 {'P20': 'die'}
+
+Q:	 When did Walter Disney die?
+E:	 {'Q7414': 'The Walt Disney Company'}
+R:	 {'P194': 'die'}
+
+Q:	 When is Blade Runner 2049 set?
+E:	 {'Q184843': 'Blade Runner'}
+R:	 {}
+
+Q:	 When is George Clooney born?
+E:	 {'Q23844': 'George Clooney'}
+R:	 {'P19': 'born'}
+
+Q:	 When is Jack Bauer's birthday?
+E:	 {'Q24': 'Jack Bauer', 'Q47223': 'birthday'}
+R:	 {'P569': 'birthday'}
+
+Q:	 When is J.K.Rowling's birthday?
+E:	 {'Q47223': 'birthday'}
+R:	 {}
+
+Q:	 When is the first release date of movie The Matrix?
+E:	 {'Q182254': 'Movie the matrix', 'Q7310918': 'Release Date', 'Q11424': 'film', 'Q83495': 'The Matrix'}
+R:	 {'P577': 'release date'}
+
+Q:	 When is Tony Stark's birthday?
+E:	 {'Q323463': 'Tony starks', 'Q47223': 'birthday', 'Q180704': 'Iron Man'}
+R:	 {'P569': 'birthday'}
+
+Q:	 When premiered the original Lion King?
+E:	 {'Q36479': 'Original lion king', 'Q2901452': 'The Lion King'}
+R:	 {'P1191': 'premiered'}
+
+Q:	 When premiered the prequel to Incredibles 2?
+E:	 {'Q24832112': 'Incredibles 2', 'Q678345': 'prequel', 'Q213326': 'The Incredibles'}
+R:	 {'P1191': 'premiered', 'P155': 'prequel'}
+
+Q:	 When The Lord of the Rings: The Return of the King released?
+E:	 {'Q131074': 'Lord of the rings: the return of the king', 'Q15228': 'The Lord of the Rings', 'Q19866947': 'Rings', 'Q115285': 'The Return of the King', 'Q2680856': 'King'}
+R:	 {'P577': 'released'}
+
+Q:	 When was actrice Jennifer Lawrence born?
+E:	 {'Q189490': 'Jennifer Lawrence', 'Q242666': 'actrice'}
+R:	 {'P19': 'born', 'P2031': 'actrice'}
+
+Q:	 When was Adurey Hepburn born?
+E:	 {'Q42786': 'Adurey hepburn', 'Q3133312': 'Hepburn'}
+R:	 {'P19': 'born'}
+
+Q:	 When was Alfred Hitchcock born?
+E:	 {'Q7374': 'Alfred Hitchcock'}
+R:	 {'P19': 'born'}
+
+Q:	 When was Al Pacino born?
+E:	 {'Q41163': 'Al Pacino'}
+R:	 {'P19': 'born'}
+
+Q:	 When was Anne Hathaway born?
+E:	 {'Q36301': 'Anne Hathaway'}
+R:	 {'P19': 'born'}
+
+Q:	 When was Audrey Hepburn born?
+E:	 {'Q42786': 'Audrey Hepburn'}
+R:	 {'P19': 'born'}
+
+Q:	 When was Brad Pitt born?
+E:	 {'Q373912': 'Brad pitt', 'Q35332': 'Brad Pitt'}
+R:	 {'P19': 'born'}
+
+Q:	 When was Casino Royale released?
+E:	 {'Q594402': 'Casino royale', 'Q151904': 'Casino Royale'}
+R:	 {'P577': 'released'}
+
+Q:	 When was Christian Bale born?
+E:	 {'Q45772': 'Christian Bale'}
+R:	 {'P19': 'born'}
+
+Q:	 When was David Lynch born?
+E:	 {'Q2071': 'David Lynch'}
+R:	 {'P19': 'born'}
+
+Q:	 When was "Forrest Gump" released?
+E:	 {'Q552213': 'Forrest gump', 'Q134773': 'Forrest Gump'}
+R:	 {'P577': 'released'}
+
+Q:	  When was Hans Zimmer born?
+E:	 {'Q1344628': 'Hans zimmer', 'Q76364': 'Hans Zimmer'}
+R:	 {'P19': 'born'}
+
+Q:	 When was Harrison Ford born?
+E:	 {'Q81328': 'Harrison Ford'}
+R:	 {'P19': 'born'}
+
+Q:	 When was Harry Potter and the Philosopher stone publish in the US?
+E:	 {'Q8337': 'Harry Potter', 'Q3523481': 'The philosopher', 'Q4211474': 'Stone publish', 'Q4964182': 'philosopher', 'Q30': 'United States of America'}
+R:	 {'P577': 'stone publish'}
+
+Q:	 When was Inception released?
+E:	 {'Q25188': 'Inception'}
+R:	 {'P577': 'released', 'P571': 'Inception'}
+
+Q:	 When was Interstellar released?
+E:	 {'Q21186666': 'Interstellar', 'Q13417189': 'Interstellar'}
+R:	 {'P577': 'released'}
+
+Q:	 When was James Cameron born?
+E:	 {'Q42574': 'James Cameron'}
+R:	 {'P19': 'born'}
+
+Q:	 When was Jason Statham born?
+E:	 {'Q169963': 'Jason Statham'}
+R:	 {'P19': 'born'}
+
+Q:	 When was Jurassic Park first released?
+E:	 {'Q1649436': 'Jurassic park', 'Q167726': 'Jurassic Park'}
+R:	 {'P577': 'released'}
+
+Q:	 When was "Kill Bill" first premiered?
+E:	 {'Q223132': 'Kill bill', 'Q18787697': 'Kill Bill'}
+R:	 {'P1191': 'premiered'}
+
+Q:	 When was Leonardo di caprio born?
+E:	 {'Q5592': 'Leonardo di', 'Q1034952': 'Caprio', 'Q38111': 'Leonardo DiCaprio'}
+R:	 {'P19': 'born', 'P2096': 'caprio'}
+
+Q:	 When was Leonardo DiCaprio born?
+E:	 {'Q38111': 'Leonardo DiCaprio'}
+R:	 {'P19': 'born'}
+
+Q:	 When was Leonardo DiCaprio born?
+E:	 {'Q38111': 'Leonardo DiCaprio'}
+R:	 {'P19': 'born'}
+
+Q:	 When was Nicolas Cage born?
+E:	 {'Q42869': 'Nicolas Cage'}
+R:	 {'P19': 'born'}
+
+Q:	 When was Parasite filmed?
+E:	 {'Q20004184': 'Parasite', 'Q61448040': 'Parasite'}
+R:	 {'P136': 'filmed'}
+
+Q:	 When was Parasite released?
+E:	 {'Q20004184': 'Parasite', 'Q61448040': 'Parasite'}
+R:	 {'P577': 'released'}
+
+Q:	 When was parasite released in South Korea?
+E:	 {'Q750367': 'Parasite', 'Q884': 'South Korea', 'Q61448040': 'Parasite'}
+R:	 {'P577': 'released'}
+
+Q:	 When was Quentin Tarantino born?
+E:	 {'Q3772': 'Quentin Tarantino'}
+R:	 {'P19': 'born'}
+
+Q:	 When was Quentin Tarantino's cinema opened?
+E:	 {'Q3772': 'Quentin Tarantino', 'Q5120760': 'Cinema', 'Q41253': 'movie theater'}
+R:	 {'P1619': 'opened', 'P3136': 'cinema'}
+
+Q:	 When was Quentin Tarantino's most recent movie released?
+E:	 {'Q3772': 'Quentin Tarantino', 'Q75682': 'Most recent movie', 'Q11424': 'film'}
+R:	 {'P577': 'released', 'P57': 'most recent movie'}
+
+Q:	 When was Ridley Scott born?
+E:	 {'Q56005': 'Ridley Scott'}
+R:	 {'P19': 'born'}
+
+Q:	 When was Robert Langdon born?
+E:	 {'Q210548': 'Robert langdon', 'Q27962582': 'Robert Langdon'}
+R:	 {'P569': 'born'}
+
+Q:	 When was Snow White and the Seven Dwarfs by Disney made?
+E:	 {'Q11831': 'Snow White', 'Q639184': 'Seven dwarfs by disney', 'Q3335212': 'Dwarfs', 'Q7414': 'The Walt Disney Company'}
+R:	 {}
+
+Q:	 When was Stalker released?
+E:	 {'Q7597280': 'Stalker', 'Q200437': 'Stalker'}
+R:	 {'P577': 'released'}
+
+Q:	 When was Star Wars: Episode IV – A New Hope, published in France?
+E:	 {'Q165603': 'iv', 'Q6074': 'star wars: episode iv –  new hope,', 'Q277547': 'A', 'Q3080562': 'France', 'Q462': 'Star Wars', 'Q202': '4', 'Q1182069': 'New Hope', 'Q142': 'France'}
+R:	 {'P577': 'published'}
+
+Q:	 When was Steven Spielberg born?
+E:	 {'Q8877': 'Steven Spielberg'}
+R:	 {'P19': 'born'}
+
+Q:	 When was Terence Hill born?
+E:	 {'Q243430': 'Terence Hill'}
+R:	 {'P19': 'born'}
+
+Q:	 When was the academy awards Oscars organised for the first time?
+E:	 {'Q19020': 'Academy Awards', 'Q739330': 'First Time'}
+R:	 {'P664': 'organised', 'P421': 'time'}
+
+Q:	 When was the American romantic disaster film Titanic released?
+E:	 {'Q4466': 'american romantic disaster film titanic', 'Q846544': 'disaster film', 'Q25173': 'RMS Titanic'}
+R:	 {'P577': 'released'}
+
+Q:	 When was "The Avengers" released in Germany?
+E:	 {'Q182218': 'The Avengers', 'Q183': 'Germany'}
+R:	 {'P577': 'released'}
+
+Q:	 When was the director of Coming to America born?
+E:	 {'Q338285': 'America', 'Q2526255': 'film director', 'Q30': 'United States of America'}
+R:	 {'P3073': 'Coming', 'P2556': 'born', 'P57': 'director'}
+
+Q:	 When was the first Harry Potter movie released?
+E:	 {'Q8337': 'Harry potter', 'Q11424': 'film'}
+R:	 {'P577': 'released', 'P57': 'movie'}
+
+Q:	 When was the first James Bond movie released?
+E:	 {'Q522175': 'James bond', 'Q11424': 'film'}
+R:	 {'P577': 'released', 'P57': 'movie'}
+
+Q:	 When was the first Lord of the Rings movie released?
+E:	 {'Q15228': 'Lord of the rings movie', 'Q2366336': 'seigneur', 'Q11424': 'film'}
+R:	 {'P577': 'released'}
+
+Q:	 When was the first movie "Kill Bill" released?
+E:	 {'Q223132': 'Kill bill', 'Q11424': 'film', 'Q18787697': 'Kill Bill'}
+R:	 {'P577': 'released', 'P57': 'movie'}
+
+Q:	 When was the first Star Wars movie relaesed?
+E:	 {'Q17738': 'Star wars movie', 'Q11424': 'film'}
+R:	 {'P577': 'relaesed'}
+
+Q:	 When was the first Star Wars Movie released?
+E:	 {'Q17738': 'Star wars movie', 'Q28173261': 'The Star'}
+R:	 {'P577': 'released'}
+
+Q:	 When was the first world cup?
+E:	 {'Q1936368': 'world cup'}
+R:	 {}
+
+Q:	 When was the last Hobbit movie released?
+E:	 {'Q74229': 'Hobbit movie', 'Q11424': 'film'}
+R:	 {'P577': 'released'}
+
+Q:	 When was the last Lord of the Rings movie released
+E:	 {'Q15228': 'Lord of the rings movie', 'Q22958260': 'The Last Lord', 'Q11424': 'film'}
+R:	 {'P577': 'released', 'P407': 'Lord of the  movie'}
+
+Q:	 When was the movie A Silent Voice publicated in Germany?
+E:	 {'Q277547': 'A', 'Q11424': 'film', 'Q183': 'Germany', 'Q23925035': 'A Silent Voice'}
+R:	 {'P2959': 'publicated'}
+
+Q:	 When was the movie Avatar released in the United States of America?
+E:	 {'Q11572': 'movie avatar', 'Q30': 'United States of America', 'Q11424': 'film', 'Q24871': 'Avatar', 'Q35657': 'state of the United States'}
+R:	 {'P577': 'released'}
+
+Q:	 When was the movie Fight Club released for the first time?
+E:	 {'Q190050': 'Fight Club', 'Q11424': 'film', 'Q739330': 'First Time'}
+R:	 {'P577': 'released', 'P421': 'time'}
+
+Q:	 When was the movie the matrix released?
+E:	 {'Q182254': 'Movie the matrix', 'Q11424': 'film', 'Q44337': 'matrix'}
+R:	 {'P577': 'released'}
+
+Q:	 When was the movie The Prestige released?
+E:	 {'Q46551': 'The Prestige', 'Q11424': 'film'}
+R:	 {'P577': 'released'}
+
+Q:	 When was the movie Zootopia released in the United States?
+E:	 {'Q220336': 'Zootopia', 'Q11424': 'film', 'Q3965121': 'United states', 'Q15270647': 'Zootopia', 'Q30': 'United States of America'}
+R:	 {'P577': 'released', 'P57': 'movie'}
+
+Q:	 When was the Pixar movie Brave released?
+E:	 {'Q126796': 'Pixar movie brave', 'Q127552': 'Pixar', 'Q22906900': 'Brave'}
+R:	 {'P577': 'released'}
+
+Q:	 When was the Playstation 5 released?
+E:	 {'Q10677': 'Playstation 5', 'Q1323662': 'PlayStation'}
+R:	 {'P577': 'released'}
+
+Q:	 When was the première of Iron Man?
+E:	 {'Q180704': 'Iron man', 'Q29197': 'Première of', 'Q204854': 'première', 'Q192724': 'Iron Man'}
+R:	 {'P22': 'première of'}
+
+Q:	 When was The Shawshank Redemption published in Germany?
+E:	 {'Q172241': 'The Shawshank Redemption', 'Q183': 'Germany'}
+R:	 {'P577': 'published'}
+
+Q:	 When was The Shawshank Redemption released in the United States?
+E:	 {'Q172241': 'The Shawshank Redemption', 'Q30': 'United States of America'}
+R:	 {'P577': 'released'}
+
+Q:	 When was the Spanish film director Eduardo Casanova born?
+E:	 {'Q1290856': 'Eduardo casanova', 'Q3384497': 'spanish film director', 'Q2526255': 'film director', 'Q83321': 'Giacomo Casanova'}
+R:	 {'P19': 'born', 'P136': 'Spanish film director'}
+
+Q:	 When was the subreddit for Star Wars created?
+E:	 {'Q462': 'Star Wars'}
+R:	 {'P170': 'created', 'P3984': 'subreddit'}
+
+Q:	 When was The Truman Show released?
+E:	 {'Q214801': 'The Truman Show'}
+R:	 {'P577': 'released'}
+
+Q:	 When was the youngest actress of Mard born?
+E:	 {'Q3562736': 'Youngest actress of mard', 'Q33999': 'actor', 'Q6758599': 'Mard'}
+R:	 {'P19': 'born'}
+
+Q:	 When was Titanic released in Germany?
+E:	 {'Q44578': 'Titanic', 'Q183': 'Germany', 'Q25173': 'RMS Titanic'}
+R:	 {'P577': 'released'}
+
+Q:	 When was Tom Hanks born?
+E:	 {'Q2263': 'Tom Hanks'}
+R:	 {'P19': 'born'}
+
+Q:	 When was Tom Hanks born?
+E:	 {'Q2263': 'Tom Hanks'}
+R:	 {'P19': 'born'}
+
+Q:	 When were the fiftieth Oscars held?
+E:	 {'Q19020': 'Academy Awards'}
+R:	 {'P276': 'held'}
+
+Q:	 When were the Lord of the Rings movies released
+E:	 {'Q15228': 'Lord of the rings movies', 'Q2366336': 'seigneur', 'Q11424': 'film'}
+R:	 {'P577': 'released'}
+
+Q:	 When will Dune come out?
+E:	 {'Q2702471': 'Dune', 'Q60834962': 'Dune'}
+R:	 {'P156': 'come'}
+
+Q:	 When will the 93rd Academy Awards take place?
+E:	 {'Q19020': 'Academy Awards', 'Q82794': 'geographic region'}
+R:	 {}
+
+Q:	 When will The Matrix 4 be released?
+E:	 {'Q83495': 'The Matrix'}
+R:	 {'P577': 'released'}
+
+Q:	 When will the next Jurassic World movie be released in the US?
+E:	 {'Q165176': 'Jurassic world', 'Q11424': 'film', 'Q30': 'United States of America'}
+R:	 {'P577': 'released', 'P57': 'movie'}
+
+Q:	 Where are the Academy Awards held?
+E:	 {'Q19020': 'Academy Awards'}
+R:	 {'P276': 'held'}
+
+Q:	 Where did It Happened One Night take place?
+E:	 {'Q834448': 'Night take place', 'Q592503': 'Night', 'Q82794': 'geographic region'}
+R:	 {'P131': 'Happened'}
+
+Q:	 Where did Leonardo DiCaprio go to school?
+E:	 {'Q38111': 'Leonardo DiCaprio', 'Q485734': 'Go to school', 'Q3914': 'school'}
+R:	 {'P69': 'go to school'}
+
+Q:	 Where did the film director Martin Scorsese was born?
+E:	 {'Q6776552': 'Martin scorsese', 'Q2526255': 'film director', 'Q41148': 'Martin Scorsese'}
+R:	 {'P19': 'born', 'P57': 'film director'}
+
+Q:	 Where did the Oscars take place in 2020?
+E:	 {'Q19020': 'Academy Awards', 'Q82794': 'geographic region'}
+R:	 {}
+
+Q:	 Where did the story of 'Ford v Ferrari' take place?
+E:	 {'Q3778542': 'story of ford v ferrari take place', 'Q1318295': 'narrative', 'Q44294': 'Ford Motor Company', 'Q27586': 'Ferrari', 'Q82794': 'geographic region'}
+R:	 {}
+
+Q:	 Where does A Star Is Born take place?
+E:	 {'Q28173261': 'The Star', 'Q82794': 'geographic region'}
+R:	 {'P2556': 'Born', 'P397': 'Star', 'P1352': 'place'}
+
+Q:	 Where does Die Hard take place?
+E:	 {'Q834448': 'Hard take place', 'Q82794': 'geographic region'}
+R:	 {'P194': 'Die'}
+
+Q:	 Where does Ender's Game take place?
+E:	 {'Q418398': 'Enders game take place', 'Q189936': 'The Game', 'Q579856': 'Johann Ender', 'Q82794': 'geographic region'}
+R:	 {}
+
+Q:	 Where does Guy Ritchie come from?
+E:	 {'Q192990': 'Guy Ritchie'}
+R:	 {'P263': 'come'}
+
+Q:	 Where does Saving Private Ryan take place?
+E:	 {'Q165817': 'Private ryan take place', 'Q5260774': 'deposit', 'Q158668': 'Private', 'Q82794': 'geographic region'}
+R:	 {'P1981': 'Saving'}
+
+Q:	 Where does the action take place in the movie "1917"?
+E:	 {'Q188473': 'action film', 'Q82794': 'geographic region', 'Q11424': 'film'}
+R:	 {}
+
+Q:	 Where does Winnie the Pooh live?
+E:	 {'Q188574': 'winnie the pooh', 'Q239062': 'Winnie Madikizela-Mandela', 'Q17984894': 'Winnie the Pooh'}
+R:	 {'P551': 'live'}
+
+Q:	 Where is Captain America from?
+E:	 {'Q1421609': 'Captain america', 'Q190679': 'Captain America'}
+R:	 {}
+
+Q:	 Where is Jason Statham from?
+E:	 {'Q169963': 'Jason Statham'}
+R:	 {}
+
+Q:	 Where is Jurassic Park located in the film from 1993?
+E:	 {'Q399867': 'Jurassic park', 'Q587298': 'Film from 1993', 'Q167726': 'Jurassic Park', 'Q11424': 'film'}
+R:	 {'P276': 'located'}
+
+Q:	 Where is the headquarter of Marvel Studios?
+E:	 {'Q367466': 'Marvel Studios'}
+R:	 {}
+
+Q:	 Where is the narrative location of the movie Just Mecry?
+E:	 {'Q182254': 'Movie just mecry', 'Q1318295': 'narrative', 'Q11424': 'film'}
+R:	 {'P840': 'narrative location'}
+
+Q:	 Where was Angels and Demons filmed?
+E:	 {'Q182502': 'Angels and demons', 'Q743309': 'Los Angeles Angels of Anaheim', 'Q329989': 'Demons'}
+R:	 {'P136': 'filmed'}
+
+Q:	 Where was Anne Hathaway born?
+E:	 {'Q36301': 'Anne Hathaway'}
+R:	 {'P19': 'born'}
+
+Q:	 Where was Before Sunrise filmed?
+E:	 {'Q3503954': 'Sunrise', 'Q506375': 'Sunrise'}
+R:	 {'P136': 'filmed'}
+
+Q:	 Where was Christopher Nolan born?
+E:	 {'Q224912': 'Christopher nolan', 'Q25191': 'Christopher Nolan'}
+R:	 {'P19': 'born'}
+
+Q:	 Where was David Attenborough educated?
+E:	 {'Q183337': 'David Attenborough'}
+R:	 {'P69': 'educated'}
+
+Q:	 Where was Forrest Gump produced?
+E:	 {'Q134773': 'Forrest Gump'}
+R:	 {'P162': 'produced'}
+
+Q:	 Where was Gaspar Noé born?
+E:	 {'Q347950': 'Gaspar Noé'}
+R:	 {'P19': 'born'}
+
+Q:	 Where was Idris Elba born?
+E:	 {'Q342604': 'Idris Elba'}
+R:	 {'P19': 'born'}
+
+Q:	 Where was Joker filmed?
+E:	 {'Q1622128': 'Joker', 'Q42759035': 'Joker'}
+R:	 {'P527': 'filmed'}
+
+Q:	 Where was Jurassic Park filmed?
+E:	 {'Q1649436': 'Jurassic park', 'Q167726': 'Jurassic Park'}
+R:	 {'P136': 'filmed'}
+
+Q:	 Where was Leonardo DiCaprio born?
+E:	 {'Q38111': 'Leonardo DiCaprio'}
+R:	 {'P19': 'born'}
+
+Q:	 Where was Mark Ruffalo born?
+E:	 {'Q41422': 'Mark Ruffalo'}
+R:	 {'P19': 'born'}
+
+Q:	 Where was Meryl Streep born?
+E:	 {'Q873': 'Meryl Streep'}
+R:	 {'P19': 'born'}
+
+Q:	 Where was Minority Report created?
+E:	 {'Q19904394': 'Minority report', 'Q244604': 'Minority Report'}
+R:	 {'P170': 'created'}
+
+Q:	 Where was Morgan Freeman born?
+E:	 {'Q48337': 'Morgan Freeman'}
+R:	 {'P19': 'born'}
+
+Q:	 Where was Napoleon Dynamite filmed?
+E:	 {'Q3069069': 'Napoleon dynamite', 'Q1133772': 'Napoleon Dynamite'}
+R:	 {'P136': 'filmed'}
+
+Q:	 Where was Pulp Fiction filmed
+E:	 {'Q104123': 'Pulp Fiction'}
+R:	 {'P57': 'filmed'}
+
+Q:	 Where was Roger Federer born?
+E:	 {'Q1426': 'Roger Federer'}
+R:	 {'P19': 'born'}
+
+Q:	 Where was Slumdog Millionaire filmed?
+E:	 {'Q125076': 'Slumdog Millionaire'}
+R:	 {'P57': 'filmed'}
+
+Q:	 Where was Spy Kids filmed?
+E:	 {'Q550581': 'Spy Kids'}
+R:	 {'P57': 'filmed'}
+
+Q:	 Where was the 2012 UEFA European cup held?
+E:	 {'Q35572': 'Union of European Football Associations', 'Q32200': '2012  european cup', 'Q18756': 'UEFA Champions League'}
+R:	 {'P159': 'held'}
+
+Q:	 Where was the first Harrry Potter movie filmed?
+E:	 {'Q216930': 'Harrry potter', 'Q11424': 'film'}
+R:	 {'P136': 'filmed', 'P57': 'movie'}
+
+Q:	 Where was The Guard set?
+E:	 {'Q15737156': 'The guard', 'Q928670': 'National Guard of the United States'}
+R:	 {'P1680': 'set'}
+
+Q:	 Where was The Lord of the Rings: The Fellowship of the Ring filmed?
+E:	 {'Q127367': 'Lord of the rings: the fellowship of the ring', 'Q15228': 'The Lord of the Rings', 'Q19866947': 'Rings', 'Q1404101': 'fellow', 'Q212804': 'The Ring'}
+R:	 {'P57': 'filmed'}
+
+Q:	 Where was The Lord of the Rings trilogy filmed?
+E:	 {'Q15228': 'Lord of the rings trilogy', 'Q2366336': 'seigneur', 'Q19866947': 'Rings'}
+R:	 {'P136': 'filmed'}
+
+Q:	 Where was the movie El Camino: A Breaking Bad Movie filmed?
+E:	 {'Q8457': 'A', 'Q11424': 'film', 'Q61741521': 'El Camino: A Breaking Bad Movie'}
+R:	 {'P136': 'filmed'}
+
+Q:	 Where was the movie "Pulp Fiction" filmed?
+E:	 {'Q11424': 'film', 'Q104123': 'Pulp Fiction'}
+R:	 {'P227': 'filmed'}
+
+Q:	 Where was the movie Tropic Thunder shot at?
+E:	 {'Q300566': 'Movie tropic thunder', 'Q11424': 'film', 'Q380981': 'Tropic Thunder'}
+R:	 {'P3804': 'shot'}
+
+Q:	 Where was the movie "Who killed captain Alex" filmed?
+E:	 {'Q41253': 'The Movie', 'Q686737': 'Alex', 'Q19100': 'captain  filmed', 'Q11424': 'film', 'Q955075': 'Max Headroom broadcast signal intrusion'}
+R:	 {'P157': 'killed', 'P227': 'captain  filmed', 'P915': 'killed captain'}
+
+Q:	 Where was the origin of The Grand Budapest Hotel?
+E:	 {'Q850990': 'Origin of the grand budapest hotel', 'Q7376362': 'river source', 'Q3521099': 'The Grand Budapest Hotel'}
+R:	 {}
+
+Q:	 Where was the Roundhay Garden Scene made?
+E:	 {'Q267176': 'Roundhay Garden Scene'}
+R:	 {}
+
+Q:	 Where was The Seventh Seal filmed?
+E:	 {'Q217189': 'The Seventh Seal'}
+R:	 {'P57': 'filmed'}
+
+Q:	 Where was The Titanic filmed?
+E:	 {'Q7769473': 'The titanic', 'Q25173': 'RMS Titanic'}
+R:	 {'P136': 'filmed'}
+
+Q:	 Where was Titanic shot?
+E:	 {'Q25173': 'RMS Titanic'}
+R:	 {}
+
+Q:	 Where was Whiplash filmed?
+E:	 {'Q5607798': 'Whiplash', 'Q15648198': 'Whiplash'}
+R:	 {'P136': 'filmed'}
+
+Q:	 whet is the original title of The Platform?
+E:	 {'Q7950149': 'WHET', 'Q56019': 'military rank', 'Q7202266': 'Platform'}
+R:	 {'P1476': 'original title', 'P400': 'Platform'}
+
+Q:	 Which Academy Awards did the movie "Avatar" receive?
+E:	 {'Q19020': 'Academy Awards', 'Q11572': 'Movie avatar', 'Q11424': 'film', 'Q24871': 'Avatar'}
+R:	 {'P131': 'receive'}
+
+Q:	 Which actor got an Academy Award for Best Actor for the role in The Revenant?
+E:	 {'Q41417': 'Academy award for best actor for the role in the revenant', 'Q33999': 'actor', 'Q4671334': 'Academy Award', 'Q103916': 'Academy Award for Best Actor', 'Q214339': 'role', 'Q18002795': 'The Revenant'}
+R:	 {'P31': 'got', 'P161': 'actor'}
+
+Q:	 Which actor played Aragorn in Lord of the Rings?
+E:	 {'Q127367': 'Aragorn in lord of the rings', 'Q33999': 'actor', 'Q180322': 'Aragorn', 'Q15228': 'The Lord of the Rings', 'Q19866947': 'Rings'}
+R:	 {'P710': 'played', 'P161': 'actor'}
+
+Q:	 Which actor plays the lead character in the TV-series the Mandalorian?
+E:	 {'Q54289': 'lead character in the tv-series the mandalorian', 'Q33999': 'actor', 'Q32483': 'character', 'Q5398426': 'television series', 'Q56876444': 'The Mandalorian'}
+R:	 {'P453': 'plays', 'P161': 'actor'}
+
+Q:	 Which actor plays the main figure in Wonder Woman?
+E:	 {'Q609436': 'Main figure in wonder woman', 'Q33999': 'actor', 'Q1412049': 'figure', 'Q20502242': 'Wonder Woman'}
+R:	 {'P453': 'plays', 'P161': 'actor'}
+
+Q:	 Which actors have played Tony Stark?
+E:	 {'Q33999': 'actor', 'Q180704': 'Iron Man'}
+R:	 {'P175': 'played'}
+
+Q:	 Which actors have portrayed the character James Bond?
+E:	 {'Q33999': 'actor', 'Q2009573': 'James bond', 'Q815674': 'The Character', 'Q32483': 'character', 'Q844': 'James Bond'}
+R:	 {'P175': 'portrayed', 'P674': 'character'}
+
+Q:	 Which actors played the role of James Bond
+E:	 {'Q33999': 'actor', 'Q2009573': 'James bond', 'Q214339': 'role', 'Q844': 'James Bond'}
+R:	 {'P175': 'played', 'P453': 'role'}
+
+Q:	 Which actors, who were born in a city which shares a border with Tanzana, and played in Long shot have more than 1 million Twitter followers?
+E:	 {'Q33999': 'actor', 'Q924': 'Tanzana', 'Q261338': 'Long shot', 'Q1390577': '1 million twitter followers', 'Q515': 'city', 'Q133346': 'border', 'Q3294287': 'Long shot', 'Q918': 'Twitter'}
+R:	 {'P1464': 'born', 'P47': 'border', 'P641': 'played', 'P952': 'city'}
+
+Q:	 Which actor was Bruce Banner played by in the 2003 movie Hulk?
+E:	 {'Q188760': 'Hulk', 'Q44176': '2003 movie hulk', 'Q33999': 'actor', 'Q11424': 'film'}
+R:	 {'P175': 'played', 'P161': 'actor'}
+
+Q:	 Which actress died because of drowing caused by coronary artery disease and cocaine intoxication?
+E:	 {'Q93184': 'drowing', 'Q3089097': 'caused', 'Q844935': 'coronary artery disease', 'Q18621601': 'Cocaine intoxication', 'Q33999': 'actor', 'Q5139133': 'cocaine intoxication'}
+R:	 {'P20': 'died', 'P18': 'drowing', 'P828': 'caused', 'P161': 'actress'}
+
+Q:	 Which actresses, whose firstnames start with an M, have won the Academy Award for Best actress?
+E:	 {'Q33999': 'actresses, whose firstnames', 'Q5608': 'M,', 'Q103618': 'Academy Award for Best Actress', 'Q160669': 'Mach number', 'Q4671334': 'Academy Award'}
+R:	 {'P397': 'start', 'P166': 'won'}
+
+Q:	 Which actress plays Beth Harmon in the Netflix miniseries the Queen's Gambit?
+E:	 {'Q231657': 'Beth harmon', 'Q1005': 'In the netflix miniseries the queens gambit', 'Q33999': 'actor', 'Q831102': 'Beth', 'Q907311': 'Netflix', 'Q2639150': 'Gambit', 'Q9682': 'Elizabeth II'}
+R:	 {'P1303': 'plays', 'P856': 'actress', 'P35': 'in the Netflix miniseries the Queens Gambit'}
+
+Q:	 Which actress was murdered by the Manson Cult?
+E:	 {'Q485508': 'Manson cult', 'Q33999': 'actor', 'Q887376': 'The Cult'}
+R:	 {'P157': 'murdered', 'P161': 'actress'}
+
+Q:	 Which awards did actress Anne Hathaway receive?
+E:	 {'Q36301': 'Anne Hathaway', 'Q618779': 'award'}
+R:	 {'P166': 'awards', 'P161': 'actress'}
+
+Q:	 Which awards did Blade Runner receive
+E:	 {'Q184843': 'Blade Runner', 'Q618779': 'award'}
+R:	 {'P166': 'awards'}
+
+Q:	 Which awards did Inception receive?
+E:	 {'Q618779': 'award', 'Q25188': 'Inception'}
+R:	 {'P166': 'awards', 'P571': 'Inception'}
+
+Q:	 Which awards did Memento win?
+E:	 {'Q20441927': 'Memento', 'Q618779': 'award', 'Q190525': 'Memento'}
+R:	 {'P276': 'win', 'P166': 'awards'}
+
+Q:	 Which awards did Parasite receive at the 92nd Academy Awards?
+E:	 {'Q143314': 'Parasite', 'Q19020': '92nd academy awards', 'Q618779': 'award', 'Q61448040': 'Parasite', 'Q47496499': '92nd Academy Awards'}
+R:	 {'P131': 'awards'}
+
+Q:	  Which awards did the movie "The Hunger Games"(2012) recieve?
+E:	 {'Q1713744': ' which awards', 'Q11678': 'Movie the hunger games(2012)', 'Q618779': 'award', 'Q11424': 'film', 'Q814334': 'The Hunger'}
+R:	 {'P166': 'recieve'}
+
+Q:	 Which awards did the movie 'Uncut Gems' win?
+E:	 {'Q1464360': 'Movie uncut gems', 'Q618779': 'award', 'Q11424': 'film', 'Q50000': 'victory', 'Q56312570': 'Uncut Gems'}
+R:	 {'P361': 'win', 'P166': 'awards'}
+
+Q:	 Which awards did The Platform win?
+E:	 {'Q1349573': 'platform win', 'Q50000': 'victory', 'Q618779': 'award'}
+R:	 {'P166': 'awards'}
+
+Q:	 Which cast members of Trust Fund, who played a character in that film from which the name starts with an M, are stage actors as well as television actors?
+E:	 {'Q4768306': 'Members of trust fund,', 'Q23404': 'Character in that film', 'Q5608': 'M,', 'Q6177942': 'are stage actors', 'Q5461159': 'television actors', 'Q379825': 'element', 'Q65074726': 'Trust Fund', 'Q32483': 'character', 'Q11424': 'film', 'Q1071027': 'personal name', 'Q160669': 'Mach number', 'Q33999': 'actor', 'Q58007606': 'Vikas Grover'}
+R:	 {'P161': 'cast', 'P175': 'played', 'P527': 'starts', 'P460': 'name'}
+
+Q:	 Which century is divergent set in?
+E:	 {'Q578': 'century', 'Q627192': 'Divergent'}
+R:	 {'P527': 'set'}
+
+Q:	 Which company distributed Alien?
+E:	 {'Q681815': 'Company', 'Q103569': 'Alien', 'Q783794': 'company'}
+R:	 {'P750': 'distributed'}
+
+Q:	 Which company distributed The Platform?
+E:	 {'Q681815': 'Company', 'Q783794': 'company', 'Q7202266': 'Platform'}
+R:	 {'P750': 'distributed', 'P400': 'Platform'}
+
+Q:	 Which company produced Kiki's Delivery service?
+E:	 {'Q681815': 'Company', 'Q196602': 'Kikis delivery service', 'Q783794': 'company', 'Q44127': 'server', 'Q126599': 'Kristen Stewart'}
+R:	 {'P162': 'produced'}
+
+Q:	 Which company produced Star Wars?
+E:	 {'Q681815': 'Company', 'Q17738': 'Star wars', 'Q783794': 'company', 'Q462': 'Star Wars'}
+R:	 {'P162': 'produced'}
+
+Q:	 Which company produced Westworld
+E:	 {'Q681815': 'Company', 'Q503343': 'Westworld', 'Q783794': 'company', 'Q17572811': 'Westworld'}
+R:	 {'P162': 'produced'}
+
+Q:	 Which countries is Martin Scorsese a citizen in?
+E:	 {'Q6256': 'country', 'Q41148': 'Martin Scorsese', 'Q7771': 'A citizen', 'Q2472587': 'people'}
+R:	 {'P27': 'a citizen'}
+
+Q:	 Which country first published Kingsman: the Secret Service?
+E:	 {'Q79733': 'Kingsman', 'Q107894': ': the secret service', 'Q3336843': 'country within the United Kingdom', 'Q17018738': 'Kingsman', 'Q1523567': 'Secret Service'}
+R:	 {'P577': 'published', 'P17': 'country', 'P131': ': the Secret Service'}
+
+Q:	 Which country made Godzilla?
+E:	 {'Q3772780': 'Godzilla', 'Q3336843': 'country within the United Kingdom', 'Q6567': 'Godzilla'}
+R:	 {'P17': 'country'}
+
+Q:	 Which director has been nominated most for the Best Director Academy Award?
+E:	 {'Q103360': 'Best director academy award', 'Q2526255': 'film director', 'Q4671334': 'Academy Award'}
+R:	 {'P1411': 'nominated', 'P57': 'Best Director'}
+
+Q:	 Which director has directed the most films?
+E:	 {'Q3643253': 'Films', 'Q2526255': 'film director', 'Q11424': 'film'}
+R:	 {'P57': 'director'}
+
+Q:	 Which Dutch cabaret artist directed the movie Billy?
+E:	 {'Q60021': 'dutch cabaret artist', 'Q150502': 'Muggsy Bogues', 'Q182254': 'The Movie', 'Q131183': 'cabaret', 'Q11424': 'film'}
+R:	 {'P57': 'movie'}
+
+Q:	 Which famous composer created music for Inception?
+E:	 {'Q485756': 'Famous composer', 'Q25188': 'Inception', 'Q638': 'music'}
+R:	 {'P364': 'created'}
+
+Q:	 Which film series about Middle-earth did Peter Jackson direct?
+E:	 {'Q105762': 'film series about middle-earth', 'Q4465': 'Peter Jackson', 'Q395684': 'Direct', 'Q24856': 'film series', 'Q79734': 'Middle-earth'}
+R:	 {'P57': 'direct'}
+
+Q:	 Which genre is Johnny English Strikes Again?
+E:	 {'Q337881': 'Johnny english', 'Q2041524': 'Strikes', 'Q188451': 'music genre', 'Q1860': 'English'}
+R:	 {'P136': 'genre', 'P179': 'Strikes'}
+
+Q:	 Which genres is the Film "Avatar" associated with?
+E:	 {'Q5151404': 'Genres', 'Q24871': 'Avatar', 'Q188451': 'music genre', 'Q56474015': 'Jungleland'}
+R:	 {'P1629': 'associated'}
+
+Q:	 Which group of superheroes is Iron Man a member of?
+E:	 {'Q980228': 'Group of superheroes', 'Q192724': 'Iron Man', 'Q83478': 'group', 'Q188784': 'superhero', 'Q379825': 'element'}
+R:	 {}
+
+Q:	 Which Harry Potter movie made the most money at the box office?
+E:	 {'Q8337': 'Harry potter movie', 'Q895522': 'Money at the box office', 'Q11424': 'film', 'Q1368': 'money', 'Q877435': 'box office'}
+R:	 {}
+
+Q:	 Which is the highest-grossing movie?
+E:	 {'Q2119743': 'highest-grossing movie', 'Q11424': 'film'}
+R:	 {}
+
+Q:	 Which is the longest Jim Carrey movie?
+E:	 {'Q40504': 'Jim carrey', 'Q182254': 'Longest  movie', 'Q11424': 'film'}
+R:	 {'P57': 'longest  movie'}
+
+Q:	 Which languages are in Call Me By Your Name?
+E:	 {'Q675546': 'Languages', 'Q315': 'language', 'Q3019722': 'The Call', 'Q6961497': 'Name'}
+R:	 {}
+
+Q:	 Which languages does Hayden Christensen speak?
+E:	 {'Q675546': 'Languages', 'Q192812': 'Hayden Christensen', 'Q315': 'language'}
+R:	 {'P1412': 'speak'}
+
+Q:	  Which locations were used to film the movie "Black Panther"(2018)
+E:	 {'Q6664762': ' which locations', 'Q568029': 'Movie black panther(2018)', 'Q2221906': 'geographic location', 'Q11424': 'film', 'Q38226507': 'Black'}
+R:	 {'P57': 'film'}
+
+Q:	 Which movie came after Pokemon 3: The Movie?
+E:	 {'Q245863': 'The Movie', 'Q890665': 'Pokemon 3: the movie', 'Q11424': 'film', 'Q864': 'Pokémon', 'Q1473699': 'Full motion video'}
+R:	 {'P138': 'came'}
+
+Q:	 Which movie directors are convicted of sexual assault?
+E:	 {'Q41253': 'movie directors', 'Q673281': 'sexual assault', 'Q2526255': 'film director'}
+R:	 {'P1399': 'convicted'}
+
+Q:	 Which movie followed 'Star Wars: Episode IV - A New Hope'?
+E:	 {'Q182254': 'Movie', 'Q165603': 'Iv', 'Q6074': 'Star wars: episode iv -  new hope', 'Q277547': 'A', 'Q11424': 'film', 'Q462': 'Star Wars', 'Q17738': 'Star Wars Episode IV: A New Hope'}
+R:	 {'P155': 'followed'}
+
+Q:	 Which movie had the longest production time?
+E:	 {'Q11424': 'film', 'Q865825': 'longest production time', 'Q11471': 'time'}
+R:	 {}
+
+Q:	 Which movie in the franchise was Pirates of the Caribbean: On Stranger Tides?
+E:	 {'Q185387': 'Movie in the franchise', 'Q183555': 'Pirates of the caribbean: on stranger tides', 'Q11424': 'film', 'Q196600': 'media franchise', 'Q194318': 'Pirates of the Caribbean', 'Q664609': 'Caribbean', 'Q28972794': 'Stranger'}
+R:	 {}
+
+Q:	 Which movie is the Disaster Artist about?
+E:	 {'Q11424': 'film', 'Q483501': 'Disaster artist', 'Q22078002': 'The Disaster Artist'}
+R:	 {}
+
+Q:	 Which movie is the last in The Infinity Saga?
+E:	 {'Q11424': 'film', 'Q295608': 'Infinity saga', 'Q3790673': 'Saga'}
+R:	 {}
+
+Q:	 Which movies are directed by Alice Wu?
+E:	 {'Q1179487': 'Movies', 'Q682262': 'Alice wu', 'Q11424': 'film', 'Q2836688': 'Alice Wu'}
+R:	 {'P57': 'directed'}
+
+Q:	 Which movies are in the Star Wars prequel trilogy?
+E:	 {'Q1179487': 'Movies', 'Q55248': 'star wars prequel trilogy', 'Q11424': 'film', 'Q462': 'Star Wars', 'Q149010': 'trilogy'}
+R:	 {}
+
+Q:	 Which movies are in the The Lord of the Rings trilogy?
+E:	 {'Q1179487': 'Movies', 'Q190214': 'Lord of the rings trilogy', 'Q11424': 'film', 'Q15228': 'The Lord of the Rings', 'Q19866947': 'Rings', 'Q149010': 'trilogy'}
+R:	 {}
+
+Q:	 Which movies are part of the "How To Train Your Dragon" franchise?
+E:	 {'Q1179487': 'Movies', 'Q196600': 'media franchise', 'Q11424': 'film', 'Q7401': 'part', 'Q1148444': 'blunderbuss'}
+R:	 {'P1552': 'Train'}
+
+Q:	 Which movies did Christopher Nolan direct?
+E:	 {'Q1179487': 'Movies', 'Q25191': 'Christopher Nolan', 'Q395684': 'Direct', 'Q11424': 'film'}
+R:	 {'P169': 'direct'}
+
+Q:	 Which movies did Christopher Nolan direct?
+E:	 {'Q1179487': 'Movies', 'Q25191': 'Christopher Nolan', 'Q395684': 'Direct', 'Q11424': 'film'}
+R:	 {'P169': 'direct'}
+
+Q:	 Which movies did John Williams compose music for?
+E:	 {'Q1179487': 'Movies', 'Q131285': 'John Williams', 'Q638': 'music', 'Q11424': 'film'}
+R:	 {'P86': 'compose'}
+
+Q:	 Which movies, directed by David O. Russell, did Jennifer Lawrence act in?
+E:	 {'Q294721': 'Movies,', 'Q60168': 'O', 'Q314342': 'David O. Russell', 'Q189490': 'Jennifer Lawrence', 'Q11424': 'film'}
+R:	 {'P1969': 'directed', 'P19': 'act'}
+
+Q:	 Which movies earned Steven Spielberg an Academy Award?
+E:	 {'Q1179487': 'Movies', 'Q8877': 'Steven Spielberg', 'Q8610': 'An academy award', 'Q8624': 'Steven spielberg an academy award', 'Q11424': 'film', 'Q4671334': 'Academy Award'}
+R:	 {'P4709': 'earned', 'P31': 'Steven Spielberg an'}
+
+Q:	 Which movie was based on the book I Heard You Paint Houses (2004)?
+E:	 {'Q11424': 'film', 'Q465091': 'The Book', 'Q347548': 'Paint houses (2004)', 'Q571': 'book', 'Q39082126': 'You'}
+R:	 {'P144': 'based', 'P3395': 'Heard'}
+
+Q:	 Which movie won the Academy Award for Best Animated Feature in 2003
+E:	 {'Q11424': 'film', 'Q41417': 'Academy award for best animated feature in 2003', 'Q4671334': 'Academy Award', 'Q16250725': 'The Feature'}
+R:	 {'P31': 'won'}
+
+Q:	 Which movie won the Academy Award for Best Picture in 2020?
+E:	 {'Q11424': 'film', 'Q41417': 'Academy award for best picture in 2020', 'Q4671334': 'Academy Award', 'Q7191144': 'Picture'}
+R:	 {'P31': 'won'}
+
+Q:	 Which neuroscientist plays in a serie?
+E:	 {'Q6337803': 'neuroscientist', 'Q15804': 'A Serie'}
+R:	 {'P453': 'plays'}
+
+Q:	 Which Non-English Language movie was the first to win the Academy Award for Best Picture?
+E:	 {'Q1860': 'Non-english language movie', 'Q102427': 'Academy award for best picture', 'Q11424': 'film', 'Q4671334': 'Academy Award', 'Q7191144': 'Picture'}
+R:	 {'P166': 'win'}
+
+Q:	 Which oscars did Guillermo del Toro's 2017 film win?
+E:	 {'Q223983': 'Oscars', 'Q870757': 'guillermo del toros 2017 film win', 'Q3442': 'Astronotus ocellatus', 'Q11424': 'film', 'Q219124': 'Guillermo del Toro'}
+R:	 {}
+
+Q:	 Which parts does a film have?
+E:	 {'Q2748878': 'A Film', 'Q7401': 'part', 'Q11424': 'film'}
+R:	 {'P527': 'parts'}
+
+Q:	 Which performers have been in the role of Anakin Skywalker?
+E:	 {'Q3153559': 'Performers', 'Q51752': 'Anakin skywalker', 'Q713200': 'performing artist', 'Q214339': 'role', 'Q12206942': 'Darth Vader'}
+R:	 {'P366': 'role'}
+
+Q:	 Which production companies are associated with the movie Shutter Island?
+E:	 {'Q6483398': 'production companies', 'Q210364': 'Shutter Island', 'Q11396960': 'production company', 'Q11424': 'film'}
+R:	 {'P1629': 'associated'}
+
+Q:	 Which production company produced Finding Nemo?
+E:	 {'Q132863': 'Finding Nemo', 'Q11396960': 'production company'}
+R:	 {'P162': 'produced', 'P272': 'production company'}
+
+Q:	 Which production company produced Twister?
+E:	 {'Q4424430': 'Twister', 'Q11396960': 'production company', 'Q683663': 'Twister'}
+R:	 {'P162': 'produced', 'P272': 'production company'}
+
+Q:	 Which role did Will Smith play in I, Robot?
+E:	 {'Q507606': 'Smith', 'Q1522046': 'I,', 'Q11012': 'Robot', 'Q214339': 'role', 'Q2085488': 'Agent Smith', 'Q283490': 'Enthiran'}
+R:	 {'P453': 'play', 'P366': 'role'}
+
+Q:	 Which screenwriter of "Enders Game" is already dead?
+E:	 {'Q5376077': 'Enders Game', 'Q28389': 'screenwriter'}
+R:	 {'P58': 'screenwriter', 'P570': 'dead'}
+
+Q:	 Which song is the theme music of "No Time to Die"?
+E:	 {'Q7366': 'song', 'Q1193470': 'theme music', 'Q43297': 'Time'}
+R:	 {'P194': 'Die', 'P40': 'song', 'P942': 'theme music', 'P421': 'Time'}
+
+Q:	 Which TV series is the Naked Gun trilogy based on?
+E:	 {'Q385309': 'Naked gun trilogy', 'Q5398426': 'television series', 'Q1963079': 'Naked'}
+R:	 {'P144': 'based', 'P179': 'TV series'}
+
+Q:	 Which war film was nominated in 92nd Academy Awards?
+E:	 {'Q369747': 'war film', 'Q47496499': '92nd Academy Awards'}
+R:	 {}
+
+Q:	 Which work is "The Shawshank Redemption" based on?
+E:	 {'Q172241': 'The Shawshank Redemption', 'Q42213': 'work', 'Q28457426': 'The'}
+R:	 {'P144': 'based', 'P106': 'work'}
+
+Q:	 Who acted as James Bond?
+E:	 {'Q844': 'James Bond'}
+R:	 {'P1299': 'acted'}
+
+Q:	 Who acted as tony stark in iron man?
+E:	 {'Q180704': 'tony stark in iron man', 'Q6072991': 'Iron man'}
+R:	 {'P1299': 'acted'}
+
+Q:	 Who are Nicolas Cage's Siblings?
+E:	 {'Q2933055': 'Nicolas cages siblings', 'Q1539263': 'R-2', 'Q42869': 'Nicolas Cage'}
+R:	 {}
+
+Q:	 Who are the cast members in The Lighhouse?
+E:	 {'Q2356888': 'Cast members in the lighhouse', 'Q379825': 'element'}
+R:	 {}
+
+Q:	 Who are the cast members of The Blair Witch Project?
+E:	 {'Q644554': 'Cast members of the blair witch project', 'Q379825': 'element', 'Q19057481': 'The Witch'}
+R:	 {}
+
+Q:	 Who are the children of Shrek?
+E:	 {'Q52401': 'Shrek', 'Q7569': 'child', 'Q483815': 'Shrek'}
+R:	 {'P40': 'children'}
+
+Q:	 Who are the creators of Glee?
+E:	 {'Q152178': 'Glee', 'Q635155': 'creator deity'}
+R:	 {'P170': 'creators'}
+
+Q:	 Who are the creators of How I met your mother?
+E:	 {'Q635155': 'creator deity', 'Q7560': 'mother'}
+R:	 {'P1068': 'met', 'P170': 'creators', 'P25': 'mother'}
+
+Q:	 Who are the creators of South Park?
+E:	 {'Q951038': 'South park', 'Q635155': 'creator deity', 'Q16538': 'South Park'}
+R:	 {'P170': 'creators'}
+
+Q:	 Who are the directors of Iron man
+E:	 {'Q959682': 'Directors of iron man', 'Q2526255': 'film director', 'Q6072991': 'Iron man'}
+R:	 {}
+
+Q:	 Who are the directors of movie The Matrix?
+E:	 {'Q506240': 'directors of movie the matrix', 'Q2526255': 'film director', 'Q11424': 'film', 'Q83495': 'The Matrix'}
+R:	 {}
+
+Q:	 Who are the directors of Schindler's List?
+E:	 {'Q346062': 'Schindlers list', 'Q188628': 'Directors of', 'Q2526255': 'film director', 'Q52715628': 'Alex & the List', 'Q2236136': 'Schindler'}
+R:	 {'P31': 'directors of'}
+
+Q:	 Who are the directors of the Matrix?
+E:	 {'Q83495': 'The Matrix', 'Q852749': 'Directors of the', 'Q2526255': 'film director'}
+R:	 {'P57': 'directors of the'}
+
+Q:	 Who are the directors of The Matrix?
+E:	 {'Q83495': 'The Matrix', 'Q852749': 'Directors of the', 'Q2526255': 'film director'}
+R:	 {'P57': 'directors of The'}
+
+Q:	 Who are the directors of the movie Avengers: Endgame?
+E:	 {'Q113700': 'Directors of the movie avengers: endgame', 'Q1235448': 'Endgame', 'Q2526255': 'film director', 'Q11424': 'film', 'Q182218': 'The Avengers'}
+R:	 {}
+
+Q:	 Who are the directors of the movie "Captain America: The Winter Soldier"?
+E:	 {'Q796139': 'Directors of the movie captain america: the winter soldier', 'Q2526255': 'film director', 'Q11424': 'film', 'Q190679': 'Captain America', 'Q28006858': 'Bucky Barnes'}
+R:	 {}
+
+Q:	 Who are the directors of the movie "The Matrix"?
+E:	 {'Q506240': 'Directors of the movie the matrix', 'Q2526255': 'film director', 'Q11424': 'film', 'Q83495': 'The Matrix'}
+R:	 {}
+
+Q:	 Who are the executive producers of Suits?
+E:	 {'Q370185': 'Suits', 'Q1053574': 'executive producer'}
+R:	 {}
+
+Q:	 Who are the film editors of Titanic?
+E:	 {'Q6398266': 'film editors of titanic', 'Q11424': 'film', 'Q25173': 'RMS Titanic'}
+R:	 {}
+
+Q:	 Who are the founders of Pixar Animation Studios?
+E:	 {'Q127552': 'Pixar', 'Q26950764': 'organizational founder'}
+R:	 {'P112': 'founders'}
+
+Q:	 Who are the leading actors of "Black Swan"?
+E:	 {'Q131044': 'Black swan', 'Q33999': 'Actors of', 'Q1765879': 'leading actor', 'Q180214': 'Black Swan'}
+R:	 {'P921': 'leading', 'P31': 'actors of'}
+
+Q:	 Who are the main characters of Fifty Shades of Grey?
+E:	 {'Q415430': 'Fifty shades', 'Q42519': 'Main characters of  of grey', 'Q32483': 'character', 'Q7460325': 'Shades of Grey', 'Q1147689': 'The Grey'}
+R:	 {'P31': 'main characters of  of Grey'}
+
+Q:	 Who are the main two actors from the movie Titanic?
+E:	 {'Q44578': 'Main two actors from the movie titanic', 'Q33999': 'actor', 'Q11424': 'film', 'Q25173': 'RMS Titanic'}
+R:	 {}
+
+Q:	 Who are the members of The Black Keys?
+E:	 {'Q606226': 'Members of the black keys', 'Q379825': 'element', 'Q38226507': 'Black'}
+R:	 {}
+
+Q:	 Who are the members of the Teenage Mutant Ninja Turtles?
+E:	 {'Q58439': 'Members of the teenage mutant ninja turtles', 'Q379825': 'element', 'Q1381762': 'Teenage Mutant Ninja Turtles'}
+R:	 {}
+
+Q:	 Who are the original broadcasters of the tv series Community?
+E:	 {'Q5154654': 'original broadcasters of the tv series community', 'Q5398426': 'television series', 'Q728553': 'Community'}
+R:	 {}
+
+Q:	 Who are the Russo brothers?
+E:	 {'Q703377': 'The russo', 'Q348775': 'Brothers', 'Q2853003': 'Russo brothers'}
+R:	 {'P1038': 'brothers'}
+
+Q:	 Who are the screenwriters for The Place Beyong The Pines?
+E:	 {'Q1754980': 'screenwriters for the place beyong the pines', 'Q28389': 'screenwriter', 'Q29468697': 'Place'}
+R:	 {}
+
+Q:	 Who are the screenwriters of Avatar: The Last Airbender?
+E:	 {'Q11572': 'Screenwriters of avatar: the last airbender', 'Q28389': 'screenwriter', 'Q24871': 'Avatar', 'Q11593': 'The Last Airbender'}
+R:	 {}
+
+Q:	 Who are the screenwriters of Venom?
+E:	 {'Q6256096': 'Screenwriters of venom', 'Q28389': 'screenwriter', 'Q23006268': 'Venom'}
+R:	 {}
+
+Q:	 Who are the screenwriters on Avengers: Endgame?
+E:	 {'Q332225': 'Screenwriters on avengers: endgame', 'Q1235448': 'Endgame', 'Q28389': 'screenwriter', 'Q182218': 'The Avengers'}
+R:	 {}
+
+Q:	 Who are the three main cast members in the Harry Potter film series?
+E:	 {'Q669100': 'main cast members in the harry potter film series', 'Q496098': 'casting', 'Q24856': 'film series'}
+R:	 {}
+
+Q:	 Who are the three main characters in the Harry Potter movies?
+E:	 {'Q208255': 'Main characters in the harry potter movies', 'Q32483': 'character', 'Q11424': 'film'}
+R:	 {}
+
+Q:	 Who are the three main characters of Harry Potter?
+E:	 {'Q8337': 'Harry Potter', 'Q82772': 'Main characters of', 'Q32483': 'character'}
+R:	 {'P31': 'main characters of'}
+
+Q:	 Who are the two main characters in Better Call Saul?
+E:	 {'Q9200': 'Main characters in better call saul', 'Q32483': 'character', 'Q14925221': 'Better Call Saul'}
+R:	 {}
+
+Q:	 Who came up with the idea of the Inception movie?
+E:	 {'Q131841': 'idea', 'Q25188': 'Inception'}
+R:	 {'P460': 'came'}
+
+Q:	 Who composed the music for Avatar?
+E:	 {'Q11572': 'Music for avatar', 'Q638': 'music', 'Q24871': 'Avatar'}
+R:	 {'P86': 'composed'}
+
+Q:	 Who composed the music for Dunkirk?
+E:	 {'Q3041350': 'Music for dunkirk', 'Q638': 'music', 'Q21935651': 'Dunkirk'}
+R:	 {'P86': 'composed'}
+
+Q:	 Who composed the music for Gone Girl?
+E:	 {'Q247182': 'Music for gone girl', 'Q638': 'music', 'Q14920425': 'Gone Girl'}
+R:	 {'P86': 'composed'}
+
+Q:	 Who composed the music for Inception
+E:	 {'Q25188': 'Inception', 'Q638': 'music'}
+R:	 {'P86': 'composed'}
+
+Q:	 Who composed the music for Lord of The Rings: The Fellowship of the Ring?
+E:	 {'Q15228': 'The Lord of the Rings', 'Q638': 'music', 'Q1404101': 'fellow', 'Q212804': 'The Ring', 'Q19866947': 'Rings', 'Q28457426': 'The'}
+R:	 {'P527': 'composed'}
+
+Q:	 Who composed the music for Slumdog Millionaire?
+E:	 {'Q125076': 'Slumdog Millionaire', 'Q39267': 'Music for', 'Q638': 'music'}
+R:	 {'P86': 'music for'}
+
+Q:	 Who composed the music for the 2001 film Amelie?
+E:	 {'Q108480': 'Music for the 2001 film amelie', 'Q638': 'music', 'Q11424': 'film', 'Q484048': 'Amélie'}
+R:	 {'P1344': 'composed'}
+
+Q:	 Who composed the music for the epic science fantasy space opera saga and media franchise 'Star Wars'?
+E:	 {'Q1650323': 'music for the epic science fantasy space opera saga', 'Q462': 'Star Wars', 'Q638': 'music', 'Q336': 'science', 'Q196600': 'media franchise'}
+R:	 {'P86': 'composed'}
+
+Q:	 Who composed the music for The Lord of the Rings: The Fellowship of the Ring?
+E:	 {'Q15228': 'The Lord of the Rings', 'Q638': 'music', 'Q1404101': 'fellow', 'Q212804': 'The Ring', 'Q19866947': 'Rings'}
+R:	 {'P527': 'composed'}
+
+Q:	 Who composed the music for the movie "Interstellar"?
+E:	 {'Q904154': 'Music for the movie interstellar', 'Q638': 'music', 'Q11424': 'film', 'Q13417189': 'Interstellar'}
+R:	 {'P86': 'composed'}
+
+Q:	 Who composed the music for the netflix original movie 'Polar'?
+E:	 {'Q58439': 'music for the netflix original movie polar', 'Q638': 'music', 'Q506240': 'television film', 'Q51955042': 'Polar'}
+R:	 {'P86': 'composed'}
+
+Q:	 Who composed the music for the original Twin Peaks series?
+E:	 {'Q2085': 'Twin peaks', 'Q1077': 'Music for the original  series', 'Q638': 'music', 'Q170198': 'series'}
+R:	 {'P86': 'music for the original  series'}
+
+Q:	 Who composed the music for the Star Wars Trilogy?
+E:	 {'Q462': 'Music for the star wars trilogy', 'Q638': 'music', 'Q7601170': 'Star Wars Trilogy'}
+R:	 {'P86': 'composed'}
+
+Q:	 Who composed the music for Unbreakable?
+E:	 {'Q650613': 'Unbreakable', 'Q638': 'music'}
+R:	 {'P86': 'composed'}
+
+Q:	 Who composed the music Pirates of the Caribbean?
+E:	 {'Q46717': 'Music pirates of the caribbean', 'Q638': 'music', 'Q194318': 'Pirates of the Caribbean', 'Q664609': 'Caribbean'}
+R:	 {'P86': 'composed'}
+
+Q:	 Who composed the soundtrack for the 2019 movie 'Polar'?
+E:	 {'Q1405677': 'Soundtrack for the 2019 movie polar', 'Q217199': 'soundtrack', 'Q11424': 'film', 'Q51955042': 'Polar'}
+R:	 {'P86': 'composed'}
+
+Q:	 Who composed the soundtrack for the movie 'Interstellar'?
+E:	 {'Q1405677': 'Soundtrack for the movie interstellar', 'Q217199': 'soundtrack', 'Q11424': 'film', 'Q13417189': 'Interstellar'}
+R:	 {'P86': 'composed'}
+
+Q:	 Who composed the soundtrack of the movie Cloud atlas
+E:	 {'Q28936': 'Cloud Atlas', 'Q302353': 'Soundtrack of the movie', 'Q217199': 'soundtrack'}
+R:	 {'P86': 'composed', 'P57': 'soundtrack of the movie'}
+
+Q:	 Who created Star Wars?
+E:	 {'Q462': 'Star Wars'}
+R:	 {'P170': 'created'}
+
+Q:	 Who created Star Wars?
+E:	 {'Q462': 'Star Wars'}
+R:	 {'P170': 'created'}
+
+Q:	 Who created Star Wars?
+E:	 {'Q462': 'Star Wars'}
+R:	 {'P170': 'created'}
+
+Q:	 Who created the music for Interstellar?
+E:	 {'Q817157': 'Music for interstellar', 'Q638': 'music', 'Q13417189': 'Interstellar'}
+R:	 {'P527': 'created'}
+
+Q:	 Who created the Star Trek franchise?
+E:	 {'Q1077': 'Star trek franchise', 'Q196600': 'media franchise'}
+R:	 {'P170': 'created'}
+
+Q:	 Who did Arnold Schwarzenegger replace as the governor of California in 2003?
+E:	 {'Q2685': 'Arnold Schwarzenegger', 'Q1062953': 'California in 2003', 'Q7314018': 'replace', 'Q887010': 'Governor of California', 'Q99': 'California'}
+R:	 {'P19': 'replace', 'P6': 'governor'}
+
+Q:	 Who did Leonardo DiCaprio play in The WOlf of Wall Street?
+E:	 {'Q532036': 'Leonardo dicaprio', 'Q1392744': 'The Wolf of Wall Street', 'Q38111': 'Leonardo DiCaprio', 'Q11690': 'Wall Street'}
+R:	 {'P54': 'play'}
+
+Q:	 Who did Rupert Grint play in the movie Harry Potter and the Philosopher's Stone?
+E:	 {'Q19190': 'Rupert Grint', 'Q216930': 'Harry potter', 'Q182254': 'The Movie', 'Q102438': 'Philosophers stone', 'Q11424': 'film', 'Q8337': 'Harry Potter', 'Q483042': '9K720 Iskander', 'Q4964182': 'philosopher'}
+R:	 {'P473': 'play', 'P57': 'movie'}
+
+Q:	 Who directed A Star Is Born?
+E:	 {'Q28173261': 'The Star'}
+R:	 {'P57': 'directed', 'P2556': 'Born', 'P397': 'Star'}
+
+Q:	 Who directed Bionicle: Mask of Light?
+E:	 {'Q803917': 'Bionicle', 'Q40555': ': mask of light', 'Q219421': 'The Mask', 'Q22080511': 'Light'}
+R:	 {'P57': 'directed', 'P31': ': Mask of Light'}
+
+Q:	 Who directed Bridge of Spies?
+E:	 {'Q18067135': 'Bridge of Spies', 'Q7577129': 'Spies'}
+R:	 {'P57': 'directed'}
+
+Q:	 Who directed "Event Horizon" (1997)?
+E:	 {'Q497320': 'Event horizon (1997)', 'Q849162': 'Event Horizon'}
+R:	 {'P57': 'directed'}
+
+Q:	 Who directed Fight Club?
+E:	 {'Q190050': 'Fight Club'}
+R:	 {'P57': 'directed'}
+
+Q:	 Who directed Hellboy?
+E:	 {'Q461540': 'Hellboy', 'Q30895665': 'Hellboy'}
+R:	 {'P57': 'directed'}
+
+Q:	 Who directed In a World...?
+E:	 {'Q174683': 'A World', 'Q16502': 'world'}
+R:	 {'P57': 'directed'}
+
+Q:	 Who directed Inception?
+E:	 {'Q25188': 'Inception'}
+R:	 {'P57': 'directed', 'P571': 'Inception'}
+
+Q:	 Who directed Independence Day
+E:	 {'Q56106': 'Independence day', 'Q105387': 'Independence Day'}
+R:	 {'P57': 'directed'}
+
+Q:	 Who directed James Bond: Skyfall?
+E:	 {'Q844': 'James Bond', 'Q4941': 'Skyfall'}
+R:	 {'P57': 'directed'}
+
+Q:	 Who directed Kung Fu Panda 2?
+E:	 {'Q487447': 'Kung fu panda 2', 'Q1247186': 'Kung Fu', 'Q23936885': 'Panda'}
+R:	 {'P57': 'directed'}
+
+Q:	 Who directed "Life is Beautiful"?
+E:	 {'Q1534737': 'Life', 'Q563074': 'Beautiful', 'Q244615': "Conway's Game of Life"}
+R:	 {'P57': 'directed'}
+
+Q:	 Who directed Lord of The Rings?
+E:	 {'Q127367': 'Lord of the rings', 'Q15228': 'The Lord of the Rings', 'Q7760817': 'The Rings'}
+R:	 {'P57': 'directed'}
+
+Q:	 Who directed Minari?
+E:	 {'Q3640090': 'Minari', 'Q65679599': 'Minari'}
+R:	 {'P57': 'directed'}
+
+Q:	 Who directed Once Upon a Time in Hollywood?
+E:	 {'Q5882561': 'Hollywood', 'Q43297': 'Time', 'Q34006': 'Hollywood'}
+R:	 {'P57': 'directed', 'P571': 'Time'}
+
+Q:	 Who directed Parasite?
+E:	 {'Q750367': 'Parasite', 'Q61448040': 'Parasite'}
+R:	 {'P57': 'directed'}
+
+Q:	 Who directed photography for Gravity?
+E:	 {'Q1003197': 'Photography for gravity', 'Q11633': 'photography', 'Q2579784': 'Gravity'}
+R:	 {'P57': 'directed'}
+
+Q:	 Who directed Pulp Fiction?
+E:	 {'Q104123': 'Pulp Fiction'}
+R:	 {'P57': 'directed'}
+
+Q:	 Who directed Pulp Fiction?
+E:	 {'Q104123': 'Pulp Fiction'}
+R:	 {'P57': 'directed'}
+
+Q:	 Who directed Pulp Fiction?
+E:	 {'Q104123': 'Pulp Fiction'}
+R:	 {'P57': 'directed'}
+
+Q:	 Who directed Sicko (2007)
+E:	 {'Q382882': 'Sicko'}
+R:	 {'P57': 'directed'}
+
+Q:	 Who directed Tenet?
+E:	 {'Q641184': 'Tenet', 'Q63985561': 'Tenet'}
+R:	 {'P57': 'directed'}
+
+Q:	 Who directed the 1990 movie Tremors?
+E:	 {'Q58439': '1990 movie tremors', 'Q11424': 'film', 'Q835650': 'Tremors'}
+R:	 {'P57': 'directed'}
+
+Q:	 Who directed the 2018 biographical film about Queen?
+E:	 {'Q72325': '2018 biographical film about queen', 'Q645928': 'biographical film', 'Q9682': 'Elizabeth II'}
+R:	 {'P57': 'directed'}
+
+Q:	 Who directed The Big Lebowski?
+E:	 {'Q337078': 'The Big Lebowski'}
+R:	 {'P57': 'directed'}
+
+Q:	 Who directed The Dark Knight?
+E:	 {'Q163872': 'The Dark Knight'}
+R:	 {'P57': 'directed'}
+
+Q:	 Who directed the film "Titanic"?
+E:	 {'Q4466': 'Film titanic', 'Q11424': 'film'}
+R:	 {'P57': 'directed'}
+
+Q:	 Who directed the first Shrek movie?
+E:	 {'Q483815': 'Shrek', 'Q182254': 'Movie'}
+R:	 {'P57': 'movie'}
+
+Q:	 Who directed the movie 8 1/2?
+E:	 {'Q12018': 'Movie 8 1/2', 'Q11424': 'film'}
+R:	 {'P57': 'directed'}
+
+Q:	 Who directed the movie Fight Club?
+E:	 {'Q190050': 'Fight Club', 'Q11424': 'film'}
+R:	 {'P57': 'directed'}
+
+Q:	 Who directed the movie Goodfellas?
+E:	 {'Q42047': 'Goodfellas', 'Q11424': 'film'}
+R:	 {'P57': 'directed'}
+
+Q:	 Who directed the movie "How To Train Your Dragon"?
+E:	 {'Q182254': 'The Movie', 'Q213138': 'Dragon', 'Q11424': 'film', 'Q1148444': 'blunderbuss'}
+R:	 {'P57': 'directed', 'P1552': 'Train'}
+
+Q:	 Who directed the movie "Need for Speed"?
+E:	 {'Q793541': 'movie need for speed', 'Q6986471': 'Need', 'Q11424': 'film', 'Q108006': 'Speed'}
+R:	 {'P57': 'directed'}
+
+Q:	 Who directed the movie "Pulp fiction"?
+E:	 {'Q104123': 'Pulp Fiction', 'Q11424': 'film'}
+R:	 {'P57': 'directed'}
+
+Q:	 Who directed the movie 'Shindler's list'?
+E:	 {'Q157394': 'movie shindlers', 'Q11424': 'film', 'Q27948': 'list', 'Q7497309': 'Shindler'}
+R:	 {'P57': 'directed', 'P2354': 'list'}
+
+Q:	 Who directed the movie that won the "Best Actress" award at 91st Acadeny Awards in 2018?
+E:	 {'Q182254': 'The Movie', 'Q24241': 'Best actress award at 91st acadeny awards in 2018', 'Q11424': 'film', 'Q618779': 'award', 'Q7399819': 'Sai Tamhankar', 'Q9816': 'Best', 'Q2988681': 'achievement'}
+R:	 {'P57': 'directed', 'P31': 'won'}
+
+Q:	 Who directed the movie "The Godfather"?
+E:	 {'Q633': 'Movie the godfather', 'Q11424': 'film', 'Q47703': 'The Godfather'}
+R:	 {'P1969': 'directed'}
+
+Q:	 Who directed the movie "The Lion King"?
+E:	 {'Q36479': 'Movie the lion king', 'Q11424': 'film', 'Q2901452': 'The Lion King'}
+R:	 {'P57': 'directed'}
+
+Q:	 Who directed the movie "Zootopia"?
+E:	 {'Q296178': 'Zootopia', 'Q182254': 'movie', 'Q11424': 'film', 'Q15270647': 'Zootopia'}
+R:	 {'P57': 'movie'}
+
+Q:	 Who directed The Prestige
+E:	 {'Q46551': 'The Prestige'}
+R:	 {'P57': 'directed'}
+
+Q:	 Who directed The Room?
+E:	 {'Q2168746': 'The Room', 'Q533383': 'The Room'}
+R:	 {'P57': 'directed'}
+
+Q:	 Who directed The Room?
+E:	 {'Q2168746': 'The Room', 'Q533383': 'The Room'}
+R:	 {'P57': 'directed'}
+
+Q:	 Who directed The Shawshank Redemption?
+E:	 {'Q172241': 'The Shawshank Redemption'}
+R:	 {'P57': 'directed'}
+
+Q:	 Who directed The Shining?
+E:	 {'Q1811161': 'The Shining', 'Q186341': 'The Shining'}
+R:	 {'P57': 'directed'}
+
+Q:	 Who directed The Sound of Music?
+E:	 {'Q60072': 'The Sound of Music', 'Q155358': 'Music'}
+R:	 {'P57': 'directed'}
+
+Q:	 Who directed the Titanic?
+E:	 {'Q4466': 'The titanic', 'Q25173': 'RMS Titanic'}
+R:	 {'P57': 'directed'}
+
+Q:	 Who directed The Titanic?
+E:	 {'Q4466': 'The Titanic', 'Q25173': 'RMS Titanic'}
+R:	 {'P57': 'directed'}
+
+Q:	 Who directed Whiplash?
+E:	 {'Q15648198': 'Whiplash'}
+R:	 {'P57': 'directed'}
+
+Q:	 Who edited Star Wars: Episode IV - A New Hope?
+E:	 {'Q153586': 'Iv', 'Q6074': 'Star wars: episode iv -  new hope', 'Q8457': 'A', 'Q462': 'Star Wars', 'Q17738': 'Star Wars Episode IV: A New Hope'}
+R:	 {'P20': 'edited'}
+
+Q:	 Who founded LG Electronics?
+E:	 {'Q29729570': 'Lg', 'Q162345': 'LG Electronics'}
+R:	 {'P703': 'founded', 'P878': 'Electronics'}
+
+Q:	 Who founded the Walt Disney Animation Studios?
+E:	 {'Q1047410': 'Walt disney animation studios', 'Q732053': 'Animation'}
+R:	 {'P112': 'founded'}
+
+Q:	 Who framed Roger Rabbit in Who Framed Roger Rabbit?
+E:	 {'Q2265878': 'Roger Rabbit', 'Q362054': 'In who framed', 'Q85688': 'Roger rabbit in who framed roger rabbit', 'Q379873': 'Who Framed Roger Rabbit'}
+R:	 {'P915': 'framed', 'P19': 'Roger Rabbit in Who'}
+
+Q:	 Who has a higher net worth, Jim Carrey or Martin Lawrence?
+E:	 {'Q40504': 'Jim Carrey', 'Q86457': 'Higher net worth,  or martin lawrence', 'Q183542': 'Martin Lawrence', 'Q1933764': 'net worth'}
+R:	 {'P21': 'higher net worth, Jim Carrey or'}
+
+Q:	  Who has played Spider-Man?
+E:	 {'Q59826': 'Spider-man', 'Q79037': 'Spider-Man'}
+R:	 {'P175': 'played'}
+
+Q:	 Who have played Batman?
+E:	 {'Q41421': 'Batman', 'Q2695156': 'Batman'}
+R:	 {'P54': 'played'}
+
+Q:	 Who holds the record of most awards won?
+E:	 {'Q178588': 'gramophone record', 'Q618779': 'award'}
+R:	 {'P39': 'holds', 'P40': 'won', 'P2415': 'record', 'P166': 'awards'}
+
+Q:	 Who is an enemy of Bilbo Baggins?
+E:	 {'Q185737': 'Bilbo Baggins', 'Q163989': 'Enemy of', 'Q289891': 'enemy'}
+R:	 {'P22': 'enemy of'}
+
+Q:	 Who is/are the producer(s) of the movie Shutter Island?
+E:	 {'Q210364': 'Shutter Island', 'Q11424': 'film'}
+R:	 {}
+
+Q:	 Who is Ariel voiced by in The Little Mermaid?
+E:	 {'Q3343': 'Ariel', 'Q190135': 'The Little Mermaid', 'Q892442': 'Ariel'}
+R:	 {'P61': 'voiced'}
+
+Q:	 Who is Batman?
+E:	 {'Q41421': 'Batman', 'Q2695156': 'Batman'}
+R:	 {}
+
+Q:	 Who is Elizabeth Keen's father?
+E:	 {'Q186304': 'Elizabeth keens', 'Q7565': 'father', 'Q966588': 'Miss Elizabeth'}
+R:	 {'P22': 'father'}
+
+Q:	 Who is Hans Zimmer?
+E:	 {'Q1344628': 'Hans zimmer', 'Q76364': 'Hans Zimmer'}
+R:	 {}
+
+Q:	 Who is in the cast of the movie 'Bad Trip'?
+E:	 {'Q622106': 'Cast of the movie bad trip', 'Q496098': 'casting', 'Q11424': 'film', 'Q63248374': 'Bad Trip'}
+R:	 {}
+
+Q:	 Who is Josey Matas famous nephew?
+E:	 {'Q722252': 'Josey matas', 'Q1812923': 'Nephew', 'Q6786143': 'Matas'}
+R:	 {'P1038': 'famous nephew'}
+
+Q:	 Who is Jules Winnfield?
+E:	 {'Q16585660': 'Jules winnfield', 'Q448961': 'Julian Edelman'}
+R:	 {}
+
+Q:	 Who is Julia Robert's husband?
+E:	 {'Q40523': 'Julia roberts', 'Q212878': 'husband', 'Q2613697': 'Julia'}
+R:	 {'P26': 'husband'}
+
+Q:	 Who is Lars von Trier?
+E:	 {'Q133730': 'Lars von Trier'}
+R:	 {}
+
+Q:	 Who is married to Shrek?
+E:	 {'Q52401': 'Shrek', 'Q483815': 'Shrek'}
+R:	 {'P26': 'married'}
+
+Q:	 Who is playing Dr. Stephen Strange in the Doctor Strange?
+E:	 {'Q212665': 'Stephen strange', 'Q748563': 'Dr  in the doctor strange', 'Q60849': 'Stephen of England', 'Q18406872': 'Doctor Strange'}
+R:	 {'P1352': 'playing', 'P361': 'Dr  in the Doctor Strange'}
+
+Q:	 Who is said to be the same as Ash Ketchum?
+E:	 {'Q1519069': 'Ash ketchum', 'Q308950': 'Ash Ketchum'}
+R:	 {'P1225': 'said'}
+
+Q:	 Who is the actor commonly associated in movie coluture with the "Voice of God"?
+E:	 {'Q1405677': 'movie coluture with the voice of god', 'Q33999': 'actor', 'Q11424': 'film', 'Q27949148': 'Voice', 'Q190': 'God'}
+R:	 {'P1629': 'associated'}
+
+Q:	 Who is the actor of Chandler Bing in Friends?
+E:	 {'Q49272': 'Chandler bing', 'Q79784': 'Friends', 'Q33999': 'actor', 'Q745284': 'Chandler Bing'}
+R:	 {'P161': 'actor', 'P131': 'in Friends'}
+
+Q:	 Who is the actor of Roy Batty?
+E:	 {'Q349118': 'Roy batty', 'Q33999': 'actor', 'Q7372496': 'Roy'}
+R:	 {'P161': 'actor'}
+
+Q:	 Who is the actor of Wanda in WandaVision?
+E:	 {'Q381528': 'Wanda', 'Q33999': 'actor', 'Q65980217': 'WandaVision'}
+R:	 {'P161': 'actor'}
+
+Q:	 Who is the actor playing Barney in the How I Met Your Mother series?
+E:	 {'Q386297': 'Barney', 'Q1780267': 'Mother', 'Q33999': 'actor', 'Q213588': 'Barney & Friends'}
+R:	 {'P1352': 'playing', 'P527': 'Met', 'P161': 'actor'}
+
+Q:	 Who is the actor that plays Bilbo Baggings in the Hobbit movies?
+E:	 {'Q185737': 'Bilbo baggings', 'Q74229': 'In the hobbit movies', 'Q33999': 'actor', 'Q776671': 'Bilbo', 'Q11424': 'film'}
+R:	 {'P54': 'plays', 'P725': 'actor', 'P57': 'in the Hobbit movies'}
+
+Q:	 Who is the captian of England's national football team?
+E:	 {'Q43310': 'Captian of englands national football team', 'Q6979593': 'national association football team', 'Q21': 'England'}
+R:	 {}
+
+Q:	 Who is the CEO of Netflix?
+E:	 {'Q484876': 'chief executive officer', 'Q907311': 'Netflix'}
+R:	 {'P169': 'CEO', 'P1874': 'Netflix'}
+
+Q:	 Who is the composer of Iron Man?
+E:	 {'Q268679': 'Iron man', 'Q36834': 'composer', 'Q192724': 'Iron Man'}
+R:	 {'P86': 'composer'}
+
+Q:	 Who is the composer of Lord of The Rings?
+E:	 {'Q905691': 'Lord of the rings', 'Q36834': 'composer', 'Q15228': 'The Lord of the Rings', 'Q7760817': 'The Rings'}
+R:	 {'P86': 'composer'}
+
+Q:	 Who is the composer of Pirates of the Caribbean?
+E:	 {'Q194318': 'Pirates of the Caribbean', 'Q36834': 'composer', 'Q664609': 'Caribbean'}
+R:	 {'P86': 'composer'}
+
+Q:	 Who is the composer of Star Trek III: The Search for Spock?
+E:	 {'Q201': 'Iii:', 'Q1077': 'star trek  the search for spock', 'Q36834': 'composer', 'Q65068728': 'Star Trek III', 'Q16320113': 'The Search', 'Q16341': 'Spock'}
+R:	 {'P86': 'composer'}
+
+Q:	 Who is the composer of the movie Django Unchained?
+E:	 {'Q241811': 'Movie django unchained', 'Q36834': 'composer', 'Q11424': 'film', 'Q571032': 'Django Unchained'}
+R:	 {'P86': 'composer'}
+
+Q:	 Who is the costume designer of the movie "Shrek"?
+E:	 {'Q483815': 'Shrek', 'Q1323191': 'costume designer', 'Q11424': 'film'}
+R:	 {'P2515': 'costume designer'}
+
+Q:	 Who is the creator of the Avengers?
+E:	 {'Q3985737': 'The avengers', 'Q635155': 'creator deity', 'Q182218': 'The Avengers'}
+R:	 {'P364': 'creator'}
+
+Q:	 Who is the creator of the film character Darth Vader?
+E:	 {'Q51752': 'Darth vader', 'Q23404': 'film character', 'Q635155': 'creator deity', 'Q11424': 'film', 'Q12206942': 'Darth Vader'}
+R:	 {'P170': 'creator', 'P674': 'film character'}
+
+Q:	 Who is the creator of the TV series "Succession"?
+E:	 {'Q409611': 'tv', 'Q786555': 'Succession', 'Q635155': 'creator deity', 'Q5398426': 'television series', 'Q30599007': 'Succession'}
+R:	 {'P527': 'creator', 'P179': 'series'}
+
+Q:	 Who is the creator of the TV-series the Mandalorian?
+E:	 {'Q575373': 'Tv-series the mandalorian', 'Q635155': 'creator deity', 'Q5398426': 'television series', 'Q56876444': 'The Mandalorian'}
+R:	 {'P170': 'creator'}
+
+Q:	 Who is the director of Anubis en de Wraak van Arghus?
+E:	 {'Q2401023': 'Anubis en de wraak van arghus', 'Q2526255': 'film director', 'Q47534': 'Anubis', 'Q686': 'Vanuatu'}
+R:	 {'P57': 'director'}
+
+Q:	 Who is the director of Avatar?
+E:	 {'Q3630994': 'Avatar', 'Q2526255': 'film director', 'Q24871': 'Avatar'}
+R:	 {'P57': 'director'}
+
+Q:	 Who is the director of Coherence?
+E:	 {'Q17150929': 'Coherence', 'Q2526255': 'film director'}
+R:	 {'P57': 'director'}
+
+Q:	 Who is the director of Coherence?
+E:	 {'Q17150929': 'Coherence', 'Q2526255': 'film director'}
+R:	 {'P57': 'director'}
+
+Q:	 Who is the director of Detective Conan: The Private Eyes' Requiem?
+E:	 {'Q218516': 'detective conan: the private eyes requiem', 'Q2526255': 'film director', 'Q185143': 'Detective Conan', 'Q1356210': 'Requiem', 'Q24586565': 'Private Eyes'}
+R:	 {'P57': 'director'}
+
+Q:	 Who is the director of Doctor Strange in the Multiverse of Madness?
+E:	 {'Q1075990': 'Doctor strange in the multiverse of madness', 'Q2526255': 'film director', 'Q18406872': 'Doctor Strange', 'Q20714890': 'Multiverse', 'Q745741': 'Madness'}
+R:	 {'P57': 'director'}
+
+Q:	 Who is the director of Fury?
+E:	 {'Q626851': 'Fury', 'Q2526255': 'film director', 'Q14786561': 'Fury'}
+R:	 {'P57': 'director'}
+
+Q:	 Who is the director of Harry Potter?
+E:	 {'Q216930': 'Harry potter', 'Q2526255': 'film director', 'Q8337': 'Harry Potter'}
+R:	 {'P57': 'director'}
+
+Q:	 Who is the director of Love Actually?
+E:	 {'Q190588': 'Love actually', 'Q2526255': 'film director', 'Q19829024': 'Love'}
+R:	 {'P57': 'director'}
+
+Q:	 Who is the director of Pulp Fiction?
+E:	 {'Q104123': 'Pulp Fiction', 'Q2526255': 'film director'}
+R:	 {'P57': 'director'}
+
+Q:	 Who is the director of Pulp Fiction and Inglourious Basterds?
+E:	 {'Q104123': 'Pulp Fiction', 'Q153723': 'Inglourious Basterds', 'Q2526255': 'film director'}
+R:	 {'P57': 'director'}
+
+Q:	 Who is the director of Reservoir Dogs?
+E:	 {'Q72962': 'Reservoir Dogs', 'Q2526255': 'film director'}
+R:	 {'P57': 'director'}
+
+Q:	 Who is the director of the film Avatar?
+E:	 {'Q11572': 'Film avatar', 'Q2526255': 'film director', 'Q11424': 'film', 'Q24871': 'Avatar'}
+R:	 {'P57': 'director'}
+
+Q:	 Who is the director of The Hangover?
+E:	 {'Q219315': 'The Hangover', 'Q2526255': 'film director'}
+R:	 {'P57': 'director'}
+
+Q:	 Who is the director of the movie Fight Club?
+E:	 {'Q190050': 'Fight Club', 'Q2526255': 'film director', 'Q11424': 'film'}
+R:	 {'P57': 'director'}
+
+Q:	 Who is the director of the movie Forrest Gump?
+E:	 {'Q134773': 'Forrest Gump', 'Q182254': 'The Movie', 'Q2526255': 'film director', 'Q11424': 'film'}
+R:	 {'P57': 'movie'}
+
+Q:	 Who is the director of the movie Interstellar?
+E:	 {'Q487263': 'Movie interstellar', 'Q2526255': 'film director', 'Q11424': 'film', 'Q13417189': 'Interstellar'}
+R:	 {'P57': 'director'}
+
+Q:	 Who is the director of the movie "Midsommar"?
+E:	 {'Q2656723': 'Midsommar', 'Q182254': 'movie', 'Q2526255': 'film director', 'Q11424': 'film', 'Q55907451': 'Midsommar'}
+R:	 {'P57': 'movie'}
+
+Q:	 Who is the director of the movie Midsommar?
+E:	 {'Q2656723': 'Midsommar', 'Q182254': 'movie', 'Q2526255': 'film director', 'Q11424': 'film', 'Q55907451': 'Midsommar'}
+R:	 {'P57': 'movie'}
+
+Q:	 Who is the director of the Titanic?
+E:	 {'Q4466': 'The titanic', 'Q2526255': 'film director', 'Q25173': 'RMS Titanic'}
+R:	 {'P57': 'director'}
+
+Q:	 Who is the director of Wolf of Wallstreet?
+E:	 {'Q388022': 'Wolf of wallstreet', 'Q2526255': 'film director', 'Q8029793': 'Wolf'}
+R:	 {'P57': 'director'}
+
+Q:	 Who is the editor of The Half of It?
+E:	 {'Q845944': 'The Half', 'Q131212': 'text editor', 'Q28144': 'Willem Kalf'}
+R:	 {'P747': 'editor'}
+
+Q:	 Who is the executive producer of the series "Peaky Blinders"?
+E:	 {'Q213342': 'series peaky blinders', 'Q1053574': 'executive producer', 'Q170198': 'series', 'Q14944179': 'Peaky Blinders'}
+R:	 {'P176': 'executive producer'}
+
+Q:	 Who is the father of Luke Skywalker?
+E:	 {'Q51746': 'Luke Skywalker', 'Q7565': 'father'}
+R:	 {'P22': 'father'}
+
+Q:	 Who is the father of Simba?
+E:	 {'Q1649583': 'Simba', 'Q7565': 'father'}
+R:	 {'P22': 'father'}
+
+Q:	 Who is the film producer of the first 3D movie?
+E:	 {'Q685692': '3d', 'Q11424': 'Movie', 'Q3282637': 'film producer', 'Q4636298': '3D Movie'}
+R:	 {'P162': 'film producer'}
+
+Q:	 Who is the first actor to play James Bond?
+E:	 {'Q18377890': 'James bond', 'Q33999': 'actor', 'Q844': 'James Bond'}
+R:	 {'P54': 'play', 'P161': 'actor'}
+
+Q:	 Who is the first african american woman to ever win an Oscar?
+E:	 {'Q622086': 'African american woman', 'Q9941': 'O', 'Q30000528': 'American Woman'}
+R:	 {'P361': 'win'}
+
+Q:	 Who is the founder and creator of Star Wars?
+E:	 {'Q462': 'Star Wars', 'Q26950764': 'organizational founder', 'Q635155': 'creator deity'}
+R:	 {'P112': 'founder', 'P170': 'creator'}
+
+Q:	 Who is the founder of the Star Wars franchise?
+E:	 {'Q211031': 'Star wars franchise', 'Q26950764': 'organizational founder', 'Q196600': 'media franchise'}
+R:	 {'P571': 'founder'}
+
+Q:	 Who is the head coach of FC Groningen?
+E:	 {'Q644943': 'Fc', 'Q749': 'Groningen', 'Q3246315': 'head coach', 'Q24711': 'FC Groningen'}
+R:	 {'P6': 'head coach'}
+
+Q:	 Who is the lead actor of Inception?
+E:	 {'Q2681005': 'Lead actor of inception', 'Q33999': 'actor', 'Q25188': 'Inception'}
+R:	 {}
+
+Q:	  Who is the main actor in "Vanilla Sky"?
+E:	 {'Q110278': 'Vanilla Sky', 'Q33999': 'actor'}
+R:	 {}
+
+Q:	 Who is the main actor of the movie Forrest Gump?
+E:	 {'Q134773': 'Forrest Gump', 'Q33999': 'actor', 'Q11424': 'film'}
+R:	 {'P57': 'main actor of the movie'}
+
+Q:	 Who is the main character from Mad Max?
+E:	 {'Q248775': 'Mad Max', 'Q16375': 'Main character from', 'Q32483': 'character'}
+R:	 {'P495': 'main character from'}
+
+Q:	 Who is the main character in Hannah Montena?
+E:	 {'Q842949': 'Hannah montena', 'Q23404': 'Main character in', 'Q32483': 'character', 'Q2346367': 'Hannah'}
+R:	 {'P361': 'main character in'}
+
+Q:	 Who is the main character in the Davinci Code?
+E:	 {'Q215972': 'Main character in the davinci code', 'Q32483': 'character', 'Q614479': 'The Code'}
+R:	 {}
+
+Q:	  Who is the main player in the movie "The Hunger Games"(2012)?
+E:	 {'Q11678': 'main player in the movie the hunger games(2012)', 'Q5276395': 'gamer', 'Q11424': 'film', 'Q814334': 'The Hunger'}
+R:	 {}
+
+Q:	 Who is the mother of Leonardo DiCaprio?
+E:	 {'Q38111': 'Leonardo DiCaprio', 'Q7560': 'mother'}
+R:	 {'P25': 'mother'}
+
+Q:	 Who is the oldest producer of the "Dark Knight"?
+E:	 {'Q163872': 'The Dark Knight', 'Q3282637': 'film producer'}
+R:	 {}
+
+Q:	 Who is the original broadcaster of The Social Dilemma movie?
+E:	 {'Q506240': 'Original broadcaster of the social dilemma movie', 'Q11424': 'film'}
+R:	 {}
+
+Q:	 Who is the screenwriter of Fifty Shades of Grey?
+E:	 {'Q44174085': 'Shades of grey', 'Q28389': 'screenwriter', 'Q7460325': 'Shades of Grey', 'Q1147689': 'The Grey'}
+R:	 {'P58': 'screenwriter'}
+
+Q:	 Who is the screenwriter of the movie Just Mercy?
+E:	 {'Q1171313': 'Movie just mercy', 'Q28389': 'screenwriter', 'Q11424': 'film', 'Q27959538': 'Mercy'}
+R:	 {'P58': 'screenwriter'}
+
+Q:	 Who is the voice actor of Conan Edogawa?
+E:	 {'Q347412': 'Conan edogawa', 'Q622807': 'seiyū', 'Q844697': 'Shinichi Kudo'}
+R:	 {'P2604': 'voice actor'}
+
+Q:	 Who is the voice actor of Darth Vader in Star Wars?
+E:	 {'Q17738': 'Darth vader in star wars', 'Q622807': 'seiyū', 'Q12206942': 'Darth Vader', 'Q462': 'Star Wars'}
+R:	 {'P725': 'voice actor'}
+
+Q:	 Who is the voice of Shrek?
+E:	 {'Q52401': 'Voice of shrek', 'Q7390': 'human voice', 'Q483815': 'Shrek'}
+R:	 {}
+
+Q:	 Who is the writer of James Bond?
+E:	 {'Q2009573': 'James bond', 'Q28389': 'screenwriter', 'Q844': 'James Bond'}
+R:	 {'P571': 'writer'}
+
+Q:	 Who is the youngest film director of the World?
+E:	 {'Q2526255': 'film director', 'Q16502': 'world'}
+R:	 {}
+
+Q:	 Who is Tom Hanks currently married to?
+E:	 {'Q2263': 'Tom Hanks', 'Q8142': 'Currently'}
+R:	 {'P26': 'married', 'P489': 'currently'}
+
+Q:	 Who made the music for Inception?
+E:	 {'Q25188': 'Inception', 'Q638': 'music'}
+R:	 {}
+
+Q:	 Who made the Skyfall theme song?
+E:	 {'Q4941': 'skyfall theme song', 'Q1193470': 'theme music'}
+R:	 {}
+
+Q:	 Who narrated The Big Lebowski?
+E:	 {'Q337078': 'The Big Lebowski'}
+R:	 {'P2438': 'narrated'}
+
+Q:	 Who owns Pixar?
+E:	 {'Q316245': 'Pixar', 'Q127552': 'Pixar'}
+R:	 {'P150': 'owns'}
+
+Q:	 Who participated in the World cup 2018 final?
+E:	 {'Q170645': 'World cup 2018 final', 'Q19317': 'FIFA World Cup'}
+R:	 {'P1344': 'participated'}
+
+Q:	 Who performed the music on Interstallar?
+E:	 {'Q155358': 'Music on interstallar', 'Q638': 'music'}
+R:	 {'P175': 'performed'}
+
+Q:	 Who played a lead role in both Riverdale and the Suite Life of Zack and Cody?
+E:	 {'Q129941': 'Lead role in both riverdale', 'Q139891': 'Suite life of zack', 'Q902679': 'Cody', 'Q214339': 'role', 'Q23001951': 'Riverdale', 'Q244615': "Conway's Game of Life", 'Q16282832': 'Zack', 'Q916603': 'Cody'}
+R:	 {'P54': 'played'}
+
+Q:	 Who played Brian in "2 Fast 2 Furious?"
+E:	 {'Q804835': 'Brian', 'Q129055': 'In 2 fast 2 furious', 'Q15930574': 'Brian'}
+R:	 {'P54': 'played', 'P19': 'in 2 Fast 2 Furious'}
+
+Q:	 Who played Elliot Alderson in Mr. Robot?
+E:	 {'Q10652': 'Elliot alderson in mr robot', 'Q42653': 'In mr robot', 'Q8113084': 'Elliot', 'Q18844729': 'Mr. Robot'}
+R:	 {'P175': 'played', 'P19': 'Elliot Alderson in Mr'}
+
+Q:	 Who played Freddie Mercury in Bohemian Rhapsody?
+E:	 {'Q133634': 'Freddie mercury in bohemian rhapsody', 'Q15869': 'Freddie Mercury', 'Q187745': 'Bohemian Rhapsody'}
+R:	 {'P175': 'played'}
+
+Q:	 Who played Frodo Baggins in The Lord of the Rings movies?
+E:	 {'Q127367': 'Frodo baggins in the lord of the rings movies', 'Q177329': 'Frodo Baggins', 'Q2366336': 'seigneur', 'Q11424': 'film'}
+R:	 {'P710': 'played'}
+
+Q:	 Who played Hitler in Der Untergang?
+E:	 {'Q352': 'Adolf Hitler', 'Q152857': 'Downfall'}
+R:	 {'P737': 'played', 'P19': 'Hitler in'}
+
+Q:	 Who played in Inception?
+E:	 {'Q25188': 'Inception'}
+R:	 {'P710': 'played', 'P571': 'Inception'}
+
+Q:	 Who played in "John Wick" and was born in Stockholm?
+E:	 {'Q366710': 'John wick', 'Q1754': 'Stockholm', 'Q15732802': 'John Wick'}
+R:	 {'P54': 'played', 'P19': 'born'}
+
+Q:	 Who played Joker in The Dark Knight?
+E:	 {'Q163872': 'The Dark Knight', 'Q42759035': 'Joker'}
+R:	 {'P175': 'played'}
+
+Q:	 Who played Katniss Everdeen?
+E:	 {'Q2071301': 'Katniss Everdeen'}
+R:	 {'P710': 'played'}
+
+Q:	 Who played Katniss Everdeen?
+E:	 {'Q2071301': 'Katniss Everdeen'}
+R:	 {'P710': 'played'}
+
+Q:	 Who played Obi-Wan in the Star Wars prequel trilogy?
+E:	 {'Q51740': 'Obi-wan', 'Q17738': 'in the star wars prequel trilogy', 'Q300518': 'OBI', 'Q462': 'Star Wars', 'Q149010': 'trilogy'}
+R:	 {'P710': 'played', 'P156': 'in the Star Wars prequel trilogy'}
+
+Q:	 Who played Obi-Wan Kenobi in Star Wars?
+E:	 {'Q51740': 'Obi-Wan Kenobi', 'Q17738': 'In star wars', 'Q462': 'Star Wars'}
+R:	 {'P710': 'played', 'P155': 'in Star Wars'}
+
+Q:	 Who played Po in "Kung Fu Panda"?
+E:	 {'Q129193': 'Kung Fu Panda', 'Q979': 'polonium'}
+R:	 {'P175': 'played'}
+
+Q:	 Who played Ron Weasley in the Harry Potter movies?
+E:	 {'Q173998': 'Ron Weasley', 'Q161678': 'Ron weasley in the harry potter movies', 'Q11424': 'film'}
+R:	 {'P54': 'played', 'P57': 'Ron Weasley in the  movies'}
+
+Q:	 Who played the character Marty McFly in the Back to the Future trilogy?
+E:	 {'Q2338941': 'Marty McFly', 'Q95074': 'The Character', 'Q605806': 'Future trilogy', 'Q32483': 'character', 'Q28443716': 'Back', 'Q3445057': 'Future'}
+R:	 {'P175': 'played', 'P674': 'character'}
+
+Q:	 Who played the first James Bond?
+E:	 {'Q2009573': 'James bond', 'Q844': 'James Bond'}
+R:	 {'P175': 'played'}
+
+Q:	 Who played the lead role in the film 'The Truman Show'?
+E:	 {'Q11613': 'Lead role in the film the truman', 'Q214339': 'role', 'Q11424': 'film', 'Q214801': 'The Truman Show'}
+R:	 {'P710': 'played'}
+
+Q:	 Who played the main role of Arthur Fleck in the 2019 release of 'Joker'?
+E:	 {'Q217533': 'Joker', 'Q1765879': 'leading actor', 'Q24238946': 'liberation', 'Q42759035': 'Joker'}
+R:	 {'P175': 'played', 'P301': 'main role of  in the 2019 release of Joker'}
+
+Q:	 Who played the role of Will Smith in The Fresh Prince of Bel-Air?
+E:	 {'Q40096': 'Will Smith', 'Q214339': 'role', 'Q815061': 'Bel-Air'}
+R:	 {'P710': 'played', 'P366': 'role'}
+
+Q:	 Who played the title character in 2008 film Iron Man?
+E:	 {'Q180704': 'Iron man', 'Q681092': 'Title character in 2008 film', 'Q3246821': 'title character', 'Q192724': 'Iron Man'}
+R:	 {'P175': 'played', 'P57': 'title character in 2008 film'}
+
+Q:	 Who played Wilm Hosenfeld in The Pianist?
+E:	 {'Q46874': 'Wilm hosenfeld in the pianist', 'Q57610': 'Wilm Hosenfeld', 'Q150804': 'The Pianist'}
+R:	 {'P641': 'played'}
+
+Q:	 Who plays Alan Garner in the movie The Hangover?
+E:	 {'Q449629': 'Alan garner', 'Q219315': 'The Hangover', 'Q384481': 'Alan Garner', 'Q11424': 'film'}
+R:	 {'P54': 'plays', 'P570': 'in the movie The Hangover'}
+
+Q:	 Who plays Dwight Schrute in The Office?
+E:	 {'Q25278': 'Dwight schrute', 'Q23829': 'In the office', 'Q4169030': 'Dwight Schrute', 'Q11255': 'Microsoft Office'}
+R:	 {'P54': 'plays', 'P19': 'in The Office'}
+
+Q:	 Who plays Forrest Gump?
+E:	 {'Q134773': 'Forrest Gump'}
+R:	 {'P453': 'plays'}
+
+Q:	 Who plays Frodo Baggings in The Lord of the Rings: the Two Towers?
+E:	 {'Q164963': 'Frodo baggings in the lord of the rings: the two towers', 'Q3809629': 'Stefan Medina', 'Q15228': 'The Lord of the Rings', 'Q19866947': 'Rings'}
+R:	 {'P453': 'plays'}
+
+Q:	 Who plays Harley Quinn in Suicide Squad and Birds of Prey?
+E:	 {'Q36195': 'Harley quinn', 'Q207063': 'In suicide squad', 'Q118689': 'Birds of prey', 'Q57899682': 'Harley Quinn', 'Q18604504': 'Suicide Squad', 'Q57177410': 'Birds of Prey', 'Q4047343': 'Prey'}
+R:	 {'P453': 'plays', 'P19': 'in Suicide Squad'}
+
+Q:	 Who plays John Wick?
+E:	 {'Q366710': 'John wick', 'Q15732802': 'John Wick'}
+R:	 {'P54': 'plays'}
+
+Q:	 Who plays Jordan Belfort in The Wolf of Wall Street?
+E:	 {'Q458716': 'Jordan belfort', 'Q11690': 'Wall Street', 'Q3183674': 'Jordan Belfort', 'Q1392744': 'The Wolf of Wall Street'}
+R:	 {'P54': 'plays', 'P131': 'in The Wolf of Wall Street'}
+
+Q:	 Who plays the leading actor in the movie Black Panther?
+E:	 {'Q35255': 'Movie black panther', 'Q1765879': 'leading actor', 'Q11424': 'film', 'Q23780734': 'Black Panther'}
+R:	 {'P453': 'plays', 'P244': 'leading', 'P161': 'actor'}
+
+Q:	 Who plays the main character in The Joker?
+E:	 {'Q215972': 'Main character in the joker', 'Q32483': 'character', 'Q42759035': 'Joker'}
+R:	 {'P453': 'plays'}
+
+Q:	 Who plays the role of Gimli in the 'The Lord of the Rings' film series?
+E:	 {'Q15228': 'lord of the rings film series', 'Q214339': 'role', 'Q206818': 'Gimli', 'Q2366336': 'seigneur', 'Q24856': 'film series', 'Q19866947': 'Rings'}
+R:	 {'P453': 'plays', 'P366': 'role', 'P136': 'Lord of the  film series'}
+
+Q:	 Who plays the role of Nikola Tesla in 'The Prestige'?
+E:	 {'Q9036': 'Nikola Tesla', 'Q214339': 'role', 'Q46551': 'The Prestige'}
+R:	 {'P453': 'plays', 'P737': 'role'}
+
+Q:	 Who plays the role of Tony Almeida in 24?
+E:	 {'Q1775253': 'Tony Almeida', 'Q23857': 'In 24', 'Q214339': 'role'}
+R:	 {'P54': 'plays', 'P366': 'role', 'P19': 'in 24'}
+
+Q:	 Who portrays Jean-Luc Picard?
+E:	 {'Q3264890': 'Luc Picard'}
+R:	 {}
+
+Q:	 Who presented the 65th British Academy Film Awards?
+E:	 {'Q222461': '65th british academy film awards', 'Q918710': '65th British Academy Film Awards'}
+R:	 {'P371': 'presented'}
+
+Q:	 Who presented the Oscars in 2012?
+E:	 {'Q19020': 'Academy Awards'}
+R:	 {'P1027': 'presented'}
+
+Q:	 Who produced Bowling for Columbine?
+E:	 {'Q30232600': 'Columbine', 'Q786125': 'Bowling', 'Q1112702': 'Columbine'}
+R:	 {'P162': 'produced', 'P2545': 'Bowling'}
+
+Q:	 Who produced Interstellar?
+E:	 {'Q13417189': 'Interstellar'}
+R:	 {'P162': 'produced'}
+
+Q:	 Who produced The Avengers movie
+E:	 {'Q11424': 'Avengers movie', 'Q182218': 'The Avengers'}
+R:	 {'P1056': 'produced'}
+
+Q:	 Who stars in The Man From Earth?
+E:	 {'Q3045809': 'Earth', 'Q1758439': 'Man', 'Q2': 'Earth'}
+R:	 {'P571': 'stars', 'P910': 'Man'}
+
+Q:	 Who voiced Ozai in Avatar: The Last Airbender?
+E:	 {'Q11572': 'ozai in avatar: the last airbender', 'Q24871': 'Avatar', 'Q11593': 'The Last Airbender'}
+R:	 {'P725': 'voiced'}
+
+Q:	 Who voiced Vanellope in Wreck-It Ralph?
+E:	 {'Q28891': 'Vanellope in wreck-it ralph', 'Q3570100': 'Wreck', 'Q1458168': 'Ralph Wiggum'}
+R:	 {'P725': 'voiced'}
+
+Q:	 Who voices Mr. Fox in Wes Anderson's Fantastic Mr. Fox?
+E:	 {'Q257169': 'Fox', 'Q1025': 'Mr  in wes andersons fantastic mr', 'Q6928681': 'Mr. Fox', 'Q465275': 'Fantastic Mr. Fox', 'Q223687': 'Wes Anderson'}
+R:	 {'P725': 'voices', 'P131': 'Mr  in Wes Andersons Fantastic Mr'}
+
+Q:	 Who voices Nala in the 2019 version of The Lion King?
+E:	 {'Q2365445': 'Nala', 'Q36479': 'In the 2019 version of the lion king', 'Q3331189': 'version, edition, or translation', 'Q2901452': 'The Lion King'}
+R:	 {'P725': 'voices', 'P407': 'in the 2019 version of The Lion King'}
+
+Q:	 Who voices the character Po in Kung Fu Panda?
+E:	 {'Q643': 'Po', 'Q129193': 'Kung Fu Panda', 'Q32483': 'character', 'Q979': 'polonium'}
+R:	 {'P725': 'voices', 'P19': 'character  in Kung Fu Panda'}
+
+Q:	 Who was a music composer in the movie "Interstellar"?
+E:	 {'Q1415090': 'music composer in the movie interstellar', 'Q638': 'music', 'Q11424': 'film', 'Q13417189': 'Interstellar'}
+R:	 {}
+
+Q:	  Who was awarded for the 'MTV Movie Award for Hest Villain' in 2018?
+E:	 {'Q43359': 'MTV', 'Q540977': 'Movie award for hest villain in 2018', 'Q29018078': 'Villain'}
+R:	 {'P166': 'awarded'}
+
+Q:	 Who was in charge of designing costumes for the film Joker?
+E:	 {'Q610105': 'Designing costumes for the film joker', 'Q1111': 'electric charge', 'Q11460': 'clothing', 'Q11424': 'film', 'Q42759035': 'Joker'}
+R:	 {'P1595': 'charge'}
+
+Q:	 Who was the actor playing Frank Martin in "The Transporter" in 2002?
+E:	 {'Q123910': 'Frank martin', 'Q373466': 'In the transporter in 2002', 'Q33999': 'actor', 'Q16196582': 'Frank Martin', 'Q819972': 'The Transporter'}
+R:	 {'P1352': 'playing', 'P3351': 'actor', 'P19': 'in The Transporter in 2002'}
+
+Q:	 Who was the best actor of 2020
+E:	 {'Q103916': 'Academy Award for Best Actor'}
+R:	 {}
+
+Q:	 Who was the composer for Pirates of the Caribbean: The Curse of the Black Pearl?
+E:	 {'Q46717': 'Pirates of the caribbean: the curse of the black pearl', 'Q36834': 'composer', 'Q194318': 'Pirates of the Caribbean', 'Q664609': 'Caribbean', 'Q5195244': 'Curse, Inc.', 'Q19964': 'Black Pearl'}
+R:	 {'P86': 'composer'}
+
+Q:	 Who was the composer of Inception?
+E:	 {'Q36834': 'composer', 'Q25188': 'Inception'}
+R:	 {'P86': 'composer', 'P571': 'Inception'}
+
+Q:	 Who was the composer of the music in Inception
+E:	 {'Q25188': 'Inception', 'Q36834': 'composer', 'Q638': 'music'}
+R:	 {'P86': 'composer'}
+
+Q:	 Who was the costume designer for the movie "Sully"?
+E:	 {'Q176808': 'Movie sully', 'Q1323191': 'costume designer', 'Q11424': 'film', 'Q21062112': 'Sully'}
+R:	 {'P2515': 'costume designer'}
+
+Q:	 Who was the director of Inception?
+E:	 {'Q2526255': 'film director', 'Q25188': 'Inception'}
+R:	 {'P57': 'director', 'P571': 'Inception'}
+
+Q:	 Who was the director of Interstellar?
+E:	 {'Q13417189': 'Interstellar', 'Q2526255': 'film director'}
+R:	 {'P57': 'director'}
+
+Q:	 Who was the director of Kimi no Na wa?
+E:	 {'Q870882': 'kimi no na', 'Q1223': 'Wa', 'Q2526255': 'film director', 'Q9025881': 'Qiao Renliang', 'Q658': 'sodium'}
+R:	 {'P57': 'director', 'P2618': 'wa'}
+
+Q:	 Who was the director of photogrpahy for Memento?
+E:	 {'Q190525': 'Memento', 'Q2526255': 'film director'}
+R:	 {'P57': 'director'}
+
+Q:	 Who was the director of Skyfall?
+E:	 {'Q4941': 'Skyfall', 'Q2526255': 'film director'}
+R:	 {'P57': 'director'}
+
+Q:	 Who was the director of the 2020 movie Tenet?
+E:	 {'Q487263': '2020 movie tenet', 'Q2526255': 'film director', 'Q63985561': 'Tenet'}
+R:	 {'P57': 'director'}
+
+Q:	 Who was the director of the film Avatar?
+E:	 {'Q11572': 'Film avatar', 'Q2526255': 'film director', 'Q11424': 'film', 'Q24871': 'Avatar'}
+R:	 {'P57': 'director'}
+
+Q:	 Who was the director of The Hobbit trilogy?
+E:	 {'Q74331': 'The Hobbit trilogy', 'Q2526255': 'film director'}
+R:	 {'P57': 'director'}
+
+Q:	 Who was the director of the Lord of the Rings trilogy?
+E:	 {'Q127367': 'Lord of the rings trilogy', 'Q2526255': 'film director', 'Q15228': 'The Lord of the Rings', 'Q19866947': 'Rings', 'Q149010': 'trilogy'}
+R:	 {'P57': 'director'}
+
+Q:	 Who was the director of the movie "Star Wars: Episode IV – A New Hope"?
+E:	 {'Q3152038': 'Iv', 'Q462': 'Star Wars', 'Q277547': 'A', 'Q2526255': 'film director', 'Q11424': 'film', 'Q202': '4', 'Q1182069': 'New Hope'}
+R:	 {'P57': 'director'}
+
+Q:	 Who was the first person to ever win an Oscar?
+E:	 {'Q5': 'Person', 'Q9941': 'O', 'Q5453510': 'First Person'}
+R:	 {'P361': 'win'}
+
+Q:	 Who was the first person to play James Bond?
+E:	 {'Q616402': 'Person', 'Q844': 'James Bond', 'Q5453510': 'First Person'}
+R:	 {'P54': 'play'}
+
+Q:	 Who was the lead actor in "Tenet"?
+E:	 {'Q201430': 'Lead actor in tenet', 'Q33999': 'actor', 'Q63985561': 'Tenet'}
+R:	 {}
+
+Q:	  Who was the performer in the movie "Interstellar"(2014)
+E:	 {'Q385447': 'movie interstellar(2014)', 'Q713200': 'performing artist', 'Q11424': 'film'}
+R:	 {'P175': 'performer'}
+
+Q:	 Who was the protagonist in "The Transporter" in 2002?
+E:	 {'Q215972': 'protagonist', 'Q819972': 'The Transporter'}
+R:	 {}
+
+Q:	 Who was the screenwriter for 2012?
+E:	 {'Q184605': '2012', 'Q28389': 'screenwriter'}
+R:	 {'P58': 'screenwriter'}
+
+Q:	 Who was the screenwriter for the movie "The Silence of the Lambs"?
+E:	 {'Q133654': 'The Silence of the Lambs', 'Q28389': 'screenwriter', 'Q11424': 'film'}
+R:	 {'P58': 'screenwriter'}
+
+Q:	 Who was the screenwriter of mission impossible Fallout?
+E:	 {'Q29261993': 'mission impossible fallout', 'Q28389': 'screenwriter', 'Q373069': 'evangelism', 'Q167835': 'Fallout'}
+R:	 {'P58': 'screenwriter'}
+
+Q:	 Who was the screenwriter of Rocky IV?
+E:	 {'Q182373': 'Iv', 'Q188652': 'Rocky', 'Q28389': 'screenwriter', 'Q387638': 'Rocky IV'}
+R:	 {'P58': 'screenwriter'}
+
+Q:	 Who was the screenwriter of the "Social Media"?
+E:	 {'Q202833': 'social media', 'Q28389': 'screenwriter'}
+R:	 {'P58': 'screenwriter'}
+
+Q:	 Who was the voice actor of E.T.?
+E:	 {'Q11621': 'E.T. the Extra-Terrestrial', 'Q622807': 'seiyū'}
+R:	 {'P725': 'voice actor'}
+
+Q:	 Who were the cast members of the movie Lighthouse?
+E:	 {'Q736940': 'Cast members of the movie lighthouse', 'Q379825': 'element', 'Q55402791': 'The Lighthouse'}
+R:	 {}
+
+Q:	 Who were the composers for Batman Begins?
+E:	 {'Q166262': 'Composers for batman begins', 'Q36834': 'composer', 'Q2695156': 'Batman'}
+R:	 {}
+
+Q:	 Who were the creators of one of the most popular TV shows of all times, 'Game of Thrones', often referred to by the fanbase as D and D?
+E:	 {'Q8075': 'tv', 'Q23572': 'Game of Thrones', 'Q773944': 'The Fanbase', 'Q635155': 'creator deity', 'Q15416': 'television program', 'Q11471': 'time', 'Q3990892': 'Thrones', 'Q336286': 'defender'}
+R:	 {'P511': 'referred', 'P170': 'creators', 'P1357': 'D'}
+
+Q:	 Who were the film editors of a "A New Hope" that were female?
+E:	 {'Q7042855': 'film editors', 'Q987154': 'New hope', 'Q11424': 'film', 'Q1182069': 'New Hope'}
+R:	 {'P2521': 'female'}
+
+Q:	 Who were the founders of Studio Ghibli?
+E:	 {'Q182950': 'Studio Ghibli', 'Q26950764': 'organizational founder'}
+R:	 {'P112': 'founders'}
+
+Q:	 Who were the screenwriters of Ocean's 11?
+E:	 {'Q6256096': 'Screenwriters of oceans 11', 'Q28389': 'screenwriter', 'Q1408498': 'Ocean Software'}
+R:	 {}
+
+Q:	 Who were the screenwriters of Team America: World Police?
+E:	 {'Q907640': 'Screenwriters of team america: world police', 'Q28389': 'screenwriter', 'Q1118392': 'Team America', 'Q178095': 'The Police'}
+R:	 {}
+
+Q:	 Who were the screenwriters of the James Bond movie Skyfall?
+E:	 {'Q844': 'James bond', 'Q4941': 'Skyfall', 'Q28389': 'screenwriter'}
+R:	 {'P57': 'screenwriters of the  movie Skyfall'}
+
+Q:	 Who were the two main actors of "Catch me if you can"?
+E:	 {'Q33999': 'actor'}
+R:	 {'P2888': 'Catch'}
+
+Q:	 Who won the 2011-12 Champions League?
+E:	 {'Q18756': 'UEFA Champions League'}
+R:	 {'P31': 'won'}
+
+Q:	 Who won the 91st Academy Award for Best Director?
+E:	 {'Q19020': 'Academy award', 'Q24137': '91st  for best director', 'Q4671334': 'Academy Award', 'Q1047422': 'Director'}
+R:	 {'P31': 'won', 'P57': '91st  for Best Director'}
+
+Q:	 Who won the Academy Award for Best Actor in 2020?
+E:	 {'Q41417': 'Academy award for best actor in 2020', 'Q4671334': 'Academy Award', 'Q103916': 'Academy Award for Best Actor'}
+R:	 {'P166': 'won'}
+
+Q:	 Who won the Academy Award for Best Actor in 2020?
+E:	 {'Q41417': 'Academy award for best actor in 2020', 'Q4671334': 'Academy Award', 'Q103916': 'Academy Award for Best Actor'}
+R:	 {'P166': 'won'}
+
+Q:	 Who won the Academy Award for Best Director in 2012?
+E:	 {'Q24137': 'Academy award for best director in 2012', 'Q4671334': 'Academy Award', 'Q1047422': 'Director'}
+R:	 {'P166': 'won'}
+
+Q:	 Who won the Academy Award for Best Film in 2020?
+E:	 {'Q102427': 'Academy award for best film in 2020', 'Q4671334': 'Academy Award', 'Q56474015': 'Jungleland'}
+R:	 {'P166': 'won'}
+
+Q:	 Who won the Academy Award for Best Supporting Actor in 1995?
+E:	 {'Q103916': 'Academy award for best supporting actor in 1995', 'Q4671334': 'Academy Award', 'Q1416106': 'supporting actor'}
+R:	 {'P166': 'won'}
+
+Q:	 Who won the Best Picture Award in 2020 Academy Awards?
+E:	 {'Q19020': 'Academy Awards', 'Q102427': 'Best picture award in 2020', 'Q9816': 'Best'}
+R:	 {'P31': 'won', 'P18': 'Best Picture Award in 2020'}
+
+Q:	 Who won the first Academy Award?
+E:	 {'Q4671334': 'Academy Award'}
+R:	 {'P31': 'won'}
+
+Q:	 Who won the most Academy Awards?
+E:	 {'Q5483199': 'Academy awards', 'Q19020': 'Academy Awards'}
+R:	 {'P31': 'won'}
+
+Q:	 Who won the oscar for Best Actress between 2012 - 2016
+E:	 {'Q19022': 'Oscar for best actress between 2012 - 2016', 'Q3442': 'Astronotus ocellatus', 'Q103618': 'Academy Award for Best Actress'}
+R:	 {'P31': 'won'}
+
+Q:	 Who won the Oscar for best actress in the 77th Academy Awards?
+E:	 {'Q426293': 'The oscar', 'Q24241': 'For best actress in the 77th academy awards', 'Q9941': 'O', 'Q103618': 'Academy Award for Best Actress', 'Q504962': '77th Academy Awards'}
+R:	 {'P31': 'won', 'P166': 'for best actress in the 77th Academy Awards'}
+
+Q:	 Who won the Oscar for Best Supporting Actor in 2013?
+E:	 {'Q103916': 'Oscar for best supporting actor in 2013', 'Q9941': 'O', 'Q1416106': 'supporting actor'}
+R:	 {'P166': 'won'}
+
+Q:	 Who wrote the books on which the Bourne Trilogy was based?
+E:	 {'Q2409957': 'The Books', 'Q868683': 'Bourne', 'Q571': 'book'}
+R:	 {'P1412': 'wrote', 'P144': 'based'}
+
+Q:	 Who wrote the book that the movie Turkish Delight is based on?
+E:	 {'Q79298': 'Book that the movie turkish delight', 'Q571': 'book', 'Q11424': 'film', 'Q166960': 'Turkish Delight'}
+R:	 {'P1412': 'wrote', 'P131': 'based'}
+
+Q:	 Who wrote the on which the Shawshank Redemption was based
+E:	 {'Q172241': 'The Shawshank Redemption'}
+R:	 {'P1412': 'wrote', 'P144': 'based'}
+
+Q:	 Who wrote the score for Lord of the Rings?
+E:	 {'Q15228': 'The Lord of the Rings', 'Q187947': 'partitur', 'Q19866947': 'Rings'}
+R:	 {'P1412': 'wrote'}
+
+Q:	 Who wrote the score for the movie Interstellar?
+E:	 {'Q540977': 'Score for the movie interstellar', 'Q187947': 'partitur', 'Q11424': 'film', 'Q13417189': 'Interstellar'}
+R:	 {'P1412': 'wrote'}
+
+Q:	 Who wrote the screenplay and played the main character for Rocky?
+E:	 {'Q103076': 'screenplay', 'Q3939827': 'Rocky', 'Q95074': 'Main character for', 'Q32483': 'character', 'Q188652': 'Rocky'}
+R:	 {'P1412': 'wrote', 'P54': 'played', 'P301': 'main character for'}
+
+Q:	 Who wrote Titanic?
+E:	 {'Q25173': 'RMS Titanic'}
+R:	 {'P1412': 'wrote'}
+
+Q:	 Why did Brangelina end?
+E:	 {'Q3351350': 'Brangelina'}
+R:	 {'P227': 'end'}
+
+Q:	 With whom did Christopher Nolan co-produce the 2020 film Tenet?
+E:	 {'Q25191': 'Christopher Nolan', 'Q113392': 'Co-produce the 2020 film tenet', 'Q63985561': 'Tenet'}
+R:	 {'P57': 'co-produce the 2020 film Tenet'}
+

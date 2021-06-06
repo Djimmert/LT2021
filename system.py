@@ -49,15 +49,6 @@ def call_entitylinker(q):
     return {'Q' + str(ent.get_id()): ent.get_label() for ent in doc._.linkedEntities}
 
 
-def check_keywords(q):
-    q = q.lower()
-    if 'church' in q:
-        relation = 'P140'
-    elif 'named' in q and 'after' in q:
-        relation = 'P138'
-
-
-
 def get_entities_properties(q):
     """
     Uses Spacy Entity Linker anc Falcon2.0 to identify the entities of Wikidata in q.
@@ -67,6 +58,42 @@ def get_entities_properties(q):
     """
     entities1, relations = call_falcon(q)
     return entities1 | call_entitylinker(q), relations
+
+
+def check_keywords(q):
+    q = q.lower()
+    if 'cult-like church' in q:
+        return 'P140'  # Religion
+    elif 'named' in q and 'after' in q:
+        return 'P138'  # Named after
+    elif 'film' and 'location' in q or 'where' and 'film' in q or 'film' and 'country' in q or 'film' and 'city' in q or 'film' and 'place' in q:
+        return 'P915'  # Filming location
+    elif 'can' and 'watch' in q:
+        return 'P750'
+    elif 'compan' and 'direct' in q or 'compan' and 'produce' in q:
+        return 'P272'
+    elif 'how long' in q:
+        return 'P2047'
+    elif 'cost' in q:
+        return 'P2130'
+    elif 'box office' in q:
+        return 'P2142'
+    elif 'tall' in q.split():
+        return 'P2142'
+    elif 'publicised' in q or 'released' in q or 'come out' in q:
+        return 'P577'  # Publication date
+    elif 'born' and 'country' in q or 'born' and 'city' in q or 'born' and 'place' in q:
+        return 'P19'  # Place of birth
+    elif 'when' and 'born' in q:
+        return 'P569'  # Date of birth
+    elif 'genre' in q:
+        return 'P136'  # Genre
+    elif 'main subject' in q:
+        return 'P921'  # Main subject
+    elif 'original language' in q or 'language' and 'spoken' in q:
+        return 'P364'  # Original language of film or TV show
+    elif 'cause' and 'death' in q:
+        return 'P509'
 
 
 def main():
@@ -83,12 +110,14 @@ def main():
         for row in reader:
             id, q = row[0], row[1]
             entities, relations = get_entities_properties(q)
+            if check_keywords(q):
+                relations = check_keywords(q)
             print('Q:\t', q)
             print('E:\t', entities)
             print('R:\t', relations)
             sys.stderr.write("\r" + "Answered question " + str(i) + " of " + str(total))
             sys.stderr.flush()
-            i+=1
+            i += 1
             print()
 
 if __name__ == "__main__":
