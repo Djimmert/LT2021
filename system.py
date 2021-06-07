@@ -93,6 +93,97 @@ def get_question_type(input_q):
         return question_type
 
 
+def get_entity_property(parse, question_type):
+    """
+    Determine and clean entity and property from question type and parse
+
+    :param parse: nlp parse of input question
+    :question type: abbreviation of question type (str)
+    """
+    
+    if question_type == "XofY":
+    
+        # Property: from AUX to ADP
+        if pos.count("ADP") == 1:
+            prop = lemmas[pos.index('AUX') + 1:pos.index('ADP')]
+            if len(prop) > 1:
+                if "the" in prop:  # strip 'the'
+                    prop.remove("the")
+                if "a" in prop:  # strip 'a'
+                    prop.remove("a")
+                if "an" in prop:  # strip 'an'
+                    prop.remove("an")
+    
+        # More than one adposition: 'of' is likely in property (e.g. 'cause of death')
+        # Filter these specific common cases out manually
+        else:
+            if "cause of death" in parse.text:
+                prop = ["cause of death"]
+            elif "city of birth" in parse.text:
+                prop = ["birth city"]
+            elif "date of birth" in parse.text:
+                prop = ["birth date"]
+            elif "country of origin" in parse.text:
+                prop = ["country of origin"]
+            elif "country of citizenship" in parse.text:
+                prop = ["country of citizenship"]
+    
+            # Perhaps there is an 'of' in the entity, such as in 'Lord of the Rings'
+            else:
+                prop = lemmas[pos.index('AUX') + 1:pos.index('PROPN')]
+                if len(prop) > 1:
+                    if "the" in prop:  # strip 'the'
+                        prop.remove("the")
+                    if "a" in prop:  # strip 'a'
+                        prop.remove("a")
+                    if "an" in prop:  # strip 'an'
+                        prop.remove("an")
+                    if "of" in prop:  # strip 'of'
+                        prop.remove("of")
+    
+        ent = sent.split(" ")[pos.index('ADP') + 1:]  # assuming it always ends with '?'
+    
+    elif question_type == "verb_prop":
+        # Find entity: direct object (phrase!)
+        for word in parse:
+            if word.dep_ == 'dobj':
+                ent = phrase(word)
+    
+        main_verb = parse[dep.index("ROOT")]
+        prop = [main_verb.lemma_]
+    
+    elif question_type == "duration":
+        prop = ["duration"]
+        # Find entity: probably follows main verb (ROOT)
+        ent = sent.split(" ")[dep.index("ROOT") + 1:]
+    
+    elif question_type == "passive":
+        for word in parse:
+            if word.dep_ == 'pobj':
+                ent = phrase(word)
+    
+        # Find prop: probably follows main verb (ROOT)
+        for word in parse:
+            if word.pos_ == "VERB" and word.dep_ == "ROOT":
+                prop = [word.text]
+    
+        # Filter entity: starts with first capital letter and start is not an adjective (e.g. the Dutch movie ...)
+    try:
+        start = min([ent.index(word) for word in ent if word.istitle() and \
+                     pos[sent.split(" ").index(word)] != "ADJ"])
+        ent = ent[start:]
+    except ValueError:
+        pass
+
+        # Convert entity and property from list to string
+    ent = " ".join(ent)
+    prop = " ".join(prop)
+    
+    prop = prop.replace('"', "")  # Strip double apostrophe
+    prop = prop.replace("'", "")  # Strip single apostrophe
+    
+    return ent, prop
+
 def get_entities_properties(q):
     """
     Uses Spacy Entity Linker anc Falcon2.0 to identify the entities of Wikidata in q.
