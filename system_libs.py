@@ -60,7 +60,7 @@ def get_entities_properties(q):
 
 def check_keywords(q):
     q = q.lower()
-    if 'cult - like church' in q:
+    if 'cult-like church' in q:
         return {'P140': 'religion'}
     elif 'named' in q and 'after' in q:
         return {'P138': 'named after'}
@@ -78,7 +78,7 @@ def check_keywords(q):
         return {'P2142': 'box office'}
     elif 'tall' in q.split():
         return {'P2048': 'height'}
-    elif 'publicised' in q or 'released' in q or 'come out' in q:
+    elif 'when' and 'publicised' in q or 'when' and 'released' in q or 'when' and 'come out' in q:
         return {'P577': 'publication date'}
     elif 'born' in q and 'country' in q or 'born' in q and 'city' in q or 'born' in q and 'place' in q:
         return {'P19': 'place of birth'}
@@ -91,7 +91,7 @@ def check_keywords(q):
     elif 'original language' in q or 'language' in q and 'spoken' in q:
         return {'P364': 'original language of film or TV show'}
     elif 'cause' in q and 'death' in q or 'how' in q and 'die' in q:
-        return {'P509': 'cause of death'}
+        return {'P509': 'cause of death', 'P1196': 'manner of death'}
     elif 'followed' in q:
         return {'P156': 'followed by'}
 
@@ -113,14 +113,22 @@ def retrieve_answer(q, ents, props):
                 data = requests.get('https://query.wikidata.org/sparql',
                                 params={'query': query, 'format': 'json'}).json()
                 if data['results']['bindings']:
+                    results = []
                     for item in data['results']['bindings']:
                         for var in item:
                             if item[var]['value']:
-                                if 'coordinate' in q:  # Answer must be coordinate
+                                if 'coordinate' in q.lower():  # No language specified
                                     if 'xml:lang' not in item[var]:
-                                        print(item[var]['value'])
+                                        results.append(item[var]['value'])
+                                elif 'year' in q.lower():  # No language specified and only return year
+                                    if 'xml:lang' not in item[var] and len(item[var]['value']) == 20:
+                                        results.append(item[var]['value'][:4])
                                 else:
-                                    print(item[var]['value'])
+                                    results.append(item[var]['value'])
+                    if 'how many' not in q.lower() and 'how much' not in q.lower():
+                        return results
+                    else:
+                        return len(results)
 
             except json.decoder.JSONDecodeError:  # Sometimes nothing is returned
                 retrieve_answer(q, [entity_id], [property_id])  # Try again
@@ -140,8 +148,9 @@ def main():
         reader = csv.reader(f, delimiter='\t')
         for row in reader:
             id, q = row[0], row[1]
+            q = q.replace("the names of", "")
             filter = ('film', 'movie')
-            q = ' '.join([token for token in q[:-1].split() if token.lower() not in filter])
+            q = ' '.join([token for token in q.split() if token.lower() not in filter])
 
             entities, relations = get_entities_properties(q)
             if check_keywords(q):  # Overwrite
@@ -153,7 +162,7 @@ def main():
             sys.stderr.write("\r" + "Answered question " + str(i) + " of " + str(total))
             sys.stderr.flush()
             i += 1
-            retrieve_answer(q, entities, relations)
+            print(retrieve_answer(q, entities, relations))
             print()
 
 if __name__ == "__main__":
