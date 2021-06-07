@@ -3,14 +3,26 @@
 # Authors: Jasper Bos (s3794687); Jim Casander (s3162753); Esther Ploeger (s3798461)
 # Date:    June 8th, 2021
 
-import argparse
+#import argparse
 import requests
-import csv
+#import csv
 import spacy
 import sys
 
 nlp = spacy.load("en_core_web_md")
-nlp.add_pipe("entityLinker", last=True)
+#nlp.add_pipe("entityLinker", last=True)
+url = 'https://www.wikidata.org/w/api.php'
+sparql_url = 'https://query.wikidata.org/sparql'
+
+params_prop = {'action': 'wbsearchentities',
+               'language': 'en',
+               'format': 'json',
+               'type': 'property'}
+
+params_ent = {'action': 'wbsearchentities',
+              'language': 'en',
+              'format': 'json',
+              'type': 'item'}
 
 
 def call_falcon(q):
@@ -63,7 +75,7 @@ def get_question_type(input_q):
                          'What is the length of', 'what is the length of']
 
     # Extract sentence structure
-    parse = nlp(input)
+    parse = nlp(input_q)
     lemmas = []
     pos = []
     dep = []
@@ -71,6 +83,10 @@ def get_question_type(input_q):
         lemmas.append(word.lemma_)
         pos.append(word.pos_)
         dep.append(word.dep_)
+
+    sent = parse.text.replace("?", "")  # Strip question mark
+    sent = sent.replace('"', "")  # Strip double apostrophe
+    sent = sent.replace("'", "")  # Strip single apostrophe
 
     question_type = ""
     for rel in dep:
@@ -100,6 +116,19 @@ def get_entity_property(parse, question_type):
     :param parse: nlp parse of input question
     :question type: abbreviation of question type (str)
     """
+
+    # Extract sentence structure
+    lemmas = []
+    pos = []
+    dep = []
+    for word in parse:
+        lemmas.append(word.lemma_)
+        pos.append(word.pos_)
+        dep.append(word.dep_)
+
+    sent = parse.text.replace("?", "")  # Strip question mark
+    sent = sent.replace('"', "")  # Strip double apostrophe
+    sent = sent.replace("'", "")  # Strip single apostrophe
 
     if question_type == "XofY":
 
@@ -167,7 +196,7 @@ def get_entity_property(parse, question_type):
             if word.pos_ == "VERB" and word.dep_ == "ROOT":
                 prop = [word.text]
 
-        # Filter entity: starts with first capital letter and start is not an adjective (e.g. the Dutch movie ...)
+    # Filter entity: starts with first capital letter and start is not an adjective (e.g. the Dutch movie ...)
     try:
         start = min([ent.index(word) for word in ent if word.istitle() and \
                      pos[sent.split(" ").index(word)] != "ADJ"])
@@ -183,6 +212,21 @@ def get_entity_property(parse, question_type):
     prop = prop.replace("'", "")  # Strip single apostrophe
 
     return ent, prop
+
+
+def phrase(word):
+    """
+    Returns a list of the full phrase, derived from a word.
+
+    This was copied (but slightly modified) from examples above.
+    """
+
+    children = []
+    for child in word.subtree :
+        children.append(child.text)
+    return children
+
+
 
 
 def retrieve_answer(prop, ent, question_type):
@@ -277,28 +321,38 @@ def check_keywords(q):
 
 
 def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument('questionfile', help='path to .txt file with all questions')
-    args = parser.parse_args()
+   # parser = argparse.ArgumentParser()
+   # parser.add_argument('questionfile', help='path to .txt file with all questions')
+   # args = parser.parse_args()
 
-    with open(args.questionfile, 'r', encoding="utf-16") as f:
-        total = sum(1 for row in f)
+   # with open(args.questionfile, 'r', encoding="utf-16") as f:
+   #     total = sum(1 for row in f)
 
-    i = 1
-    with open(args.questionfile, 'r', encoding="utf-16") as f:
-        reader = csv.reader(f, delimiter='\t')
-        for row in reader:
-            id, q = row[0], row[1]
-            entities, relations = get_entities_properties(q)
-            if check_keywords(q):
-                relations = check_keywords(q)
-            print('Q:\t', q)
-            print('E:\t', entities)
-            print('R:\t', relations)
-            sys.stderr.write("\r" + "Answered question " + str(i) + " of " + str(total))
-            sys.stderr.flush()
-            i += 1
-            print()
+   # i = 1
+   # with open(args.questionfile, 'r', encoding="utf-16") as f:
+    #    reader = csv.reader(f, delimiter='\t')
+    #    for row in reader:
+    #        id, q = row[0], row[1]
+    #        entities, relations = get_entities_properties(q)
+    #        if check_keywords(q):
+     #           relations = check_keywords(q)
+     #       print('Q:\t', q)
+    #        print('E:\t', entities)
+    #        print('R:\t', relations)
+    #        sys.stderr.write("\r" + "Answered question " + str(i) + " of " + str(total))
+   #         sys.stderr.flush()
+   #         i += 1
+   #         print()
+
+
+    # Get answer from manually typed input question (for testing purposes)
+    question = input("Please enter a question: ")
+    parse = nlp(question)
+    question_type = get_question_type(question)
+    ent, prop = get_entity_property(parse, question_type)
+    retrieve_answer(prop, ent, question_type)
+
+
 
 if __name__ == "__main__":
     main()
