@@ -250,6 +250,17 @@ def get_entity_property(parse, question_type):
         # Find entity
         prop = ["main", "subject"]
     elif question_type == "what_is_Xs_Y":
+        # Find entity: Either between POS:AUX (lemmas[2]) and 's, or:
+        #              istitle()
+        if "'s" in lemmas:
+            prop = lemmas[2:lemmas.index("'s")]\
+        else:
+            prop = []
+            for word in lemmas:
+                if word.istitle():
+                    prop.append(word)
+       # Find property: probably last two words of sentence (parse[-4:-2])
+       prop = parse[-4:-2].text.split(" ")
     elif question_type == "tall":
     elif question_type == "count":
     elif question_type == "cost":
