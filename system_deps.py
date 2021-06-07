@@ -3,14 +3,14 @@
 # Authors: Jasper Bos (s3794687); Djim C. Casander (s3162753); Esther Ploeger (s3798461)
 # Date:    June 8th, 2021
 
-# import argparse
+#import argparse
 import requests
-# import csv
+#import csv
 import spacy
 import sys
 
 nlp = spacy.load("en_core_web_md")
-# nlp.add_pipe("entityLinker", last=True)
+#nlp.add_pipe("entityLinker", last=True)
 url = 'https://www.wikidata.org/w/api.php'
 sparql_url = 'https://query.wikidata.org/sparql'
 
@@ -96,37 +96,37 @@ def get_question_type(input_q):
         elif any(item in duration_keywords for item in lemmas):
             question_type = "duration"  # e.g. 'How long is X?'
         elif any(item in location_keywords for item in lemmas):
-            question_type = "location"  # e.g. 'Where was X filmed?'
+            question_type = "location" # e.g. 'Where was X filmed?'
         elif any(item in time_keywords for item in lemmas):
-            question_type = "time"  # e.g. 'When was X published?'
+            question_type = "time" # e.g. 'When was X published?'
         elif parse[0].text == "What" or parse[0].text == "Which":
             if parse[1].pos_ == "NOUN":
                 if "VERB" in pos:
                     if "AUX" in pos and lemmas[pos.index("AUX")] == "be":
-                        question_type = "what_A_is_X_Y"  # e.g 'What book is X based on?'
+                        question_type = "what_A_is_X_Y" # e.g 'What book is X based on?'
                     elif "AUX" in pos and lemmas[pos.index("VERB")] == "earn":
-                        question_type = "what_A_is_X_Y"  # e.g. 'Which movies earned X an award?'
+                        question_type = "what_A_is_X_Y" # e.g. 'Which movies earned X an award?'
                     else:
-                        question_type = "what_which_verb"  # e.g. 'What awards did X receive?'
+                        question_type = "what_which_verb" # e.g. 'What awards did X receive?'
                 else:
-                    question_type = "whatXisY"  # e.g. 'What genre is X?'
+                    question_type = "whatXisY" # e.g. 'What genre is X?'
             elif 'about' in lemmas:
                 question_type = "about"
             else:
-                question_type = "what_is_Xs_Y"  # e.g. 'What is X's hair color?'
+                question_type = "what_is_Xs_Y" # e.g. 'What is X's hair color?'
         elif parse[0].text == "How":
             if parse[1].text == "tall":
-                question_type = "tall"  # e.g 'How tall is X?'
+                question_type = "tall" # e.g 'How tall is X?'
             elif parse[1].text == "many":
-                question_type = "count"  # e.g. 'How many X films are there?'
+                question_type = "count" # e.g. 'How many X films are there?'
             else:
-                question_type = "cost"  # e.g. 'How much did X cost to make?'
+                question_type = "cost" # e.g. 'How much did X cost to make?'
         else:
             if 'pobj' in rel:
                 question_type = "XofY"  # e.g. 'Who is the director of X?'
             if 'dobj' in rel:
                 question_type = "verb_prop"  # e.g. 'Who directed X?'
-
+        
     # for keyword in duration_keywords:
     #     if keyword in sent:
     #         question_type = "duration"  # e.g. 'How long is X?'
@@ -249,38 +249,37 @@ def get_entity_property(parse, question_type):
         # Find entity: Either between POS:AUX (lemmas[2]) and 's, or:
         #              istitle()
         if "'s" in lemmas:
-            prop = lemmas[2:lemmas.index("'s")] \
-                    else:
+            prop = lemmas[2:lemmas.index("'s")]\
+        else:
             prop = []
             for word in lemmas:
                 if word.istitle():
                     prop.append(word)
-        # Find property: probably last two words of sentence (parse[-4:-2])
-    prop = parse[-4:-2].text.split(" ")
+       # Find property: probably last two words of sentence (parse[-4:-2])
+       prop = parse[-4:-2].text.split(" ")
     elif question_type == "tall":
     elif question_type == "count":
     elif question_type == "cost":
 
     else:
-    print("[ERROR] Made possible by Djim")
+        print("[ERROR] Made possible by Djim")
 
+    # Filter entity: starts with first capital letter and start is not an adjective (e.g. the Dutch movie ...)
+    try:
+        start = min([ent.index(word) for word in ent if word.istitle() and \
+                     pos[sent.split(" ").index(word)] != "ADJ"])
+        ent = ent[start:]
+    except ValueError:
+        pass
 
-# Filter entity: starts with first capital letter and start is not an adjective (e.g. the Dutch movie ...)
-try:
-    start = min([ent.index(word) for word in ent if word.istitle() and \
-                 pos[sent.split(" ").index(word)] != "ADJ"])
-    ent = ent[start:]
-except ValueError:
-    pass
+        # Convert entity and property from list to string
+    ent = " ".join(ent)
+    prop = " ".join(prop)
 
-    # Convert entity and property from list to string
-ent = " ".join(ent)
-prop = " ".join(prop)
+    prop = prop.replace('"', "")  # Strip double apostrophe
+    prop = prop.replace("'", "")  # Strip single apostrophe
 
-prop = prop.replace('"', "")  # Strip double apostrophe
-prop = prop.replace("'", "")  # Strip single apostrophe
-
-return ent, prop
+    return ent, prop
 
 
 def phrase(word):
@@ -290,9 +289,11 @@ def phrase(word):
     """
 
     children = []
-    for child in word.subtree:
+    for child in word.subtree :
         children.append(child.text)
     return children
+
+
 
 
 def retrieve_answer(prop, ent, question_type):
@@ -305,11 +306,12 @@ def retrieve_answer(prop, ent, question_type):
 
     # Find property in Wikidata
     params_prop['search'] = prop
-    json = requests.get(url, params_prop).json()
+    json = requests.get(url,params_prop).json()
 
     # Find entity in Wikidata
     params_ent['search'] = ent
-    json_e = requests.get(url, params_ent).json()
+    json_e = requests.get(url,params_ent).json()
+
 
     # Retrieve Wikidata answer
     try:
@@ -329,8 +331,7 @@ def retrieve_answer(prop, ent, question_type):
                 # Send query and print results
                 results = requests.get(sparql_url, params={'query': query, 'format': 'json'}).json()
                 if question_type != "duration":
-                    for item in results['results'][
-                        'bindings']:  # We show all items: sometimes one name can refer to multiple possible entities!
+                    for item in results['results']['bindings']:  # We show all items: sometimes one name can refer to multiple possible entities!
                         for var in item:
                             print("The answer to your question is:", item[var]['value'])
 
@@ -367,7 +368,7 @@ def check_keywords(q):
     elif 'box office' in q:
         return 'P2142'
     elif 'tall' in q.split():
-        return 'P2142'  # Correlates to question type tall!
+        return 'P2142' # Correlates to question type tall!
     elif 'publicised' in q or 'released' in q or 'come out' in q:
         return 'P577'  # Publication date
     elif 'born' and 'country' in q or 'born' and 'city' in q or 'born' and 'place' in q:
@@ -383,32 +384,33 @@ def check_keywords(q):
     elif 'cause' and 'death' in q:
         return 'P509'
     elif 'university' in q:
-        return 'P69'  # Educated at
+        return 'P69' # Educated at
 
 
 def main():
-    # parser = argparse.ArgumentParser()
-    # parser.add_argument('questionfile', help='path to .txt file with all questions')
-    # args = parser.parse_args()
+   # parser = argparse.ArgumentParser()
+   # parser.add_argument('questionfile', help='path to .txt file with all questions')
+   # args = parser.parse_args()
 
-    # with open(args.questionfile, 'r', encoding="utf-16") as f:
-    #     total = sum(1 for row in f)
+   # with open(args.questionfile, 'r', encoding="utf-16") as f:
+   #     total = sum(1 for row in f)
 
-    # i = 1
-    # with open(args.questionfile, 'r', encoding="utf-16") as f:
+   # i = 1
+   # with open(args.questionfile, 'r', encoding="utf-16") as f:
     #    reader = csv.reader(f, delimiter='\t')
     #    for row in reader:
     #        id, q = row[0], row[1]
     #        entities, relations = get_entities_properties(q)
     #        if check_keywords(q):
-    #           relations = check_keywords(q)
-    #       print('Q:\t', q)
+     #           relations = check_keywords(q)
+     #       print('Q:\t', q)
     #        print('E:\t', entities)
     #        print('R:\t', relations)
     #        sys.stderr.write("\r" + "Answered question " + str(i) + " of " + str(total))
-    #         sys.stderr.flush()
-    #         i += 1
-    #         print()
+   #         sys.stderr.flush()
+   #         i += 1
+   #         print()
+
 
     # Get answer from manually typed input question (for testing purposes)
     question = input("Please enter a question: ")
@@ -416,6 +418,7 @@ def main():
     question_type = get_question_type(question)
     ent, prop = get_entity_property(parse, question_type)
     retrieve_answer(prop, ent, question_type)
+
 
 
 if __name__ == "__main__":
