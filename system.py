@@ -100,9 +100,9 @@ def get_entity_property(parse, question_type):
     :param parse: nlp parse of input question
     :question type: abbreviation of question type (str)
     """
-    
+
     if question_type == "XofY":
-    
+
         # Property: from AUX to ADP
         if pos.count("ADP") == 1:
             prop = lemmas[pos.index('AUX') + 1:pos.index('ADP')]
@@ -113,7 +113,7 @@ def get_entity_property(parse, question_type):
                     prop.remove("a")
                 if "an" in prop:  # strip 'an'
                     prop.remove("an")
-    
+
         # More than one adposition: 'of' is likely in property (e.g. 'cause of death')
         # Filter these specific common cases out manually
         else:
@@ -127,7 +127,7 @@ def get_entity_property(parse, question_type):
                 prop = ["country of origin"]
             elif "country of citizenship" in parse.text:
                 prop = ["country of citizenship"]
-    
+
             # Perhaps there is an 'of' in the entity, such as in 'Lord of the Rings'
             else:
                 prop = lemmas[pos.index('AUX') + 1:pos.index('PROPN')]
@@ -140,33 +140,33 @@ def get_entity_property(parse, question_type):
                         prop.remove("an")
                     if "of" in prop:  # strip 'of'
                         prop.remove("of")
-    
+
         ent = sent.split(" ")[pos.index('ADP') + 1:]  # assuming it always ends with '?'
-    
+
     elif question_type == "verb_prop":
         # Find entity: direct object (phrase!)
         for word in parse:
             if word.dep_ == 'dobj':
                 ent = phrase(word)
-    
+
         main_verb = parse[dep.index("ROOT")]
         prop = [main_verb.lemma_]
-    
+
     elif question_type == "duration":
         prop = ["duration"]
         # Find entity: probably follows main verb (ROOT)
         ent = sent.split(" ")[dep.index("ROOT") + 1:]
-    
+
     elif question_type == "passive":
         for word in parse:
             if word.dep_ == 'pobj':
                 ent = phrase(word)
-    
+
         # Find prop: probably follows main verb (ROOT)
         for word in parse:
             if word.pos_ == "VERB" and word.dep_ == "ROOT":
                 prop = [word.text]
-    
+
         # Filter entity: starts with first capital letter and start is not an adjective (e.g. the Dutch movie ...)
     try:
         start = min([ent.index(word) for word in ent if word.istitle() and \
@@ -178,11 +178,56 @@ def get_entity_property(parse, question_type):
         # Convert entity and property from list to string
     ent = " ".join(ent)
     prop = " ".join(prop)
-    
+
     prop = prop.replace('"', "")  # Strip double apostrophe
     prop = prop.replace("'", "")  # Strip single apostrophe
-    
+
     return ent, prop
+
+
+def retrieve_answer(prop, ent, question_type):
+    """
+    Build query and retrieve answer from WikiData
+
+    :param prop: property, str
+    :param ent: entity, str
+    :param question_type: question type abbreviation, str
+    """
+
+    # Find property in Wikidata
+    params_prop['search'] = prop
+    json = requests.get(url,params_prop).json()
+
+    # Find entity in Wikidata
+    params_ent['search'] = ent
+    json_e = requests.get(url,params_ent).json()
+
+
+    # Retrieve Wikidata answer
+    try:
+        for prop in json['search']:
+            for ent in json_e['search']:  # double for loop: match prop and ent correctly
+                prop_id = prop['id']
+                ent_id = ent['id']
+
+                # Build query
+                if question_type != "passive":
+                    query = "SELECT ?answerLabel WHERE {SERVICE wikibase:label \
+                    { bd:serviceParam wikibase:language '[AUTO_LANGUAGE],en'. } wd:" + ent_id + " wdt:" + prop_id + " ?answer .}"
+                else:
+                    query = "SELECT ?answerLabel WHERE {SERVICE wikibase:label \
+                    { bd:serviceParam wikibase:language '[AUTO_LANGUAGE],en'. } ?answer wdt:" + prop_id + " wd:" + ent_id + " .}"
+
+                # Send query and print results
+                results = requests.get(sparql_url, params={'query': query, 'format': 'json'}).json()
+                if question_type != "duration":
+                    for item in results['results']['bindings']:  # We show all items: sometimes one name can refer to multiple possible entities!
+                        for var in item:
+                            print("The answer to your question is:", item[var]['value'])
+
+    except:
+        pass  # Not found
+
 
 def get_entities_properties(q):
     """
