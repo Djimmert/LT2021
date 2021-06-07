@@ -49,6 +49,50 @@ def call_entitylinker(q):
     return {'Q' + str(ent.get_id()): ent.get_label() for ent in doc._.linkedEntities}
 
 
+def get_question_type(input_q):
+    """
+    Performs linguistic analysis to determine question type
+
+    :param input_q: input question, plain text (str)
+    :return: question type, abbreviation (str)
+    """
+    # Define keywords
+    duration_keywords = ['how long', 'How long', 'duration',
+                         'How many minutes', 'how many minutes',
+                         'How much time', 'how much time',
+                         'What is the length of', 'what is the length of']
+
+    # Extract sentence structure
+    parse = nlp(input)
+    lemmas = []
+    pos = []
+    dep = []
+    for word in parse:
+        lemmas.append(word.lemma_)
+        pos.append(word.pos_)
+        dep.append(word.dep_)
+
+    question_type = ""
+    for rel in dep:
+        if 'pass' in rel:
+            question_type = "passive"  # e.g. 'Which movies are directed by X?'
+            break
+        else:
+            if 'pobj' in rel:
+                question_type = "XofY"  # e.g. 'Who is the director of X?'
+            if 'dobj' in rel:
+                question_type = "verb_prop"  # e.g. 'Who directed X?'
+
+    for keyword in duration_keywords:
+        if keyword in sent:
+            question_type = "duration"  # e.g. 'How long is X?'
+
+    if not question_type:
+        print("Question type could not be found ...")
+    else:
+        return question_type
+
+
 def get_entities_properties(q):
     """
     Uses Spacy Entity Linker anc Falcon2.0 to identify the entities of Wikidata in q.
