@@ -94,6 +94,8 @@ def check_keywords(q):
         return {'P509': 'cause of death', 'P1196': 'manner of death'}
     elif 'followed' in q:
         return {'P156': 'followed by'}
+    elif 'catchphrase' in q:
+        return {'P6251': 'catchphrase'}
 
 
 def retrieve_answer(q, ents, props):
@@ -103,36 +105,37 @@ def retrieve_answer(q, ents, props):
 
     for entity_id in ents:
         for property_id in props:
-
             query = 'SELECT ?answerLabel WHERE {' + \
             'wd:' + entity_id + ' wdt:' + property_id + ' ?answer.' + \
             ' SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }' + \
             '}'
 
-            try:
-                data = requests.get('https://query.wikidata.org/sparql',
-                                params={'query': query, 'format': 'json'}).json()
-                if data['results']['bindings']:
-                    results = []
-                    for item in data['results']['bindings']:
-                        for var in item:
-                            if item[var]['value']:
-                                if 'coordinate' in q.lower():  # No language specified
-                                    if 'xml:lang' not in item[var]:
-                                        results.append(item[var]['value'])
-                                elif 'year' in q.lower():  # No language specified and only return year
-                                    if 'xml:lang' not in item[var] and len(item[var]['value']) == 20:
-                                        results.append(item[var]['value'][:4])
-                                else:
+            while True:
+                try:
+                    data = requests.get('https://query.wikidata.org/sparql',
+                                    params={'query': query, 'format': 'json'}).json()
+                    break
+
+                except json.decoder.JSONDecodeError:  # Sometimes nothing is returned
+                    continue  # Try again
+
+            if data['results']['bindings']:
+                results = []
+                for item in data['results']['bindings']:
+                    for var in item:
+                        if item[var]['value']:
+                            if 'coordinate' in q.lower():  # No language specified
+                                if 'xml:lang' not in item[var]:
                                     results.append(item[var]['value'])
-                    if 'how many' not in q.lower() and 'how much' not in q.lower():
-                        return results
-                    else:
-                        return len(results)
-
-            except json.decoder.JSONDecodeError:  # Sometimes nothing is returned
-                retrieve_answer(q, [entity_id], [property_id])  # Try again
-
+                            elif 'year' in q.lower():  # No language specified and only return year
+                                if 'xml:lang' not in item[var] and len(item[var]['value']) == 20:
+                                    results.append(item[var]['value'][:4])
+                            else:
+                                results.append(item[var]['value'])
+                if 'how many' not in q.lower() and 'how much' not in q.lower() or 'cost' in q.lower():
+                    return results
+                else:
+                    return len(results)
 
 
 def main():
@@ -148,6 +151,7 @@ def main():
         reader = csv.reader(f, delimiter='\t')
         for row in reader:
             id, q = row[0], row[1]
+            q = "What is the cause of death of Paul Walker?"
             q = q.replace("the names of", "")
             filter = ('film', 'movie')
             q = ' '.join([token for token in q.split() if token.lower() not in filter])
