@@ -151,7 +151,6 @@ def main():
         reader = csv.reader(f, delimiter='\t')
         for row in reader:
             id, q = row[0], row[1]
-            q = "What is the cause of death of Paul Walker?"
             q = q.replace("the names of", "")
             filter = ('film', 'movie')
             q = ' '.join([token for token in q.split() if token.lower() not in filter])
