@@ -69,13 +69,13 @@ def get_question_type(input_q):
     :return: question type, abbreviation (str)
     """
     # Define keywords
-    duration_keywords = ['how long', 'How long', 'duration',
-                         'How many minutes', 'how many minutes',
-                         'How much time', 'how much time',
-                         'What is the length of', 'what is the length of']
-                        # ['long', 'duration', 'minutes', 'time', 'length']
-    time_keywords = ['century', 'year', ]
-    location_keywords = 
+    # duration_keywords = ['how long', 'How long', 'duration',
+    #                      'How many minutes', 'how many minutes',
+    #                      'How much time', 'how much time',
+    #                      'What is the length of', 'what is the length of']
+    duration_keywords = ['long', 'duration', 'minutes', 'time', 'length']
+    time_keywords = ['century', 'year', 'when']
+    location_keywords = ['country', 'location', 'where']
 
     # Extract sentence structure
     parse = nlp(input_q)
@@ -96,16 +96,37 @@ def get_question_type(input_q):
         if 'pass' in rel:
             question_type = "passive"  # e.g. 'Which movies are directed by X?'
             break
+        elif any(item in duration_keywords for item in lemmas):
+            question_type = "duration"  # e.g. 'How long is X?'
+        elif any(item in location_keywords for item in lemmas):
+            question_type = "location" # e.g. 'Where was X filmed?'
+        elif any(item in time_keywords for item in lemmas):
+            question_type = "time" # e.g. 'When was X published?'
+        elif parse[0].text == "What" or parse[0].text == "Which":
+            if parse[1].pos_ == "NOUN":
+                if "VERB" in pos:
+                    if lemmas[pos.index("AUX")] == "be":
+                        question_type = "what_is_X_Y" # e.g 'What book is X based on?'
+                    elif lemmas[pos.index("VERB")] == "earn":
+                        question_type = "what_is_X_Y" # e.g. 'Which movies earned X an award?'
+                    else:
+                        question_type = "what_which_verb" # e.g. 'What awards did X receive?'
+                else:
+                    question_type = "whatXisY" # e.g. 'What genre is X?'
+            elif 'about' in lemmas:
+                question_type = "about"
+            else:
+                question_type = "what_is_Xs_Y" # e.g. 'What is X's hair color?'
+
         else:
             if 'pobj' in rel:
                 question_type = "XofY"  # e.g. 'Who is the director of X?'
             if 'dobj' in rel:
                 question_type = "verb_prop"  # e.g. 'Who directed X?'
-        # elif any(item in duration_keywords for sent):
-        #     question_type = "duration"  # e.g. 'How long is X?'
-    for keyword in duration_keywords:
-        if keyword in sent:
-            question_type = "duration"  # e.g. 'How long is X?'
+        
+    # for keyword in duration_keywords:
+    #     if keyword in sent:
+    #         question_type = "duration"  # e.g. 'How long is X?'
 
     if not question_type:
         print("Question type could not be found ...")
