@@ -105,10 +105,10 @@ def get_question_type(input_q):
         elif parse[0].text == "What" or parse[0].text == "Which":
             if parse[1].pos_ == "NOUN":
                 if "VERB" in pos:
-                    if lemmas[pos.index("AUX")] == "be":
-                        question_type = "what_is_X_Y" # e.g 'What book is X based on?'
-                    elif lemmas[pos.index("VERB")] == "earn":
-                        question_type = "what_is_X_Y" # e.g. 'Which movies earned X an award?'
+                    if "AUX" in pos and lemmas[pos.index("AUX")] == "be":
+                        question_type = "what_A_is_X_Y" # e.g 'What book is X based on?'
+                    elif "AUX" in pos and lemmas[pos.index("VERB")] == "earn":
+                        question_type = "what_A_is_X_Y" # e.g. 'Which movies earned X an award?'
                     else:
                         question_type = "what_which_verb" # e.g. 'What awards did X receive?'
                 else:
@@ -117,7 +117,13 @@ def get_question_type(input_q):
                 question_type = "about"
             else:
                 question_type = "what_is_Xs_Y" # e.g. 'What is X's hair color?'
-
+        elif parse[0].text == "How":
+            if parse[1].text == "tall":
+                question_type = "tall" # e.g 'How tall is X?'
+            elif parse[1].text == "many":
+                question_type = "count" # e.g. 'How many X films are there?'
+            else:
+                question_type = "cost" # e.g. 'How much did X cost to make?'
         else:
             if 'pobj' in rel:
                 question_type = "XofY"  # e.g. 'Who is the director of X?'
@@ -220,6 +226,36 @@ def get_entity_property(parse, question_type):
         for word in parse:
             if word.pos_ == "VERB" and word.dep_ == "ROOT":
                 prop = [word.text]
+    elif question_type == "location":
+        # Find entity using Falcon
+        # Filter property answers based on answer type using VALUES
+        pass
+    elif question_type == "time":
+        # Find entity using Falcon
+        # Filter property answers based on data type of answer using VALUES
+        pass
+    elif question_type == "what_A_is_X_Y":
+        # Find entity using Falcon
+        # Find property: probably last two words of sentence (parse[-4:-2])
+        prop = parse[-4:-2].text.split(" ")
+    elif question_type == "what_which_verb":
+        # Find entity
+        # Find property: probably second word (parse[1])
+        prop = [lemmas[1]]
+    elif question_type == "whatXisY":
+        # Find entity
+        # Find property: probably words between first word and POS:AUX
+        prop = parse[1:pos.index("AUX")].text.split(" ")
+    elif question_type == "about":
+        # Find entity
+        prop = ["main", "subject"]
+    elif question_type == "what_is_Xs_Y":
+    elif question_type == "tall":
+    elif question_type == "count":
+    elif question_type == "cost":
+
+    else:
+        print("[ERROR] Made possible by Djim")
 
     # Filter entity: starts with first capital letter and start is not an adjective (e.g. the Dutch movie ...)
     try:
@@ -328,7 +364,7 @@ def check_keywords(q):
     elif 'box office' in q:
         return 'P2142'
     elif 'tall' in q.split():
-        return 'P2142'
+        return 'P2142' # Correlates to question type tall!
     elif 'publicised' in q or 'released' in q or 'come out' in q:
         return 'P577'  # Publication date
     elif 'born' and 'country' in q or 'born' and 'city' in q or 'born' and 'place' in q:
@@ -343,6 +379,8 @@ def check_keywords(q):
         return 'P364'  # Original language of film or TV show
     elif 'cause' and 'death' in q:
         return 'P509'
+    elif 'university' in q:
+        return 'P69' # Educated at
 
 
 def main():
