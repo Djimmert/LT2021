@@ -96,6 +96,8 @@ def check_keywords(q):
         return {'P156': 'followed by'}
     elif 'catchphrase' in q:
         return {'P6251': 'catchphrase'}
+    elif 'how many children' in q.lower():
+        return {'P1971': 'number of children', 'P40': 'child'}
 
 
 def retrieve_answer(q, ents, props):
@@ -132,7 +134,7 @@ def retrieve_answer(q, ents, props):
                                     results.append(item[var]['value'][:4])
                             else:
                                 results.append(item[var]['value'])
-                if 'how many' not in q.lower() and 'how much' not in q.lower() or 'cost' in q.lower():
+                if 'how many' not in q.lower() and 'how much' not in q.lower() and 'follower' not in q.lower() or 'cost' in q.lower():
                     return results
                 else:
                     return len(results)
