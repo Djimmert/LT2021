@@ -1,0 +1,3288 @@
+spacy_entity_linker
+Q:	 1964
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 Actor Tom Cruise is involved with which cult-like church?
+E:	 which cult - like church
+R:	 involved
+QT:	 passive
+
+
+Q:	 After whom was the movie Fack ju Göhte (German) named?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 At what coordinates can we find a big sign that states 'Hollywood'?
+E:	 a big sign
+R:	 find
+QT:	 verb_prop
+
+
+Q:	 At which locations was The Intouchables filmed?
+E:	 which
+R:	 filmed
+QT:	 passive
+
+
+Q:	 By what company was the film Tarzan directed?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 By which companies was Arrested Development produced?
+E:	 which
+R:	 produced
+QT:	 passive
+
+
+Q:	 By which movie was Fack ju Göhte (German) followed?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 By whom is Obi-Wan Kenobi killed in the Star Wars saga?
+E:	 Obi-Wan Kenobi killed in the Star Wars saga
+R:	 
+QT:	 XofY
+
+
+Q:	  Can "The Matrix" be watched on Netflix?
+E:	 Netflix
+R:	 watched
+QT:	 passive
+
+
+Q:	 Can you tell me in which city the movie The King of Comedy is set?
+E:	 Comedy
+R:	 tell
+QT:	 passive
+
+
+Q:	 Did Iron Man pass the Bechdel test?
+E:	 Bechdel test
+R:	 pass
+QT:	 verb_prop
+
+
+Q:	 Did Leonardo Dicaprio receive an Oscar?
+E:	 Oscar
+R:	 receive
+QT:	 verb_prop
+
+
+Q:	 Did Pamela Anderson star in Borat?
+E:	 Borat
+R:	 Pamela Anderson star
+QT:	 XofY
+
+
+Q:	 Did Samuel L. Jackson produce Pulp Fiction?
+The answer to your question is: Lawrence Bender
+E:	 Pulp Fiction
+R:	 produce
+QT:	 verb_prop
+
+
+Q:	 Did The Lego Movie 2: The Second Part pass the Bechdel test?
+E:	 Bechdel test
+R:	 pass
+QT:	 verb_prop
+
+
+Q:	 Did the movie Green Book win an Academy Award for Best Picture?
+Error.
+
+
+Q:	 Did Tommy Lee Jones star in the movie the Fugitive?
+Error.
+
+
+Q:	 director jurassic world fallen kingdom
+E:	 kingdom
+R:	 fall
+QT:	 verb_prop
+
+
+Q:	 Does Casablanca have a website?
+E:	 a website
+R:	 have
+QT:	 verb_prop
+
+
+Q:	 Does Christopher Nolan's first feature film pass the Bechdel test?
+E:	 Bechdel test
+R:	 pass
+QT:	 verb_prop
+
+
+Q:	 Does Perfect Blue (1997) pass the Mako Mori test?
+E:	 Mako Mori test
+R:	 pass
+QT:	 verb_prop
+
+
+Q:	 Does Solaris pass the Bechdel test?
+E:	 Bechdel test
+R:	 pass
+QT:	 verb_prop
+
+
+Q:	 Does the movie Roundhay Garden Scene pass the Bechdel test?
+E:	 Bechdel test
+R:	 pass
+QT:	 verb_prop
+
+
+Q:	 Does Walt Disney Productions own Beauty and the Beast?
+E:	 Beauty and the Beast
+R:	 own
+QT:	 verb_prop
+
+
+Q:	 filming location the martian
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 For his role in which movie did Leonardo DiCaprio receive an Academy Award?
+E:	 Academy Award
+R:	 receive
+QT:	 verb_prop
+
+
+Q:	 For how many awards has, the actor or actress with the most nominations in his or her career and who played in the film Lion (2016), been nominated?
+E:	 Lion ( 2016 )
+R:	 nominated
+QT:	 passive
+
+
+Q:	 For what award was Omar Sy nominated for his role in The Intouchables?
+Error.
+
+
+Q:	 For what film did Guillermo del Toro win the Academy Award for best director?
+E:	 Guillermo del Toro win the Academy Award for best director
+R:	 
+QT:	 XofY
+
+
+Q:	 For what movie did Leonardo DiCaprio win an Oscar?
+E:	 Oscar
+R:	 win
+QT:	 verb_prop
+
+
+Q:	 For what movie did Leonardo DiCaprio won an Academy Award for best actor?
+E:	 Leonardo DiCaprio won an Academy Award for best actor
+R:	 
+QT:	 XofY
+
+
+Q:	 For what movie has Martin Scorsese won an oscar?
+E:	 an oscar
+R:	 win
+QT:	 verb_prop
+
+
+Q:	 For what movie Meryl Streep received her first Academy Award?
+E:	 Academy Award
+R:	 receive
+QT:	 verb_prop
+
+
+Q:	 For which awards was the work of Hans Zimmer in the movie 'Interstellar' nominated?
+Error.
+
+
+Q:	 For which award was the movie Climax nominated for?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 For which films did Cate Blanchett receive an Academy Award?
+E:	 Academy Award
+R:	 receive
+QT:	 verb_prop
+
+
+Q:	 For which movie did Greta Gerwig receive an Academy Award nomination?
+E:	 Academy Award nomination
+R:	 receive
+QT:	 verb_prop
+
+
+Q:	 For which movie did Leonardo Dicaprio receive the Academy award for best actor?
+E:	 Leonardo Dicaprio receive the Academy award for best actor
+R:	 
+QT:	 XofY
+
+
+Q:	 For which movie did Robert Downey Jr. receive the Golden Globe Award for Best Actor?
+E:	 Robert Downey Jr. receive the Golden Globe Award for Best Actor
+R:	 
+QT:	 XofY
+
+
+Q:	 For which Oscars/Academy Awards was the film Shrek nominated?
+E:	 Oscars/Academy Awards was the film Shrek nominated
+R:	 
+QT:	 XofY
+
+
+Q:	 From what country does the movie T-34 originate?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 From which Disney movie is the great castle in the middle of Disneyland Paris?
+E:	 Disney movie is the great castle in the middle of Disneyland Paris
+R:	 
+QT:	 XofY
+
+
+Q:	 From which movie is the quote “I’ll be back”?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 Han Solo was played by which actor in Star Wars: Episode IV – A New Hope?
+E:	 Star Wars
+R:	 played
+QT:	 passive
+
+
+Q:	 Hayao Miyazaki, director of the Oscar winning "Spirited Away" was born in what year?
+E:	 Oscar
+R:	 born
+QT:	 passive
+
+
+Q:	 Henry Cavill played which fictional character in the movie "Zack Snyder's Justice League"?
+Error.
+
+
+Q:	 How did Obi-Wan Kenobi die?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 How did the composer of Django Unchained die?
+E:	 Django Unchained die
+R:	 composer
+QT:	 XofY
+
+
+Q:	 How is Arnold Schwarzenegger remembered in the movie industry?
+E:	 the movie industry
+R:	 Arnold Schwarzenegger remember
+QT:	 XofY
+
+
+Q:	 How is the movie called that The Disaster Artist is based on?
+E:	 
+R:	 
+QT:	 passive
+
+
+Q:	 How long does Home Alone take?
+E:	 
+R:	 duration
+QT:	 duration
+
+
+Q:	 How long does it take to watch the documentary The Social Dilemma?
+E:	 The Social Dilemma
+R:	 duration
+QT:	 duration
+
+
+Q:	 How long does the movie Shot Caller take to watch?
+E:	 to watch
+R:	 duration
+QT:	 duration
+
+
+Q:	 How long is Bridge of Spies?
+E:	 Bridge of Spies
+R:	 duration
+QT:	 duration
+
+
+Q:	 How long is Monty Python's life of Brian?
+E:	 Monty Pythons life of Brian
+R:	 duration
+QT:	 duration
+
+
+Q:	 How long is Pulp Fiction?
+E:	 Pulp Fiction
+R:	 duration
+QT:	 duration
+
+
+Q:	 How long is Shrek Forever After?
+E:	 Shrek Forever After
+R:	 duration
+QT:	 duration
+
+
+Q:	 How long is the film I spit on your grave?
+E:	 I spit on your grave
+R:	 duration
+QT:	 duration
+
+
+Q:	 How long is the film "Scary movie"?
+E:	 Scary movie
+R:	 duration
+QT:	 duration
+
+
+Q:	 How long is the film Titanic?
+E:	 the film Titanic
+R:	 duration
+QT:	 duration
+
+
+Q:	 How long is the first Jurassic Park movie?
+E:	 Jurassic Park movie
+R:	 duration
+QT:	 duration
+
+
+Q:	 How long is The Holy Mountain?
+E:	 The Holy Mountain
+R:	 duration
+QT:	 duration
+
+
+Q:	 How long is "The Matrix"?
+E:	 The Matrix
+R:	 duration
+QT:	 duration
+
+
+Q:	 How long is the movie "127 Hours"?
+E:	 Hours
+R:	 duration
+QT:	 duration
+
+
+Q:	 How long is the movie Avatar?
+E:	 Avatar
+R:	 duration
+QT:	 duration
+
+
+Q:	 How long is the movie Intouchables?
+E:	 Intouchables
+R:	 duration
+QT:	 duration
+
+
+Q:	 How long is the movie Iron Man?
+E:	 Iron Man
+R:	 duration
+QT:	 duration
+
+
+Q:	 How long is the movie Mulholland Drive?
+E:	 Mulholland Drive
+R:	 duration
+QT:	 duration
+
+
+Q:	 How long is the movie "Once Upon a Time in Hollywood"?
+E:	 Once Upon a Time in Hollywood
+R:	 duration
+QT:	 duration
+
+
+Q:	 How long is The Shawshank Redemption?
+E:	 The Shawshank Redemption
+R:	 duration
+QT:	 duration
+
+
+Q:	 How long is the Wolf of Wallstreet?
+E:	 Wolf of Wallstreet
+R:	 duration
+QT:	 duration
+
+
+Q:	  How many Acadamy Awards has "Titanic" won?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 How many Academy Award nominations does Morgan Freeman have?
+E:	 How many Academy Award nominations
+R:	 have
+QT:	 verb_prop
+
+
+Q:	 How many Academy Awards did Leonardo DiCaprio receive?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 How many academy awards did Meryl Streep recieve?
+E:	 How many academy awards
+R:	 recieve
+QT:	 verb_prop
+
+
+Q:	 How many Academy Awards does Quentin Tarantino have?
+E:	 How many Academy Awards
+R:	 have
+QT:	 verb_prop
+
+
+Q:	 How many Academy Awards has Meryl Streep won so far?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 How many awards did Christopher Nolan receive?
+E:	 How many awards
+R:	 receive
+QT:	 verb_prop
+
+
+Q:	 How many awards did George Clooney receive?
+E:	 How many awards
+R:	 receive
+QT:	 verb_prop
+
+
+Q:	 How many awards did Quentin Tarantino receive?
+E:	 How many awards
+R:	 receive
+QT:	 verb_prop
+
+
+Q:	 How many awards did the movie Whiplash receive?
+E:	 Whiplash receive
+R:	 do
+QT:	 verb_prop
+
+
+Q:	 How many awards did Titanic win?
+E:	 Titanic win
+R:	 do
+QT:	 verb_prop
+
+
+Q:	 How many awards has Quentin Tarentino won?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 How many awards has Ryan Reynolds earned?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 How many Back to the Future movies are there?
+E:	 Future movies are there
+R:	 
+QT:	 XofY
+
+
+Q:	 How many Balto movies have been made?
+E:	 
+R:	 made
+QT:	 passive
+
+
+Q:	 How many Bridget Jones movies have been made?
+E:	 
+R:	 made
+QT:	 passive
+
+
+Q:	 How many cast members are in 12 angry men?
+E:	 12 angry men
+R:	 
+QT:	 XofY
+
+
+Q:	 How many characters have part in the fictional group The Fellowship of The Ring?
+Error.
+
+
+Q:	 How many children does David Lynch have?
+E:	 How many children
+R:	 have
+QT:	 verb_prop
+
+
+Q:	 How many children does Johnny Depp have?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 How many children does Morgan Freeman have?
+E:	 How many children
+R:	 have
+QT:	 verb_prop
+
+
+Q:	 How many children does the actor Daniel Craig have?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 How many children has Steven Spielberg?
+E:	 Steven Spielberg
+R:	 have
+QT:	 verb_prop
+
+
+Q:	 How many different actors have played the role of SpiderMan?
+E:	 SpiderMan
+R:	 play role
+QT:	 XofY
+
+
+Q:	 How many episodes does Twin Peaks have?
+E:	 How many episodes
+R:	 have
+QT:	 verb_prop
+
+
+Q:	 How many films are part of the Harry Potter film series?
+E:	 Harry Potter film series
+R:	 part
+QT:	 XofY
+
+
+Q:	 How many films did Goffrey Ho directed?
+E:	 How many films
+R:	 direct
+QT:	 verb_prop
+
+
+Q:	 How many followers does Ryan Reynolds have?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 How many followers does Studio Ghibli have on social media?
+Error.
+
+
+Q:	 How many Harry Potter movies are there?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 How many "How To Train Your Dragon" movies are there?
+E:	 " movies
+R:	 be
+QT:	 verb_prop
+
+
+Q:	 How many Iron Man movie parts are there?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 How many members does UEFA have?
+E:	 How many members
+R:	 have
+QT:	 verb_prop
+
+
+Q:	 How many minutes is Spirited Away?
+E:	 Away
+R:	 duration
+QT:	 duration
+
+
+Q:	 How many minutes long is The Wolf of Wall Street?
+E:	 The Wolf of Wall Street
+R:	 duration
+QT:	 duration
+
+
+Q:	 How many movies are included in the Harry Potter series?
+E:	 Harry Potter series
+R:	 included
+QT:	 passive
+
+
+Q:	 how many movies are in the Marvel cinematic Universe?
+E:	 Marvel cinematic Universe
+R:	 
+QT:	 XofY
+
+
+Q:	 How many movies are there in the "Ocean's" series?
+E:	 Oceans series
+R:	 there
+QT:	 XofY
+
+
+Q:	 How many movies of harry potter are there?
+E:	 harry potter are there
+R:	 
+QT:	 XofY
+
+
+Q:	 How many occupations does Rowan Atkinson have?
+E:	 How many occupations
+R:	 have
+QT:	 verb_prop
+
+
+Q:	 How many Oscar nomination does Meryl Streep have?
+E:	 How many Oscar nomination
+R:	 have
+QT:	 verb_prop
+
+
+Q:	 How many oscars did th movie 'the Titanic' win?
+E:	 Titanic ' win
+R:	 do
+QT:	 verb_prop
+
+
+Q:	 How many oscars did Titanic win?
+E:	 Titanic win
+R:	 do
+QT:	 verb_prop
+
+
+Q:	 How many people live in Hollywood?
+Error.
+
+
+Q:	 How many Pokémon episodes are there?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 How many prices did Tenet won
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 How many screenwriters did Good Will Hunting have?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 How many seasons does Malcolm in the Middle have?
+E:	 Middle have
+R:	 Malcolm
+QT:	 XofY
+
+
+Q:	 How many seasons does the series How I Met Your Mother have?
+E:	 Your Mother
+R:	 have
+QT:	 verb_prop
+
+
+Q:	 How many seasons of the show Merlin exist?
+Error.
+
+
+Q:	  How many "Star Wars" films are there?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 How many twitter followers does Zac Efron have?
+E:	 How many twitter followers
+R:	 have
+QT:	 verb_prop
+
+
+Q:	 How many years ago did Blu-Ray DVDs come out?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 How much did 2001: A Space Oddyssey cost to make?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 How much did Avengers: Endgame (2019) earn in the box office worldwide?
+E:	 worldwide
+R:	 avenger : Endgame ( 2019 ) earn
+QT:	 XofY
+
+
+Q:	 How much did Avengers: Endgame cost?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 How much did Inception cost to produce?
+E:	 How much did Inception cost
+R:	 produce
+QT:	 verb_prop
+
+
+Q:	 How much did it cost to film Tenet?
+The answer to your question is: 200000000
+E:	 Tenet
+R:	 cost
+QT:	 verb_prop
+
+
+Q:	 How much did it cost to make The Lord of the Rings: The Fellowship of the Ring?
+E:	 Rings: The Fellowship of the Ring
+R:	 it cost to make
+QT:	 XofY
+
+
+Q:	 How much did Saving private ryan cost in United States dollars?
+E:	 United States dollars
+R:	 save private ryan cost
+QT:	 XofY
+
+
+Q:	 How much did The LEGO Batman Movie make at box office?
+E:	 box office
+R:	 LEGO Batman Movie make
+QT:	 XofY
+
+
+Q:	 How much did the most expensive movie to produce cost?
+E:	 cost
+R:	 movie
+QT:	 verb_prop
+
+
+Q:	 How much did the movie "Inception" earn in box office?
+E:	 
+R:	 movie  Inception  earn
+QT:	 XofY
+
+
+Q:	 How much did the production of The Grand Budapest Hotel cost?
+E:	 How much
+R:	 cost
+QT:	 verb_prop
+
+
+Q:	 How much did the production of The Lord of the Rings: The Return of the King cost?
+E:	 The Lord of the Rings: The Return of the King cost
+R:	 production the
+QT:	 XofY
+
+
+Q:	 How much did the production of the movie "Inglourious Basterds" (2009) cost?
+E:	 Inglourious Basterds (2009) cost
+R:	 production
+QT:	 XofY
+
+
+Q:	 How much did the sci-fi movie Avatar cost?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 How much did Titanic cost to make?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 How much did Toy Story make?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 How much did Wolf of Wallstreet cost?
+E:	 Wallstreet cost
+R:	 Wolf
+QT:	 XofY
+
+
+Q:	 How much does it cost for producing The Girl with the Dragon Tattoo?
+E:	 The Girl with the Dragon Tattoo
+R:	 it cost for produce
+QT:	 XofY
+
+
+Q:	 How much dollar did it cost to produce the movie Tenet?
+E:	 Tenet
+R:	 cost
+QT:	 verb_prop
+
+
+Q:	  How much dollars did the movie "Avatar"(2009) cost?
+E:	 the movie " Avatar"(2009 )
+R:	  
+QT:	 verb_prop
+
+
+Q:	 How much money did Tenet cost to produce?
+E:	 How much money
+R:	 cost
+QT:	 verb_prop
+
+
+Q:	 How much money was spent to create "John Wick 2" ?
+E:	 
+R:	 spent
+QT:	 passive
+
+
+Q:	 How much time does it cost to watch The Karate Kid from 1984?
+E:	 The Karate Kid from 1984
+R:	 duration
+QT:	 duration
+
+
+Q:	 How old should you be to watch Kingsman: the Secret Service?
+E:	 Kingsman : the Secret Service
+R:	 be
+QT:	 verb_prop
+
+
+Q:	  How old was Leonardo DiCaprio when he played in "Inception"?
+E:	 Inception
+R:	 Leonardo DiCaprio when he play
+QT:	 XofY
+
+
+Q:	 How tall is Amitabh Bachchan?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 How tall is Arnold Schwarzenegger
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 How tall is Bryan Cranston?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 How tall is Danny DeVito?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 How tall is the actor Mark Ruffalo?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 How tall is the actor playing Mark Watney in The Martian?
+E:	 The Martian
+R:	 actor play Mark Watney
+QT:	 XofY
+
+
+Q:	 How tall is the actor Toby Jones?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 How tall is Will Smith?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 In 1996 Nicolas Cage won an Academy Award for Best Actor, which work was it for?
+Error.
+
+
+Q:	 Inception was directed by whom?
+E:	 whom
+R:	 directed
+QT:	 passive
+
+
+Q:	 In how many movies has the Winter Soldier featured, played by Sebastian Stan?
+Error.
+
+
+Q:	 Interstellar was directed by whom?
+E:	 whom
+R:	 directed
+QT:	 passive
+
+
+Q:	 In The Godfather, who played Vito Corleone?
+E:	 Vito Corleone
+R:	 in
+QT:	 verb_prop
+
+
+Q:	 In what aspect ratio was Zack Snyder's Justice League shot?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 In what capital was the film The Fault in Our Stars, filmed?
+E:	 The Fault in Our Stars, filmed
+R:	 film the fault in our
+QT:	 XofY
+
+
+Q:	 In what country is Château Picard located?
+E:	 
+R:	 located
+QT:	 passive
+
+
+Q:	 In what country is the university, where the director of Seven Pounds studied, located?
+E:	 Seven Pounds studied, located
+R:	 university , where the director
+QT:	 XofY
+
+
+Q:	 In what country was Bohemian Rhapsody released on the 31st of October, 2018?
+Error.
+
+
+Q:	 In what country was Lord of the Rings filmed?
+Error.
+
+
+Q:	 In what film format was Rosemary's Baby shot?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 In what format is David Attenborough: A Life on Our Planet available?
+E:	 David Attenborough: A Life on Our Planet available
+R:	 
+QT:	 XofY
+
+
+Q:	 In what industry other than filmmaking is the Warner Bros. production company active?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 In what language was Shrek originally released?
+E:	 
+R:	 released
+QT:	 passive
+
+
+Q:	 In what movies did Anthony Hopkins play Hannibal Lecter?
+E:	 Hannibal Lecter
+R:	 play
+QT:	 verb_prop
+
+
+Q:	 In what period is the action of the movie "Gladiator" set in?
+E:	 Gladiator set in
+R:	 action the movie 
+QT:	 XofY
+
+
+Q:	 In what year did Gene Roddenberry die?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 In what year did Meryl Streep start acting?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 In what year did the first Harry Potter movie come out?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 In what year did the TV-show Friends premiere?
+E:	 Friends
+R:	 premiere
+QT:	 verb_prop
+
+
+Q:	 In what year is Steven Spielberg's famous war movie starring Tom Hanks set?
+E:	 Tom Hanks
+R:	 set
+QT:	 verb_prop
+
+
+Q:	 In what year is The Revenant set?
+E:	 
+R:	 set
+QT:	 passive
+
+
+Q:	 In what years did the producers of "Three Billboards Outside Ebbing, Missouri" whose career started between 1990 and 2000, start their career?
+E:	 their career
+R:	 start
+QT:	 verb_prop
+
+
+Q:	 In what year was Ice Age: The Meltdown released?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 In what year was James Cameron's Avatar released?
+E:	 
+R:	 released
+QT:	 passive
+
+
+Q:	 In what year was Soylent Green released?
+E:	 
+R:	 released
+QT:	 passive
+
+
+Q:	 In what year was the documentary Miss Americana released?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 In what year was The Matrix released?
+E:	 
+R:	 released
+QT:	 passive
+
+
+Q:	 In what year was the movie Grease published?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 In what year was the movie Interstellar released?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 In what year was the movie 'psycho' published??
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 In what year was the movie "The Dark Knight" released?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 In what year was "To All The Boys I've Loved Before" publicised?
+E:	 To All The Boys Ive Loved Before publicised
+R:	  to all
+QT:	 XofY
+
+
+Q:	 In which 2004 movie is Bob Parr the father of a family?
+E:	 Bob Parr the father of a family
+R:	 
+QT:	 XofY
+
+
+Q:	 In which aspect ratio was Kingsman: The Secret Service filmed
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 In which city was Christoph Waltz born?
+E:	 Christoph Waltz born
+R:	 
+QT:	 XofY
+
+
+Q:	 In which countries was the Joker published on 4 October 2019?
+E:	 October 2019
+R:	 published
+QT:	 passive
+
+
+Q:	 In which countries was the movie Spectre published first?
+E:	 Spectre published first
+R:	 
+QT:	 XofY
+
+
+Q:	 In which country is Jungle Book set?
+E:	 
+R:	 
+QT:	 passive
+
+
+Q:	 In which country was the director of Parasite born?
+E:	 Parasite born
+R:	 director
+QT:	 XofY
+
+
+Q:	 In which country was the first release of movie The Matrix?
+E:	 The Matrix
+R:	 first release movie the
+QT:	 XofY
+
+
+Q:	 In which month was Michael Douglas born in?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 In which movies directed by Quintin Tarantino did Brad Pitt play?
+E:	 Quintin Tarantino did Brad Pitt play
+R:	 
+QT:	 XofY
+
+
+Q:	 In which Star Wars movies does the character Kylo Ren appear in?
+The answer to your question is: Star Wars Episode VII: The Force Awakens
+The answer to your question is: Star Wars: Episode VIII – The Last Jedi
+The answer to your question is: Star Wars Episode IX: The Rise of Skywalker
+The answer to your question is: Star Wars universe
+E:	 Kylo Ren
+R:	 appear
+QT:	 verb_prop
+
+
+Q:	 In which television series is the character Eric Cartman featured?
+E:	 Eric Cartman featured
+R:	 
+QT:	 XofY
+
+
+Q:	 In which war does the film character Forrest Gump partake in?
+E:	 Forrest Gump partake in
+R:	 film character
+QT:	 XofY
+
+
+Q:	 Is Brad Pitt male?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 Is Die Hard a Christmas film?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 Is Nicolas Cage Nicolas Cage's real name, if no, what is it?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 Is The Incredibles movie animated?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 Jonah Hill was nominated twice for the Academy Award for Best Supporting Actor. Name the movies.
+E:	 Best Supporting Actor
+R:	 Name
+QT:	 passive
+
+
+Q:	 List all the actors that have played James Bond?
+E:	 James Bond
+R:	 list
+QT:	 verb_prop
+
+
+Q:	 Of how many movies consists the Harry Potter series?
+The answer to your question is: Harry Potter and the Philosopher's Stone
+The answer to your question is: Harry Potter and the Goblet of Fire
+The answer to your question is: Harry Potter and the Deathly Hallows
+The answer to your question is: Harry Potter and the Half-Blood Prince
+The answer to your question is: Harry Potter and the Chamber of Secrets
+The answer to your question is: Harry Potter and the Prisoner of Azkaban
+The answer to your question is: Harry Potter and the Order of the Phoenix
+E:	 Harry Potter series
+R:	 consist
+QT:	 verb_prop
+
+
+Q:	 Of which four movies does the Hunger Games trilogy exist?
+E:	 Hunger Games trilogy exist
+R:	 
+QT:	 XofY
+
+
+Q:	 Of which trilogy is Hot Fuzz a part of?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 On what book is Apocalypse Now based?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 On what book is the 2011 film Limitless based on?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 On what date did the actor playing Brian O'Conner in The Fast and the Furious die?
+E:	 Brian OConner in The Fast and the Furious die
+R:	 actor play
+QT:	 XofY
+
+
+Q:	 On what day was Will Smith born?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 On what is the movie Imitation Game based on?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 On what year was The Matrix released?
+E:	 
+R:	 released
+QT:	 passive
+
+
+Q:	 On which book is Schindler's List based?
+E:	 Schindlers List based
+R:	 
+QT:	 XofY
+
+
+Q:	 On which other movie/tv series is the movie El Camino: A Breaking Bad Movie based on?
+E:	 El Camino: A Breaking Bad Movie based on
+R:	 movie
+QT:	 XofY
+
+
+Q:	 On which writer's work was Lord of the Rings based on?
+E:	 Lord of the Rings based on
+R:	 
+QT:	 XofY
+
+
+Q:	 Star Wars genre
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 The 2011 film Tinker Tailor Soldier Spy is made after a work by whom?
+E:	 whom
+R:	 made
+QT:	 passive
+
+
+Q:	 The character Galadriel from the Lord of the Rings series has been played by which two actresses?
+E:	 which
+R:	 played
+QT:	 passive
+
+
+Q:	 The Matrix series currently has three movies. What is the last one called?
+E:	 three movies
+R:	 have
+QT:	 verb_prop
+
+
+Q:	 The Three Flavours Cornetto trilogy, directed by Edgar Wright contains which three films?
+Error.
+
+
+Q:	 To what ethnic group does Martin Scorsese belong?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 To what genre belongs the television series Suits?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 To which genres does Avengers: Endgame belong?
+E:	 Avengers
+R:	 belong
+QT:	 verb_prop
+
+
+Q:	 To which genres does Weathering with You belong?
+Error.
+
+
+Q:	 voice woody toy story
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 Was Brad Pitt married to Angelina Jolie?
+E:	 Angelina Jolie
+R:	 Brad Pitt marry
+QT:	 XofY
+
+
+Q:	 Was Harrison Ford in Apocalypse Now?
+E:	 Apocalypse Now
+R:	 Harrison Ford
+QT:	 XofY
+
+
+Q:	 Was Top Gun filmed in San Diego?
+E:	 San Diego
+R:	 Top Gun film
+QT:	 XofY
+
+
+Q:	 What actor collaborated with Quentin Tarantino the most?
+Error.
+
+
+Q:	 What actor played the role of "Legolas" in the "The Lord of the Rings" trilogy?
+Error.
+
+
+Q:	 What actor received an Oscar/Academy Award for their work in Bohemian Rhapsody?
+Error.
+
+
+Q:	 What actors have played War Machine?
+The answer to your question is: professional wrestling
+The answer to your question is: mixed martial arts
+E:	 War Machine
+R:	 play
+QT:	 verb_prop
+
+
+Q:	 What actors played in both Fight Club, and American History X?
+Error.
+
+
+Q:	 What are all the Hobbit movies?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What are all the Lord of the Rings movies?
+E:	 Rings movies
+R:	 all Lord
+QT:	 XofY
+
+
+Q:	 What are all the wizards called in Lord of the Rings?
+E:	 Lord of the Rings
+R:	 all wizard call in
+QT:	 XofY
+
+
+Q:	 What are FIFA's subsidiaries?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What are some of the most well known movies by Alfred Hitchcock?
+E:	 Alfred Hitchcock
+R:	 some most well know movie by
+QT:	 XofY
+
+
+Q:	 What are the first 2 Star Wars trilogies?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What are the first three movies that Arnold Schwarzenegger is most well known for?
+E:	 that
+R:	 
+QT:	 passive
+
+
+Q:	 What are the genres of Inception?
+The answer to your question is: drama
+The answer to your question is: adventure film
+The answer to your question is: science fiction film
+The answer to your question is: heist film
+The answer to your question is: mystery film
+The answer to your question is: thriller film
+The answer to your question is: science fiction action film
+The answer to your question is: film score
+The answer to your question is: jazz
+The answer to your question is: thrash metal
+E:	 Inception
+R:	 genre
+QT:	 XofY
+
+
+Q:	 What are the genres of the movie Black Mirror: Bandersnatch?
+The answer to your question is: drama
+The answer to your question is: science fiction film
+E:	 Black Mirror: Bandersnatch
+R:	 genre
+QT:	 XofY
+
+
+Q:	 What are the genres of the movie Interstellar?
+The answer to your question is: drama
+The answer to your question is: adventure film
+The answer to your question is: science fiction film
+The answer to your question is: dystopian film
+The answer to your question is: drama
+E:	 Interstellar
+R:	 genre
+QT:	 XofY
+
+
+Q:	 What are the genres of the movie Jaws?
+The answer to your question is: drama
+The answer to your question is: thriller film
+The answer to your question is: film based on a novel
+E:	 Jaws
+R:	 genre
+QT:	 XofY
+
+
+Q:	 What are the genres of the movie "Promising Young Woman"?
+E:	 Promising Young Woman
+R:	 genre
+QT:	 XofY
+
+
+Q:	 What are the genres of the movie The Breakfast Club?
+The answer to your question is: drama
+The answer to your question is: comedy-drama
+The answer to your question is: teen film
+The answer to your question is: coming-of-age story
+E:	 The Breakfast Club
+R:	 genre
+QT:	 XofY
+
+
+Q:	 What are the genres of Whiplash?
+E:	 Whiplash
+R:	 genre
+QT:	 XofY
+
+
+Q:	 What are the given names of Leonardo DiCaprio?
+E:	 Leonardo DiCaprio
+R:	 give name
+QT:	 XofY
+
+
+Q:	 What are the languages spoken in Steven Cameron's Avatar?
+E:	 Steven Camerons Avatar
+R:	 language speak
+QT:	 XofY
+
+
+Q:	 What are the main subjects in Django Unchained?
+The answer to your question is: slavery in the United States
+The answer to your question is: revenge
+E:	 Django Unchained
+R:	 main subject
+QT:	 XofY
+
+
+Q:	 What are the main subjects of Saving Private Ryan?
+The answer to your question is: World War II
+The answer to your question is: Invasion of Normandy
+The answer to your question is: Sole Survivor Policy
+The answer to your question is: altruistic suicide
+The answer to your question is: Operation Overlord
+The answer to your question is: rescue operation
+The answer to your question is: comradeship
+E:	 Saving Private Ryan
+R:	 main subject
+QT:	 XofY
+
+
+Q:	 What are the main subjects of the movie Taken?
+The answer to your question is: prostitution
+The answer to your question is: organized crime
+E:	 Taken
+R:	 main subject
+QT:	 XofY
+
+
+Q:	 What are the main subjects of the movie Tenet?
+The answer to your question is: World War III
+The answer to your question is: time
+The answer to your question is: causality
+E:	 Tenet
+R:	 main subject
+QT:	 XofY
+
+
+Q:	  What are the main subjects of the movie "The Pianist"(2002) ?
+E:	 The Pianist(2002) 
+R:	 main subject
+QT:	 XofY
+
+
+Q:	 What are the main subjects of the Netflix miniseries the Queen's Gambit?
+E:	 the Queen 's Gambit
+R:	 miniserie
+QT:	 verb_prop
+
+
+Q:	 What are the main subjects of The Trial of the Chicago 7?
+E:	 The Trial of the Chicago 7
+R:	 main subject the
+QT:	 XofY
+
+
+Q:	 What are the names of all three parts of the Lord of the Rings trilogy?
+E:	 Lord of the Rings trilogy
+R:	 name all three part of the
+QT:	 XofY
+
+
+Q:	 What are the names of Johnny Depp's children?
+E:	 Johnny Depps children
+R:	 name
+QT:	 XofY
+
+
+Q:	 What are the names of Martin Scorsese's children?
+E:	 Martin Scorseses children
+R:	 name
+QT:	 XofY
+
+
+Q:	 What are the names of the children of the director of Mowgli: Legend of the Jungle?
+E:	 Mowgli: Legend of the Jungle
+R:	 name the child of the director of
+QT:	 XofY
+
+
+Q:	 What are the names of the Coen Brothers?
+E:	 Coen Brothers
+R:	 name
+QT:	 XofY
+
+
+Q:	 What are the names of the episodes in the Harry Potter film series?
+E:	 Harry Potter film series
+R:	 name the episode in the
+QT:	 XofY
+
+
+Q:	 What are the names of the four hobbits in the Lord of the Rings?
+E:	 Lord of the Rings
+R:	 name the four hobbit in the
+QT:	 XofY
+
+
+Q:	 What are the names of the four members of the A-team?
+Error.
+
+
+Q:	 What are the names of the genres of Antwone Fisher?
+E:	 Antwone Fisher
+R:	 name the genre of
+QT:	 XofY
+
+
+Q:	 What are the names of the "Lord of the Ring" trilogy?
+E:	 Lord of the Ring trilogy
+R:	 name the 
+QT:	 XofY
+
+
+Q:	 What are the names of the separate parts of the Ice Age film franchise?
+E:	 Ice Age film franchise
+R:	 name the separate part of the
+QT:	 XofY
+
+
+Q:	 What are the names of the two brothers who won the 69th Academy Award for Best Original Screenplay?
+E:	 Academy Award for Best Original Screenplay
+R:	 name the two brother who win the 69th
+QT:	 XofY
+
+
+Q:	 What are the narrative locations (cities) in the movie "Lost in Translation"?
+Error.
+
+
+Q:	 What are the nicknames of the lead character of The Big Lebowski?
+E:	 The Big Lebowski
+R:	 nickname the lead character of the
+QT:	 XofY
+
+
+Q:	 What are the notable works of composer John Williams?
+The answer to your question is: Schindler's List
+The answer to your question is: Star Wars (soundtrack)
+The answer to your question is: Indiana Jones Adventure
+The answer to your question is: Munich
+The answer to your question is: Augustus
+The answer to your question is: Stoner
+The answer to your question is: Butcher's Crossing
+E:	 John Williams
+R:	 notable work
+QT:	 XofY
+
+
+Q:	  What are the original languages of the movie "The pianist"(2002)?
+E:	 The pianist(2002)
+R:	 original language
+QT:	 XofY
+
+
+Q:	 What are the roles that Samuel L. Jackson played in the Star Wars franchise and the Marvel Cinamatic Universe?
+E:	 Star Wars franchise and the Marvel Cinamatic Universe
+R:	 role that Samuel L. Jackson play
+QT:	 XofY
+
+
+Q:	 What are the sequels of Kingsman: the Secret Service?
+E:	 Kingsman: the Secret Service
+R:	 sequel
+QT:	 XofY
+
+
+Q:	 What are the titles of the Harry Potter movies?
+E:	 Harry Potter movies
+R:	 title
+QT:	 XofY
+
+
+Q:	 What are the titles of the movies of The Hunger Games film series?
+E:	 The Hunger Games film series
+R:	 title the movie of the
+QT:	 XofY
+
+
+Q:	 What are the titles of the three parts of the Lord of the Rings trilogy?
+E:	 Lord of the Rings trilogy
+R:	 title the three part of the
+QT:	 XofY
+
+
+Q:	 What are the top three best worldwide grossing animated movies?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What award did wolf of Wallstreet receive?
+E:	 Wallstreet receive
+R:	 wolf
+QT:	 XofY
+
+
+Q:	 What awards did Frozen receive?
+E:	 What awards
+R:	 receive
+QT:	 verb_prop
+
+
+Q:	 What awards did Inglourious Basterds received?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What awards did the actor Daniel Craig win?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What awards did The Godfather receive?
+E:	 What awards
+R:	 receive
+QT:	 verb_prop
+
+
+Q:	 What awards did the movie "Joker" receive?
+E:	 Joker " receive
+R:	 do
+QT:	 verb_prop
+
+
+Q:	 What awards has George Lucas won?
+E:	 What awards
+R:	 win
+QT:	 verb_prop
+
+
+Q:	 What awards has Johnny Depp received?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What book is the movie Mean Girls based on?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What caused Gollum's death?
+E:	 Gollum 's death
+R:	 cause
+QT:	 verb_prop
+
+
+Q:	 What caused the death of Walt Disney?
+Error.
+
+
+Q:	 What character did Tim Allen play in Toy Story?
+E:	 Toy Story
+R:	 Tim Allen play
+QT:	 XofY
+
+
+Q:	 What character does Bruce Willis play in Die Hard?
+E:	 What character
+R:	 play
+QT:	 verb_prop
+
+
+Q:	 What color is actor Michael Sheen's hair?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What color is the film character Shrek?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What company produced the film series "Harry Potter?"
+E:	 Harry Potter
+R:	 produce
+QT:	 verb_prop
+
+
+Q:	 What country is the film Lion King originally from?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What country was Blood Diamond filmed in?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What country was Jim Carrey born in?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What country won the oscar for best foreign film in 2020?
+Error.
+
+
+Q:	 What did it cost to make Blade Runner?
+The answer to your question is: 28000000
+E:	 Blade Runner
+R:	 cost
+QT:	 verb_prop
+
+
+Q:	 What Dutch actors starred in Blade Runner?
+Error.
+
+
+Q:	 What else is the actor Arnold Schwarzenegger known for?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What film, directed by Bong Joon-ho, led him to receive the Academy Award for Best Director?
+Error.
+
+
+Q:	 What film genre is the Titanic?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What films are in the Unbreakable movie series?
+E:	 Unbreakable movie series
+R:	 
+QT:	 XofY
+
+
+Q:	 What film won Academy Award for Best Picture in 2015?
+Error.
+
+
+Q:	 What game is Minecraft: The Movie based on?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What game is Minecraft: The Movie based on?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What genre are the Harry Potter movies?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What genre is Argo?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What genre is Gravity part of?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What genre is Midsommar?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What genre is Schindler's List?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What genre is Skyfall?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What genre is Star Wars?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What genre is The Hangover?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What genre is the movie Saving Private Ryan?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What genre is the Netflix Death Note movie?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What genres does the film The Shop around the Corner belong to?
+Error.
+
+
+Q:	 What genre(s) is the film Free Fire?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What genres is The Hitman's Bodyguard?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What genres is the movie Grease?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What happens when a player commits a foul?
+E:	 a foul
+R:	 happen
+QT:	 verb_prop
+
+
+Q:	 What institutions of education did Steve Carell go to?
+E:	 Steve Carell go to
+R:	 
+QT:	 XofY
+
+
+Q:	 What is Adam Sandler's net worth?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What is an example of a film?
+E:	 a film
+R:	 example
+QT:	 XofY
+
+
+Q:	 What is/are the genre/genres of the movie Hacksaw Ridge?
+E:	 
+R:	 genre / genre
+QT:	 XofY
+
+
+Q:	 What is/are the main subject/subjects of the movie Mr. Nobody?
+E:	 
+R:	 main subject / subject
+QT:	 XofY
+
+
+Q:	 What is/are the publication date(s) of The Girl with the Dragon Tattoo?
+E:	 Dragon Tattoo
+R:	 publication date(s ) the
+QT:	 XofY
+
+
+Q:	 What is Batman's birth name?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What is Christopher Nolan an instance of?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What is Christopher Nolan's middle name?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What is Dwayne Johnson's nickname?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What is Four Lions mainly about?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What is Francis Ford Coppola most succesful movie?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What is Gone With The Wind about?
+Error.
+
+
+Q:	 What is Harry Potter about?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	  What is IMDB?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What is Inception about?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What is Italy's national championship called?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What is Leonardo Di caprio his Age?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What is Leonardo DiCaprio's birth name?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What is Minami Takayama's blood type?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What is Minami Takayama's occupation?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What is most notable work from the American composer John Williams?
+E:	 John Williams
+R:	 most notable work
+QT:	 XofY
+
+
+Q:	 What is Nicolas Cage's birth name?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What is Omar Sy's country of citizenship?
+E:	 
+R:	 Omar Sy s country
+QT:	 XofY
+
+
+Q:	 What is Pulp Fiction?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What is Quentin Tarantino's date of birth?
+E:	 
+R:	 Quentin Tarantino s date
+QT:	 XofY
+
+
+Q:	 What is Quentin Tarantino's religion?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What is Schindler's List about?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What is spider-man's name?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What is Spiderman's name?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What is the 2009 movie 'Up' about?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What is the actor Jack Nicholson's date of birth?
+E:	 
+R:	 actor Jack Nicholson s date
+QT:	 XofY
+
+
+Q:	 What is the birth city of Jim Carrey?
+E:	 Jim Carrey
+R:	 birth city
+QT:	 XofY
+
+
+Q:	 What is the box office of 8 Mile?
+E:	 Mile
+R:	 box office
+QT:	 XofY
+
+
+Q:	 What is the box office of Interstellar?
+E:	 Interstellar
+R:	 box office
+QT:	 XofY
+
+
+Q:	 What is the box office of the movie Harry Potter and the Goblet of Fire?
+E:	 Harry Potter and the Goblet of Fire
+R:	 box office the movie
+QT:	 XofY
+
+
+Q:	 What is the catchphrase of James Bond?
+E:	 James Bond
+R:	 catchphrase
+QT:	 XofY
+
+
+Q:	 What is the catchphrase of the fictional character James Bond?
+The answer to your question is: The name is Bond, James Bond
+E:	 James Bond
+R:	 catchphrase
+QT:	 XofY
+
+
+Q:	 What is the cause of death of Paul Walker?
+The answer to your question is: traffic collision
+E:	 Paul Walker
+R:	 cause of death
+QT:	 XofY
+
+
+Q:	 What is the combined duration of all films in the Underworld series?
+E:	 Underworld series
+R:	 duration
+QT:	 duration
+
+
+Q:	 What is the country of citizenship of Quentin Tarantino?
+The answer to your question is: United States of America
+E:	 Quentin Tarantino
+R:	 country of citizenship
+QT:	 XofY
+
+
+Q:	 What is the country of origin of "10 Things I Hate About You"?
+E:	 Things I Hate About You
+R:	 country of origin
+QT:	 XofY
+
+
+Q:	 What is the country of origin of Black Mirror?
+E:	 Black Mirror
+R:	 country of origin
+QT:	 XofY
+
+
+Q:	 What is the country of origin of mr. Bean?
+E:	 Bean
+R:	 country of origin
+QT:	 XofY
+
+
+Q:	 What is the country of origin of the animated series 'Death Note'?
+The answer to your question is: Japan
+The answer to your question is: United States of America
+The answer to your question is: Japan
+E:	 Death Note
+R:	 country of origin
+QT:	 XofY
+
+
+Q:	 What is the country of origin of the drama film 'Mommy'?
+E:	 Mommy
+R:	 country of origin
+QT:	 XofY
+
+
+Q:	 What is the date of birth of the actress Natalie Portman?
+E:	 Natalie Portman
+R:	 birth date
+QT:	 XofY
+
+
+Q:	 What is the director Gaspar Noé employed at?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What is the dragon called in the Hobbit movies?
+E:	 Hobbit movies
+R:	 dragon call
+QT:	 XofY
+
+
+Q:	 What is the duration of 2001: A Space Odyssey?
+E:	 A Space Odyssey
+R:	 duration
+QT:	 duration
+
+
+Q:	 What is the duration of I Am Legend?
+E:	 Legend
+R:	 duration
+QT:	 duration
+
+
+Q:	 What is the duration of John Wick?
+E:	 John Wick
+R:	 duration
+QT:	 duration
+
+
+Q:	 What is the duration of "Star Wars Episode IV: A New Hope"?
+E:	 Star Wars Episode IV: A New Hope
+R:	 duration
+QT:	 duration
+
+
+Q:	 What is the duration of The Fast and the Furious?
+E:	 The Fast and the Furious
+R:	 duration
+QT:	 duration
+
+
+Q:	 What is the duration of The Fault in Our Stars?
+E:	 The Fault in Our Stars
+R:	 duration
+QT:	 duration
+
+
+Q:	 What is the duration of The Girl with the Dragon Tattoo?
+E:	 The Girl with the Dragon Tattoo
+R:	 duration
+QT:	 duration
+
+
+Q:	 What is the duration of The Grand Budapest Hotel?
+E:	 The Grand Budapest Hotel
+R:	 duration
+QT:	 duration
+
+
+Q:	  What is the duration of the movie "Avatar"(2009)?
+E:	 What is the duration of the movie Avatar(2009)
+R:	 duration
+QT:	 duration
+
+
+Q:	 What is the duration of the movie "Tenet"?
+E:	 Tenet
+R:	 duration
+QT:	 duration
+
+
+Q:	 What is the Dutch age rating for the movie Bohemian Rhapsody?
+E:	 Bohemian Rhapsody
+R:	 dutch age rating
+QT:	 XofY
+
+
+Q:	 What is the english name for the fictional realm from the Marvel cinematic universe named Asgard in dutch?
+E:	 Marvel cinematic universe named Asgard in dutch
+R:	 english name for the fictional realm from the
+QT:	 XofY
+
+
+Q:	 What is the famous phrase from the movie Forrest Gump?
+E:	 Forrest Gump
+R:	 famous phrase
+QT:	 XofY
+
+
+Q:	 What is the film Dr. Strangelove also known as in English?
+E:	 English
+R:	 film
+QT:	 XofY
+
+
+Q:	 What is the filming location of Narcos?
+E:	 Narcos
+R:	 film location
+QT:	 XofY
+
+
+Q:	 What is the filming location of the movie "Pulp Fiction"?
+The answer to your question is: Los Angeles
+E:	 Pulp Fiction
+R:	 filming location
+QT:	 XofY
+
+
+Q:	  What is the first line from "Forest Gump"?
+The answer to your question is: Hello. My name's Forrest. Forrest Gump. Do you want a chocolate? I could eat about a million and a half of these. My mama always said life was like a box of chocolates. You never know what you're gonna get. Those must be comfortable shoes. I bet you could walk all day in shoes like that and not feel a thing. I wish I had shoes like that.
+E:	 Forest Gump
+R:	 first line
+QT:	 XofY
+
+
+Q:	 What is the first line of Citizen Kane?
+The answer to your question is: Rosebud...
+E:	 Citizen Kane
+R:	 first line
+QT:	 XofY
+
+
+Q:	 What is the first movie in the Harry Potter series?
+E:	 Harry Potter series
+R:	 first movie
+QT:	 XofY
+
+
+Q:	 What is the full name of Johnny Depp?
+The answer to your question is: John Christopher Depp
+E:	 Johnny Depp
+R:	 full name
+QT:	 XofY
+
+
+Q:	 What is the full name of legendary actor Nicolas Cage?
+The answer to your question is: Nicolas Kim Coppola
+E:	 Nicolas Cage
+R:	 full name
+QT:	 XofY
+
+
+Q:	 What is the gender of Elon Musk?
+The answer to your question is: male
+E:	 Elon Musk
+R:	 gender
+QT:	 XofY
+
+
+Q:	 What is the genre of Dunkirk?
+E:	 Dunkirk
+R:	 genre
+QT:	 XofY
+
+
+Q:	 What is the genre of Enter the Void?
+E:	 Void
+R:	 be
+QT:	 verb_prop
+
+
+Q:	 What is the genre of Parasite?
+E:	 Parasite
+R:	 genre
+QT:	 XofY
+
+
+Q:	 What is the genre of Pirates of the Caribbean?
+E:	 Pirates of the Caribbean
+R:	 genre pirate of the
+QT:	 XofY
+
+
+Q:	 What is the genre of the movie Interstellar?
+E:	 Interstellar
+R:	 genre
+QT:	 XofY
+
+
+Q:	 What is the genre of the movie "Zootopia"?
+E:	 Zootopia
+R:	 genre
+QT:	 XofY
+
+
+Q:	 What is the German label for the 1968 Sergio Leone film Once Upon a Time in the West?
+E:	 Sergio Leone film Once Upon a Time in the West
+R:	 german label for the 1968
+QT:	 XofY
+
+
+Q:	 What is the highest grossing movie of all time?
+E:	 all time
+R:	 high grossing movie
+QT:	 XofY
+
+
+Q:	 What is the highest grossing movie that Michael Keaton played in?
+E:	 
+R:	 high grossing movie that Michael Keaton play
+QT:	 XofY
+
+
+Q:	 What is the highest-grossing R-rated movie of all time?
+E:	 
+R:	 highest - gross r - rate movie
+QT:	 XofY
+
+
+Q:	 What is the IMDb ID of Coherence?
+E:	 Coherence
+R:	 imdb ID
+QT:	 XofY
+
+
+Q:	 What is the Kijkwijzer rating of IT?
+The answer to your question is: 16
+E:	 IT
+R:	 Kijkwijzer rating
+QT:	 XofY
+
+
+Q:	 What is the Kijkwijzer rating of The Hitman's Bodygard?
+E:	 The Hitmans Bodygard
+R:	 Kijkwijzer rating
+QT:	 XofY
+
+
+Q:	 What is the last name of the character Rick in Rick and Morty?
+E:	 Rick in Rick and Morty
+R:	 last name the character
+QT:	 XofY
+
+
+Q:	 What is the latest Avengers movie?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What is the Lego Movie based on?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What is the longest duration of the movie Just Mercy?
+E:	 Just Mercy
+R:	 duration
+QT:	 duration
+
+
+Q:	 What is the Lord of the ring movie called in German?
+E:	 German
+R:	 the
+QT:	 XofY
+
+
+Q:	 What is the main subject of The Big Short?
+The answer to your question is: financial crisis of 2007–08
+E:	 The Big Short
+R:	 main subject
+QT:	 XofY
+
+
+Q:	 What is the main subject of the film I spit on your grave?
+Error.
+
+
+Q:	 What is the main subject of "The Godfather"?
+The answer to your question is: organized crime
+E:	 The Godfather
+R:	 main subject
+QT:	 XofY
+
+
+Q:	 What is the main subject of the movie Interstellar?
+The answer to your question is: interstellar travel
+E:	 Interstellar
+R:	 main subject
+QT:	 XofY
+
+
+Q:	 What is the main subject of the movie Interstellar?
+The answer to your question is: interstellar travel
+E:	 Interstellar
+R:	 main subject
+QT:	 XofY
+
+
+Q:	 What is the main subject of the movie I, Robot?
+The answer to your question is: artificial intelligence
+E:	 I, Robot
+R:	 main subject
+QT:	 XofY
+
+
+Q:	 What is the main subject of the movie "Paranormal Activity"?
+E:	 Paranormal Activity
+R:	 main subject
+QT:	 XofY
+
+
+Q:	 What is the motto of FIFA?
+E:	 FIFA
+R:	 motto
+QT:	 XofY
+
+
+Q:	 What is the movie The Avengers about?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What is the name of Kevin Hart's first spouse?
+E:	 Kevin Harts first spouse
+R:	 name
+QT:	 XofY
+
+
+Q:	 What is the name of Simba's father in the movie The Lion King?
+E:	 Simbas father in the movie The Lion King
+R:	 name
+QT:	 XofY
+
+
+Q:	  What is the name of Spider-Man?
+E:	 Spider-Man
+R:	 name
+QT:	 XofY
+
+
+Q:	 What is the name of the actor playing in Joh Wick?
+E:	 Joh Wick
+R:	 name the actor play in
+QT:	 XofY
+
+
+Q:	 What is the name of the actor playing Walter White in the series Breaking Bad?
+E:	 Walter White in the series Breaking Bad
+R:	 name the actor play
+QT:	 XofY
+
+
+Q:	 What is the name of the actor that played Alan Turing in the movie Imitation Game?
+E:	 Alan Turing in the movie Imitation Game
+R:	 name the actor that play
+QT:	 XofY
+
+
+Q:	 What is the name of the actor who's father was a hitman?
+E:	 the actor whos father was a hitman
+R:	 
+QT:	 XofY
+
+
+Q:	  What is the name of the actress playing "Rachel Green" in "Friends"?
+E:	 Rachel Green in Friends
+R:	 name the actress play 
+QT:	 XofY
+
+
+Q:	 What is the name of the Alfonso Cuaron movie, released in 2018?
+E:	 Alfonso Cuaron movie, released in 2018
+R:	 name the
+QT:	 XofY
+
+
+Q:	 What is the name of the character Kate Winslet playded in the Titanic?
+E:	 Kate Winslet playded in the Titanic
+R:	 name the character
+QT:	 XofY
+
+
+Q:	 What is the name of the character played by Al Pacino in The Godfather?
+E:	 Al Pacino in The Godfather
+R:	 name the character play by
+QT:	 XofY
+
+
+Q:	 What is the name of the character played by Elijah Wood in the Lord of the Rings movies?
+E:	 Elijah Wood in the Lord of the Rings movies
+R:	 name the character play by
+QT:	 XofY
+
+
+Q:	 What is the name of the dad of Steven Spielberg?
+E:	 Steven Spielberg
+R:	 name the dad of
+QT:	 XofY
+
+
+Q:	 What is the name of the first film of the Star Trek film series?
+E:	 Star Trek film series
+R:	 name the first film of the
+QT:	 XofY
+
+
+Q:	 What is the name of the hobbit played by Elijah Wood in the Lord of the Rings movies?
+E:	 Elijah Wood in the Lord of the Rings movies
+R:	 name the hobbit play by
+QT:	 XofY
+
+
+Q:	 What is the name of the main character from Mad Max?
+E:	 Mad Max
+R:	 name the main character from
+QT:	 XofY
+
+
+Q:	 What is the name of the main character of Walt Disney's first film?
+E:	 Walt Disneys first film
+R:	 name the main character of
+QT:	 XofY
+
+
+Q:	 What is the name of the mockumentary movie, starring the Lonely Island?
+E:	 Lonely Island
+R:	 be
+QT:	 verb_prop
+
+
+Q:	 What is the name of the second Wonder Woman movie?
+E:	 Wonder Woman movie
+R:	 name
+QT:	 XofY
+
+
+Q:	 What is the name of the sequel to Finding Nemo?
+The answer to your question is: 2003-05-30T00:00:00Z
+E:	 Nemo
+R:	 be
+QT:	 verb_prop
+
+
+Q:	 What is the name of the song of the series "Friends"?
+Error.
+
+
+Q:	 What is the name of the story that the movie Arrival is based on?
+E:	 that
+R:	 
+QT:	 passive
+
+
+Q:	 What is the name of the theme music of Peaky Blinders?
+E:	 Peaky Blinders
+R:	 name the theme music of
+QT:	 XofY
+
+
+Q:	 What is the name of the third movie of the Lord of the Rings trilogy?
+E:	 Lord of the Rings trilogy
+R:	 name the third movie of the
+QT:	 XofY
+
+
+Q:	 What is the name of the voice actor that plays Mufasa in The Lion King?
+E:	 Mufasa in The Lion King
+R:	 name the voice actor that play
+QT:	 XofY
+
+
+Q:	 What is the name of Thor's hammer in the Avengers?
+E:	 Thors hammer in the Avengers
+R:	 name
+QT:	 XofY
+
+
+Q:	 What is the narrative location of Family Guy?
+E:	 Family Guy
+R:	 narrative location
+QT:	 XofY
+
+
+Q:	 What is the narrative location of The Office?
+The answer to your question is: Scranton
+E:	 The Office
+R:	 narrative location
+QT:	 XofY
+
+
+Q:	 What is the native label of Smeagol?
+E:	 Smeagol
+R:	 native label
+QT:	 XofY
+
+
+Q:	 What is the native language of Gollum?
+The answer to your question is: Westron
+E:	 Gollum
+R:	 native language
+QT:	 XofY
+
+
+Q:	 What is the Netflix ID of the film Shrek?
+The answer to your question is: 60020686
+E:	 Shrek
+R:	 Netflix ID
+QT:	 XofY
+
+
+Q:	 What is the net worth of George Clooney
+The answer to your question is: 500000000
+E:	 George Clooney
+R:	 net worth
+QT:	 XofY
+
+
+Q:	 What is the official name of the Oscars?
+E:	 Oscars
+R:	 official name
+QT:	 XofY
+
+
+Q:	 What is the oldest Disney movie?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What is the original broadcaster of Breaking Bad?
+E:	 Breaking Bad
+R:	 original broadcaster
+QT:	 XofY
+
+
+Q:	 What is the original Japanese name of 'Spirited Away'?
+E:	 Spirited Away
+R:	 original japanese name
+QT:	 XofY
+
+
+Q:	 What is the original language of Fight Club?
+The answer to your question is: English
+E:	 Fight Club
+R:	 original language
+QT:	 XofY
+
+
+Q:	 What is the original language of Harry Potter and the Chamber of Secrets?
+The answer to your question is: English
+E:	 Harry Potter and the Chamber of Secrets
+R:	 original language
+QT:	 XofY
+
+
+Q:	 What is the original language of Memories of Murder?
+The answer to your question is: Korean
+E:	 Memories of Murder
+R:	 original language
+QT:	 XofY
+
+
+Q:	 What is the original language of movie Anna Karenina?
+E:	 Anna Karenina
+R:	 original language
+QT:	 XofY
+
+
+Q:	 What is the original language of Murder on the Orient Express?
+E:	 Murder on the Orient Express
+R:	 original language murder on the
+QT:	 XofY
+
+
+Q:	 What is the original language of the movie Parasite?
+The answer to your question is: Korean
+E:	 Parasite
+R:	 original language
+QT:	 XofY
+
+
+Q:	 What is the prequel of Mission: Impossible - Rogue Nation?
+E:	 Mission: Impossible - Rogue Nation
+R:	 prequel
+QT:	 XofY
+
+
+Q:	 What is the production company of Shrek?
+E:	 Shrek
+R:	 production company
+QT:	 XofY
+
+
+Q:	 What is the production company of the movie "Black Widow"?
+E:	 Black Widow
+R:	 production company
+QT:	 XofY
+
+
+Q:	 What is the protagonist of the movie Dumbo?
+E:	 Dumbo
+R:	 protagonist
+QT:	 XofY
+
+
+Q:	 What is the publication date of Harry Potter and the Philosopher's Stone?
+E:	 Harry Potter and the Philosophers Stone
+R:	 publication date
+QT:	 XofY
+
+
+Q:	 What is the publication date of the film Fifty Shades of Grey?
+E:	 Fifty Shades of Grey
+R:	 publication date the film fifty
+QT:	 XofY
+
+
+Q:	 What is the publication date of The Road to El Dorado?
+E:	 The Road to El Dorado
+R:	 publication date the
+QT:	 XofY
+
+
+Q:	 What is the release year of 'Die Hard'?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What is the religion of Sam Esmail?
+The answer to your question is: Islam
+E:	 Sam Esmail
+R:	 religion
+QT:	 XofY
+
+
+Q:	 What is the runtime of The Godfather?
+The answer to your question is: 175
+E:	 The Godfather
+R:	 runtime
+QT:	 XofY
+
+
+Q:	 What is the second name of Samuel L. Jackson?
+E:	 Samuel L. Jackson
+R:	 second name
+QT:	 XofY
+
+
+Q:	 What is the sequel of Wreck-It Ralph?
+E:	 Wreck-It Ralph
+R:	 sequel
+QT:	 XofY
+
+
+Q:	 What is the sequel to Captain America : Winter Soldier?
+E:	 Captain America : Winter Soldier
+R:	 sequel
+QT:	 XofY
+
+
+Q:	 What is the sequel to Gremlins?
+E:	 Gremlins
+R:	 sequel
+QT:	 XofY
+
+
+Q:	 What is the sequel to Monsters, Inc.?
+E:	 Monsters, Inc.
+R:	 sequel
+QT:	 XofY
+
+
+Q:	 What is the sequel to the movie Rise of the Planet of the Apes?
+E:	 Rise of the Planet of the Apes
+R:	 sequel to the movie rise the
+QT:	 XofY
+
+
+Q:	 What is the series Game of Trones based on?
+E:	 Trones based on
+R:	 series
+QT:	 XofY
+
+
+Q:	 What is the series ordinal of Detective Conan: The Private Eyes' Requiem?
+E:	 Detective Conan: The Private Eyes Requiem
+R:	 series ordinal
+QT:	 XofY
+
+
+Q:	 What is the site of the 1997 Titanic movie?
+Error.
+
+
+Q:	 What is the Social Network based on?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What is the theme for Pulp Fiction?
+The answer to your question is: organized crime
+E:	 Pulp Fiction
+R:	 theme
+QT:	 XofY
+
+
+Q:	 What is the title of Pulp Fiction?
+The answer to your question is: Pulp Fiction
+E:	 Pulp Fiction
+R:	 title
+QT:	 XofY
+
+
+Q:	 What is the title of Steven Spielberg's film about the holocaust?
+Error.
+
+
+Q:	 What is the title of the movie produced by Christopher Nolan, published in 2014?
+Error.
+
+
+Q:	 What is the title of the theme music of the TV-show Friends?
+Error.
+
+
+Q:	 What is the total number of cast members of Iron Man?
+Error.
+
+
+Q:	 What is the twitter username of the Japanese TV series, Doraemon?
+Error.
+
+
+Q:	 What is the type of Hotel Transylvania?
+Error.
+
+
+Q:	 What is Tom Hanks Net worth?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What is Total Recall based on?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What is Will Smith's real name?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What jewelry is Smeagol owner of?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What kind of film is Iron Man?
+Error.
+
+
+Q:	 What kind of movie is Despicable Me?
+Error.
+
+
+Q:	 What kind of movie is Harry Potter?
+Error.
+
+
+Q:	 What Korean movie won the Academy Award for Best Picture in 2020?
+Error.
+
+
+Q:	 What language is spoken in Parasite?
+Error.
+
+
+Q:	 What language is spoken in Parasite?
+Error.
+
+
+Q:	 What languages are spoken in Game of Trones?
+Error.
+
+
+Q:	 What languages does Christoph Waltz speak?
+Error.
+
+
+Q:	 What language was the movie "Climax" produced in?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What language was the movie "Climax" produced in?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What locations is the film Colossal set in?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What location were the Golden Globe Awards held at in 2020?
+Error.
+
+
+Q:	 What movie did Leonardo DiCaprio receive an Academy Award for?
+Error.
+
+
+Q:	 What movie did Leonardo DiCaprio win his first Oscar for?
+Error.
+
+
+Q:	 What movie from Andrei Tarkovsky came out in 1972?
+Error.
+
+
+Q:	 What movie gave Tom Hanks his first Academy Award nomination?
+Error.
+
+
+Q:	 What movie genre is How to train your Dragon?
+Error.
+
+
+Q:	 What movie genre is "Persona"?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What movie genre is The Impossible?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What movie genre is the movie 'Pineapple express'?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What movie inspired The Matrix?
+Error.
+
+
+Q:	 What movie(s) did M. Night Shyamalan direct before the year 2000?
+Error.
+
+
+Q:	 What movie(s) feature both Jack Nicholson and Meryl Streep?
+Error.
+
+
+Q:	 What movies has Ben Affleck directed?
+Error.
+
+
+Q:	 What movies have Lucasfilm made?
+Error.
+
+
+Q:	 What movie was Interstellar influenced by?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What movie won best picture in the 2020 Academy Awards?
+Error.
+
+
+Q:	 What MPAA film rating did The Matrix receive?
+Error.
+
+
+Q:	 What nationality does Scarlett Johansson have?
+Error.
+
+
+Q:	 What organizations is the film "Trading Places" distributed by?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What production company created the animated movie "Finding Nemo"?
+Error.
+
+
+Q:	 What production company made Despicable Me?
+Error.
+
+
+Q:	 What species is Jean-Luc Picard?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What sport is portrayed in the movie "Rush"?
+Error.
+
+
+Q:	 What sport is Space Jam about?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What's the duration of Elysium?
+Error.
+
+
+Q:	 What's the duration of Mad Max: Fury Road?
+Error.
+
+
+Q:	 What's the German name of Groundhog Day?
+Error.
+
+
+Q:	 What's the IMDb ID of the series 24?
+Error.
+
+
+Q:	 What's the name of Batman?
+Error.
+
+
+Q:	 What's the name of the character played by Samuel L. Jackson in The Avengers Saga?
+Error.
+
+
+Q:	 What's the name of the character played by Samuel L. Jackson in The Avengers Saga?
+Error.
+
+
+Q:	 What the movie "Interstellar" is influenced by?
+Error.
+
+
+Q:	 What time periods is City of God set in?
+Error.
+
+
+Q:	 What type of movie is Korengal?
+Error.
+
+
+Q:	 What university did Adam Sandler attend?
+Error.
+
+
+Q:	 What was George Cloony's first wife's name?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What was Martin Scorsese's first film?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What was the box office amount for the movie Psycho
+Error.
+
+
+Q:	 What was the box office for Whiplash
+Error.
+
+
+Q:	 What was the box office of Avatar?
+Error.
+
+
+Q:	 What was the box office of Avatar in the United States?
+Error.
+
+
+Q:	 What was the budget for Avatar?
+Error.
+
+
+Q:	 What was the budget for Avengers: Endgame?
+Error.
+
+
+Q:	 What was the budget of the 2009 movie, Avatar?
+Error.
+
+
+Q:	 What was the cause of death of Alan Rickman?
+Error.
+
+
+Q:	 What was the duration of Bladerunner 2049?
+Error.
+
+
+Q:	 What was the filming location of the film Metropolis?
+Error.
+
+
+Q:	 What was the filming location of the Harry Potter film series?
+Error.
+
+
+Q:	 What was the first movie in the world?
+Error.
+
+
+Q:	 What was the first movie that won the most awards?
+Error.
+
+
+Q:	 What was the first movie Theater?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What was the first movie to win an Oscar?
+Error.
+
+
+Q:	 What was the first movie with sound?
+Error.
+
+
+Q:	 What was the first publication date of the movie Shrek?
+Error.
+
+
+Q:	 What was the life expectancy in The Netherlands in 1999?
+Error.
+
+
+Q:	 What was the movie Shawshank Redemption based on?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What was the name of Jean-Luc Picard as given by the Borg?
+Error.
+
+
+Q:	 What was the name of the beer consumed by character in the Harry Potter universe?
+Error.
+
+
+Q:	 What was the original broadcaster of the TV-show Friends?
+Error.
+
+
+Q:	 What was the original language of Fack ju Göhte?
+Error.
+
+
+Q:	 What was the publication date of the first Jurassic Park movie?
+Error.
+
+
+Q:	 What was the worldwide box office result of James Cameron's Titanic?
+Error.
+
+
+Q:	 What was Wes Anderson's first movie?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What were the filming locations of The Matrix?
+Error.
+
+
+Q:	 What year did Grease come out?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What year did Interstellar come out?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What year did the film Finding Nemo come out?
+Error.
+
+
+Q:	 What year did the Godfather come out?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What year did Will Smith start acting?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What year is Hacksaw Ridge set in?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What year was Christopher Nolan's 'Inception' originally released?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What year was Grave of the Fireflies initially released?
+Error.
+
+
+Q:	 What year was Japanese film director Hayao Miyazaki born?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What year was the movie 'The Matrix' published?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What year was the notebook made?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 What year were the first Academy Awards hosted?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 When did Alan Rickman die?
+Question type could not be found ...
+Not recognised.
+
+
+Q:	 When did Chadwick Boseman die?
+Question type could not be found ...
+Not recognised.
+
+
