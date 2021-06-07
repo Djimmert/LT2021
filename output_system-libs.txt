@@ -262,13 +262,13 @@ None
 Q:	 How is the called that The Disaster Artist is based on?
 E:	 {'Q22078002': 'The Disaster Artist'}
 R:	 {'P272': 'called', 'P144': 'based'}
-None
+['New Line Cinema', 'RatPac-Dune Entertainment', 'Point Grey Pictures', 'Rabbit Bandini Productions', 'Good Universe']
 
 [!] Property overwritten by keywords.
 Q:	 How long does Home Alone take?
 E:	 {'Q105031': 'Home Alone'}
 R:	 {'P2047': 'duration'}
-None
+['103']
 
 [!] Property overwritten by keywords.
 Q:	 How long does it take to watch the documentary The Social Dilemma?
@@ -280,7 +280,7 @@ None
 Q:	 How long does the Shot Caller take to watch?
 E:	 {'Q3482533': 'Shot caller', 'Q20716882': 'Shot Caller'}
 R:	 {'P2047': 'duration'}
-None
+['121']
 
 [!] Property overwritten by keywords.
 Q:	 How long is Bridge of Spies?
@@ -370,7 +370,7 @@ R:	 {'P2047': 'duration'}
 Q:	 How long is the Mulholland Drive?
 E:	 {'Q962605': 'Mulholland drive', 'Q272608': 'Mulholland Drive'}
 R:	 {'P2047': 'duration'}
-None
+['147']
 
 [!] Property overwritten by keywords.
 Q:	 How long is the "Once Upon a Time in Hollywood"?
@@ -443,17 +443,17 @@ R:	 {'P166': 'awards'}
 Q:	 How many awards did Titanic win?
 E:	 {'Q1197729': 'Titanic', 'Q618779': 'award', 'Q50000': 'victory'}
 R:	 {'P166': 'awards'}
-None
+1
 
 Q:	 How many awards has Quentin Tarentino won?
 E:	 {'Q3772': 'Quentin tarentino', 'Q618779': 'award', 'Q1158484': 'Quentin'}
 R:	 {'P166': 'awards'}
-None
+18
 
 Q:	 How many awards has Ryan Reynolds earned?
 E:	 {'Q192682': 'Ryan Reynolds', 'Q618779': 'award'}
 R:	 {'P4709': 'earned', 'P166': 'awards'}
-None
+6
 
 Q:	 How many Back to the Future movies are there?
 E:	 {'Q1179487': 'Future movies', 'Q11424': 'film'}
@@ -538,7 +538,7 @@ R:	 {'P155': 'followers'}
 Q:	 How many Harry Potter movies are there?
 E:	 {'Q216930': 'Harry potter', 'Q434841': 'Movies', 'Q11424': 'film'}
 R:	 {'P57': 'movies'}
-None
+1
 
 Q:	 How many "How To Train Your Dragon" movies are there?
 E:	 {'Q1179487': 'dragon movies', 'Q1148444': 'blunderbuss', 'Q11424': 'film'}
@@ -603,7 +603,7 @@ None
 Q:	 How many oscars did Titanic win?
 E:	 {'Q9941': 'Oscars', 'Q25173': 'Titanic', 'Q3442': 'Astronotus ocellatus', 'Q50000': 'victory'}
 R:	 {'P276': 'win'}
-None
+1
 
 Q:	 How many people live in Hollywood?
 E:	 {'Q34006': 'Hollywood', 'Q5': 'human'}
@@ -618,7 +618,7 @@ None
 Q:	 How many prices did Tenet won
 E:	 {'Q297279': 'Prices', 'Q641184': 'Tenet', 'Q160151': 'price', 'Q63985561': 'Tenet'}
 R:	 {'P31': 'won'}
-None
+1
 
 Q:	 How many screenwriters did Good Will Hunting have?
 E:	 {'Q28389': 'screenwriter', 'Q193835': 'Good will hunting', 'Q60786798': 'Good', 'Q5141174': 'Hunting'}
@@ -660,49 +660,49 @@ R:	 {'P577': 'publication date'}
 Q:	 How much did 2001: A Space Oddyssey cost to make?
 E:	 {'Q277547': 'A', 'Q103474': '2001:  space oddyssey cost', 'Q240673': 'cost', 'Q1457764': 'CTV Sci-Fi Channel'}
 R:	 {'P2130': 'cost'}
-None
+['10500000']
 
 [!] Property overwritten by keywords.
 Q:	 How much did Avengers: Endgame (2019) earn in the box office worldwide?
 E:	 {'Q332225': 'Avengers: endgame (2019)', 'Q895522': 'box office worldwide', 'Q182218': 'The Avengers', 'Q1235448': 'Endgame', 'Q877435': 'box office'}
 R:	 {'P2142': 'box office'}
-None
+2
 
 [!] Property overwritten by keywords.
 Q:	 How much did Avengers: Endgame cost?
 E:	 {'Q113700': 'Avengers: endgame', 'Q240673': 'cost', 'Q182218': 'The Avengers', 'Q1235448': 'Endgame'}
 R:	 {'P2130': 'cost'}
-None
+['220000000']
 
 [!] Property overwritten by keywords.
 Q:	 How much did Inception cost to produce?
 E:	 {'Q25188': 'Inception'}
 R:	 {'P2130': 'cost'}
-1
+['160000000']
 
 [!] Property overwritten by keywords.
 Q:	 How much did it cost to Tenet?
 E:	 {'Q624144': 'Tenet', 'Q63985561': 'Tenet'}
 R:	 {'P2130': 'cost'}
-None
+['200000000']
 
 [!] Property overwritten by keywords.
 Q:	 How much did it cost to make The Lord of the Rings: The Fellowship of the Ring?
 E:	 {'Q127367': 'lord of the rings: the fellowship of the ring', 'Q15228': 'The Lord of the Rings', 'Q19866947': 'Rings', 'Q1404101': 'fellow', 'Q212804': 'The Ring'}
 R:	 {'P2130': 'cost'}
-1
+['93000000']
 
 [!] Property overwritten by keywords.
 Q:	 How much did Saving private ryan cost in United States dollars?
 E:	 {'Q165817': 'saving private ryan cost in united states dollars', 'Q240673': 'cost', 'Q4917': 'United States dollar'}
 R:	 {'P2130': 'cost'}
-1
+['70000000']
 
 [!] Property overwritten by keywords.
 Q:	 How much did The LEGO Batman make at box office?
 E:	 {'Q170484': 'Lego', 'Q895522': 'batman make at box office', 'Q23013169': 'The LEGO Batman Movie', 'Q877435': 'box office'}
 R:	 {'P2142': 'box office'}
-None
+1
 
 [!] Property overwritten by keywords.
 Q:	 How much did the most expensive to produce cost?
@@ -720,31 +720,31 @@ R:	 {'P2142': 'box office'}
 Q:	 How much did the production of The Grand Budapest Hotel cost?
 E:	 {'Q850990': 'Production of the grand budapest hotel cost', 'Q739302': 'production', 'Q3521099': 'The Grand Budapest Hotel'}
 R:	 {'P2130': 'cost'}
-None
+['23000000']
 
 [!] Property overwritten by keywords.
 Q:	 How much did the production of The Lord of the Rings: The Return of the King cost?
 E:	 {'Q131074': 'Production of the lord of the rings: the return of the king cost', 'Q240673': 'cost', 'Q739302': 'production', 'Q15228': 'The Lord of the Rings', 'Q19866947': 'Rings', 'Q115285': 'The Return of the King', 'Q2680856': 'King'}
 R:	 {'P2130': 'cost'}
-1
+['94000000']
 
 [!] Property overwritten by keywords.
 Q:	 How much did the production of the "Inglourious Basterds" (2009) cost?
 E:	 {'Q153723': 'Inglourious Basterds', 'Q739302': 'production', 'Q240673': 'cost'}
 R:	 {'P2130': 'cost'}
-1
+['70000000']
 
 [!] Property overwritten by keywords.
 Q:	 How much did the sci-fi Avatar cost?
 E:	 {'Q24871': 'Avatar'}
 R:	 {'P2130': 'cost'}
-None
+['237000000']
 
 [!] Property overwritten by keywords.
 Q:	 How much did Titanic cost to make?
 E:	 {'Q25173': 'titanic cost', 'Q240673': 'cost'}
 R:	 {'P2130': 'cost'}
-None
+['7500000']
 
 Q:	 How much did Toy Story make?
 E:	 {'Q171048': 'Toy Story'}
@@ -767,19 +767,19 @@ None
 Q:	 How much dollar did it cost to produce the Tenet?
 E:	 {'Q2023575': 'Dollar', 'Q624144': 'The Tenet', 'Q14083': 'dollar', 'Q63985561': 'Tenet'}
 R:	 {'P2130': 'cost'}
-1
+['200000000']
 
 [!] Property overwritten by keywords.
 Q:	 How much dollars did the "Avatar"(2009) cost?
 E:	 {'Q1195819': 'Dollars', 'Q24871': 'Avatar(2009)', 'Q240673': 'cost', 'Q14083': 'dollar'}
 R:	 {'P2130': 'cost'}
-1
+['237000000']
 
 [!] Property overwritten by keywords.
 Q:	 How much money did Tenet cost to produce?
 E:	 {'Q1368': 'money', 'Q411325': 'tenet cost', 'Q63985561': 'Tenet'}
 R:	 {'P2130': 'cost'}
-1
+['200000000']
 
 Q:	 How much money was spent to create "John Wick 2" ?
 E:	 {'Q1368': 'money', 'Q102272': 'John wick 2', 'Q15732802': 'John Wick'}
@@ -812,25 +812,25 @@ R:	 {'P2048': 'height'}
 Q:	 How tall is Arnold Schwarzenegger
 E:	 {'Q2390476': 'Tall', 'Q2685': 'Arnold Schwarzenegger'}
 R:	 {'P2048': 'height'}
-None
+['1.88']
 
 [!] Property overwritten by keywords.
 Q:	 How tall is Bryan Cranston?
 E:	 {'Q2390476': 'Tall', 'Q23547': 'Bryan Cranston'}
 R:	 {'P2048': 'height'}
-None
+['1.79']
 
 [!] Property overwritten by keywords.
 Q:	 How tall is Danny DeVito?
 E:	 {'Q2390476': 'Tall', 'Q26806': 'Danny DeVito'}
 R:	 {'P2048': 'height'}
-None
+['147']
 
 [!] Property overwritten by keywords.
 Q:	 How tall is the actor Mark Ruffalo?
 E:	 {'Q49006': 'Tall', 'Q41422': 'Mark Ruffalo'}
 R:	 {'P2048': 'height'}
-None
+['173']
 
 [!] Property overwritten by keywords.
 Q:	 How tall is the actor playing Mark Watney in The Martian?
@@ -848,7 +848,7 @@ R:	 {'P2048': 'height'}
 Q:	 How tall is Will Smith?
 E:	 {'Q2390476': 'Tall', 'Q217465': 'Smith', 'Q40096': 'Will Smith'}
 R:	 {'P2048': 'height'}
-None
+['1.88']
 
 Q:	 In 1996 Nicolas Cage won an Academy Award for Best Actor, which work was it for?
 E:	 {'Q42869': 'Nicolas Cage', 'Q2070': '1996', 'Q41417': 'Academy award for best actor, which work', 'Q4671334': 'Academy Award', 'Q103916': 'Academy Award for Best Actor', 'Q42213': 'work'}
@@ -858,7 +858,7 @@ R:	 {'P31': 'won', 'P2183': '1996'}
 Q:	 Inception was directed by whom?
 E:	 {'Q25188': 'Inception'}
 R:	 {'P57': 'directed', 'P571': 'inception'}
-None
+['Christopher Nolan']
 
 [!] Property overwritten by keywords.
 Q:	 In how many movies has the Winter Soldier featured, played by Sebastian Stan?
@@ -869,12 +869,12 @@ None
 Q:	 Interstellar was directed by whom?
 E:	 {'Q13417189': 'Interstellar'}
 R:	 {'P57': 'directed'}
-None
+['Christopher Nolan']
 
 Q:	 In The Godfather, who played Vito Corleone?
 E:	 {'Q47703': 'The Godfather', 'Q745077': 'Vito Corleone'}
 R:	 {'P175': 'played'}
-None
+['Nino Rota']
 
 Q:	 In what aspect ratio was Zack Snyder's Justice League shot?
 E:	 {'Q250036': 'Zack snyders justice league', 'Q1441762': 'aspect ratio', 'Q2140674': 'ballistic trauma', 'Q139890': 'Zack Snyder'}
@@ -1062,7 +1062,7 @@ R:	 {'P577': 'published'}
 Q:	 In which country is Jungle Book set?
 E:	 {'Q16857406': 'The Jungle Book', 'Q36161': 'set', 'Q3336843': 'country within the United Kingdom'}
 R:	 {'P21': 'set', 'P17': 'country'}
-None
+['United Kingdom']
 
 [!] Property overwritten by keywords.
 Q:	 In which country was the director of Parasite born?
@@ -1073,7 +1073,7 @@ None
 Q:	 In which country was the first release of The Matrix?
 E:	 {'Q83495': 'The Matrix', 'Q3336843': 'country within the United Kingdom', 'Q24238946': 'liberation'}
 R:	 {'P17': 'country'}
-None
+['United Kingdom']
 
 Q:	 In which month was Michael Douglas born in?
 E:	 {'Q6829931': 'Michael douglas', 'Q5151': 'month', 'Q119798': 'Michael Douglas'}
@@ -1088,7 +1088,7 @@ None
 Q:	 In which Star Wars movies does the character Kylo Ren appear in?
 E:	 {'Q462': 'Star wars movies', 'Q1593658': 'Kylo ren', 'Q815674': 'The Character', 'Q11424': 'film', 'Q32483': 'character', 'Q21515016': 'Kylo Ren'}
 R:	 {'P1441': 'appear', 'P674': 'character'}
-None
+['Star Wars Episode VII: The Force Awakens', 'Star Wars: Episode VIII – The Last Jedi', 'Star Wars Episode IX: The Rise of Skywalker']
 
 Q:	 In which television series is the character Eric Cartman featured?
 E:	 {'Q47352': 'Eric Cartman', 'Q95074': 'The Character', 'Q289': 'television', 'Q32483': 'character'}
@@ -1258,7 +1258,7 @@ R:	 {'P19': 'in Apocalypse'}
 Q:	 Was Top Gun filmed in San Diego?
 E:	 {'Q169313': 'Gun', 'Q16552': 'San Diego', 'Q110138': 'Top Gun'}
 R:	 {'P227': 'filmed'}
-None
+['4269521-1']
 
 Q:	 What actor collaborated with Quentin Tarantino the most?
 E:	 {'Q3772': 'Quentin Tarantino', 'Q33999': 'actor'}
@@ -1354,13 +1354,13 @@ R:	 {'P136': 'genre'}
 Q:	 What are the genres of the The Breakfast Club?
 E:	 {'Q5151404': 'The Genres', 'Q499152': 'The Breakfast Club', 'Q188451': 'music genre'}
 R:	 {'P136': 'genre'}
-None
+['drama', 'comedy-drama', 'teen film', 'coming-of-age story']
 
 [!] Property overwritten by keywords.
 Q:	 What are the genres of Whiplash?
 E:	 {'Q2595720': 'Genres of whiplash', 'Q188451': 'music genre', 'Q15648198': 'Whiplash'}
 R:	 {'P136': 'genre'}
-None
+['drama', 'musical film']
 
 Q:	 What are the given names of Leonardo DiCaprio?
 E:	 {'Q38111': 'Leonardo DiCaprio', 'Q220463': 'Names of', 'Q202444': 'given name'}
@@ -1371,7 +1371,7 @@ R:	 {'P735': 'given', 'P22': 'names of'}
 Q:	 What are the languages spoken in Steven Cameron's Avatar?
 E:	 {'Q505198': 'The Languages', 'Q104061': 'Steven camerons avatar', 'Q315': 'language', 'Q24871': 'Avatar', 'Q857708': 'Cameron'}
 R:	 {'P364': 'original language of film or TV show'}
-None
+['English']
 
 [!] Property overwritten by keywords.
 Q:	 What are the main subjects in Django Unchained?
@@ -1389,19 +1389,19 @@ R:	 {'P921': 'main subject'}
 Q:	 What are the main subjects of the Taken?
 E:	 {'Q1794': 'Main subjects', 'Q164573': 'subject', 'Q277080': 'Taken'}
 R:	 {'P921': 'main subject'}
-None
+['prostitution', 'organized crime']
 
 [!] Property overwritten by keywords.
 Q:	 What are the main subjects of the Tenet?
 E:	 {'Q641184': 'Main subjects of the tenet', 'Q164573': 'subject', 'Q63985561': 'Tenet'}
 R:	 {'P921': 'main subject'}
-None
+['World War III', 'time', 'causality']
 
 [!] Property overwritten by keywords.
 Q:	 What are the main subjects of the "The Pianist"(2002) ?
 E:	 {'Q1670': 'Main subjects', 'Q150804': 'Pianist(2002)', 'Q164573': 'subject'}
 R:	 {'P921': 'main subject'}
-None
+['The Holocaust', 'Władysław Szpilman', 'survival']
 
 [!] Property overwritten by keywords.
 Q:	 What are the main subjects of the Netflix miniseries the Queen's Gambit?
@@ -1423,17 +1423,17 @@ R:	 {'P527': 'parts'}
 Q:	 What are Johnny Depp's children?
 E:	 {'Q37175': 'Johnny Depp', 'Q7569': 'child'}
 R:	 {'P40': 'children'}
-None
+['Lily-Rose Depp', 'Jack Depp']
 
 Q:	 What are Martin Scorsese's children?
 E:	 {'Q441713': 'Martin scorseses', 'Q7569': 'child', 'Q41148': 'Martin Scorsese'}
 R:	 {'P40': 'children'}
-None
+['Martin Scorsese']
 
 Q:	 What are the children of the director of Mowgli: Legend of the Jungle?
 E:	 {'Q19595098': 'Mowgli: Legend of the Jungle', 'Q7569': 'child', 'Q2526255': 'film director', 'Q17182571': 'Legend', 'Q28173325': 'Jungle'}
 R:	 {'P40': 'children', 'P57': 'director'}
-None
+['Andy Serkis']
 
 Q:	 What are the Coen Brothers?
 E:	 {'Q56095': 'Coen brothers'}
@@ -1510,7 +1510,7 @@ R:	 {'P131': 'sequels of : the Secret Service'}
 Q:	 What are the titles of the Harry Potter movies?
 E:	 {'Q8337': 'Harry potter', 'Q209662': 'Titles of the  movies', 'Q56019': 'military rank', 'Q11424': 'film'}
 R:	 {'P166': 'titles of the  movies'}
-None
+['Presidential Medal of Freedom', 'Primetime Emmy Award for Outstanding Lead Actress in a Comedy Series', 'Kennedy Center Honors', "National Women's Hall of Fame", 'star on Hollywood Walk of Fame', 'Los Angeles Times Women of the Year Silver Cup', 'Crystal Award']
 
 Q:	 What are the titles of the movies of The Hunger Games series?
 E:	 {'Q11678': 'Titles of the movies of the hunger games series', 'Q56019': 'military rank', 'Q11424': 'film', 'Q170198': 'series'}
@@ -1530,7 +1530,7 @@ None
 Q:	 What award did wolf of Wallstreet receive?
 E:	 {'Q10905687': 'Wallstreet', 'Q57382': 'Wolf of', 'Q618779': 'award', 'Q1698992': 'wolf'}
 R:	 {'P131': 'receive', 'P166': 'award', 'P31': 'wolf of'}
-None
+['television program']
 
 Q:	 What awards did Frozen receive?
 E:	 {'Q246283': 'Frozen', 'Q618779': 'award'}
@@ -1540,7 +1540,7 @@ R:	 {'P166': 'awards'}
 Q:	 What awards did Inglourious Basterds received?
 E:	 {'Q153723': 'Inglourious Basterds', 'Q618779': 'award'}
 R:	 {'P166': 'awards'}
-None
+['Academy Award for Best Supporting Actor', 'National Board of Review: Top Ten Films']
 
 Q:	 What awards did the actor Daniel Craig win?
 E:	 {'Q4547': 'Daniel Craig', 'Q618779': 'award', 'Q33999': 'actor'}
@@ -1550,7 +1550,7 @@ R:	 {'P19': 'win', 'P131': 'awards', 'P161': 'actor'}
 Q:	 What awards did The Godfather receive?
 E:	 {'Q618779': 'award', 'Q47703': 'The Godfather'}
 R:	 {'P166': 'awards', 'P1290': 'Godfather'}
-None
+['Academy Award for Best Picture', 'Academy Award for Best Actor', 'Academy Award for Best Writing, Adapted Screenplay', 'National Film Registry', 'National Board of Review: Top Ten Films']
 
 Q:	 What awards did the "Joker" receive?
 E:	 {'Q1498615': 'The joker', 'Q618779': 'award', 'Q42759035': 'Joker'}
@@ -1560,12 +1560,12 @@ R:	 {'P166': 'awards'}
 Q:	 What awards has George Lucas won?
 E:	 {'Q38222': 'George Lucas', 'Q618779': 'award'}
 R:	 {'P31': 'won', 'P166': 'awards'}
-None
+['human']
 
 Q:	 What awards has Johnny Depp received?
 E:	 {'Q37175': 'Johnny Depp', 'Q618779': 'award'}
 R:	 {'P166': 'awards'}
-None
+["People's Choice Awards", 'MTV Movie Award for Best Performance', 'Golden Globe Award', 'MTV Movie Award for Best Villain', 'Disney Legends', 'MTV Movie Award for Best Male Performance', 'star on Hollywood Walk of Fame']
 
 Q:	 What book is the Mean Girls based on?
 E:	 {'Q571': 'book', 'Q631103': 'Mean Girls'}
@@ -1576,13 +1576,13 @@ R:	 {'P144': 'based'}
 Q:	 What caused Gollum's death?
 E:	 {'Q15007': 'Gollum', 'Q4': 'death'}
 R:	 {'P509': 'cause of death', 'P1196': 'manner of death'}
-None
+['burn']
 
 [!] Property overwritten by keywords.
 Q:	 What caused the death of Walt Disney?
 E:	 {'Q8704': 'Walt disney', 'Q4': 'death', 'Q7414': 'The Walt Disney Company'}
 R:	 {'P509': 'cause of death', 'P1196': 'manner of death'}
-None
+['circulatory collapse']
 
 Q:	 What character did Tim Allen play in Toy Story?
 E:	 {'Q95074': 'Character', 'Q208408': 'Tim Allen', 'Q171048': 'Toy Story', 'Q32483': 'character'}
@@ -1625,7 +1625,7 @@ R:	 {'P915': 'filming location'}
 Q:	 What country was Jim Carrey born in?
 E:	 {'Q40504': 'Jim Carrey', 'Q3336843': 'country within the United Kingdom'}
 R:	 {'P19': 'place of birth'}
-None
+['Newmarket']
 
 Q:	 What country won the oscar for best foreign in 2020?
 E:	 {'Q103618': 'Oscar for best foreign in 2020', 'Q3336843': 'country within the United Kingdom', 'Q3442': 'Astronotus ocellatus'}
@@ -1646,7 +1646,7 @@ None
 Q:	 What else is the actor Arnold Schwarzenegger known for?
 E:	 {'Q2685': 'Arnold Schwarzenegger', 'Q33999': 'actor'}
 R:	 {'P1412': 'known', 'P161': 'actor'}
-None
+['German', 'English', 'Austrian German']
 
 Q:	 What film, directed by Bong Joon-ho, led him to receive the Academy Award for Best Director?
 E:	 {'Q300552': 'Film,', 'Q495980': 'Bong Joon-ho', 'Q103360': 'Academy award for best director', 'Q11424': 'film', 'Q4671334': 'Academy Award', 'Q1047422': 'Director'}
@@ -1713,13 +1713,13 @@ R:	 {'P136': 'genre'}
 Q:	 What genre is Skyfall?
 E:	 {'Q4941': 'Skyfall', 'Q188451': 'music genre'}
 R:	 {'P136': 'genre'}
-None
+['action film', 'spy film', 'action thriller']
 
 [!] Property overwritten by keywords.
 Q:	 What genre is Star Wars?
 E:	 {'Q462': 'Star Wars', 'Q188451': 'music genre'}
 R:	 {'P136': 'genre'}
-None
+['science fiction', 'fantasy', 'adventure film', 'space opera']
 
 [!] Property overwritten by keywords.
 Q:	 What genre is The Hangover?
@@ -1731,13 +1731,13 @@ R:	 {'P136': 'genre'}
 Q:	 What genre is the Saving Private Ryan?
 E:	 {'Q165817': 'Saving Private Ryan', 'Q188451': 'music genre'}
 R:	 {'P136': 'genre'}
-None
+['drama', 'action film', 'war film']
 
 [!] Property overwritten by keywords.
 Q:	 What genre is the Netflix Death Note movie?
 E:	 {'Q1834': 'Netflix death note movie', 'Q188451': 'music genre', 'Q907311': 'Netflix'}
 R:	 {'P136': 'genre'}
-None
+['thriller', 'mystery anime and manga', 'supernatural anime and manga']
 
 [!] Property overwritten by keywords.
 Q:	 What genres does the The Shop around the Corner belong to?
@@ -1755,13 +1755,13 @@ R:	 {'P136': 'genre'}
 Q:	 What genres is The Hitman's Bodyguard?
 E:	 {'Q5151404': 'Genres', 'Q851436': 'Hitmans bodyguard', 'Q188451': 'music genre', 'Q39070168': 'Bodyguard', 'Q19308': 'Hitman'}
 R:	 {'P136': 'genre'}
-None
+['drama']
 
 [!] Property overwritten by keywords.
 Q:	 What genres is the Grease?
 E:	 {'Q5151404': 'Genres', 'Q611626': 'The Grease', 'Q188451': 'music genre', 'Q267721': 'Grease'}
 R:	 {'P136': 'genre'}
-None
+['musical film', 'romantic comedy', 'teen film']
 
 Q:	 What happens when a player commits a foul?
 E:	 {'Q375847': 'A Foul', 'Q5276395': 'gamer', 'Q265777': 'foul'}
@@ -1787,7 +1787,7 @@ R:	 {'P31': 'example'}
 Q:	 What is/are the genre/genres of the Hacksaw Ridge?
 E:	 {'Q1195804': 'Is/are the genre/genres of the hacksaw ridge', 'Q188451': 'music genre', 'Q21010856': 'Hacksaw Ridge'}
 R:	 {'P136': 'genre'}
-None
+['drama', 'war film', 'biographical film', 'romance film']
 
 [!] Property overwritten by keywords.
 Q:	 What is/are the main subject/subjects of the Mr. Nobody?
@@ -1858,22 +1858,22 @@ None
 Q:	 What is Leonardo Di caprio his Age?
 E:	 {'Q5592': 'Leonardo di', 'Q38111': 'Leonardo DiCaprio', 'Q631893': 'The Age'}
 R:	 {'P856': 'caprio his Age'}
-None
+['https://leonardodicaprio.com']
 
 Q:	 What is Leonardo DiCaprio's birth name?
 E:	 {'Q38111': 'Leonardo DiCaprio', 'Q34581': 'childbirth'}
 R:	 {'P19': 'birth name'}
-None
+['Los Angeles']
 
 Q:	 What is Minami Takayama's blood type?
 E:	 {'Q1323029': 'Minami Takayama', 'Q47657': 'blood type'}
 R:	 {'P31': 'blood type'}
-None
+['human']
 
 Q:	 What is Minami Takayama's occupation?
 E:	 {'Q1323029': 'Minami Takayama', 'Q28640': 'profession'}
 R:	 {'P106': 'occupation'}
-None
+['composer', 'singer', 'seiyū']
 
 Q:	 What is most notable work from the American composer John Williams?
 E:	 {'Q131285': 'John Williams', 'Q274922': 'American composer', 'Q42213': 'work', 'Q36834': 'composer'}
@@ -1903,7 +1903,7 @@ R:	 {'P569': 'date of birth'}
 Q:	 What is Quentin Tarantino's religion?
 E:	 {'Q3772': 'Quentin Tarantino', 'Q9174': 'religion'}
 R:	 {'P140': 'religion'}
-None
+['atheism']
 
 Q:	 What is Schindler's List about?
 E:	 {'Q346062': 'Schindlers list', 'Q52715628': 'Alex & the List', 'Q2236136': 'Schindler'}
@@ -1953,21 +1953,23 @@ E:	 {'Q2308611': 'Goblet of fire', 'Q216930': 'Harry potter', 'Q877435': 'box of
 R:	 {'P2142': 'box office'}
 None
 
+[!] Property overwritten by keywords.
 Q:	 What is the catchphrase of James Bond?
-E:	 {'Q844': 'James Bond', 'Q468982': 'Catchphrase of', 'Q2708515': 'catchphrase'}
-R:	 {'P31': 'catchphrase of'}
-['book series', 'fictional universe', 'Q106974458']
+E:	 {'Q844': 'James Bond', 'Q1935136': 'Catchphrase of', 'Q2708515': 'catchphrase'}
+R:	 {'P6251': 'catchphrase'}
+['The name is Bond, James Bond']
 
+[!] Property overwritten by keywords.
 Q:	 What is the catchphrase of the fictional character James Bond?
 E:	 {'Q844': 'James Bond', 'Q8253': 'Catchphrase of the fictional character', 'Q2708515': 'catchphrase', 'Q95074': 'fictional character'}
-R:	 {'P407': 'catchphrase of the fictional character'}
-['English']
+R:	 {'P6251': 'catchphrase'}
+['The name is Bond, James Bond']
 
 [!] Property overwritten by keywords.
 Q:	 What is the cause of death of Paul Walker?
 E:	 {'Q16145846': 'Paul walker', 'Q1931388': 'cause of death', 'Q4': 'death', 'Q213864': 'Paul Walker'}
 R:	 {'P509': 'cause of death', 'P1196': 'manner of death'}
-None
+['traffic collision']
 
 Q:	 What is the combined duration of all films in the Underworld series?
 E:	 {'Q2070413': 'Combined duration of all films in the underworld series', 'Q2341537': 'duration', 'Q11424': 'film', 'Q82332': 'Underworld'}
@@ -1992,22 +1994,22 @@ R:	 {'P495': 'country of origin'}
 Q:	 What is the country of origin of mr. Bean?
 E:	 {'Q484020': 'Mr bean', 'Q3336843': 'country within the United Kingdom', 'Q7376362': 'river source', 'Q1025': 'Mauritania', 'Q752103': 'Bean'}
 R:	 {'P495': 'country of origin', 'P4955': 'mr'}
-None
+['United States of America', 'United Kingdom']
 
 Q:	 What is the country of origin of the animated series 'Death Note'?
 E:	 {'Q1834': 'Death Note', 'Q3336843': 'country within the United Kingdom', 'Q7376362': 'river source', 'Q581714': 'animated series'}
 R:	 {'P5031': 'animated', 'P495': 'country of origin'}
-None
+['Japan']
 
 Q:	 What is the country of origin of the drama 'Mommy'?
 E:	 {'Q7560': 'Drama mommy', 'Q3336843': 'country within the United Kingdom', 'Q7376362': 'river source', 'Q25372': 'drama', 'Q16395232': 'Mommy'}
 R:	 {'P279': 'country of origin'}
-None
+['parent', 'female human']
 
 Q:	 What is the date of birth of the actress Natalie Portman?
 E:	 {'Q37876': 'Natalie Portman', 'Q654810': 'dating', 'Q34581': 'childbirth', 'Q33999': 'actor'}
 R:	 {'P569': 'date of birth', 'P161': 'actress'}
-None
+['1981-06-09T00:00:00Z']
 
 Q:	 What is the director Gaspar Noé employed at?
 E:	 {'Q347950': 'Gaspar Noé', 'Q2526255': 'film director'}
@@ -2017,17 +2019,17 @@ R:	 {'P108': 'employed', 'P57': 'director'}
 Q:	 What is the dragon called in the Hobbit movies?
 E:	 {'Q369532': 'The Dragon', 'Q74229': 'Hobbit movies', 'Q7559': 'dragon', 'Q11424': 'film'}
 R:	 {'P272': 'called'}
-None
+['Rankin/Bass Animated Entertainment']
 
 Q:	 What is the duration of 2001: A Space Odyssey?
 E:	 {'Q76829': 'A', 'Q103474': '2001:  space odyssey', 'Q2341537': 'duration', 'Q1198588': 'Space Odyssey'}
 R:	 {'P2047': 'duration'}
-None
+['143']
 
 Q:	 What is the duration of I Am Legend?
 E:	 {'Q2341537': 'duration', 'Q17182571': 'Legend'}
 R:	 {'P2047': 'duration', 'P1684': 'Legend'}
-None
+['131']
 
 Q:	 What is the duration of John Wick?
 E:	 {'Q21451640': 'John wick', 'Q2341537': 'duration', 'Q15732802': 'John Wick'}
@@ -2047,27 +2049,27 @@ R:	 {'P2047': 'duration'}
 Q:	 What is the duration of The Fault in Our Stars?
 E:	 {'Q412032': 'Stars', 'Q2341537': 'duration', 'Q5438142': 'Fault', 'Q28173261': 'The Star'}
 R:	 {'P2047': 'duration', 'P5095': 'Fault'}
-None
+['86']
 
 Q:	 What is the duration of The Girl with the Dragon Tattoo?
 E:	 {'Q276343': 'Girl with the dragon tattoo', 'Q2341537': 'duration', 'Q61875850': 'Girl', 'Q1148444': 'blunderbuss'}
 R:	 {'P2047': 'duration'}
-None
+['152']
 
 Q:	 What is the duration of The Grand Budapest Hotel?
 E:	 {'Q3521099': 'The Grand Budapest Hotel', 'Q2341537': 'duration'}
 R:	 {'P2047': 'duration'}
-None
+['99']
 
 Q:	 What is the duration of the "Avatar"(2009)?
 E:	 {'Q11572': 'Avatar(2009)', 'Q2341537': 'duration'}
 R:	 {'P2047': 'duration'}
-None
+['23']
 
 Q:	 What is the duration of the "Tenet"?
 E:	 {'Q201430': 'The Tenet', 'Q2341537': 'duration', 'Q63985561': 'Tenet'}
 R:	 {'P69': 'duration'}
-None
+['Columbia University', 'Edmund A. Walsh School of Foreign Service', 'Benjamin N. Cardozo High School', 'School of International and Public Affairs, Columbia University', 'State University of New York at Cortland']
 
 Q:	 What is the Dutch age rating for the Bohemian Rhapsody?
 E:	 {'Q187745': 'Bohemian Rhapsody', 'Q609276': 'climbing grade'}
@@ -2087,19 +2089,19 @@ R:	 {'P527': 'famous phrase from'}
 Q:	 What is the Dr. Strangelove also known as in English?
 E:	 {'Q7621422': 'Strangelove', 'Q786': 'Dr', 'Q1860': 'English', 'Q105702': 'Dr. Strangelove'}
 R:	 {'P1476': 'known', 'P3296': 'Dr'}
-None
+['Dr. Strangelove']
 
 [!] Property overwritten by keywords.
 Q:	 What is the filming location of Narcos?
 E:	 {'Q20642206': 'Narcos', 'Q1045481': 'filming location'}
 R:	 {'P915': 'filming location'}
-None
+['Bogotá']
 
 [!] Property overwritten by keywords.
 Q:	 What is the filming location of the "Pulp Fiction"?
 E:	 {'Q104123': 'Pulp Fiction', 'Q1045481': 'filming location'}
 R:	 {'P915': 'filming location'}
-None
+['Los Angeles']
 
 Q:	 What is the first line from "Forest Gump"?
 E:	 {'Q134773': 'Forest gump', 'Q37105': 'Line from', 'Q2334153': 'Sviatoshynsko-Brovarska Line', 'Q19490': 'Nottingham Forest F.C.'}
@@ -2141,13 +2143,13 @@ R:	 {'P136': 'genre'}
 Q:	 What is the genre of Enter the Void?
 E:	 {'Q19961425': 'The Void', 'Q188451': 'music genre', 'Q29245784': 'The Void'}
 R:	 {'P136': 'genre'}
-None
+['horror film']
 
 [!] Property overwritten by keywords.
 Q:	 What is the genre of Parasite?
 E:	 {'Q20004184': 'Parasite', 'Q188451': 'music genre', 'Q61448040': 'Parasite'}
 R:	 {'P136': 'genre'}
-None
+['horror film']
 
 [!] Property overwritten by keywords.
 Q:	 What is the genre of Pirates of the Caribbean?
@@ -2159,13 +2161,13 @@ R:	 {'P136': 'genre'}
 Q:	 What is the genre of the Interstellar?
 E:	 {'Q385447': 'The interstellar', 'Q188451': 'music genre', 'Q13417189': 'Interstellar'}
 R:	 {'P136': 'genre'}
-None
+['thrash metal']
 
 [!] Property overwritten by keywords.
 Q:	 What is the genre of the "Zootopia"?
 E:	 {'Q195653': 'The zootopia', 'Q188451': 'music genre', 'Q15270647': 'Zootopia'}
 R:	 {'P136': 'genre'}
-None
+['thrash metal']
 
 Q:	 What is the German label for the 1968 Sergio Leone Once Upon a Time in the West?
 E:	 {'Q171913': 'German label for the 1968 sergio leone', 'Q920820': 'The West', 'Q18127': 'record label', 'Q164562': 'Sergio Leone', 'Q43297': 'Time', 'Q313498': 'Benjamin West'}
@@ -2243,31 +2245,31 @@ None
 Q:	 What is the main subject of "The Godfather"?
 E:	 {'Q164573': 'subject', 'Q47703': 'The Godfather'}
 R:	 {'P921': 'main subject'}
-None
+['organized crime']
 
 [!] Property overwritten by keywords.
 Q:	 What is the main subject of the Interstellar?
 E:	 {'Q41872': 'The interstellar', 'Q164573': 'subject', 'Q13417189': 'Interstellar'}
 R:	 {'P921': 'main subject'}
-None
+['interstellar travel']
 
 [!] Property overwritten by keywords.
 Q:	 What is the main subject of the Interstellar?
 E:	 {'Q41872': 'The interstellar', 'Q164573': 'subject', 'Q13417189': 'Interstellar'}
 R:	 {'P921': 'main subject'}
-None
+['interstellar travel']
 
 [!] Property overwritten by keywords.
 Q:	 What is the main subject of the I, Robot?
 E:	 {'Q193064': 'I,', 'Q11012': 'Robot', 'Q164573': 'subject', 'Q1103': 'iodine', 'Q283490': 'Enthiran'}
 R:	 {'P921': 'main subject'}
-None
+['android']
 
 [!] Property overwritten by keywords.
 Q:	 What is the main subject of the "Paranormal Activity"?
 E:	 {'Q381028': 'Paranormal Activity', 'Q164573': 'subject'}
 R:	 {'P921': 'main subject'}
-None
+['supernatural', 'demon', 'haunted house']
 
 Q:	 What is the motto of FIFA?
 E:	 {'Q3070809': 'Fifa', 'Q42470': 'motto', 'Q253414': 'FIFA'}
@@ -2297,7 +2299,7 @@ None
 Q:	 What is the name of the actor playing in Joh Wick?
 E:	 {'Q1691648': 'Joh wick', 'Q1071027': 'personal name', 'Q33999': 'actor', 'Q1012502': 'Wick'}
 R:	 {'P1352': 'playing', 'P460': 'name', 'P161': 'actor'}
-None
+['actress']
 
 Q:	 What is the name of the actor playing Walter White in the series Breaking Bad?
 E:	 {'Q23554': 'Walter White', 'Q1079': 'In the series breaking bad', 'Q1071027': 'personal name', 'Q33999': 'actor', 'Q170198': 'series'}
@@ -2333,7 +2335,7 @@ R:	 {'P175': 'playded', 'P460': 'name', 'P674': 'character'}
 Q:	 What is the name of the character played by Al Pacino in The Godfather?
 E:	 {'Q23404': 'The Character', 'Q41163': 'Al Pacino', 'Q633': 'In the godfather', 'Q1071027': 'personal name', 'Q32483': 'character', 'Q47703': 'The Godfather'}
 R:	 {'P175': 'played', 'P1477': 'name', 'P19': 'in The Godfather'}
-['Alfredo James Pacino']
+['Rogelio de la quinta mamada']
 
 Q:	 What is the name of the character played by Elijah Wood in the Lord of the Rings movies?
 E:	 {'Q483771': 'Elijah Wood', 'Q2281': 'Elijah wood in the lord of the rings movies', 'Q133507': 'Wood elijah rings', 'Q1071027': 'personal name', 'Q32483': 'character', 'Q2366336': 'seigneur', 'Q11424': 'film'}
@@ -2358,7 +2360,7 @@ R:	 {'P175': 'played', 'P460': 'Elijah Wood in the Lord of the  movies'}
 Q:	 What is the name of the main character from Mad Max?
 E:	 {'Q248775': 'Mad Max', 'Q16375': 'Main character from', 'Q1071027': 'personal name', 'Q32483': 'character'}
 R:	 {'P460': 'name', 'P495': 'main character from'}
-None
+['Australia']
 
 Q:	 What is the name of the main character of Walt Disney's first film?
 E:	 {'Q7414': 'The Walt Disney Company', 'Q1071027': 'personal name', 'Q32483': 'character', 'Q28136257': 'The First Film'}
@@ -2393,7 +2395,7 @@ R:	 {'P3263': 'based', 'P407': 'name'}
 Q:	 What is the name of the theme music of Peaky Blinders?
 E:	 {'Q14944179': 'Peaky Blinders', 'Q1071027': 'personal name', 'Q1193470': 'theme music'}
 R:	 {'P138': 'name', 'P942': 'theme music'}
-None
+['Peaky Blinders']
 
 Q:	 What is the name of the third of the Lord of the Rings trilogy?
 E:	 {'Q2281': 'Lord of the rings trilogy', 'Q1071027': 'personal name', 'Q7784746': 'third', 'Q15228': 'The Lord of the Rings', 'Q19866947': 'Rings', 'Q149010': 'trilogy'}
@@ -2488,13 +2490,13 @@ None
 Q:	 What is the original language of Murder on the Orient Express?
 E:	 {'Q845889': 'Murder on the orient express', 'Q315': 'language', 'Q3328063': 'Murder', 'Q191985': 'Orient Express'}
 R:	 {'P364': 'original language of film or TV show'}
-None
+['Hindi']
 
 [!] Property overwritten by keywords.
 Q:	 What is the original language of the Parasite?
 E:	 {'Q5295669': 'The Parasite', 'Q315': 'language', 'Q61448040': 'Parasite'}
 R:	 {'P364': 'original language of film or TV show'}
-None
+['Korean']
 
 Q:	 What is the prequel of Mission: Impossible - Rogue Nation?
 E:	 {'Q17548046': 'Mission: Impossible – Rogue Nation', 'Q678345': 'prequel', 'Q302490': 'The Mission'}
@@ -2519,12 +2521,12 @@ R:	 {'P364': 'protagonist of the'}
 Q:	 What is the publication date of Harry Potter and the Philosopher's Stone?
 E:	 {'Q8337': 'Harry Potter', 'Q43361': 'Philosophers stone', 'Q1361758': 'date of publication', 'Q483042': '9K720 Iskander', 'Q4964182': 'philosopher'}
 R:	 {'P577': 'publication date'}
-None
+['1997-01-01T00:00:00Z']
 
 Q:	 What is the publication date of the Fifty Shades of Grey?
 E:	 {'Q44174085': 'Shades of grey', 'Q1361758': 'date of publication', 'Q7460325': 'Shades of Grey', 'Q1147689': 'The Grey'}
 R:	 {'P577': 'publication date'}
-None
+['2013-10-03T00:00:00Z']
 
 Q:	 What is the publication date of The Road to El Dorado?
 E:	 {'Q29907241': 'El dorado', 'Q1361758': 'date of publication', 'Q738052': 'The Road', 'Q192550': 'El Dorado'}
@@ -2544,7 +2546,7 @@ R:	 {'P140': 'religion'}
 Q:	 What is the runtime of The Godfather?
 E:	 {'Q288510': 'run time', 'Q47703': 'The Godfather'}
 R:	 {'P2047': 'runtime', 'P1290': 'Godfather'}
-None
+['175']
 
 Q:	 What is the second name of Samuel L. Jackson?
 E:	 {'Q788605': 'Second name of samuel  jackson', 'Q245025': 'middle name', 'Q172678': 'Samuel L. Jackson'}
@@ -2554,12 +2556,12 @@ None
 Q:	 What is the sequel of Wreck-It Ralph?
 E:	 {'Q28891': 'Wreck-it ralph', 'Q261636': 'sequel', 'Q3570100': 'Wreck', 'Q1458168': 'Ralph Wiggum'}
 R:	 {'P156': 'sequel'}
-None
+['Ralph Breaks the Internet']
 
 Q:	 What is the sequel to Captain America : Winter Soldier?
 E:	 {'Q284512': 'Captain america : winter soldier', 'Q261636': 'sequel', 'Q190679': 'Captain America', 'Q28006858': 'Bucky Barnes'}
 R:	 {'P155': 'sequel'}
-None
+['The Revolution Will Not Be Televised']
 
 Q:	 What is the sequel to Gremlins?
 E:	 {'Q241958': 'Gremlins', 'Q261636': 'sequel'}
@@ -2599,7 +2601,7 @@ R:	 {'P144': 'based'}
 Q:	 What is the theme for Pulp Fiction?
 E:	 {'Q104123': 'Pulp Fiction', 'Q184148': 'plug-in'}
 R:	 {'P921': 'theme'}
-None
+['organized crime']
 
 Q:	 What is the title of Pulp Fiction?
 E:	 {'Q104123': 'Pulp Fiction', 'Q56019': 'military rank'}
@@ -2811,7 +2813,7 @@ R:	 {'P27': 'nationality'}
 Q:	 What organizations is the "Trading Places" distributed by?
 E:	 {'Q43229': 'organization', 'Q504151': 'Trading Places'}
 R:	 {'P750': 'distributed'}
-None
+['Paramount Pictures', 'Netflix', 'FandangoNow']
 
 Q:	 What production company created the animated "Finding Nemo"?
 E:	 {'Q132863': 'Finding Nemo', 'Q11396960': 'production company'}
@@ -2821,7 +2823,7 @@ R:	 {'P364': 'created', 'P4021': 'animated', 'P272': 'production company'}
 Q:	 What production company made Despicable Me?
 E:	 {'Q4447': 'despicable', 'Q11396960': 'production company'}
 R:	 {'P272': 'production company'}
-None
+['Universal Pictures', 'Illumination']
 
 Q:	 What species is Jean-Luc Picard?
 E:	 {'Q7432': 'species', 'Q16276': 'Jean-luc picard', 'Q3264890': 'Luc Picard'}
@@ -2886,12 +2888,12 @@ None
 Q:	 What type of is Korengal?
 E:	 {'Q17093105': 'Korengal', 'Q190087': 'data type'}
 R:	 {'P31': 'type'}
-None
+['film']
 
 Q:	 What university did Adam Sandler attend?
 E:	 {'Q3918': 'university', 'Q132952': 'Adam Sandler'}
 R:	 {'P69': 'attend'}
-None
+['New York University Tisch School of the Arts']
 
 Q:	 What was George Cloony's first wife's name?
 E:	 {'Q23844': 'George cloonys', 'Q913620': 'First wifes name', 'Q1071027': 'personal name', 'Q188830': 'wife', 'Q280856': 'George VI'}
@@ -2901,13 +2903,13 @@ R:	 {'P735': 'first wifes name'}
 Q:	 What was Martin Scorsese's first film?
 E:	 {'Q41148': 'Martin Scorsese', 'Q300552': 'First film', 'Q28136257': 'The First Film'}
 R:	 {'P57': 'first film'}
-None
+['Srđan Spasojević']
 
 [!] Property overwritten by keywords.
 Q:	 What was the box office amount for the Psycho
 E:	 {'Q163038': 'The psycho', 'Q3975': 'computer case', 'Q201608': 'Dennis Rodman'}
 R:	 {'P2142': 'box office'}
-None
+['40000000']
 
 [!] Property overwritten by keywords.
 Q:	 What was the box office for Whiplash
@@ -2925,7 +2927,7 @@ R:	 {'P2142': 'box office'}
 Q:	 What was the box office of Avatar in the United States?
 E:	 {'Q30': 'United States of America', 'Q877435': 'box office', 'Q24871': 'Avatar'}
 R:	 {'P2142': 'box office'}
-None
+['93442625', '760507625', '2744336793']
 
 Q:	 What was the budget for Avatar?
 E:	 {'Q24871': 'Avatar', 'Q41263': 'budget'}
@@ -2935,18 +2937,18 @@ R:	 {'P2130': 'budget'}
 Q:	 What was the budget for Avengers: Endgame?
 E:	 {'Q182218': 'The Avengers', 'Q41263': 'budget', 'Q1235448': 'Endgame'}
 R:	 {'P2130': 'budget'}
-None
+['220000000']
 
 Q:	 What was the budget of the 2009 movie, Avatar?
 E:	 {'Q24871': 'Avatar', 'Q41263': 'budget', 'Q11424': 'film'}
 R:	 {'P2130': 'budget'}
-None
+['237000000']
 
 [!] Property overwritten by keywords.
 Q:	 What was the cause of death of Alan Rickman?
 E:	 {'Q106481': 'Alan Rickman', 'Q1931388': 'cause of death', 'Q4': 'death'}
 R:	 {'P509': 'cause of death', 'P1196': 'manner of death'}
-None
+['pancreatic cancer']
 
 Q:	 What was the duration of Bladerunner 2049?
 E:	 {'Q164702': 'Bladerunner 2049', 'Q2341537': 'duration'}
@@ -2957,7 +2959,7 @@ R:	 {'P2047': 'duration'}
 Q:	 What was the filming location of the Metropolis?
 E:	 {'Q4671345': 'The metropolis', 'Q1045481': 'filming location', 'Q151599': 'Metropolis'}
 R:	 {'P915': 'filming location'}
-None
+['Berlin']
 
 [!] Property overwritten by keywords.
 Q:	 What was the filming location of the Harry Potter series?
@@ -2983,7 +2985,7 @@ None
 Q:	 What was the first to win an Oscar?
 E:	 {'Q9941': 'O'}
 R:	 {'P361': 'win'}
-None
+['Latin script', 'Czech alphabet', 'Africa Alphabet', 'Italian alphabet', 'Polish alphabet', 'Esperanto alphabet', 'Turkish alphabet', 'English alphabet', 'French alphabet', 'African reference alphabet', 'Ǿ', 'Slovak alphabet', 'Pan-Nigerian alphabet', 'Benin National Alphabet', 'Finnish alphabet', 'Northern Sami alphabet', 'Breton alphabet']
 
 Q:	 What was the first with sound?
 E:	 {'Q11461': 'sound'}
@@ -2998,12 +3000,12 @@ R:	 {'P570': 'publication date'}
 Q:	 What was the life expectancy in The Netherlands in 1999?
 E:	 {'Q55': 'Netherlands', 'Q188419': 'life expectancy'}
 R:	 {'P2250': 'life expectancy'}
-None
+['81.50976']
 
 Q:	 What was the Shawshank Redemption based on?
 E:	 {'Q172241': 'The Shawshank Redemption'}
 R:	 {'P144': 'based'}
-None
+['Rita Hayworth and Shawshank Redemption']
 
 Q:	 What was the name of Jean-Luc Picard as given by the Borg?
 E:	 {'Q16276': 'Jean-Luc Picard', 'Q11483': 'The borg', 'Q1071027': 'personal name', 'Q220652': 'Borg'}
@@ -3024,7 +3026,7 @@ None
 Q:	 What was the original language of Fack ju Göhte?
 E:	 {'Q12755': 'Fack ju göhte', 'Q315': 'language', 'Q15268063': 'Fack ju Göhte'}
 R:	 {'P364': 'original language of film or TV show'}
-None
+['German']
 
 Q:	 What was the publication date of the first Jurassic Park movie?
 E:	 {'Q45805': 'Jurassic park movie', 'Q1361758': 'date of publication', 'Q11424': 'film'}
@@ -3040,7 +3042,7 @@ None
 Q:	 What was Wes Anderson's first movie?
 E:	 {'Q223687': 'Wes Anderson', 'Q182254': 'First movie', 'Q11424': 'film'}
 R:	 {'P57': 'first movie'}
-None
+['David Silverman']
 
 [!] Property overwritten by keywords.
 Q:	 What were the filming locations of The Matrix?
@@ -3270,12 +3272,12 @@ None
 Q:	 When is George Clooney born?
 E:	 {'Q23844': 'George Clooney'}
 R:	 {'P569': 'date of birth'}
-None
+['1961-05-06T00:00:00Z']
 
 Q:	 When is Jack Bauer's birthday?
 E:	 {'Q24': 'Jack Bauer', 'Q47223': 'birthday'}
 R:	 {'P569': 'birthday'}
-None
+['1966-02-18T00:00:00Z']
 
 Q:	 When is J.K.Rowling's birthday?
 E:	 {'Q47223': 'birthday'}
@@ -3290,7 +3292,7 @@ R:	 {'P577': 'release date'}
 Q:	 When is Tony Stark's birthday?
 E:	 {'Q323463': 'Tony starks', 'Q47223': 'birthday', 'Q180704': 'Iron Man'}
 R:	 {'P569': 'birthday'}
-None
+['1970-05-09T00:00:00Z']
 
 Q:	 When premiered the original Lion King?
 E:	 {'Q36479': 'Original lion king', 'Q2901452': 'The Lion King'}
@@ -3300,7 +3302,7 @@ None
 Q:	 When premiered the prequel to Incredibles 2?
 E:	 {'Q24832112': 'Incredibles 2', 'Q678345': 'prequel', 'Q213326': 'The Incredibles'}
 R:	 {'P1191': 'premiered', 'P155': 'prequel'}
-None
+['The Incredibles']
 
 [!] Property overwritten by keywords.
 Q:	 When The Lord of the Rings: The Return of the King released?
@@ -3318,25 +3320,25 @@ R:	 {'P569': 'date of birth'}
 Q:	 When was Adurey Hepburn born?
 E:	 {'Q42786': 'Adurey hepburn', 'Q3133312': 'Hepburn'}
 R:	 {'P569': 'date of birth'}
-None
+['1929-05-04T00:00:00Z']
 
 [!] Property overwritten by keywords.
 Q:	 When was Alfred Hitchcock born?
 E:	 {'Q7374': 'Alfred Hitchcock'}
 R:	 {'P569': 'date of birth'}
-None
+['1899-08-13T00:00:00Z']
 
 [!] Property overwritten by keywords.
 Q:	 When was Al Pacino born?
 E:	 {'Q41163': 'Al Pacino'}
 R:	 {'P569': 'date of birth'}
-None
+['1940-04-25T00:00:00Z']
 
 [!] Property overwritten by keywords.
 Q:	 When was Anne Hathaway born?
 E:	 {'Q36301': 'Anne Hathaway'}
 R:	 {'P569': 'date of birth'}
-None
+['1982-11-12T00:00:00Z']
 
 [!] Property overwritten by keywords.
 Q:	 When was Audrey Hepburn born?
@@ -3348,25 +3350,25 @@ R:	 {'P569': 'date of birth'}
 Q:	 When was Brad Pitt born?
 E:	 {'Q373912': 'Brad pitt', 'Q35332': 'Brad Pitt'}
 R:	 {'P569': 'date of birth'}
-None
+['1981-11-08T00:00:00Z']
 
 [!] Property overwritten by keywords.
 Q:	 When was Casino Royale released?
 E:	 {'Q594402': 'Casino royale', 'Q151904': 'Casino Royale'}
 R:	 {'P577': 'publication date'}
-None
+['1954-01-01T00:00:00Z']
 
 [!] Property overwritten by keywords.
 Q:	 When was Christian Bale born?
 E:	 {'Q45772': 'Christian Bale'}
 R:	 {'P569': 'date of birth'}
-None
+['1974-01-30T00:00:00Z']
 
 [!] Property overwritten by keywords.
 Q:	 When was David Lynch born?
 E:	 {'Q2071': 'David Lynch'}
 R:	 {'P569': 'date of birth'}
-None
+['1946-01-20T00:00:00Z']
 
 [!] Property overwritten by keywords.
 Q:	 When was "Forrest Gump" released?
@@ -3378,13 +3380,13 @@ R:	 {'P577': 'publication date'}
 Q:	 When was Hans Zimmer born?
 E:	 {'Q1344628': 'Hans zimmer', 'Q76364': 'Hans Zimmer'}
 R:	 {'P569': 'date of birth'}
-None
+['1946-01-01T00:00:00Z']
 
 [!] Property overwritten by keywords.
 Q:	 When was Harrison Ford born?
 E:	 {'Q81328': 'Harrison Ford'}
 R:	 {'P569': 'date of birth'}
-None
+['1942-07-13T00:00:00Z']
 
 Q:	 When was Harry Potter and the Philosopher stone publish in the US?
 E:	 {'Q8337': 'Harry Potter', 'Q3523481': 'The philosopher', 'Q4211474': 'Stone publish', 'Q4964182': 'philosopher', 'Q30': 'United States of America'}
@@ -3407,19 +3409,19 @@ R:	 {'P577': 'publication date'}
 Q:	 When was James Cameron born?
 E:	 {'Q42574': 'James Cameron'}
 R:	 {'P569': 'date of birth'}
-None
+['1954-08-16T00:00:00Z']
 
 [!] Property overwritten by keywords.
 Q:	 When was Jason Statham born?
 E:	 {'Q169963': 'Jason Statham'}
 R:	 {'P569': 'date of birth'}
-None
+['1967-07-26T00:00:00Z']
 
 [!] Property overwritten by keywords.
 Q:	 When was Jurassic Park first released?
 E:	 {'Q1649436': 'Jurassic park', 'Q167726': 'Jurassic Park'}
 R:	 {'P577': 'publication date'}
-None
+['1993-10-01T00:00:00Z']
 
 Q:	 When was "Kill Bill" first premiered?
 E:	 {'Q223132': 'Kill bill', 'Q18787697': 'Kill Bill'}
@@ -3442,24 +3444,24 @@ R:	 {'P569': 'date of birth'}
 Q:	 When was Leonardo DiCaprio born?
 E:	 {'Q38111': 'Leonardo DiCaprio'}
 R:	 {'P569': 'date of birth'}
-None
+['1974-11-11T00:00:00Z']
 
 [!] Property overwritten by keywords.
 Q:	 When was Nicolas Cage born?
 E:	 {'Q42869': 'Nicolas Cage'}
 R:	 {'P569': 'date of birth'}
-None
+['1964-01-07T00:00:00Z']
 
 Q:	 When was Parasite filmed?
 E:	 {'Q20004184': 'Parasite', 'Q61448040': 'Parasite'}
 R:	 {'P136': 'filmed'}
-None
+['horror film']
 
 [!] Property overwritten by keywords.
 Q:	 When was Parasite released?
 E:	 {'Q20004184': 'Parasite', 'Q61448040': 'Parasite'}
 R:	 {'P577': 'publication date'}
-None
+['2004-01-01T00:00:00Z']
 
 [!] Property overwritten by keywords.
 Q:	 When was parasite released in South Korea?
@@ -3488,13 +3490,13 @@ None
 Q:	 When was Ridley Scott born?
 E:	 {'Q56005': 'Ridley Scott'}
 R:	 {'P569': 'date of birth'}
-None
+['1937-11-30T00:00:00Z']
 
 [!] Property overwritten by keywords.
 Q:	 When was Robert Langdon born?
 E:	 {'Q210548': 'Robert langdon', 'Q27962582': 'Robert Langdon'}
 R:	 {'P569': 'date of birth'}
-None
+['1964-06-22T00:00:00Z']
 
 Q:	 When was Snow White and the Seven Dwarfs by Disney made?
 E:	 {'Q11831': 'Snow White', 'Q639184': 'Seven dwarfs by disney', 'Q3335212': 'Dwarfs', 'Q7414': 'The Walt Disney Company'}
@@ -3533,7 +3535,7 @@ None
 Q:	 When was the American romantic disaster Titanic released?
 E:	 {'Q4466': 'American romantic disaster titanic', 'Q3839081': 'disaster', 'Q25173': 'RMS Titanic'}
 R:	 {'P577': 'publication date'}
-None
+['2010-01-01T00:00:00Z']
 
 [!] Property overwritten by keywords.
 Q:	 When was "The Avengers" released in Germany?
@@ -3580,7 +3582,7 @@ R:	 {'P577': 'relaesed'}
 Q:	 When was the first Star Wars released?
 E:	 {'Q54320': 'Star wars', 'Q462': 'Star Wars'}
 R:	 {'P577': 'publication date'}
-None
+['1991-11-15T00:00:00Z']
 
 Q:	 When was the first world cup?
 E:	 {'Q1936368': 'world cup'}
@@ -3602,13 +3604,13 @@ R:	 {'P577': 'publication date'}
 Q:	 When was the A Silent Voice publicated in Germany?
 E:	 {'Q3412553': 'Silent voice', 'Q183': 'Germany', 'Q23925035': 'A Silent Voice'}
 R:	 {'P2959': 'publicated'}
-None
+['Q20825355', 'Q23653930', 'Q25681485', 'Q27868447', 'Q30277432', 'Q53673262']
 
 [!] Property overwritten by keywords.
 Q:	 When was the Avatar released in the United States of America?
 E:	 {'Q1640011': 'The avatar', 'Q30': 'United States of America', 'Q24871': 'Avatar', 'Q35657': 'state of the United States'}
 R:	 {'P577': 'publication date'}
-None
+['2009-12-16T00:00:00Z', '2009-12-17T00:00:00Z', '2009-12-18T00:00:00Z']
 
 [!] Property overwritten by keywords.
 Q:	 When was the Fight Club released for the first time?
@@ -3620,13 +3622,13 @@ R:	 {'P577': 'publication date'}
 Q:	 When was the the matrix released?
 E:	 {'Q83495': 'The Matrix', 'Q44337': 'matrix'}
 R:	 {'P577': 'publication date'}
-None
+['1999-03-31T00:00:00Z', '1999-06-17T00:00:00Z', '1999-07-14T00:00:00Z']
 
 [!] Property overwritten by keywords.
 Q:	 When was the The Prestige released?
 E:	 {'Q7758102': 'The Prestige', 'Q46551': 'The Prestige'}
 R:	 {'P577': 'publication date'}
-None
+['2008-01-01T00:00:00Z']
 
 [!] Property overwritten by keywords.
 Q:	 When was the Zootopia released in the United States?
@@ -3638,13 +3640,13 @@ R:	 {'P577': 'publication date'}
 Q:	 When was the Pixar Brave released?
 E:	 {'Q126796': 'Pixar brave', 'Q127552': 'Pixar'}
 R:	 {'P577': 'publication date'}
-None
+['2012-06-10T00:00:00Z', '2012-06-22T00:00:00Z', '2012-08-01T00:00:00Z', '2012-08-02T00:00:00Z', '2012-08-31T00:00:00Z']
 
 [!] Property overwritten by keywords.
 Q:	 When was the Playstation 5 released?
 E:	 {'Q10677': 'Playstation 5', 'Q1323662': 'PlayStation'}
 R:	 {'P577': 'publication date'}
-None
+['1993-12-04T00:00:00Z']
 
 Q:	 When was the première of Iron Man?
 E:	 {'Q180704': 'Iron man', 'Q29197': 'Première of', 'Q204854': 'première', 'Q192724': 'Iron Man'}
@@ -3735,17 +3737,17 @@ R:	 {'P577': 'publication date'}
 Q:	 When will the next Jurassic World be released in the US?
 E:	 {'Q18615494': 'Jurassic world', 'Q21877685': 'Jurassic World: Fallen Kingdom', 'Q30': 'United States of America'}
 R:	 {'P577': 'publication date'}
-None
+['2014-11-26T00:00:00Z']
 
 Q:	 Where are the Academy Awards held?
 E:	 {'Q19020': 'Academy Awards'}
 R:	 {'P276': 'held'}
-None
+['Dolby Theatre']
 
 Q:	 Where did It Happened One Night take place?
 E:	 {'Q834448': 'Night take place', 'Q592503': 'Night', 'Q82794': 'geographic region'}
 R:	 {'P131': 'Happened'}
-None
+['The Hague']
 
 Q:	 Where did Leonardo DiCaprio go to school?
 E:	 {'Q38111': 'Leonardo DiCaprio', 'Q485734': 'Go to school', 'Q3914': 'school'}
@@ -3837,7 +3839,7 @@ None
 Q:	 Where was Anne Hathaway born?
 E:	 {'Q36301': 'Anne Hathaway'}
 R:	 {'P19': 'born'}
-None
+['Brooklyn']
 
 [!] Property overwritten by keywords.
 Q:	 Where was Before Sunrise filmed?
@@ -3848,12 +3850,12 @@ None
 Q:	 Where was Christopher Nolan born?
 E:	 {'Q224912': 'Christopher nolan', 'Q25191': 'Christopher Nolan'}
 R:	 {'P19': 'born'}
-None
+['Mullingar']
 
 Q:	 Where was David Attenborough educated?
 E:	 {'Q183337': 'David Attenborough'}
 R:	 {'P69': 'educated'}
-None
+['University College London', 'Clare College', 'Wyggeston Grammar School for Boys']
 
 Q:	 Where was Forrest Gump produced?
 E:	 {'Q134773': 'Forrest Gump'}
@@ -3863,39 +3865,39 @@ R:	 {'P162': 'produced'}
 Q:	 Where was Gaspar Noé born?
 E:	 {'Q347950': 'Gaspar Noé'}
 R:	 {'P19': 'born'}
-None
+['Buenos Aires']
 
 Q:	 Where was Idris Elba born?
 E:	 {'Q342604': 'Idris Elba'}
 R:	 {'P19': 'born'}
-None
+['London Borough of Hackney']
 
 [!] Property overwritten by keywords.
 Q:	 Where was Joker filmed?
 E:	 {'Q1622128': 'Joker', 'Q42759035': 'Joker'}
 R:	 {'P915': 'filming location'}
-None
+['New York City', 'Bedford Park Boulevard', 'Hudson County Courthouse']
 
 [!] Property overwritten by keywords.
 Q:	 Where was Jurassic Park filmed?
 E:	 {'Q1649436': 'Jurassic park', 'Q167726': 'Jurassic Park'}
 R:	 {'P915': 'filming location'}
-None
+['Hawaii', 'Kauai']
 
 Q:	 Where was Leonardo DiCaprio born?
 E:	 {'Q38111': 'Leonardo DiCaprio'}
 R:	 {'P19': 'born'}
-None
+['Los Angeles']
 
 Q:	 Where was Mark Ruffalo born?
 E:	 {'Q41422': 'Mark Ruffalo'}
 R:	 {'P19': 'born'}
-None
+['Kenosha']
 
 Q:	 Where was Meryl Streep born?
 E:	 {'Q873': 'Meryl Streep'}
 R:	 {'P19': 'born'}
-None
+['Summit']
 
 Q:	 Where was Minority Report created?
 E:	 {'Q19904394': 'Minority report', 'Q244604': 'Minority Report'}
@@ -3905,36 +3907,36 @@ R:	 {'P170': 'created'}
 Q:	 Where was Morgan Freeman born?
 E:	 {'Q48337': 'Morgan Freeman'}
 R:	 {'P19': 'born'}
-None
+['Memphis']
 
 [!] Property overwritten by keywords.
 Q:	 Where was Napoleon Dynamite filmed?
 E:	 {'Q3069069': 'Napoleon dynamite', 'Q1133772': 'Napoleon Dynamite'}
 R:	 {'P915': 'filming location'}
-None
+['Idaho']
 
 [!] Property overwritten by keywords.
 Q:	 Where was Pulp Fiction filmed
 E:	 {'Q104123': 'Pulp Fiction'}
 R:	 {'P915': 'filming location'}
-None
+['Los Angeles']
 
 Q:	 Where was Roger Federer born?
 E:	 {'Q1426': 'Roger Federer'}
 R:	 {'P19': 'born'}
-None
+['Basel']
 
 [!] Property overwritten by keywords.
 Q:	 Where was Slumdog Millionaire filmed?
 E:	 {'Q125076': 'Slumdog Millionaire'}
 R:	 {'P915': 'filming location'}
-None
+['Mumbai']
 
 [!] Property overwritten by keywords.
 Q:	 Where was Spy Kids filmed?
 E:	 {'Q550581': 'Spy Kids'}
 R:	 {'P915': 'filming location'}
-None
+['Chile', 'The Bahamas']
 
 Q:	 Where was the 2012 UEFA European cup held?
 E:	 {'Q35572': 'Union of European Football Associations', 'Q32200': '2012  european cup', 'Q18756': 'UEFA Champions League'}
@@ -3950,7 +3952,7 @@ None
 Q:	 Where was The Guard set?
 E:	 {'Q15737156': 'The guard', 'Q928670': 'National Guard of the United States'}
 R:	 {'P1680': 'set'}
-None
+['Ballada ukraińska']
 
 [!] Property overwritten by keywords.
 Q:	 Where was The Lord of the Rings: The Fellowship of the Ring filmed?
@@ -3974,12 +3976,12 @@ None
 Q:	 Where was the "Pulp Fiction" filmed?
 E:	 {'Q104123': 'Pulp Fiction'}
 R:	 {'P915': 'filming location'}
-None
+['Los Angeles']
 
 Q:	 Where was the Tropic Thunder shot at?
 E:	 {'Q380981': 'Tropic Thunder'}
 R:	 {'P3804': 'shot'}
-None
+['293507']
 
 [!] Property overwritten by keywords.
 Q:	 Where was the "Who killed captain Alex" filmed?
@@ -4043,12 +4045,12 @@ R:	 {'P710': 'played', 'P161': 'actor'}
 Q:	 Which actor plays the lead character in the TV-series the Mandalorian?
 E:	 {'Q54289': 'lead character in the tv-series the mandalorian', 'Q33999': 'actor', 'Q32483': 'character', 'Q5398426': 'television series', 'Q56876444': 'The Mandalorian'}
 R:	 {'P453': 'plays', 'P161': 'actor'}
-None
+['Werner Herzog', 'Nick Nolte', 'Mark Hamill', 'Rosario Dawson', 'Katee Sackhoff', 'Gina Carano', 'Ming-Na Wen', 'Amy Sedaris', 'Omid Abtahi', 'Carl Weathers', 'Temuera Morrison', 'Giancarlo Esposito', 'Bill Burr', 'Pedro Pascal', 'Emily Swallow']
 
 Q:	 Which actor plays the main figure in Wonder Woman?
 E:	 {'Q609436': 'Main figure in wonder woman', 'Q33999': 'actor', 'Q1412049': 'figure', 'Q20502242': 'Wonder Woman'}
 R:	 {'P453': 'plays', 'P161': 'actor'}
-None
+['Chris Pine', 'Doutzen Kroes', 'Zack Snyder', 'Gal Gadot', 'David Thewlis', 'Connie Nielsen', 'Elena Anaya', 'Robin Wright', 'Danny Huston', 'Saïd Taghmaoui', 'Lucy Davis', 'Ewen Bremner', 'Eleanor Matsuura', 'Florence Kasumba', 'Lisa Loven Kongsli', 'Eugene Brave Rock']
 
 Q:	 Which actors have played Tony Stark?
 E:	 {'Q33999': 'actor', 'Q180704': 'Iron Man'}
@@ -4109,7 +4111,7 @@ R:	 {'P166': 'awards'}
 Q:	 Which awards did Inception receive?
 E:	 {'Q618779': 'award', 'Q25188': 'Inception'}
 R:	 {'P166': 'awards', 'P571': 'Inception'}
-None
+['Academy Award for Best Cinematography', 'Academy Award for Best Visual Effects', 'Academy Award for Best Sound Editing', 'Academy Award for Best Sound', 'National Board of Review: Top Ten Films']
 
 Q:	 Which awards did Memento win?
 E:	 {'Q20441927': 'Memento', 'Q618779': 'award', 'Q190525': 'Memento'}
@@ -4149,7 +4151,7 @@ R:	 {'P527': 'set'}
 Q:	 Which company distributed Alien?
 E:	 {'Q681815': 'Company', 'Q103569': 'Alien', 'Q783794': 'company'}
 R:	 {'P750': 'distributed'}
-None
+['Netflix', 'FandangoNow']
 
 Q:	 Which company distributed The Platform?
 E:	 {'Q681815': 'Company', 'Q783794': 'company', 'Q7202266': 'Platform'}
@@ -4166,7 +4168,7 @@ R:	 {'P272': 'production company'}
 Q:	 Which company produced Star Wars?
 E:	 {'Q681815': 'Company', 'Q17738': 'Star wars', 'Q783794': 'company', 'Q462': 'Star Wars'}
 R:	 {'P272': 'production company'}
-None
+['Sony Pictures Classics', 'Killer Films']
 
 [!] Property overwritten by keywords.
 Q:	 Which company produced Westworld
@@ -4177,7 +4179,7 @@ R:	 {'P272': 'production company'}
 Q:	 Which countries is Martin Scorsese a citizen in?
 E:	 {'Q6256': 'country', 'Q41148': 'Martin Scorsese', 'Q7771': 'A citizen', 'Q2472587': 'people'}
 R:	 {'P27': 'a citizen'}
-None
+['United States of America', 'Italy']
 
 Q:	 Which country first published Kingsman: the Secret Service?
 E:	 {'Q79733': 'Kingsman', 'Q107894': ': the secret service', 'Q3336843': 'country within the United Kingdom', 'Q17018738': 'Kingsman', 'Q1523567': 'Secret Service'}
@@ -4187,7 +4189,7 @@ R:	 {'P577': 'published', 'P17': 'country', 'P131': ': the Secret Service'}
 Q:	 Which country made Godzilla?
 E:	 {'Q3772780': 'Godzilla', 'Q3336843': 'country within the United Kingdom', 'Q6567': 'Godzilla'}
 R:	 {'P17': 'country'}
-None
+['United Kingdom']
 
 Q:	 Which director has been nominated most for the Best Director Academy Award?
 E:	 {'Q103360': 'Best director academy award', 'Q2526255': 'film director', 'Q4671334': 'Academy Award'}
@@ -4336,7 +4338,7 @@ None
 Q:	 Which movies, directed by David O. Russell, did Jennifer Lawrence act in?
 E:	 {'Q294721': 'Movies,', 'Q60168': 'O', 'Q314342': 'David O. Russell', 'Q189490': 'Jennifer Lawrence', 'Q11424': 'film'}
 R:	 {'P1969': 'directed', 'P19': 'act'}
-None
+['2778']
 
 Q:	 Which movies earned Steven Spielberg an Academy Award?
 E:	 {'Q1179487': 'Movies', 'Q8877': 'Steven Spielberg', 'Q8610': 'An academy award', 'Q8624': 'Steven spielberg an academy award', 'Q11424': 'film', 'Q4671334': 'Academy Award'}
@@ -4428,7 +4430,7 @@ R:	 {'P1411': 'nominated', 'P155': 'war'}
 Q:	 Which work is "The Shawshank Redemption" based on?
 E:	 {'Q172241': 'The Shawshank Redemption', 'Q42213': 'work', 'Q28457426': 'The'}
 R:	 {'P144': 'based', 'P106': 'work'}
-None
+['Rita Hayworth and Shawshank Redemption']
 
 Q:	 Who acted as James Bond?
 E:	 {'Q844': 'James Bond'}
@@ -4473,7 +4475,7 @@ None
 Q:	 Who are the creators of South Park?
 E:	 {'Q951038': 'South park', 'Q635155': 'creator deity', 'Q16538': 'South Park'}
 R:	 {'P170': 'creators'}
-None
+['Matt Stone', 'Trey Parker']
 
 Q:	 Who are the directors of Iron man
 E:	 {'Q959682': 'Directors of iron man', 'Q2526255': 'film director', 'Q6072991': 'Iron man'}
@@ -4863,7 +4865,7 @@ None
 Q:	 Who directed The Big Lebowski?
 E:	 {'Q337078': 'The Big Lebowski'}
 R:	 {'P57': 'directed'}
-None
+['Joel Coen', 'Ethan Coen']
 
 Q:	 Who directed The Dark Knight?
 E:	 {'Q163872': 'The Dark Knight'}
@@ -4888,27 +4890,27 @@ R:	 {'P57': 'directed'}
 Q:	 Who directed the Fight Club?
 E:	 {'Q190050': 'Fight Club'}
 R:	 {'P57': 'directed'}
-None
+['David Fincher']
 
 Q:	 Who directed the Goodfellas?
 E:	 {'Q42047': 'Goodfellas'}
 R:	 {'P57': 'directed'}
-None
+['Martin Scorsese']
 
 Q:	 Who directed the "How To Train Your Dragon"?
 E:	 {'Q3038695': 'Dragon', 'Q1148444': 'blunderbuss'}
 R:	 {'P57': 'directed', 'P403': 'Train'}
-None
+['Voulzie']
 
 Q:	 Who directed the "Need for Speed"?
 E:	 {'Q13374569': 'Need for speed', 'Q6986471': 'Need', 'Q108006': 'Speed'}
 R:	 {'P57': 'directed'}
-None
+['Scott Waugh']
 
 Q:	 Who directed the "Pulp fiction"?
 E:	 {'Q104123': 'Pulp Fiction'}
 R:	 {'P57': 'directed'}
-None
+['Quentin Tarantino']
 
 Q:	 Who directed the 'Shindler's list'?
 E:	 {'Q488947': 'The shindlers', 'Q27948': 'list', 'Q7497309': 'Shindler'}
@@ -4923,12 +4925,12 @@ None
 Q:	 Who directed the "The Godfather"?
 E:	 {'Q47703': 'The Godfather'}
 R:	 {'P57': 'directed', 'P1290': 'Godfather'}
-None
+['Francis Ford Coppola']
 
 Q:	 Who directed the "The Lion King"?
 E:	 {'Q36479': 'Lion king', 'Q2901452': 'The Lion King'}
 R:	 {'P57': 'directed'}
-None
+['Roger Allers', 'Rob Minkoff']
 
 Q:	 Who directed the "Zootopia"?
 E:	 {'Q488947': 'The zootopia', 'Q15270647': 'Zootopia'}
@@ -4998,7 +5000,7 @@ R:	 {'P112': 'founded'}
 Q:	 Who framed Roger Rabbit in Who Framed Roger Rabbit?
 E:	 {'Q2265878': 'Roger Rabbit', 'Q362054': 'In who framed', 'Q85688': 'Roger rabbit in who framed roger rabbit', 'Q379873': 'Who Framed Roger Rabbit'}
 R:	 {'P915': 'framed', 'P19': 'Roger Rabbit in Who'}
-None
+['Niederstotzingen']
 
 Q:	 Who has a higher net worth, Jim Carrey or Martin Lawrence?
 E:	 {'Q40504': 'Jim Carrey', 'Q86457': 'Higher net worth,  or martin lawrence', 'Q183542': 'Martin Lawrence', 'Q1933764': 'net worth'}
@@ -5013,7 +5015,7 @@ R:	 {'P175': 'played'}
 Q:	 Who have played Batman?
 E:	 {'Q41421': 'Batman', 'Q2695156': 'Batman'}
 R:	 {'P54': 'played'}
-None
+['Chicago Bulls', 'Washington Wizards', 'Birmingham Barons', 'Scottsdale Scorpions', "North Carolina Tar Heels men's basketball"]
 
 Q:	 Who holds the record of most awards won?
 E:	 {'Q178588': 'gramophone record', 'Q618779': 'award'}
@@ -5023,7 +5025,7 @@ None
 Q:	 Who is an enemy of Bilbo Baggins?
 E:	 {'Q185737': 'Bilbo Baggins', 'Q163989': 'Enemy of', 'Q289891': 'enemy'}
 R:	 {'P22': 'enemy of'}
-None
+['Bungo Baggins']
 
 Q:	 Who is/are the producer(s) of the Shutter Island?
 E:	 {'Q210364': 'Shutter Island'}
@@ -5244,7 +5246,7 @@ R:	 {'P57': 'director'}
 Q:	 Who is the director of the Avatar?
 E:	 {'Q11572': 'The avatar', 'Q2526255': 'film director', 'Q24871': 'Avatar'}
 R:	 {'P57': 'director'}
-None
+['James Cameron']
 
 Q:	 Who is the director of The Hangover?
 E:	 {'Q219315': 'The Hangover', 'Q2526255': 'film director'}
@@ -5259,12 +5261,12 @@ R:	 {'P57': 'director'}
 Q:	 Who is the director of the Forrest Gump?
 E:	 {'Q134773': 'Forrest Gump', 'Q2526255': 'film director'}
 R:	 {'P57': 'director'}
-None
+['Robert Zemeckis']
 
 Q:	 Who is the director of the Interstellar?
 E:	 {'Q389979': 'The interstellar', 'Q2526255': 'film director', 'Q13417189': 'Interstellar'}
 R:	 {'P57': 'director'}
-None
+['Christopher Nolan']
 
 Q:	 Who is the director of the "Midsommar"?
 E:	 {'Q488947': 'The midsommar', 'Q2526255': 'film director', 'Q55907451': 'Midsommar'}
@@ -5514,7 +5516,7 @@ None
 Q:	 Who played Obi-Wan in the Star Wars prequel trilogy?
 E:	 {'Q51740': 'Obi-wan', 'Q17738': 'in the star wars prequel trilogy', 'Q300518': 'OBI', 'Q462': 'Star Wars', 'Q149010': 'trilogy'}
 R:	 {'P710': 'played', 'P156': 'in the Star Wars prequel trilogy'}
-None
+['tetralogy']
 
 Q:	 Who played Obi-Wan Kenobi in Star Wars?
 E:	 {'Q51740': 'Obi-Wan Kenobi', 'Q17738': 'In star wars', 'Q462': 'Star Wars'}
@@ -5669,7 +5671,7 @@ R:	 {'P725': 'voiced'}
 Q:	 Who voiced Vanellope in Wreck-It Ralph?
 E:	 {'Q28891': 'Vanellope in wreck-it ralph', 'Q3570100': 'Wreck', 'Q1458168': 'Ralph Wiggum'}
 R:	 {'P725': 'voiced'}
-['Adam Carola', "Ed O'Neill", 'Jennifer Hale', 'John C. Reilly', 'Jane Lynch', 'Sarah Silverman', 'Elizabeth Daily', 'Jess Harnell', 'Mona Marshall', 'Edie McClurg', 'Kath Soucie', 'Rachael Harris', 'Stefanie Scott', 'Jim Cummings', 'John DiMaggio', 'Alan Tudyk', 'Dennis Haysbert', 'Jamie Elman', 'Laraine Newman', 'April Stewart', 'Isabella Acres', 'Mindy Kaling', 'Jack McBrayer', 'Joe Lo Truglio', 'Bob Bergen', 'Maurice LaMarche', 'Fred Tatasciore', 'Horatio Sanz', 'Martin Jarvis', 'Kyle Hebert', 'Skylar Astin', 'Paul Pape', 'Rich Moore', 'Debi Derryberry', 'Scott Menville', 'Lauren MacMullan', 'Raymond S. Persi', 'Roger Craig Smith', 'Reuben Langdon', 'Eddie Frierson', 'Dave Boat', 'Emily Hahn', 'Katie Lowes', 'Sandy Fox', 'Brian Kesinger', 'Ava Acres', 'David Cowgill', 'Phil Johnston', 'Josie Trinidad', 'Terri Douglas', 'Dave Kohut', 'Jamie Sparer Roberts', 'Tim Mertens', 'Brandon Scott', 'Tucker Gilmore', 't2302409741']
+['Adam Carola', "Ed O'Neill", 'Jennifer Hale', 'John C. Reilly', 'Jane Lynch', 'Sarah Silverman', 'Elizabeth Daily', 'Jess Harnell', 'Mona Marshall', 'Edie McClurg', 'Kath Soucie', 'Rachael Harris', 'Stefanie Scott', 'Jim Cummings', 'John DiMaggio', 'Alan Tudyk', 'Dennis Haysbert', 'Jamie Elman', 'Laraine Newman', 'April Stewart', 'Isabella Acres', 'Mindy Kaling', 'Jack McBrayer', 'Joe Lo Truglio', 'Bob Bergen', 'Maurice LaMarche', 'Fred Tatasciore', 'Horatio Sanz', 'Martin Jarvis', 'Kyle Hebert', 'Skylar Astin', 'Paul Pape', 'Rich Moore', 'Debi Derryberry', 'Scott Menville', 'Lauren MacMullan', 'Raymond S. Persi', 'Roger Craig Smith', 'Reuben Langdon', 'Eddie Frierson', 'Dave Boat', 'Emily Hahn', 'Katie Lowes', 'Sandy Fox', 'Brian Kesinger', 'Ava Acres', 'David Cowgill', 'Phil Johnston', 'Josie Trinidad', 'Terri Douglas', 'Dave Kohut', 'Jamie Sparer Roberts', 'Tim Mertens', 'Brandon Scott', 'Tucker Gilmore', 't2302216775']
 
 Q:	 Who voices Mr. Fox in Wes Anderson's Fantastic Mr. Fox?
 E:	 {'Q257169': 'Fox', 'Q1025': 'Mr  in wes andersons fantastic mr', 'Q6928681': 'Mr. Fox', 'Q465275': 'Fantastic Mr. Fox', 'Q223687': 'Wes Anderson'}
@@ -5756,22 +5758,22 @@ R:	 {'P57': 'director'}
 Q:	 Who was the director of Skyfall?
 E:	 {'Q4941': 'Skyfall', 'Q2526255': 'film director'}
 R:	 {'P57': 'director'}
-None
+['Sam Mendes']
 
 Q:	 Who was the director of the 2020 Tenet?
 E:	 {'Q641184': '2020 tenet', 'Q2526255': 'film director', 'Q63985561': 'Tenet'}
 R:	 {'P57': 'director'}
-None
+['Christopher Nolan']
 
 Q:	 Who was the director of the Avatar?
 E:	 {'Q11572': 'The avatar', 'Q2526255': 'film director', 'Q24871': 'Avatar'}
 R:	 {'P57': 'director'}
-None
+['James Cameron']
 
 Q:	 Who was the director of The Hobbit trilogy?
 E:	 {'Q74331': 'The Hobbit trilogy', 'Q2526255': 'film director'}
 R:	 {'P57': 'director'}
-None
+['Peter Jackson']
 
 Q:	 Who was the director of the Lord of the Rings trilogy?
 E:	 {'Q127367': 'Lord of the rings trilogy', 'Q2526255': 'film director', 'Q15228': 'The Lord of the Rings', 'Q19866947': 'Rings', 'Q149010': 'trilogy'}
@@ -5786,7 +5788,7 @@ None
 Q:	 Who was the first person to ever win an Oscar?
 E:	 {'Q5': 'Person', 'Q9941': 'O', 'Q5453510': 'First Person'}
 R:	 {'P361': 'win'}
-None
+['humanity']
 
 Q:	 Who was the first person to play James Bond?
 E:	 {'Q616402': 'Person', 'Q844': 'James Bond', 'Q5453510': 'First Person'}
@@ -5931,7 +5933,7 @@ R:	 {'P31': 'won'}
 Q:	 Who won the most Academy Awards?
 E:	 {'Q5483199': 'Academy awards', 'Q19020': 'Academy Awards'}
 R:	 {'P31': 'won'}
-['annual event']
+['Wikimedia navigational template']
 
 Q:	 Who won the oscar for Best Actress between 2012 - 2016
 E:	 {'Q19022': 'Oscar for best actress between 2012 - 2016', 'Q3442': 'Astronotus ocellatus', 'Q103618': 'Academy Award for Best Actress'}
@@ -5956,12 +5958,12 @@ R:	 {'P1412': 'wrote', 'P144': 'based'}
 Q:	 Who wrote the book that the Turkish Delight is based on?
 E:	 {'Q79298': 'Book that the turkish delight', 'Q571': 'book', 'Q166960': 'Turkish Delight'}
 R:	 {'P1412': 'wrote', 'P131': 'based'}
-None
+['Pike County']
 
 Q:	 Who wrote the on which the Shawshank Redemption was based
 E:	 {'Q172241': 'The Shawshank Redemption'}
 R:	 {'P1412': 'wrote', 'P144': 'based'}
-None
+['Rita Hayworth and Shawshank Redemption']
 
 Q:	 Who wrote the score for Lord of the Rings?
 E:	 {'Q15228': 'The Lord of the Rings', 'Q187947': 'partitur', 'Q19866947': 'Rings'}
