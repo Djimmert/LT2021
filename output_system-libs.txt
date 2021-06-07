@@ -1,0 +1,1986 @@
+system_libs.py
+
+Q:	 196
+E:	 {'Q31542': '196'}
+R:	 {}
+
+Q:	 Actor Tom Cruise is involved with which cult-like church
+E:	 {'Q37079': 'Tom Cruise', 'Q345186': 'Cult-like church', 'Q16970': 'church building'}
+R:	 {'P161': 'actor'}
+
+[!] Property overwritten by keywords.
+Q:	 After whom was the Fack ju Göhte (German) named
+E:	 {'Q67480': 'Fack ju göhte (german)', 'Q15268063': 'Fack ju Göhte', 'Q188': 'German'}
+R:	 {'P138': 'named after'}
+Johann Wolfgang von Goethe
+
+Q:	 At what coordinates can we find a big sign that states 'Hollywood'
+E:	 {'Q486689': 'Big sign', 'Q34006': 'Hollywood', 'Q2221906': 'geographic location', 'Q1193832': 'sign', 'Q7275': 'state'}
+R:	 {'P136': 'find', 'P17': 'states', 'P625': 'coordinates'}
+Point(-118.326666666 34.101666666)
+
+[!] Property overwritten by keywords.
+Q:	 At which locations was The Intouchables filmed
+E:	 {'Q2221906': 'geographic location', 'Q595': 'The Intouchables'}
+R:	 {'P915': 'filming location'}
+Paris
+Merville-Franceville-Plage
+
+[!] Property overwritten by keywords.
+Q:	 By what company was the Tarzan directed
+E:	 {'Q225093': 'Company', 'Q171415': 'The tarzan', 'Q783794': 'company', 'Q208696': 'Tarzan'}
+R:	 {'P272': 'production company'}
+Centaur Film Company
+Walt Disney Pictures
+
+[!] Property overwritten by keywords.
+Q:	 By which companies was Arrested Development produced
+E:	 {'Q257303': 'Companies', 'Q11598': 'Arrested Development', 'Q7247687': 'development produced', 'Q783794': 'company'}
+R:	 {'P272': 'production company'}
+Imagine Entertainment
+20th Century Fox Television
+
+[!] Property overwritten by keywords.
+Q:	 By which was Fack ju Göhte (German) followed
+E:	 {'Q12755': 'Fack ju göhte', 'Q313422': '(german)', 'Q15268063': 'Fack ju Göhte', 'Q188': 'German'}
+R:	 {'P156': 'followed by'}
+Fack ju Göhte 2
+
+Q:	 By whom is Obi-Wan Kenobi killed in the Star Wars saga
+E:	 {'Q51740': 'Obi-Wan Kenobi', 'Q17738': 'Star wars saga', 'Q28173261': 'The Star'}
+R:	 {'P157': 'killed'}
+Darth Vader
+
+[!] Property overwritten by keywords.
+Q:	 Can "The Matrix" be watched on Netflix
+E:	 {'Q83495': 'The Matrix', 'Q907311': 'Netflix'}
+R:	 {'P750': 'distributed by'}
+Warner Bros.
+Netflix
+InterCom
+HBO Max
+FandangoNow
+
+Q:	 Can you tell me in which city the The King of Comedy is set
+E:	 {'Q4042194': 'Comedy', 'Q515': 'city', 'Q1122281': 'The King of Comedy', 'Q3736133': 'The Comedy'}
+R:	 {'P582': 'tell', 'P21': 'set', 'P19': 'city', 'P35': 'King'}
+
+Q:	 Did Iron Man pass the Bechdel test
+E:	 {'Q180704': 'Iron man', 'Q467402': 'Bechdel test', 'Q192724': 'Iron Man', 'Q4165246': 'Bechdel test'}
+R:	 {'P2067': 'pass'}
+102
+129
+
+Q:	 Did Leonardo Dicaprio receive an Oscar
+E:	 {'Q38111': 'Leonardo DiCaprio', 'Q426293': 'An oscar', 'Q9941': 'O'}
+R:	 {'P166': 'receive'}
+Academy Award for Best Actor
+Golden Globe Award for Best Actor – Motion Picture Musical or Comedy
+Screen Actors Guild Award
+BAFTA Award for Best Actor in a Leading Role
+Golden Globe Award for Best Actor – Motion Picture Drama
+Silver Bear
+Silver Bear for Best Actor
+Golden Globe Award
+MTV Movie Award for Best Jaw Dropping Moment
+MTV Movie Award for Best Male Performance
+AACTA Award for Best Actor in a Leading Role
+Chevalier des Arts et des Lettres
+Alliance of Women Film Journalists Award for Best Actor
+Horatio Alger Award
+Crystal Award
+
+Q:	 Did Pamela Anderson star in Borat
+E:	 {'Q83325': 'Pamela anderson', 'Q523': 'star', 'Q186323': 'Borat'}
+R:	 {'P19': 'star in Borat'}
+Ladysmith
+
+Q:	 Did Samuel L. Jackson produce Pulp Fiction
+E:	 {'Q172678': 'Samuel L. Jackson', 'Q104123': 'Pulp Fiction'}
+R:	 {'P162': 'produce', 'P1356': 'L'}
+Lawrence Bender
+
+Q:	 Did The Lego 2: The Second Part pass the Bechdel test
+E:	 {'Q737821': 'Lego 2: the second', 'Q467402': 'Bechdel test', 'Q170484': 'Lego', 'Q786916': 'Second', 'Q4165246': 'Bechdel test'}
+R:	 {'P2067': 'pass'}
+129
+
+Q:	 Did the Green Book win an Academy Award for Best Picture
+E:	 {'Q571': 'Green book', 'Q102427': 'Academy award for best picture', 'Q48673898': 'Green Book', 'Q4671334': 'Academy Award', 'Q7191144': 'Picture'}
+R:	 {'P166': 'win'}
+National Board of Review Award for Best Film
+Academy Award for Best Picture
+Academy Award for Best Supporting Actor
+National Board of Review Award for Best Film
+National Board of Review: Top Ten Films
+
+Q:	 Did Tommy Lee Jones star in the the Fugitive
+E:	 {'Q331748': 'Tommy lee jones', 'Q137034': 'The Fugitive', 'Q523': 'star', 'Q156309': 'The Fugitive'}
+R:	 {'P397': 'star'}
+
+Q:	 director jurassic world fallen kingdo
+E:	 {'Q45805': 'Fallen world jurassic kingdo', 'Q2526255': 'film director', 'Q21877685': 'Jurassic World: Fallen Kingdom'}
+R:	 {'P57': 'director', 'P582': 'jurassic world fallen'}
+-145000000-01-01T00:00:00Z
+J. A. Bayona
+
+Q:	 Does Casablanca have a website
+E:	 {'Q3742': 'Casablanca', 'Q35127': 'website', 'Q132689': 'Casablanca'}
+R:	 {'P31': 'have a website'}
+city
+commune of Chile
+web server
+film
+
+Q:	 Does Christopher Nolan's first feature pass the Bechdel test
+E:	 {'Q25191': 'Christopher Nolan', 'Q655056': 'First feature', 'Q467402': 'Bechdel test', 'Q42139305': 'feature', 'Q4165246': 'Bechdel test'}
+R:	 {'P2067': 'pass', 'P735': 'first feature'}
+Edward
+Christopher
+129
+Andrew
+
+Q:	 Does Perfect Blue (1997) pass the Mako Mori test
+E:	 {'Q1205051': 'Perfect Blue', 'Q49047': 'Mako mori', 'Q467402': 'Test', 'Q318885': 'Mako'}
+R:	 {'P2067': 'pass', 'P1477': 'test'}
+139
+129
+
+Q:	 Does Solaris pass the Bechdel test
+E:	 {'Q125772': 'Solaris', 'Q467402': 'Bechdel test', 'Q14646': 'Solaris', 'Q4165246': 'Bechdel test'}
+R:	 {'P2067': 'pass'}
+129
+
+Q:	 Does the Roundhay Garden Scene pass the Bechdel test
+E:	 {'Q267176': 'Roundhay Garden Scene', 'Q467402': 'Bechdel test', 'Q4165246': 'Bechdel test'}
+R:	 {'P2067': 'pass'}
+129
+
+Q:	 Does Walt Disney Productions own Beauty and the Beast
+E:	 {'Q7414': 'The Walt Disney Company', 'Q664237': 'The beast', 'Q4877877': 'Beauty Gonzalez', 'Q302186': 'Beast'}
+R:	 {}
+
+[!] Property overwritten by keywords.
+Q:	 filming location the martia
+E:	 {'Q94276': 'The Martia', 'Q1045481': 'filming location'}
+R:	 {'P915': 'filming location'}
+
+Q:	 For his role in which did Leonardo DiCaprio receive an Academy Award
+E:	 {'Q38111': 'Leonardo DiCaprio', 'Q19020': 'Academy award', 'Q214339': 'role', 'Q4671334': 'Academy Award'}
+R:	 {'P131': 'receive', 'P366': 'role'}
+Los Angeles
+
+Q:	 For how many awards has, the actor or actress with the most nominations in his or her career and who played in the Lion (2016), been nominated
+E:	 {'Q3562736': 'Awards has, the actor or actress', 'Q301325': 'Nominations', 'Q1879879': 'Lion (2016),', 'Q618779': 'award', 'Q33999': 'actor', 'Q1156895': 'nomination', 'Q282049': 'career', 'Q23013699': 'Lion'}
+R:	 {'P175': 'played', 'P1411': 'nominated', 'P106': 'career'}
+actor
+conferencier
+television presenter
+Morbid Angel
+black-figure vase painter
+Attic vase-painter
+Academy Award for Best Picture
+Academy Award for Best Supporting Actor
+Academy Award for Best Supporting Actress
+Academy Award for Best Writing, Adapted Screenplay
+Academy Award for Best Cinematography
+Academy Award for Best Original Score
+Golden Globe Award for Best Motion Picture – Drama
+
+Q:	 For what award was Omar Sy nominated for his role in The Intouchables
+E:	 {'Q357387': 'Omar Sy', 'Q595': 'The Intouchables', 'Q618779': 'award', 'Q214339': 'role'}
+R:	 {'P1411': 'nominated', 'P166': 'award', 'P366': 'role'}
+European Film Award – People's Choice Award for Best European Film
+European Film Award for Best Actor
+César Award
+César Award for Best Actor
+Globe de cristal
+European Film Award – People's Choice Award for Best European Film
+European Film Award for Best Film
+European Film Award for Best Actor
+European Film Award for Best Screenwriter
+Satellite Award for Best Foreign Language Film
+David di Donatello for Best European Film
+recognition
+
+Q:	 For what did Guillermo del Toro win the Academy Award for best director
+E:	 {'Q103360': 'Academy award for best director', 'Q219124': 'Guillermo del Toro', 'Q4671334': 'Academy Award', 'Q2526255': 'film director'}
+R:	 {'P166': 'win'}
+Academy Award for Best Director
+Nebula Award
+Golden Lion
+BAFTA Award for Best Direction
+Golden Globe Award
+Hugo Award for Beast Dromatic Presentation (Long Form)
+star on Hollywood Walk of Fame
+
+Q:	 For what did Leonardo DiCaprio win an Oscar
+E:	 {'Q38111': 'Leonardo DiCaprio', 'Q9941': 'O'}
+R:	 {'P166': 'win'}
+Academy Award for Best Actor
+Golden Globe Award for Best Actor – Motion Picture Musical or Comedy
+Screen Actors Guild Award
+BAFTA Award for Best Actor in a Leading Role
+Golden Globe Award for Best Actor – Motion Picture Drama
+Silver Bear
+Silver Bear for Best Actor
+Golden Globe Award
+MTV Movie Award for Best Jaw Dropping Moment
+MTV Movie Award for Best Male Performance
+AACTA Award for Best Actor in a Leading Role
+Chevalier des Arts et des Lettres
+Alliance of Women Film Journalists Award for Best Actor
+Horatio Alger Award
+Crystal Award
+
+Q:	 For what did Leonardo DiCaprio won an Academy Award for best actor
+E:	 {'Q103916': 'Academy Award for Best Actor', 'Q38111': 'Leonardo DiCaprio', 'Q4671334': 'Academy Award'}
+R:	 {'P166': 'won'}
+Academy Award for Best Actor
+Golden Globe Award for Best Actor – Motion Picture Musical or Comedy
+Screen Actors Guild Award
+BAFTA Award for Best Actor in a Leading Role
+Golden Globe Award for Best Actor – Motion Picture Drama
+Silver Bear
+Silver Bear for Best Actor
+Golden Globe Award
+MTV Movie Award for Best Jaw Dropping Moment
+MTV Movie Award for Best Male Performance
+AACTA Award for Best Actor in a Leading Role
+Chevalier des Arts et des Lettres
+Alliance of Women Film Journalists Award for Best Actor
+Horatio Alger Award
+Crystal Award
+
+Q:	 For what has Martin Scorsese won an oscar
+E:	 {'Q41148': 'Martin Scorsese', 'Q3442': 'Astronotus ocellatus'}
+R:	 {'P166': 'won'}
+Academy Award for Best Director
+BAFTA Award for Best Film
+Golden Bear
+Palme d'Or
+Praemium Imperiale
+AFI Life Achievement Award
+Cannes Best Director Award
+Primetime Emmy Award for Outstanding Directing for a Drama Series
+Golden Globe Award for Best Director
+Golden Globe Cecil B. DeMille Award
+Honorary César
+BAFTA Award for Best Adapted Screenplay
+BAFTA Award for Best Direction
+Academy Fellowship Award
+Britannia Awards
+Golden Globe Award
+Directors Guild of America Award
+Light of Truth Award
+Silver Lion
+Kennedy Center Honors
+National Board of Review Award for Best Film
+Princess of Asturias Award for the Arts
+Grammy Award for Best Music Film
+Library of Congress Living Legend
+Officer of the Legion of Honour
+Knight Grand Cross of the Order of Merit of the Italian Republic
+star on Hollywood Walk of Fame
+honorary doctor of the Princeton University
+AAAS Fellow
+
+Q:	 For what Meryl Streep received her first Academy Award
+E:	 {'Q873': 'Meryl Streep', 'Q19020': 'Academy award', 'Q4671334': 'Academy Award'}
+R:	 {'P166': 'received'}
+Presidential Medal of Freedom
+Academy Awards
+Academy Award for Best Actress
+Academy Award for Best Supporting Actress
+Emmy Award
+César Award
+Screen Actors Guild Award
+AFI Life Achievement Award
+Golden Globe Cecil B. DeMille Award
+BAFTA Award for Best Actress in a Leading Role
+Silver Bear
+Cannes Film Festival Award for Best Actress
+Donostia Award
+Primetime Emmy Award for Outstanding Lead Actress in a Miniseries or a Movie
+Golden Globe Award
+Golden Globe Award for Best Actress – Motion Picture Musical or Comedy
+MTV Movie Award for Best Villain
+Screen Actors Guild Award for Outstanding Performance by a Female Actor in a Leading Role
+Theatre World Award
+Kennedy Center Honors
+Rungstedlund Award
+National Medal of Arts
+London Film Critics Circle Award for Actress of the Year
+AACTA Award for Best Actress in a Leading Role
+Satellite Award for Best Actress – Motion Picture Musical or Comedy
+Commandeur des Arts et des Lettres
+New Jersey Hall of Fame
+Primetime Emmy Award for Outstanding Narrator
+star on Hollywood Walk of Fame
+honorary doctor of Harvard University
+honorary doctor of the Princeton University
+AAAS Fellow
+Crystal Award
+
+Q:	 For which awards was the work of Hans Zimmer in the 'Interstellar' nominated
+E:	 {'Q76364': 'Hans Zimmer', 'Q41872': 'In the interstellar', 'Q618779': 'award', 'Q42213': 'work', 'Q13417189': 'Interstellar'}
+R:	 {'P1411': 'nominated', 'P166': 'awards', 'P106': 'work', 'P19': 'in the Interstellar'}
+Academy Award for Best Original Score
+Academy Award for Best Original Musical or Comedy Score
+Academy Award for Best Original Dramatic Score
+Academy Award for Best Original Score
+Goethe Plaque of the City of Frankfurt
+Gold Medal of Merit in the Fine Arts (Spain)
+Grammy Award for Best Arrangement, Instrumental and Vocals
+Officer's Cross of the Order of Merit of the Federal Republic of Germany
+star on Hollywood Walk of Fame
+Stephen Hawking Medal For Science Communication
+composer
+record producer
+pianist
+musician
+guitarist
+film score composer
+Frankfurt am Main
+Academy Award for Best Production Design
+Academy Award for Best Visual Effects
+Academy Award for Best Sound Editing
+Academy Award for Best Original Score
+Academy Award for Best Sound
+Academy Award for Best Visual Effects
+
+Q:	 For which award was the Climax nominated for
+E:	 {'Q7723395': 'The climax', 'Q618779': 'award', 'Q52000412': 'Climax'}
+R:	 {'P1411': 'nominated', 'P131': 'award'}
+Academy Award for Best Art Direction, Color
+IFFR audience award
+
+Q:	 For which films did Cate Blanchett receive an Academy Award
+E:	 {'Q11424': 'film', 'Q80966': 'Cate Blanchett', 'Q19020': 'Academy award', 'Q4671334': 'Academy Award'}
+R:	 {'P131': 'receive'}
+Los Angeles
+
+Q:	 For which did Greta Gerwig receive an Academy Award nomination
+E:	 {'Q271967': 'Greta Gerwig', 'Q19020': 'Academy award nomination', 'Q1156895': 'nomination'}
+R:	 {'P131': 'receive'}
+Los Angeles
+
+Q:	 For which did Leonardo Dicaprio receive the Academy award for best actor
+E:	 {'Q103916': 'Academy Award for Best Actor', 'Q38111': 'Leonardo DiCaprio', 'Q4671334': 'Academy Award'}
+R:	 {'P166': 'receive'}
+Academy Award for Best Actor
+Golden Globe Award for Best Actor – Motion Picture Musical or Comedy
+Screen Actors Guild Award
+BAFTA Award for Best Actor in a Leading Role
+Golden Globe Award for Best Actor – Motion Picture Drama
+Silver Bear
+Silver Bear for Best Actor
+Golden Globe Award
+MTV Movie Award for Best Jaw Dropping Moment
+MTV Movie Award for Best Male Performance
+AACTA Award for Best Actor in a Leading Role
+Chevalier des Arts et des Lettres
+Alliance of Women Film Journalists Award for Best Actor
+Horatio Alger Award
+Crystal Award
+
+Q:	 For which did Robert Downey Jr. receive the Golden Globe Award for Best Actor
+E:	 {'Q5579492': 'Golden globe award for best actor', 'Q492313': 'Park Jin-young', 'Q1011547': 'Golden Globe Award', 'Q103916': 'Academy Award for Best Actor'}
+R:	 {'P166': 'receive'}
+
+Q:	 For which Oscars/Academy Awards was the Shrek nominated
+E:	 {'Q19020': 'Academy Awards', 'Q483815': 'Shrek', 'Q2988681': 'achievement', 'Q4780357': 'Apollo Theatre'}
+R:	 {'P1411': 'nominated'}
+Academy Award for Best Animated Feature
+Academy Award for Best Writing, Adapted Screenplay
+
+Q:	 From what country does the T-34 originate
+E:	 {'Q172233': 'T-34', 'Q3336843': 'country within the United Kingdom'}
+R:	 {'P495': 'originate', 'P17': 'country'}
+Soviet Union
+United Kingdom
+
+Q:	 From which Disney is the great castle in the middle of Disneyland Paris
+E:	 {'Q1229013': 'Disney', 'Q206521': 'Disneyland Paris', 'Q7414': 'The Walt Disney Company', 'Q23413': 'castle', 'Q23595': 'centre'}
+R:	 {}
+
+Q:	 From which is the quote “I’ll be back”
+E:	 {'Q8043': 'quotation marks'}
+R:	 {}
+
+Q:	 Han Solo was played by which actor in Star Wars: Episode IV – A New Hope
+E:	 {'Q51802': 'Han Solo', 'Q165603': 'Iv', 'Q17738': 'Star wars: episode iv –  new hope', 'Q207036': 'A', 'Q33999': 'actor', 'Q462': 'Star Wars', 'Q202': '4', 'Q1182069': 'New Hope'}
+R:	 {'P737': 'played', 'P161': 'actor'}
+The Dam Busters
+Harrison Ford
+Alec Guinness
+Carrie Fisher
+David Prowse
+James Earl Jones
+Mark Hamill
+Peter Cushing
+Phil Brown
+Joe Johnston
+Richard LeParmentier
+Anthony Daniels
+Kenny Baker
+Shelagh Fraser
+Peter Mayhew
+Shane Rimmer
+Denis Lawson
+Eddie Byrne
+William Hootkins
+Phil Tippett
+Jack Purvis
+Angus MacInnes
+Garrick Hagon
+Robert Clarke
+Alex McCrindle
+
+Q:	 Hayao Miyazaki, director of the Oscar winning "Spirited Away" was born in what year
+E:	 {'Q426293': 'The oscar', 'Q55400': 'Hayao Miyazaki', 'Q155653': 'Spirited away', 'Q2526255': 'film director', 'Q9941': 'O', 'Q577': 'year'}
+R:	 {'P2047': 'winning', 'P19': 'born', 'P57': 'hayao Miyazaki, director of the', 'P577': 'year'}
+121
+Russell Rouse
+1966-01-01T00:00:00Z
+Bunkyō-ku
+125
+Hayao Miyazaki
+2001-07-20T00:00:00Z
+2003-06-19T00:00:00Z
+
+Q:	 Henry Cavill played which fictional character in the "Zack Snyder's Justice League"
+E:	 {'Q295498': 'Henry Cavill', 'Q95074': 'fictional character', 'Q20501835': 'Justice League', 'Q139890': 'Zack Snyder'}
+R:	 {'P710': 'played'}
+
+[!] Property overwritten by keywords.
+Q:	 How did Obi-Wan Kenobi die
+E:	 {'Q51740': 'Obi-Wan Kenobi'}
+R:	 {'P509': 'cause of death'}
+
+[!] Property overwritten by keywords.
+Q:	 How did the composer of Django Unchained die
+E:	 {'Q241811': 'django unchained die', 'Q36834': 'composer', 'Q571032': 'Django Unchained'}
+R:	 {'P509': 'cause of death'}
+
+Q:	 How is Arnold Schwarzenegger remembered in the industry
+E:	 {'Q2685': 'Arnold Schwarzenegger', 'Q8148': 'industry'}
+R:	 {'P4551': 'remembered', 'P452': 'industry'}
+
+Q:	 How is the called that The Disaster Artist is based on
+E:	 {'Q22078002': 'The Disaster Artist'}
+R:	 {'P272': 'called', 'P144': 'based'}
+New Line Cinema
+RatPac-Dune Entertainment
+Point Grey Pictures
+Rabbit Bandini Productions
+Good Universe
+The Disaster Artist
+
+[!] Property overwritten by keywords.
+Q:	 How long does Home Alone take
+E:	 {'Q105031': 'Home Alone'}
+R:	 {'P2047': 'duration'}
+103
+
+[!] Property overwritten by keywords.
+Q:	 How long does it take to watch the documentary The Social Dilemma
+E:	 {'Q210121': 'documentary the social dilemma', 'Q3005427': 'Documentary', 'Q1281349': 'Social dilemma'}
+R:	 {'P2047': 'duration'}
+
+[!] Property overwritten by keywords.
+Q:	 How long does the Shot Caller take to watch
+E:	 {'Q3482533': 'Shot caller', 'Q20716882': 'Shot Caller'}
+R:	 {'P2047': 'duration'}
+121
+
+[!] Property overwritten by keywords.
+Q:	 How long is Bridge of Spies
+E:	 {'Q16767527': 'Bridge of spies', 'Q18067135': 'Bridge of Spies', 'Q7577129': 'Spies'}
+R:	 {'P2047': 'duration'}
+142
+
+[!] Property overwritten by keywords.
+Q:	 How long is Monty Python's life of Brian
+E:	 {'Q16401': 'Pythons monty brian', 'Q24953': 'Monty pythons life of brian', 'Q15230479': 'Life of Brian', 'Q16402': 'Monty Python', 'Q15930574': 'Brian'}
+R:	 {'P2047': 'duration'}
+30
+94
+
+[!] Property overwritten by keywords.
+Q:	 How long is Pulp Fiction
+E:	 {'Q20872531': 'Pulp fiction', 'Q104123': 'Pulp Fiction'}
+R:	 {'P2047': 'duration'}
+154
+
+[!] Property overwritten by keywords.
+Q:	 How long is Shrek Forever After
+E:	 {'Q251667': 'Shrek forever', 'Q483815': 'Shrek'}
+R:	 {'P2047': 'duration'}
+90
+
+[!] Property overwritten by keywords.
+Q:	 How long is the I spit on your grave
+E:	 {'Q1028007': 'Grave', 'Q627319': 'grave accent'}
+R:	 {'P2047': 'duration'}
+
+[!] Property overwritten by keywords.
+Q:	 How long is the "Scary movie"
+E:	 {'Q219424': 'Scary Movie'}
+R:	 {'P2047': 'duration'}
+88
+
+[!] Property overwritten by keywords.
+Q:	 How long is the Titanic
+E:	 {'Q7769473': 'The titanic', 'Q25173': 'RMS Titanic'}
+R:	 {'P2047': 'duration'}
+
+[!] Property overwritten by keywords.
+Q:	 How long is the first Jurassic Park
+E:	 {'Q1649436': 'Jurassic park', 'Q167726': 'Jurassic Park'}
+R:	 {'P2047': 'duration'}
+123
+
+[!] Property overwritten by keywords.
+Q:	 How long is The Holy Mountain
+E:	 {'Q16844311': 'Holy mountain', 'Q130321': 'Mount Athos'}
+R:	 {'P2047': 'duration'}
+
+[!] Property overwritten by keywords.
+Q:	 How long is "The Matrix"
+E:	 {'Q83495': 'The Matrix'}
+R:	 {'P2047': 'duration'}
+136
+
+[!] Property overwritten by keywords.
+Q:	 How long is the "127 Hours"
+E:	 {'Q174371': '127 hours', 'Q157044': 'The Hours'}
+R:	 {'P2047': 'duration'}
+94
+114
+
+[!] Property overwritten by keywords.
+Q:	 How long is the Avatar
+E:	 {'Q1640011': 'The avatar', 'Q24871': 'Avatar'}
+R:	 {'P2047': 'duration'}
+162
+
+[!] Property overwritten by keywords.
+Q:	 How long is the Intouchables
+E:	 {'Q595': 'The Intouchables'}
+R:	 {'P2047': 'duration'}
+112
+
+[!] Property overwritten by keywords.
+Q:	 How long is the Iron Man
+E:	 {'Q910905': 'Iron man', 'Q192724': 'Iron Man'}
+R:	 {'P2047': 'duration'}
+126
+
+[!] Property overwritten by keywords.
+Q:	 How long is the Mulholland Drive
+E:	 {'Q962605': 'Mulholland drive', 'Q272608': 'Mulholland Drive'}
+R:	 {'P2047': 'duration'}
+147
+
+[!] Property overwritten by keywords.
+Q:	 How long is the "Once Upon a Time in Hollywood"
+E:	 {'Q5882561': 'Hollywood', 'Q43297': 'Time', 'Q34006': 'Hollywood'}
+R:	 {'P2047': 'duration'}
+
+[!] Property overwritten by keywords.
+Q:	 How long is The Shawshank Redemption
+E:	 {'Q172241': 'The Shawshank Redemption'}
+R:	 {'P2047': 'duration'}
+142
+
+[!] Property overwritten by keywords.
+Q:	 How long is the Wolf of Wallstreet
+E:	 {'Q882659': 'Wolf of wallstreet', 'Q8029793': 'Wolf'}
+R:	 {'P2047': 'duration'}
+4250
+
+Q:	 How many Acadamy Awards has "Titanic" won
+E:	 {'Q19020': 'Acadamy awards', 'Q25173': 'RMS Titanic', 'Q2988681': 'achievement'}
+R:	 {}
+
+Q:	 How many Academy Award nominations does Morgan Freeman have
+E:	 {'Q8624': 'Academy award nominations', 'Q48337': 'Morgan Freeman', 'Q1156895': 'nomination'}
+R:	 {}
+
+Q:	 How many Academy Awards did Leonardo DiCaprio receive
+E:	 {'Q19020': 'Academy Awards', 'Q38111': 'Leonardo DiCaprio'}
+R:	 {'P131': 'receive'}
+Los Angeles
+
+Q:	 How many academy awards did Meryl Streep recieve
+E:	 {'Q19020': 'Academy Awards', 'Q873': 'Meryl Streep'}
+R:	 {'P166': 'recieve'}
+Presidential Medal of Freedom
+Academy Awards
+Academy Award for Best Actress
+Academy Award for Best Supporting Actress
+Emmy Award
+César Award
+Screen Actors Guild Award
+AFI Life Achievement Award
+Golden Globe Cecil B. DeMille Award
+BAFTA Award for Best Actress in a Leading Role
+Silver Bear
+Cannes Film Festival Award for Best Actress
+Donostia Award
+Primetime Emmy Award for Outstanding Lead Actress in a Miniseries or a Movie
+Golden Globe Award
+Golden Globe Award for Best Actress – Motion Picture Musical or Comedy
+MTV Movie Award for Best Villain
+Screen Actors Guild Award for Outstanding Performance by a Female Actor in a Leading Role
+Theatre World Award
+Kennedy Center Honors
+Rungstedlund Award
+National Medal of Arts
+London Film Critics Circle Award for Actress of the Year
+AACTA Award for Best Actress in a Leading Role
+Satellite Award for Best Actress – Motion Picture Musical or Comedy
+Commandeur des Arts et des Lettres
+New Jersey Hall of Fame
+Primetime Emmy Award for Outstanding Narrator
+star on Hollywood Walk of Fame
+honorary doctor of Harvard University
+honorary doctor of the Princeton University
+AAAS Fellow
+Crystal Award
+
+Q:	 How many Academy Awards does Quentin Tarantino have
+E:	 {'Q19020': 'Academy Awards', 'Q3772': 'Quentin Tarantino'}
+R:	 {}
+
+Q:	 How many Academy Awards has Meryl Streep won so far
+E:	 {'Q19020': 'Academy Awards', 'Q873': 'Meryl Streep', 'Q228819': 'Far'}
+R:	 {'P31': 'won'}
+annual event
+human
+Wikimedia disambiguation page
+
+Q:	 How many awards did Christopher Nolan receive
+E:	 {'Q25191': 'Christopher Nolan', 'Q618779': 'award'}
+R:	 {'P166': 'awards'}
+Order of the British Empire
+Saturn Award
+Sundance Film Festival
+Edgar Awards
+Commander of the Order of the British Empire
+Indiana Film Journalists Association Award for Best Director
+
+Q:	 How many awards did George Clooney receive
+E:	 {'Q23844': 'George Clooney', 'Q618779': 'award'}
+R:	 {'P166': 'awards'}
+Academy Award for Best Picture
+Academy Award for Best Supporting Actor
+BAFTA Award for Best Film
+Golden Globe Award for Best Actor – Motion Picture Musical or Comedy
+Golden Globe Award for Best Actor – Motion Picture Drama
+Golden Globe Cecil B. DeMille Award
+Golden Globe Award for Best Supporting Actor – Motion Picture
+MTV Movie Award for Best Breakthrough Performance
+Saturn Award for the Best Actor
+European Film Award for Best Non-European Film
+National Board of Review Award for Best Film
+Screen Actors Guild Award for Outstanding Performance by an Ensemble in a Drama Series
+Chevalier des Arts et des Lettres
+Indiana Film Journalists Association Award for Best Actor
+
+Q:	 How many awards did Quentin Tarantino receive
+E:	 {'Q3772': 'Quentin Tarantino', 'Q618779': 'award'}
+R:	 {'P166': 'awards'}
+BAFTA Award for Best Original Screenplay
+Academy Award for Best Writing, Original Screenplay
+52nd Golden Globe Awards
+Hungarian Order of Merit
+Palme d'Or
+36th César Awards
+85th Academy Awards
+70th Golden Globe Awards
+Edgar Awards
+Golden Globe Award for Best Screenplay
+67th Academy Awards
+National Board of Review Award for Best Film
+48th British Academy Film Awards
+66th British Academy Film Awards
+Lumière Award, Lyon Festival of cinema
+Commandeur des Arts et des Lettres
+star on Hollywood Walk of Fame
+AAAS Fellow
+
+Q:	 How many awards did the Whiplash receive
+E:	 {'Q763942': 'The whiplash', 'Q618779': 'award', 'Q15648198': 'Whiplash'}
+R:	 {'P166': 'awards'}
+Academy Award for Best Supporting Actor
+Academy Award for Best Film Editing
+Academy Award for Best Sound
+Grand prix
+
+Q:	 How many awards did Titanic win
+E:	 {'Q1197729': 'Titanic', 'Q50000': 'victory', 'Q618779': 'award', 'Q25173': 'RMS Titanic'}
+R:	 {'P166': 'awards'}
+Academy Award for Best Writing, Original Screenplay
+
+Q:	 How many awards has Quentin Tarentino won
+E:	 {'Q3772': 'Quentin tarentino', 'Q618779': 'award', 'Q1158484': 'Quentin'}
+R:	 {'P166': 'awards'}
+BAFTA Award for Best Original Screenplay
+Academy Award for Best Writing, Original Screenplay
+52nd Golden Globe Awards
+Hungarian Order of Merit
+Palme d'Or
+36th César Awards
+85th Academy Awards
+70th Golden Globe Awards
+Edgar Awards
+Golden Globe Award for Best Screenplay
+67th Academy Awards
+National Board of Review Award for Best Film
+48th British Academy Film Awards
+66th British Academy Film Awards
+Lumière Award, Lyon Festival of cinema
+Commandeur des Arts et des Lettres
+star on Hollywood Walk of Fame
+AAAS Fellow
+
+Q:	 How many awards has Ryan Reynolds earned
+E:	 {'Q192682': 'Ryan Reynolds', 'Q618779': 'award'}
+R:	 {'P4709': 'earned', 'P166': 'awards'}
+Saturn Award
+MTV Movie & TV Awards
+MTV Movie Award for Best Fight
+Canada's Walk of Fame
+Governor General's Performing Arts Awards
+star on Hollywood Walk of Fame
+
+Q:	 How many Back to the Future movies are there
+E:	 {'Q1179487': 'Future movies', 'Q11424': 'film'}
+R:	 {}
+
+Q:	 How many Balto movies have been made
+E:	 {'Q764116': 'Balto', 'Q434841': 'Movies', 'Q11424': 'film'}
+R:	 {'P57': 'movies'}
+Simon Wells
+
+Q:	 How many Bridget Jones movies have been made
+E:	 {'Q913841': 'Bridget jones movies', 'Q11424': 'film'}
+R:	 {}
+
+Q:	 How many cast members are in 12 angry men
+E:	 {'Q2345': 'Cast members are in 12 angry men', 'Q496098': 'casting', 'Q8441': 'man'}
+R:	 {}
+
+Q:	 How many characters have part in the fictional group The Fellowship of The Ring
+E:	 {'Q127367': 'fictional group the fellowship of the ring', 'Q32483': 'character', 'Q7401': 'part', 'Q83478': 'group', 'Q1404101': 'fellow', 'Q212804': 'The Ring'}
+R:	 {'P674': 'characters'}
+Gollum
+Frodo Baggins
+Gandalf
+Aragorn
+Bilbo Baggins
+Galadriel
+Arwen
+Isildur
+Gimli
+Elrond
+Legolas
+Saruman
+Samwise Gamgee
+Peregrin Took
+Meriadoc Brandybuck
+Boromir
+Gil-galad
+Celeborn
+Elendil
+Lurtz
+Haldir
+
+Q:	 How many children does David Lynch have
+E:	 {'Q2071': 'David Lynch', 'Q7569': 'child'}
+R:	 {'P40': 'children'}
+Jennifer Lynch
+Austin Jack Lynch
+Lula Boginia Lynch
+Riley Sweeney Lynch
+
+Q:	 How many children does Johnny Depp have
+E:	 {'Q37175': 'Johnny Depp', 'Q7569': 'child'}
+R:	 {'P40': 'children'}
+Lily-Rose Depp
+Jack Depp
+
+Q:	 How many children does Morgan Freeman have
+E:	 {'Q48337': 'Morgan Freeman', 'Q7569': 'child'}
+R:	 {'P40': 'children'}
+
+Q:	 How many children does the actor Daniel Craig have
+E:	 {'Q4547': 'Daniel Craig', 'Q7569': 'child', 'Q33999': 'actor'}
+R:	 {'P40': 'children', 'P161': 'actor'}
+
+Q:	 How many children has Steven Spielberg
+E:	 {'Q8877': 'Steven Spielberg', 'Q7569': 'child'}
+R:	 {'P40': 'children'}
+Jessica Capshaw
+Sasha Spielberg
+Sawyer Spielberg
+Max Spielberg
+Theo Spielberg
+
+Q:	 How many different actors have played the role of SpiderMan
+E:	 {'Q33999': 'actor', 'Q982558': 'Spiderman', 'Q214339': 'role', 'Q79037': 'Spider-Man'}
+R:	 {'P54': 'played', 'P453': 'role'}
+Los Angeles Lakers
+Chicago Bulls
+Toronto Raptors
+Miami Heat
+Detroit Pistons
+Panathinaikos B.C.
+Georgia Tech Yellow Jackets men's basketball
+
+Q:	 How many episodes does Twin Peaks have
+E:	 {'Q5855689': 'Twin peaks', 'Q1983062': 'episode', 'Q2085': 'Twin Peaks'}
+R:	 {'P1113': 'episodes'}
+30
+
+Q:	 How many films are part of the Harry Potter series
+E:	 {'Q11424': 'film', 'Q8337': 'Harry Potter', 'Q7401': 'part'}
+R:	 {}
+
+Q:	 How many films did Goffrey Ho directed
+E:	 {'Q11424': 'film', 'Q325947': 'Goffrey ho', 'Q1846': 'holmium'}
+R:	 {'P57': 'directed'}
+
+Q:	 How many followers does Ryan Reynolds have
+E:	 {'Q7384463': 'Ryan reynolds', 'Q50298131': 'Rm9sbG93ZXJz', 'Q192682': 'Ryan Reynolds'}
+R:	 {'P155': 'followers'}
+Kitten
+
+Q:	 How many followers does Studio Ghibli have on social media
+E:	 {'Q182950': 'Studio Ghibli', 'Q50298131': 'Rm9sbG93ZXJz', 'Q202833': 'social media'}
+R:	 {'P155': 'followers'}
+Topcraft
+Kitten
+
+Q:	 How many Harry Potter movies are there
+E:	 {'Q216930': 'Harry potter', 'Q434841': 'Movies', 'Q11424': 'film'}
+R:	 {'P57': 'movies'}
+Chris Columbus
+
+Q:	 How many "How To Train Your Dragon" movies are there
+E:	 {'Q1179487': 'dragon movies', 'Q1148444': 'blunderbuss', 'Q11424': 'film'}
+R:	 {'P403': 'Train'}
+
+Q:	 How many Iron Man parts are there
+E:	 {'Q192724': 'Iron man parts', 'Q7401': 'part'}
+R:	 {}
+
+Q:	 How many members does UEFA have
+E:	 {'Q6277030': 'Members', 'Q35572': 'Union of European Football Associations', 'Q379825': 'element'}
+R:	 {}
+
+Q:	 How many minutes is Spirited Away
+E:	 {'Q7727': 'Minutes', 'Q400960': 'Away', 'Q2085515': 'minutes'}
+R:	 {'P4292': 'Spirited'}
+
+Q:	 How many minutes long is The Wolf of Wall Street
+E:	 {'Q7727': 'Minutes long', 'Q1392744': 'The Wolf of Wall Street', 'Q2085515': 'minutes', 'Q11690': 'Wall Street'}
+R:	 {}
+
+Q:	 How many movies are included in the Harry Potter series
+E:	 {'Q1179487': 'Movies', 'Q8337': 'Harry Potter', 'Q11424': 'film'}
+R:	 {'P527': 'included'}
+Harry Potter and the Philosopher's Stone
+Harry Potter and the Goblet of Fire
+Harry Potter and the Deathly Hallows
+Harry Potter and the Half-Blood Prince
+Harry Potter and the Chamber of Secrets
+Harry Potter and the Prisoner of Azkaban
+Harry Potter and the Order of the Phoenix
+title sequence
+trailer
+film frame
+motion picture credits
+credit
+
+Q:	 how many movies are in the Marvel cinematic Universe
+E:	 {'Q1179487': 'Movies', 'Q642878': 'Marvel Cinematic Universe', 'Q11424': 'film', 'Q1': 'Universe'}
+R:	 {}
+
+Q:	 How many movies are there in the "Ocean's" series
+E:	 {'Q1179487': 'Movies', 'Q1179882': 'Oceans series', 'Q11424': 'film', 'Q170198': 'series', 'Q1408498': 'Ocean Software'}
+R:	 {}
+
+Q:	 How many movies of harry potter are there
+E:	 {'Q8337': 'Harry Potter', 'Q11424': 'film'}
+R:	 {}
+
+Q:	 How many occupations does Rowan Atkinson have
+E:	 {'Q863921': 'Occupations', 'Q23760': 'Rowan Atkinson', 'Q28640': 'profession'}
+R:	 {}
+
+Q:	 How many Oscar nomination does Meryl Streep have
+E:	 {'Q426293': 'Oscar', 'Q1156895': 'Nomination', 'Q873': 'Meryl Streep', 'Q9941': 'O'}
+R:	 {'P140': 'nomination'}
+atheism
+
+Q:	 How many oscars did th 'the Titanic' win
+E:	 {'Q223983': 'Oscars', 'Q25173': 'RMS Titanic', 'Q3442': 'Astronotus ocellatus', 'Q50000': 'victory', 'Q869': 'Thailand'}
+R:	 {'P1694': 'th'}
+
+Q:	 How many oscars did Titanic win
+E:	 {'Q9941': 'Oscars', 'Q25173': 'RMS Titanic', 'Q3442': 'Astronotus ocellatus'}
+R:	 {'P276': 'win'}
+Atlantic Ocean
+
+Q:	 How many people live in Hollywood
+E:	 {'Q34006': 'Hollywood', 'Q5': 'human'}
+R:	 {'P551': 'live', 'P172': 'people'}
+
+Q:	 How many Pokémon episodes are there
+E:	 {'Q846649': 'Pokémon', 'Q864': 'Pokémon'}
+R:	 {'P1113': 'episodes'}
+
+Q:	 How many prices did Tenet wo
+E:	 {'Q7242656': 'Prices', 'Q641184': 'tenet wo', 'Q160151': 'price', 'Q63985561': 'Tenet'}
+R:	 {}
+
+Q:	 How many screenwriters did Good Will Hunting have
+E:	 {'Q28389': 'screenwriter', 'Q193835': 'Good will hunting', 'Q25208064': 'Will'}
+R:	 {}
+
+Q:	 How many seasons does Malcolm in the Middle have
+E:	 {'Q313554': 'Malcolm', 'Q2544136': 'In the middle', 'Q24384': 'season', 'Q16203840': 'Malcolm', 'Q22253581': 'Middle'}
+R:	 {'P2437': 'seasons', 'P19': 'in the Middle'}
+Northampton
+
+Q:	 How many seasons does the series How I Met Your Mother have
+E:	 {'Q24384': 'season', 'Q170198': 'series', 'Q25339558': 'mother!'}
+R:	 {'P1068': 'Met', 'P2437': 'seasons', 'P179': 'series', 'P25': 'Mother'}
+
+Q:	 How many seasons of the show Merlin exist
+E:	 {'Q131918': 'Merlin', 'Q24384': 'season', 'Q53858110': 'Manuel Luís Cafumana', 'Q188044': 'Merlin'}
+R:	 {'P2437': 'seasons'}
+
+Q:	 How many "Star Wars" films are there
+E:	 {'Q462': 'Star Wars', 'Q11424': 'film'}
+R:	 {}
+
+Q:	 How many twitter followers does Zac Efron have
+E:	 {'Q1402866': 'Twitter followers', 'Q45229': 'Zac Efron', 'Q918': 'Twitter'}
+R:	 {}
+
+[!] Property overwritten by keywords.
+Q:	 How many years ago did Blu-Ray DVDs come out
+E:	 {'Q8050963': 'Years ago', 'Q47770': 'Blu-ray', 'Q697704': 'Dvds', 'Q577': 'year', 'Q5294': 'DVD'}
+R:	 {'P577': 'publication date'}
+1981-01-01T00:00:00Z
+
+[!] Property overwritten by keywords.
+Q:	 How much did 2001: A Space Oddyssey cost to make
+E:	 {'Q277547': 'A', 'Q103474': '2001:  space oddyssey cost', 'Q240673': 'cost', 'Q1457764': 'CTV Sci-Fi Channel'}
+R:	 {'P2130': 'cost'}
+10500000
+
+[!] Property overwritten by keywords.
+Q:	 How much did Avengers: Endgame (2019) earn in the box office worldwide
+E:	 {'Q332225': 'Avengers: endgame (2019)', 'Q895522': 'box office worldwide', 'Q182218': 'The Avengers', 'Q1235448': 'Endgame', 'Q877435': 'box office'}
+R:	 {'P2142': 'box office'}
+623357910
+1518812988
+
+[!] Property overwritten by keywords.
+Q:	 How much did Avengers: Endgame cost
+E:	 {'Q113700': 'Avengers: endgame', 'Q182218': 'The Avengers', 'Q1235448': 'Endgame'}
+R:	 {'P2130': 'cost'}
+220000000
+
+[!] Property overwritten by keywords.
+Q:	 How much did Inception cost to produce
+E:	 {'Q25188': 'Inception'}
+R:	 {'P2130': 'cost'}
+160000000
+
+[!] Property overwritten by keywords.
+Q:	 How much did it cost to Tenet
+E:	 {'Q624144': 'Tenet', 'Q63985561': 'Tenet'}
+R:	 {'P2130': 'cost'}
+200000000
+
+[!] Property overwritten by keywords.
+Q:	 How much did it cost to make The Lord of the Rings: The Fellowship of the Ring
+E:	 {'Q127367': 'lord of the rings: the fellowship of the ring', 'Q15228': 'The Lord of the Rings', 'Q19866947': 'Rings', 'Q1404101': 'fellow', 'Q212804': 'The Ring'}
+R:	 {'P2130': 'cost'}
+93000000
+48000000
+
+[!] Property overwritten by keywords.
+Q:	 How much did Saving private ryan cost in United States dollars
+E:	 {'Q165817': 'saving private ryan cost in united states dollars', 'Q240673': 'cost', 'Q30': 'United States of America'}
+R:	 {'P2130': 'cost'}
+70000000
+
+[!] Property overwritten by keywords.
+Q:	 How much did The LEGO Batman make at box office
+E:	 {'Q170484': 'Lego', 'Q895522': 'batman make at box office', 'Q23013169': 'The LEGO Batman Movie', 'Q877435': 'box office'}
+R:	 {'P2142': 'box office'}
+311950384
+
+[!] Property overwritten by keywords.
+Q:	 How much did the most expensive to produce cost
+E:	 {'Q55105737': 'Expensive', 'Q240673': 'cost'}
+R:	 {'P2130': 'cost'}
+
+[!] Property overwritten by keywords.
+Q:	 How much did the "Inception" earn in box office
+E:	 {'Q25188': 'Inception', 'Q877435': 'box office'}
+R:	 {'P2142': 'box office'}
+829895144
+
+[!] Property overwritten by keywords.
+Q:	 How much did the production of The Grand Budapest Hotel cost
+E:	 {'Q850990': 'Production of the grand budapest hotel cost', 'Q739302': 'production', 'Q3521099': 'The Grand Budapest Hotel'}
+R:	 {'P2130': 'cost'}
+23000000
+
+[!] Property overwritten by keywords.
+Q:	 How much did the production of The Lord of the Rings: The Return of the King cost
+E:	 {'Q131074': 'Production of the lord of the rings: the return of the king cost', 'Q739302': 'production', 'Q15228': 'The Lord of the Rings', 'Q19866947': 'Rings', 'Q115285': 'The Return of the King', 'Q2680856': 'King'}
+R:	 {'P2130': 'cost'}
+94000000
+
+[!] Property overwritten by keywords.
+Q:	 How much did the production of the "Inglourious Basterds" (2009) cost
+E:	 {'Q153723': 'Inglourious Basterds', 'Q739302': 'production', 'Q240673': 'cost'}
+R:	 {'P2130': 'cost'}
+70000000
+
+[!] Property overwritten by keywords.
+Q:	 How much did the sci-fi Avatar cost
+E:	 {'Q24871': 'Sci-fi avatar', 'Q240673': 'cost', 'Q33': 'Finland'}
+R:	 {'P2130': 'cost'}
+237000000
+
+[!] Property overwritten by keywords.
+Q:	 How much did Titanic cost to make
+E:	 {'Q25173': 'titanic cost', 'Q240673': 'cost'}
+R:	 {'P2130': 'cost'}
+7500000
+
+Q:	 How much did Toy Story make
+E:	 {'Q171048': 'Toy Story'}
+R:	 {}
+
+[!] Property overwritten by keywords.
+Q:	 How much did Wolf of Wallstreet cost
+E:	 {'Q18498': 'Wolf of wallstreet cost', 'Q174302': 'Of wallstreet cost', 'Q240673': 'cost', 'Q8029793': 'Wolf'}
+R:	 {'P2130': 'cost'}
+
+[!] Property overwritten by keywords.
+Q:	 How much does it cost for producing The Girl with the Dragon Tattoo
+E:	 {'Q276343': 'Girl with the dragon tattoo', 'Q61875850': 'Girl', 'Q1148444': 'blunderbuss'}
+R:	 {'P2130': 'cost'}
+
+[!] Property overwritten by keywords.
+Q:	 How much dollar did it cost to produce the Tenet
+E:	 {'Q2023575': 'Dollar', 'Q624144': 'The Tenet', 'Q14083': 'dollar', 'Q63985561': 'Tenet'}
+R:	 {'P2130': 'cost'}
+200000000
+
+[!] Property overwritten by keywords.
+Q:	 How much dollars did the "Avatar"(2009) cost
+E:	 {'Q1195819': 'Dollars', 'Q24871': 'Avatar(2009)', 'Q240673': 'cost', 'Q14083': 'dollar'}
+R:	 {'P2130': 'cost'}
+237000000
+
+[!] Property overwritten by keywords.
+Q:	 How much money did Tenet cost to produce
+E:	 {'Q1368': 'money', 'Q411325': 'tenet cost', 'Q63985561': 'Tenet'}
+R:	 {'P2130': 'cost'}
+200000000
+
+Q:	 How much money was spent to create "John Wick 2"
+E:	 {'Q1368': 'money', 'Q102272': 'John wick 2', 'Q15732802': 'John Wick'}
+R:	 {'P1817': 'spent', 'P571': 'create'}
+
+[!] Property overwritten by keywords.
+Q:	 How much time does it cost to watch The Karate Kid from 1984
+E:	 {'Q210271': 'Karate kid from 1984', 'Q11471': 'time', 'Q846679': 'The Karate Kid'}
+R:	 {'P2130': 'cost'}
+
+Q:	 How old should you be to watch Kingsman: the Secret Service
+E:	 {'Q736318': 'Old', 'Q79733': 'Kingsman', 'Q181694': ': the secret service', 'Q17018738': 'Kingsman', 'Q1523567': 'Secret Service'}
+R:	 {'P1355': 'watch', 'P131': ': the Secret Service'}
+Siklós  District
+Mohave County
+Australian Capital Territory
+
+Q:	 How old was Leonardo DiCaprio when he played in "Inception"
+E:	 {'Q7083348': 'Old', 'Q38111': 'Leonardo DiCaprio', 'Q25188': 'Inception'}
+R:	 {'P175': 'played', 'P571': 'Inception'}
+Starflyer 59
+Hans Zimmer
+
+[!] Property overwritten by keywords.
+Q:	 How tall is Amitabh Bachchan
+E:	 {'Q2390476': 'Tall', 'Q9570': 'Amitabh Bachchan'}
+R:	 {'P2048': 'height'}
+1.88
+
+[!] Property overwritten by keywords.
+Q:	 How tall is Arnold Schwarzenegge
+E:	 {'Q2390476': 'Tall', 'Q2685': 'Arnold schwarzenegge', 'Q16833834': 'Arnold'}
+R:	 {'P2048': 'height'}
+1.88
+
+[!] Property overwritten by keywords.
+Q:	 How tall is Bryan Cranston
+E:	 {'Q2390476': 'Tall', 'Q23547': 'Bryan Cranston'}
+R:	 {'P2048': 'height'}
+1.79
+
+[!] Property overwritten by keywords.
+Q:	 How tall is Danny DeVito
+E:	 {'Q2390476': 'Tall', 'Q26806': 'Danny DeVito'}
+R:	 {'P2048': 'height'}
+147
+
+[!] Property overwritten by keywords.
+Q:	 How tall is the actor Mark Ruffalo
+E:	 {'Q49006': 'Tall', 'Q41422': 'Mark Ruffalo'}
+R:	 {'P2048': 'height'}
+173
+
+[!] Property overwritten by keywords.
+Q:	 How tall is the actor playing Mark Watney in The Martian
+E:	 {'Q2390476': 'Tall', 'Q1161625': 'Mark watney', 'Q218860': 'In the martian', 'Q33999': 'actor', 'Q26689986': 'Mark Lee', 'Q18547944': 'The Martian'}
+R:	 {'P2048': 'height'}
+
+[!] Property overwritten by keywords.
+Q:	 How tall is the actor Toby Jones
+E:	 {'Q49006': 'Tall', 'Q342419': 'Toby Jones'}
+R:	 {'P2048': 'height'}
+1.65
+
+[!] Property overwritten by keywords.
+Q:	 How tall is Will Smith
+E:	 {'Q2390476': 'Tall', 'Q217465': 'Smith', 'Q40096': 'Will Smith'}
+R:	 {'P2048': 'height'}
+1.88
+
+Q:	 In 1996 Nicolas Cage won an Academy Award for Best Actor, which work was it for
+E:	 {'Q42869': 'Nicolas Cage', 'Q2070': '1996', 'Q41417': 'Academy award for best actor, which work', 'Q4671334': 'Academy Award', 'Q103916': 'Academy Award for Best Actor', 'Q42213': 'work'}
+R:	 {'P31': 'won', 'P2183': '1996'}
+human
+leap year starting on Monday and ending on Tuesday
+calendar year
+class of award
+award for best original screenplay
+radio program
+class of award
+award for best leading actor
+
+Q:	 Inception was directed by whom
+E:	 {'Q25188': 'Inception'}
+R:	 {'P57': 'directed', 'P571': 'inception'}
+Christopher Nolan
+
+[!] Property overwritten by keywords.
+Q:	 In how many movies has the Winter Soldier featured, played by Sebastian Stan
+E:	 {'Q1179487': 'Movies', 'Q149524': 'winter soldier featured,', 'Q455898': 'Sebastian Stan', 'Q11424': 'film', 'Q28006858': 'Bucky Barnes'}
+R:	 {'P509': 'cause of death'}
+
+Q:	 Interstellar was directed by whom
+E:	 {'Q13417189': 'Interstellar'}
+R:	 {'P57': 'directed'}
+Christopher Nolan
+
+Q:	 In The Godfather, who played Vito Corleone
+E:	 {'Q47703': 'The Godfather', 'Q745077': 'Vito Corleone'}
+R:	 {'P175': 'played'}
+Nino Rota
+Marlon Brando
+Robert De Niro
+
+Q:	 In what aspect ratio was Zack Snyder's Justice League shot
+E:	 {'Q250036': 'Zack snyders justice league', 'Q1441762': 'aspect ratio', 'Q20501835': 'Justice League', 'Q139890': 'Zack Snyder'}
+R:	 {'P1740': 'shot', 'P449': 'aspect ratio'}
+Cartoon Network
+
+Q:	 In what capital was the The Fault in Our Stars, filmed
+E:	 {'Q506767': 'Stars,', 'Q5119': 'capital', 'Q5438142': 'Fault', 'Q1752259': 'Stars'}
+R:	 {'P57': 'filmed', 'P36': 'capital', 'P5095': 'Fault'}
+Konrad Wolf
+
+Q:	 In what country is Château Picard located
+E:	 {'Q1319754': 'Château picard', 'Q3336843': 'country within the United Kingdom', 'Q62573305': 'Star Trek: Picard'}
+R:	 {'P131': 'located', 'P17': 'country'}
+Saarlouis
+Germany
+United Kingdom
+
+Q:	 In what country is the university, where the director of Seven Pounds studied, located
+E:	 {'Q27656': 'university, where the director of seven pounds studied,', 'Q3336843': 'country within the United Kingdom', 'Q3918': 'university', 'Q2526255': 'film director', 'Q635924': 'Seven Pounds'}
+R:	 {'P131': 'located', 'P17': 'country'}
+United States of America
+United Kingdom
+
+[!] Property overwritten by keywords.
+Q:	 In what country was Bohemian Rhapsody released on the 31st of October, 2018
+E:	 {'Q187745': 'Bohemian Rhapsody', 'Q20735522': '31st of october, 2018', 'Q3336843': 'country within the United Kingdom', 'Q4634797': '31st', 'Q124': 'October'}
+R:	 {'P577': 'publication date'}
+1975-01-01T00:00:00Z
+2015-01-01T00:00:00Z
+
+[!] Property overwritten by keywords.
+Q:	 In what country was Lord of the Rings filmed
+E:	 {'Q15228': 'The Lord of the Rings', 'Q3336843': 'country within the United Kingdom', 'Q19866947': 'Rings'}
+R:	 {'P915': 'filming location'}
+
+Q:	 In what format was Rosemary's Baby shot
+E:	 {'Q607179': 'Rosemarys baby', 'Q5470012': 'format', 'Q59101449': 'Baby', 'Q122679': 'rosemary'}
+R:	 {'P1740': 'shot', 'P415': 'format'}
+
+Q:	 In what format is David Attenborough: A Life on Our Planet available
+E:	 {'Q277547': 'A', 'Q549484': 'david ttenborough:  life on our planet available', 'Q5470012': 'format', 'Q183337': 'David Attenborough', 'Q244615': "Conway's Game of Life", 'Q1817113': 'Planet'}
+R:	 {'P437': 'format'}
+vinyl record
+music streaming
+
+Q:	 In what industry other than filmmaking is the Warner Bros. production company active
+E:	 {'Q126399': 'warner bros production company active', 'Q8148': 'industry', 'Q11396960': 'production company'}
+R:	 {'P452': 'industry'}
+filmmaking
+video game industry
+
+[!] Property overwritten by keywords.
+Q:	 In what language was Shrek originally released
+E:	 {'Q483815': 'Shrek', 'Q3429290': 'Originally', 'Q315': 'language'}
+R:	 {'P577': 'publication date'}
+2001-04-22T00:00:00Z
+2001-07-05T00:00:00Z
+2008-12-02T00:00:00Z
+
+Q:	 In what movies did Anthony Hopkins play Hannibal Lecter
+E:	 {'Q1179487': 'Movies', 'Q964322': 'Anthony hopkins', 'Q211013': 'Hannibal Lecter', 'Q11424': 'film', 'Q65932': 'Anthony Hopkins'}
+R:	 {'P1303': 'play'}
+piano
+
+Q:	 In what period is the action of the "Gladiator" set in
+E:	 {'Q128518': 'Gladiator', 'Q172008': 'full stop', 'Q188473': 'action film'}
+R:	 {'P21': 'set', 'P2047': 'period'}
+155
+
+Q:	 In what year did Gene Roddenberry die
+E:	 {'Q191716': 'Gene Roddenberry', 'Q577': 'year'}
+R:	 {'P20': 'die', 'P569': 'year'}
+Santa Monica
+1921-08-19T00:00:00Z
+
+Q:	 In what year did Meryl Streep start acting
+E:	 {'Q873': 'Meryl Streep', 'Q970797': 'start', 'Q577': 'year'}
+R:	 {'P397': 'start', 'P2031': 'acting', 'P569': 'year'}
+1977-01-01T00:00:00Z
+1949-06-22T00:00:00Z
+
+[!] Property overwritten by keywords.
+Q:	 In what year did the first Harry Potter come out
+E:	 {'Q8337': 'Harry Potter', 'Q577': 'year'}
+R:	 {'P577': 'publication date'}
+1997-01-01T00:00:00Z
+
+Q:	 In what year did the TV-show Friends premiere
+E:	 {'Q8539': 'tv-show friends', 'Q577': 'year', 'Q79784': 'Friends'}
+R:	 {'P6': 'premiere', 'P577': 'year'}
+
+Q:	 In what year is Steven Spielberg's famous war starring Tom Hanks set
+E:	 {'Q8877': 'Steven Spielberg', 'Q54434': 'Famous war', 'Q2263': 'Tom Hanks', 'Q577': 'year', 'Q198': 'war'}
+R:	 {'P161': 'Steven Spielbergs famous war starring', 'P21': 'set', 'P569': 'year', 'P800': 'famous war'}
+male
+1946-12-18T00:00:00Z
+male
+1956-07-09T00:00:00Z
+Forrest Gump
+Saving Private Ryan
+Toy Story
+Philadelphia
+The Green Mile
+Cast Away
+Big
+
+Q:	 In what year is The Revenant set
+E:	 {'Q834114': 'Revenant set', 'Q577': 'year', 'Q18002795': 'The Revenant'}
+R:	 {'P577': 'year'}
+1999-10-26T00:00:00Z
+2015-12-25T00:00:00Z
+2016-01-06T00:00:00Z
+2016-01-07T00:00:00Z
+2016-01-14T00:00:00Z
+2016-01-27T00:00:00Z
+2016-02-24T00:00:00Z
+2016-03-18T00:00:00Z
+
+Q:	 In what years did the producers of "Three Billboards Outside Ebbing, Missouri" whose career started between 1990 and 2000, start their career
+E:	 {'Q169119': 'Years', 'Q1224791': 'Producers of three billboards outside ebbing, missouri', 'Q35024': '1990 and 2000,', 'Q577': 'year', 'Q3282637': 'film producer', 'Q4911771': 'Billboards', 'Q961258': 'Outside', 'Q1581': 'Missouri', 'Q282049': 'career'}
+R:	 {'P17': 'started', 'P571': 'start', 'P106': 'career'}
+1999-01-01T00:00:00Z
+politician
+United States of America
+1821-08-10T00:00:00Z
+
+[!] Property overwritten by keywords.
+Q:	 In what year was Ice Age: The Meltdown released
+E:	 {'Q190910': 'Ice age: the meltdown', 'Q577': 'year', 'Q943532': 'Ice Age', 'Q47036859': 'Meltdown'}
+R:	 {'P577': 'publication date'}
+2006-03-31T00:00:00Z
+2006-04-05T00:00:00Z
+2006-04-06T00:00:00Z
+2006-12-06T00:00:00Z
+2002-01-01T00:00:00Z
+2018-01-04T00:00:00Z
+
+[!] Property overwritten by keywords.
+Q:	 In what year was James Cameron's Avatar released
+E:	 {'Q24871': 'Avatar', 'Q577': 'year', 'Q42574': 'James Cameron'}
+R:	 {'P577': 'publication date'}
+2009-12-16T00:00:00Z
+2009-12-17T00:00:00Z
+2009-12-18T00:00:00Z
+
+[!] Property overwritten by keywords.
+Q:	 In what year was Soylent Green released
+E:	 {'Q426196': 'Soylent Green', 'Q577': 'year'}
+R:	 {'P577': 'publication date'}
+1973-04-19T00:00:00Z
+
+[!] Property overwritten by keywords.
+Q:	 In what year was the documentary Miss Americana released
+E:	 {'Q115162': 'Miss americana', 'Q652943': 'The Documentary', 'Q577': 'year', 'Q3005427': 'Documentary', 'Q467355': 'Americana'}
+R:	 {'P577': 'publication date'}
+2012-06-05T00:00:00Z
+2005-01-18T00:00:00Z
+
+[!] Property overwritten by keywords.
+Q:	 In what year was The Matrix released
+E:	 {'Q83495': 'The Matrix', 'Q577': 'year'}
+R:	 {'P577': 'publication date'}
+1999-03-31T00:00:00Z
+1999-06-17T00:00:00Z
+1999-07-14T00:00:00Z
+
+Q:	 In what year was the Grease published
+E:	 {'Q267721': 'Grease', 'Q577': 'year'}
+R:	 {'P577': 'year'}
+1978-06-13T00:00:00Z
+1978-09-28T00:00:00Z
+
+[!] Property overwritten by keywords.
+Q:	 In what year was the Interstellar released
+E:	 {'Q385447': 'The interstellar', 'Q577': 'year', 'Q13417189': 'Interstellar'}
+R:	 {'P577': 'publication date'}
+1988-01-01T00:00:00Z
+2014-10-26T00:00:00Z
+2014-11-05T00:00:00Z
+2014-11-06T00:00:00Z
+2014-11-07T00:00:00Z
+
+Q:	 In what year was the 'psycho' published?
+E:	 {'Q163038': 'The Psycho', 'Q577': 'year', 'Q201608': 'Dennis Rodman'}
+R:	 {'P577': 'year'}
+1960-01-01T00:00:00Z
+1960-10-07T00:00:00Z
+
+[!] Property overwritten by keywords.
+Q:	 In what year was the "The Dark Knight" released
+E:	 {'Q163872': 'The Dark Knight', 'Q577': 'year', 'Q28457426': 'The'}
+R:	 {'P577': 'publication date'}
+2008-07-18T00:00:00Z
+2008-07-25T00:00:00Z
+2008-08-13T00:00:00Z
+2008-08-21T00:00:00Z
+
+[!] Property overwritten by keywords.
+Q:	 In what year was "To All The Boys I've Loved Before" publicised
+E:	 {'Q577': 'year', 'Q2923057': 'Boys'}
+R:	 {'P577': 'publication date'}
+2003-01-01T00:00:00Z
+
+Q:	 In which 2004 is Bob Parr the father of a family
+E:	 {'Q2014': '2004', 'Q616658': 'Bob parr', 'Q39619': 'The father of a family', 'Q4933597': 'Bob Parr', 'Q7565': 'father', 'Q8436': 'family'}
+R:	 {'P31': 'the father of a family'}
+leap year starting on Thursday and ending on Friday
+calendar year
+fictional human
+Super
+human
+human
+kinship
+social organization
+
+Q:	 In which aspect ratio was Kingsman: The Secret Service filme
+E:	 {'Q79733': 'Kingsman', 'Q107894': ': the secret service filme', 'Q1441762': 'aspect ratio', 'Q17018738': 'Kingsman', 'Q3479121': 'Service'}
+R:	 {'P2061': 'aspect ratio', 'P57': ': The Secret Service filme'}
+2.35:1
+Peter R. Hunt
+Matthew Vaughn
+Brillante Mendoza
+
+[!] Property overwritten by keywords.
+Q:	 In which city was Christoph Waltz born
+E:	 {'Q76819': 'Christoph Waltz', 'Q515': 'city'}
+R:	 {'P19': 'place of birth'}
+Vienna
+
+Q:	 In which countries was the Joker published on 4 October 2019
+E:	 {'Q6256': 'country', 'Q1498615': 'The joker', 'Q831558': '4 october 2019', 'Q42759035': 'Joker', 'Q124': 'October'}
+R:	 {'P577': 'published'}
+1973-10-01T00:00:00Z
+2001-01-01T00:00:00Z
+2003-04-03T00:00:00Z
+2019-08-31T00:00:00Z
+2019-10-03T00:00:00Z
+2019-10-04T00:00:00Z
+2019-10-09T00:00:00Z
+2019-10-10T00:00:00Z
+
+Q:	 In which countries was the Spectre published first
+E:	 {'Q6256': 'country', 'Q1755848': 'The spectre', 'Q18602670': 'Spectre'}
+R:	 {'P577': 'published'}
+1985-01-01T00:00:00Z
+2015-10-26T00:00:00Z
+2015-10-29T00:00:00Z
+2015-10-30T00:00:00Z
+2015-11-02T00:00:00Z
+2015-11-04T00:00:00Z
+2015-11-05T00:00:00Z
+2015-11-06T00:00:00Z
+2015-11-11T00:00:00Z
+
+Q:	 In which country is Jungle Book set
+E:	 {'Q16857406': 'The Jungle Book', 'Q3336843': 'country within the United Kingdom'}
+R:	 {'P21': 'set', 'P17': 'country'}
+United Kingdom
+
+[!] Property overwritten by keywords.
+Q:	 In which country was the director of Parasite born
+E:	 {'Q17073283': 'Parasite', 'Q3336843': 'country within the United Kingdom', 'Q2526255': 'film director', 'Q61448040': 'Parasite'}
+R:	 {'P19': 'place of birth'}
+
+Q:	 In which country was the first release of The Matrix
+E:	 {'Q83495': 'The Matrix', 'Q3336843': 'country within the United Kingdom', 'Q24238946': 'liberation'}
+R:	 {'P17': 'country'}
+United Kingdom
+
+Q:	 In which month was Michael Douglas born in
+E:	 {'Q6829931': 'Michael douglas', 'Q5151': 'month', 'Q119798': 'Michael Douglas'}
+R:	 {'P19': 'born', 'P2922': 'month'}
+Portsmouth
+New Brunswick
+
+Q:	 In which movies directed by Quintin Tarantino did Brad Pitt play
+E:	 {'Q1179487': 'Movies', 'Q3772': 'Quentin Tarantino', 'Q373912': 'Brad pitt', 'Q11424': 'film', 'Q35332': 'Brad Pitt'}
+R:	 {'P169': 'directed', 'P1303': 'play'}
+
+Q:	 In which Star Wars movies does the character Kylo Ren appear in
+E:	 {'Q462': 'Star wars movies', 'Q1593658': 'Kylo ren', 'Q815674': 'The Character', 'Q11424': 'film', 'Q32483': 'character', 'Q21515016': 'Kylo Ren'}
+R:	 {'P1441': 'appear', 'P674': 'character'}
+Star Wars Episode VII: The Force Awakens
+Star Wars: Episode VIII – The Last Jedi
+Star Wars Episode IX: The Rise of Skywalker
+
+Q:	 In which television series is the character Eric Cartman featured
+E:	 {'Q47352': 'Eric Cartman', 'Q95074': 'The Character', 'Q289': 'television', 'Q32483': 'character'}
+R:	 {'P1441': 'featured', 'P179': 'television series', 'P674': 'character'}
+South Park
+
+Q:	 In which war does the character Forrest Gump partake in
+E:	 {'Q134773': 'Forrest Gump', 'Q177298': 'Character  partake', 'Q198': 'war', 'Q32483': 'character'}
+R:	 {'P155': 'war', 'P487': 'character  partake'}
+
+Q:	 Is Brad Pitt male
+E:	 {'Q373912': 'Brad pitt', 'Q235034': 'University of Pittsburgh'}
+R:	 {'P21': 'male'}
+male
+
+Q:	 Is Die Hard a Christmas
+E:	 {'Q86791': 'Hard a christmas', 'Q19809': 'Christmas'}
+R:	 {'P194': 'Die'}
+
+Q:	 Is Nicolas Cage Nicolas Cage's real name, if no, what is it
+E:	 {'Q42869': 'Nicolas Cage', 'Q618191': 'Real name, if no,', 'Q1071027': 'personal name'}
+R:	 {'P734': 'Cages real name, if no,'}
+Coppola
+
+Q:	 Is The Incredibles animated
+E:	 {'Q213326': 'The Incredibles'}
+R:	 {'P4021': 'animated'}
+117
+
+Q:	 Jonah Hill was nominated twice for the Academy Award for Best Supporting Actor. Name the movies
+E:	 {'Q313388': 'Jonah Hill', 'Q106291': 'Twice for the academy award for best supporting actor name the movies', 'Q4671334': 'Academy Award', 'Q1416106': 'supporting actor', 'Q11424': 'film'}
+R:	 {'P1411': 'nominated'}
+Academy Award for Best Supporting Actor
+
+Q:	 List all the actors that have played James Bond
+E:	 {'Q3985587': 'The Actors', 'Q2009573': 'James bond', 'Q33999': 'actor', 'Q844': 'James Bond'}
+R:	 {'P175': 'played', 'P734': 'list'}
+The Moody Blues
+Daniel Craig
+Sean Connery
+Timothy Dalton
+Pierce Brosnan
+Roger Moore
+David Niven
+George Lazenby
+Barry Nelson
+Bond
+
+Q:	 Of how many movies consists the Harry Potter series
+E:	 {'Q1179487': 'Movies', 'Q8337': 'Harry Potter', 'Q11424': 'film'}
+R:	 {'P527': 'consists'}
+Harry Potter and the Philosopher's Stone
+Harry Potter and the Goblet of Fire
+Harry Potter and the Deathly Hallows
+Harry Potter and the Half-Blood Prince
+Harry Potter and the Chamber of Secrets
+Harry Potter and the Prisoner of Azkaban
+Harry Potter and the Order of the Phoenix
+title sequence
+trailer
+film frame
+motion picture credits
+credit
+
+Q:	 Of which four movies does the Hunger Games trilogy exist
+E:	 {'Q1179487': 'Movies', 'Q11679': 'Hunger games trilogy', 'Q11424': 'film', 'Q814334': 'The Hunger'}
+R:	 {}
+
+Q:	 Of which trilogy is Hot Fuzz a part of
+E:	 {'Q149010': 'trilogy', 'Q729788': 'Hot Fuzz', 'Q7401': 'part'}
+R:	 {}
+
+Q:	 On what book is Apocalypse Now based
+E:	 {'Q571': 'book', 'Q618765': 'Apocalypse', 'Q42040': 'Revelation of John'}
+R:	 {'P131': 'based'}
+Prince George's County
+
+Q:	 On what book is the 2011 Limitless based on
+E:	 {'Q571': 'book', 'Q753517': 'Limitless'}
+R:	 {'P144': 'based'}
+The Dark Fields
+
+Q:	 On what date did the actor playing Brian O'Conner in The Fast and the Furious die
+E:	 {'Q300308': 'Brian oconner', 'Q129055': 'Furious die', 'Q654810': 'dating', 'Q33999': 'actor', 'Q19803416': "Brian O'Conner", 'Q28453017': 'Fast', 'Q5509549': 'Furious'}
+R:	 {'P1352': 'playing', 'P577': 'date', 'P161': 'actor', 'P131': 'in The Fast'}
+1955-01-01T00:00:00Z
+Dorothy Malone
+Roger Corman
+John Ireland
+Snub Pollard
+Bruno VeSota
+Iris Adrian
+2016-01-01T00:00:00Z
+2005-01-01T00:00:00Z
+
+Q:	 On what day was Will Smith born
+E:	 {'Q21390070': 'Smith', 'Q573': 'day', 'Q40096': 'Will Smith'}
+R:	 {'P569': 'born', 'P22': 'day'}
+1934-04-10T00:00:00Z
+1968-09-25T00:00:00Z
+
+Q:	 On what is the Imitation Game based on
+E:	 {'Q14918344': 'The Imitation Game'}
+R:	 {'P144': 'based'}
+Alan Turing: The Enigma
+
+[!] Property overwritten by keywords.
+Q:	 On what year was The Matrix released
+E:	 {'Q83495': 'The Matrix', 'Q577': 'year'}
+R:	 {'P577': 'publication date'}
+1999-03-31T00:00:00Z
+1999-06-17T00:00:00Z
+1999-07-14T00:00:00Z
+
+Q:	 On which book is Schindler's List based
+E:	 {'Q571': 'book', 'Q483941': 'Schindlers list', 'Q52715628': 'Alex & the List', 'Q2236136': 'Schindler'}
+R:	 {'P144': 'based'}
+Schindler's Ark
+
+Q:	 On which other movie/tv series is the El Camino: A Breaking Bad based on
+E:	 {'Q506240': 'movie/tv series', 'Q461180': 'El camino:', 'Q1079': 'Breaking Bad', 'Q8572': 'bad based', 'Q5398426': 'television series', 'Q61741521': 'El Camino: A Breaking Bad Movie'}
+R:	 {'P990': 'Breaking', 'P131': 'based'}
+Los Angeles County
+Kern County
+Alpine County
+El Dorado County
+Inyo County
+Mono County
+Rhineland-Palatinate
+
+Q:	 On which writer's work was Lord of the Rings based on
+E:	 {'Q724290': 'writers work', 'Q127367': 'Lord of the rings', 'Q42213': 'work', 'Q28389': 'screenwriter', 'Q15228': 'The Lord of the Rings', 'Q19866947': 'Rings'}
+R:	 {'P144': 'based'}
+The Fellowship of the Ring
+
+Q:	 Star Wars genr
+E:	 {'Q124988': 'wars genr', 'Q462': 'Star Wars'}
+R:	 {'P397': 'star'}
+
+Q:	 The 2011 Tinker Tailor Soldier Spy is made after a work by whom
+E:	 {'Q550571': '2011 tinker tailor soldier spy', 'Q681962': 'Tinker Tailor Soldier Spy', 'Q42213': 'work'}
+R:	 {'P106': 'work'}
+
+Q:	 The character Galadriel from the Lord of the Rings series has been played by which two actresses
+E:	 {'Q204274': 'Galadriel', 'Q2281': 'character  from the lord of the rings series', 'Q33999': 'actor', 'Q32483': 'character', 'Q2366336': 'seigneur', 'Q170198': 'series'}
+R:	 {'P175': 'played', 'P460': 'character  from the Lord of the Rings series'}
+Cate Blanchett
+Morfydd Clark
+Eye of Sauron
+actress
+code point
+
+Q:	 The Matrix series currently has three movies. What is the last one called
+E:	 {'Q83495': 'The Matrix', 'Q1564644': 'Series currently', 'Q2660900': 'Movies', 'Q11424': 'film', 'Q199': '1'}
+R:	 {'P272': 'called', 'P179': 'series currently'}
+Warner Bros.
+Village Roadshow Pictures
+Silver Pictures
+The Matrix trilogy
+Lucas sequence
+Fibonacci sequence
+
+Q:	 The Three Flavours Cornetto trilogy, directed by Edgar Wright contains which three films
+E:	 {'Q169604': 'Three Flavours Cornetto trilogy', 'Q522057': 'Edgar Wright', 'Q11424': 'film'}
+R:	 {'P57': 'directed', 'P527': 'contains'}
+Edgar Wright
+The World's End
+Hot Fuzz
+Shaun of the Dead
+title sequence
+trailer
+film frame
+motion picture credits
+credit
+
+Q:	 To what ethnic group does Martin Scorsese belong
+E:	 {'Q6776552': 'Martin scorsese', 'Q41710': 'ethnic group', 'Q41148': 'Martin Scorsese'}
+R:	 {'P1448': 'belong', 'P172': 'ethnic group'}
+Sicilian American
+
+[!] Property overwritten by keywords.
+Q:	 To what genre belongs the television series Suits
+E:	 {'Q3544705': 'television series suits', 'Q188451': 'music genre', 'Q370185': 'Suits'}
+R:	 {'P136': 'genre'}
+musical
+legal drama
+comedy-drama
+
+[!] Property overwritten by keywords.
+Q:	 To which genres does Avengers: Endgame belong
+E:	 {'Q5151404': 'Genres', 'Q332225': 'Avengers: endgame', 'Q188451': 'music genre', 'Q182218': 'The Avengers', 'Q1235448': 'Endgame'}
+R:	 {'P136': 'genre'}
+action film
+adventure film
+science fiction film
+superhero film
+speculative fiction film
+fictional crossover
+tragicomedy
+
+[!] Property overwritten by keywords.
+Q:	 To which genres does Weathering with You belong
+E:	 {'Q5151404': 'Genres', 'Q188451': 'music genre', 'Q179177': 'weathering'}
+R:	 {'P136': 'genre'}
+
+Q:	 voice woody toy stor
+E:	 {'Q11422': 'toy', 'Q7390': 'human voice'}
+R:	 {}
+
+Q:	 Was Brad Pitt married to Angelina Jolie
+E:	 {'Q35332': 'Brad Pitt', 'Q13909': 'Angelina Jolie'}
+R:	 {'P26': 'married'}
+Angelina Jolie
+Jennifer Aniston
+Jonny Lee Miller
+Brad Pitt
+Billy Bob Thornton
+
+Q:	 Was Harrison Ford in Apocalypse Now
+E:	 {'Q81328': 'Harrison Ford', 'Q42040': 'Revelation of John'}
+R:	 {'P19': 'in Apocalypse'}
+Chicago
+Swedish Hospital
+
+Q:	 Was Top Gun filmed in San Diego
+E:	 {'Q169313': 'Gun', 'Q16552': 'San Diego', 'Q110138': 'Top Gun'}
+R:	 {'P227': 'filmed'}
+4269521-1
+
+Q:	 What actor collaborated with Quentin Tarantino the most
+E:	 {'Q3772': 'Quentin Tarantino', 'Q33999': 'actor'}
+R:	 {'P767': 'collaborated', 'P161': 'actor'}
+
+Q:	 What actor played the role of "Legolas" in the "The Lord of the Rings" trilogy
+E:	 {'Q127367': 'Lord of the rings trilogy', 'Q33999': 'actor', 'Q214339': 'role', 'Q213480': 'Legolas', 'Q15228': 'The Lord of the Rings', 'Q19866947': 'Rings', 'Q149010': 'trilogy'}
+R:	 {'P710': 'played', 'P161': 'actor', 'P366': 'role'}
+Peter Jackson
+John Rhys-Davies
+Hugo Weaving
+Orlando Bloom
+Cate Blanchett
+Dominic Monaghan
+Liv Tyler
+Ian McKellen
+Viggo Mortensen
+Christopher Lee
+Sean Astin
+Sean Bean
+Andy Serkis
+Ian Holm
+Sarah McLeod
+Billy Boyd
+Marton Csokas
+Shane Rangi
+Bill Johnson
+Alan Howard
+Craig Parker
+Elijah Wood
+Lawrence Makoare
+Bret McKenzie
+Sala Baker
+Ian Mune
+David Weatherley
+Harry Sinclair
+Peter McKenzie
+Mark Ferguson
+Elizabeth Moody
+Zach Roerig
+Daveigh Chase
+Aimee Teegarden
+Johnny Galecki
+Vincent D'Onofrio
+Laura Slade Wiggins
+Lizzie Brocheré
+Bonnie Morgan
+Matilda Anna Ingrid Lutz
+Alex Roe
+Kayli Carter
+Andrea Powell
+
+Q:	 What actor received an Oscar/Academy Award for their work in Bohemian Rhapsody
+E:	 {'Q187745': 'Bohemian Rhapsody', 'Q19020': 'Oscar/academy award for their work in', 'Q33999': 'actor', 'Q4671334': 'Academy Award', 'Q42213': 'work'}
+R:	 {'P166': 'received', 'P161': 'actor', 'P131': 'Oscar/Academy Award for their work in'}
+Los Angeles
+
+Q:	 What actors have played War Machine
+E:	 {'Q33999': 'actor', 'Q616337': 'War machine', 'Q21463782': 'War Machine'}
+R:	 {'P710': 'played'}
+
+Q:	 What actors played in both Fight Club, and American History X
+E:	 {'Q33999': 'actor', 'Q1189251': 'Fight club,', 'Q165719': 'X', 'Q690256': 'american history', 'Q190050': 'Fight Club', 'Q208572': 'American History X'}
+R:	 {'P175': 'played'}
+Sheryl Crow
+The 69 Eyes
+
+Q:	 What are all the Hobbit movies
+E:	 {'Q74359': 'Hobbit movies', 'Q11424': 'film'}
+R:	 {}
+
+Q:	 What are all the Lord of the Rings movies
+E:	 {'Q15228': 'Lord of the rings movies', 'Q2366336': 'seigneur', 'Q11424': 'film'}
+R:	 {}
+
+Q:	 What are all the wizards called in Lord of the Rings
+E:	 {'Q127367': 'Lord of the rings', 'Q148401': 'magician in fantasy', 'Q15228': 'The Lord of the Rings', 'Q19866947': 'Rings'}
+R:	 {'P272': 'called'}
+New Line Cinema
+WingNut Films
+The Saul Zaentz Company
+Paramount Pictures
+
+Q:	 What are FIFA's subsidiaries
+E:	 {'Q8221576': 'Fifas subsidiaries', 'Q658255': 'subsidiary', 'Q253414': 'FIFA'}
+R:	 {}
+
+Q:	 What are some of the most well known movies by Alfred Hitchcock
+E:	 {'Q7374': 'Alfred Hitchcock', 'Q294721': 'Movies by', 'Q11424': 'film'}
+R:	 {'P1412': 'known', 'P57': 'movies by'}
+German
+English
+
+Q:	 What are the first 2 Star Wars trilogies
+E:	 {'Q462': 'Star Wars'}
+R:	 {}
+
+Q:	 What are the first three movies that Arnold Schwarzenegger is most well known for
+E:	 {'Q2685': 'Arnold Schwarzenegger', 'Q434841': 'Movies that', 'Q600674': 'Known', 'Q11424': 'film'}
+R:	 {'P345': 'movies that'}
+nm0000216
+co0000756
+tt0064225
+
+[!] Property overwritten by keywords.
+Q:	 What are the genres of Inception
+E:	 {'Q25188': 'Inception', 'Q188451': 'music genre'}
+R:	 {'P136': 'genre'}
+drama
+adventure film
+science fiction film
+heist film
+mystery film
+thriller film
+science fiction action film
+
+[!] Property overwritten by keywords.
+Q:	 What are the genres of the Black Mirror: Bandersnatch
+E:	 {'Q806290': 'Genres of the black mirror: bandersnatch', 'Q188451': 'music genre', 'Q558112': 'Black Mirror', 'Q60178661': 'Black Mirror: Bandersnatch'}
+R:	 {'P136': 'genre'}
+anthology series
+satire
+dystopia
+thriller
+science fiction television series
+drama television series
+LGBTI+ related TV series
+dystopian television
+drama
+science fiction film
+
+[!] Property overwritten by keywords.
+Q:	 What are the genres of the Interstellar
+E:	 {'Q2595720': 'Genres of the interstellar', 'Q188451': 'music genre', 'Q13417189': 'Interstellar'}
+R:	 {'P136': 'genre'}
+drama
+adventure film
+science fiction film
+dystopian film
+drama
+
+[!] Property overwritten by keywords.
+Q:	 What are the genres of the Jaws
+E:	 {'Q2595720': 'Genres of the jaws', 'Q188451': 'music genre', 'Q189505': 'Jaws'}
+R:	 {'P136': 'genre'}
+drama
+thriller film
+film based on a novel
+
+[!] Property overwritten by keywords.
+Q:	 What are the genres of the "Promising Young Woman"
+E:	 {'Q17324640': 'Genres of the promising young woman', 'Q188451': 'music genre', 'Q62595383': 'Promising Young Woman'}
+R:	 {'P136': 'genre'}
+portrait
+black comedy
+drama
+
+[!] Property overwritten by keywords.
+Q:	 What are the genres of the The Breakfast Club
+E:	 {'Q5151404': 'The Genres', 'Q499152': 'The Breakfast Club', 'Q188451': 'music genre'}
+R:	 {'P136': 'genre'}
+drama
+comedy-drama
+teen film
+coming-of-age story
+
+[!] Property overwritten by keywords.
+Q:	 What are the genres of Whiplash
+E:	 {'Q2595720': 'Genres of whiplash', 'Q188451': 'music genre', 'Q15648198': 'Whiplash'}
+R:	 {'P136': 'genre'}
+drama
+musical film
+
+Q:	 What are the given names of Leonardo DiCaprio
+E:	 {'Q38111': 'Leonardo DiCaprio', 'Q220463': 'Names of', 'Q202444': 'given name'}
+R:	 {'P735': 'given', 'P22': 'names of'}
+Wilhelm
+Leonardo
+George DiCaprio
+
+[!] Property overwritten by keywords.
+Q:	 What are the languages spoken in Steven Cameron's Avatar
+E:	 {'Q505198': 'The Languages', 'Q104061': 'Steven camerons avatar', 'Q315': 'language', 'Q24871': 'Avatar', 'Q857708': 'Cameron'}
+R:	 {'P364': 'original language of film or TV show'}
+English
+
+[!] Property overwritten by keywords.
+Q:	 What are the main subjects in Django Unchained
+E:	 {'Q571032': 'Django Unchained', 'Q164573': 'subject'}
+R:	 {'P921': 'main subject'}
+slavery in the United States
+revenge
+
+[!] Property overwritten by keywords.
+Q:	 What are the main subjects of Saving Private Ryan
+E:	 {'Q165817': 'Saving Private Ryan', 'Q164573': 'subject'}
+R:	 {'P921': 'main subject'}
+World War II
+Invasion of Normandy
+Sole Survivor Policy
+altruistic suicide
+Operation Overlord
+rescue operation
+comradeship
+
+[!] Property overwritten by keywords.
+Q:	 What are the main subjects of the Taken
+E:	 {'Q1794': 'Main subjects', 'Q164573': 'subject', 'Q277080': 'Taken'}
+R:	 {'P921': 'main subject'}
+prostitution
+organized crime
+
+[!] Property overwritten by keywords.
+Q:	 What are the main subjects of the Tenet
+E:	 {'Q641184': 'Main subjects of the tenet', 'Q164573': 'subject', 'Q63985561': 'Tenet'}
+R:	 {'P921': 'main subject'}
+World War III
+time
+causality
+
+[!] Property overwritten by keywords.
+Q:	 What are the main subjects of the "The Pianist"(2002)
+E:	 {'Q1670': 'Main subjects', 'Q150804': 'Pianist(2002)', 'Q164573': 'subject'}
+R:	 {'P921': 'main subject'}
+The Holocaust
+Władysław Szpilman
+survival
+
+[!] Property overwritten by keywords.
+Q:	 What are the main subjects of the Netflix miniseries the Queen's Gambit
+E:	 {'Q1115619': 'main subjects of the netflix miniseries the queens gambit', 'Q164573': 'subject', 'Q907311': 'Netflix', 'Q2639150': 'Gambit', 'Q9682': 'Elizabeth II'}
+R:	 {'P921': 'main subject'}
+
+[!] Property overwritten by keywords.
+Q:	 What are the main subjects of The Trial of the Chicago 7
+E:	 {'Q192518': 'Main subjects of the trial of the chicago 7', 'Q164573': 'subject', 'Q25205882': 'Goliath', 'Q1297': 'Chicago'}
+R:	 {'P921': 'main subject'}
+
+Q:	 What are the names of all three parts of the Lord of the Rings trilogy
+E:	 {'Q15228': 'The Lord of the Rings', 'Q1071027': 'personal name', 'Q7401': 'part', 'Q19866947': 'Rings', 'Q149010': 'trilogy'}
+R:	 {'P527': 'parts'}
+The Fellowship of the Ring
+Prologue
+The Two Towers
+The Return of the King
+Appendices of the Lord of the Rings
+family name
+patronymic
+given name
+matronymic
+work
+
+Q:	 What are the names of Johnny Depp's children
+E:	 {'Q37175': 'Johnny Depp', 'Q220463': 'Names of  children', 'Q1071027': 'personal name', 'Q7569': 'child'}
+R:	 {'P31': 'names of  children'}
+human
+demographic profile
+
+Q:	 What are the names of Martin Scorsese's children
+E:	 {'Q41148': 'Martin Scorsese', 'Q220463': 'Names of  children', 'Q1071027': 'personal name', 'Q7569': 'child'}
+R:	 {'P22': 'names of  children'}
+Charles Scorsese
+
+Q:	 What are the names of the children of the director of Mowgli: Legend of the Jungle
+E:	 {'Q225260': 'names of the children of the director of mowgli: legend of the jungle', 'Q1071027': 'personal name', 'Q7569': 'child', 'Q2526255': 'film director', 'Q19595098': 'Mowgli: Legend of the Jungle', 'Q17182571': 'Legend', 'Q28173325': 'Jungle'}
+R:	 {}
+
