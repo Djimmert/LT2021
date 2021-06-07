@@ -73,6 +73,9 @@ def get_question_type(input_q):
                          'How many minutes', 'how many minutes',
                          'How much time', 'how much time',
                          'What is the length of', 'what is the length of']
+                        # ['long', 'duration', 'minutes', 'time', 'length']
+    time_keywords = ['century', 'year', ]
+    location_keywords = 
 
     # Extract sentence structure
     parse = nlp(input_q)
@@ -98,7 +101,8 @@ def get_question_type(input_q):
                 question_type = "XofY"  # e.g. 'Who is the director of X?'
             if 'dobj' in rel:
                 question_type = "verb_prop"  # e.g. 'Who directed X?'
-
+        # elif any(item in duration_keywords for sent):
+        #     question_type = "duration"  # e.g. 'How long is X?'
     for keyword in duration_keywords:
         if keyword in sent:
             question_type = "duration"  # e.g. 'How long is X?'
