@@ -104,12 +104,12 @@ def retrieve_answer(q, question_type, ents, props):
     for entity_id in ents:
         for property_id in props:
             # Build query
-            #if question_type != "passive":
-            query = "SELECT ?answerLabel WHERE {SERVICE wikibase:label \
-            { bd:serviceParam wikibase:language '[AUTO_LANGUAGE],en'. } wd:" + entity_id + " wdt:" + property_id + " ?answer .}"
-            #else:
-            #    query = "SELECT ?answerLabel WHERE {SERVICE wikibase:label \
-            #    { bd:serviceParam wikibase:language '[AUTO_LANGUAGE],en'. } ?answer wdt:" + property_id + " wd:" + entity_id + " .}"
+            if question_type != "passive":
+                query = "SELECT ?answerLabel WHERE {SERVICE wikibase:label \
+                { bd:serviceParam wikibase:language '[AUTO_LANGUAGE],en'. } wd:" + entity_id + " wdt:" + property_id + " ?answer .}"
+            else:
+                query = "SELECT ?answerLabel WHERE {SERVICE wikibase:label \
+                { bd:serviceParam wikibase:language '[AUTO_LANGUAGE],en'. } ?answer wdt:" + property_id + " wd:" + entity_id + " .}"
 
             while True:
                 try:
@@ -187,7 +187,10 @@ def main():
                     else:
                         outf.write(str(i) + '\t' + 'no\n')
                 else:
-                    outf.write(str(i) + '\t' + ','.join(answer) + '\n')
+                    try:
+                        outf.write(str(i) + '\t' + ','.join(answer) + '\n')
+                    except TypeError:
+                        outf.write(str(i) + '\t' + 'yes\n')
             else:
                 if question_type == "count":
                     outf.write(str(i) + '\t' + '12\n')
