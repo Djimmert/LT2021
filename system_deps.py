@@ -270,7 +270,22 @@ def get_entity_property_deps(parse, question_type):
         prop = parse[-2:].text.split(" ")
 
     elif question_type == "count":
-        pass
+        entity_quotes = []
+        entity_istitle = []
+        for word in parse:
+            if word.text == '"':
+                entity_quotes.append((word.i, word.text))
+            if word.text.istitle() and word.i != 0 and word.text != "Academy" and word.text != "Awards" and word.text != "Award":
+                entity_istitle.append((word.i, word.text))
+        if len(entity_quotes) > 1:
+            ent = parse[entity_quotes[0][0]+1:entity_quotes[-1][0]].text.split(" ")
+        elif entity_istitle:
+            ent = parse[entity_istitle[0][0]:entity_istitle[-1][0]+1].text.split(" ")
+        else:
+            ent = sent.split(" ")[dep.index("ROOT") + 1:]
+        if "AUX" in pos:
+            prop = parse[2:pos.index("AUX")].text.split(" ")
+            prop = list(set(prop) - set(ent))
     elif question_type == "yes/no":
         main_verb_id = dep.index("ROOT")
         ent = lemmas[1:main_verb_id]
