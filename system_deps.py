@@ -74,10 +74,8 @@ def get_question_type(input_q):
                     question_type = "XofY"  # e.g. 'Who is the director of X?'
                 if 'dobj' in rel:
                     question_type = "verb_prop"  # e.g. 'Who directed X?'
-    if not question_type:
-        print("Question type could not be found ...")
-    else:
-        return question_type
+
+    return question_type
 
 
 def get_entity_property_deps(parse, question_type):
@@ -117,7 +115,6 @@ def get_entity_property_deps(parse, question_type):
                     if "an" in prop:  # strip 'an'
                         prop.remove("an")
             except ValueError:  # 'AUX' not in list
-                print('[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]')
                 pass
 
             # Perhaps there is an 'of' in the entity, such as in 'Lord of the Rings'
@@ -134,7 +131,7 @@ def get_entity_property_deps(parse, question_type):
                         if "of" in prop:  # strip 'of'
                             prop.remove("of")
                 except:
-                    print('[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(PROPN)]')
+                    pass
 
         ent = sent.split(" ")[pos.index('ADP') + 1:]  # assuming it always ends with '?'
 
