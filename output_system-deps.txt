@@ -1,3289 +1,7050 @@
-system_deps.py
-
-Q:	 1964
+spacy_entity_linker
 Question type could not be found ...
-Not recognised.
+[ERROR] Made possible by Djim
+Q:	 1964
+QT:	 None
+E:	 
+R:	 
 
 
 Q:	 Actor Tom Cruise is involved with which cult-like church?
+QT:	 passive
 E:	 which cult - like church
 R:	 involved
-QT:	 passive
 
 
-Q:	 After whom was the movie Fack ju Göhte (German) named?
 Question type could not be found ...
-Not recognised.
+[ERROR] Made possible by Djim
+Q:	 After whom was the movie Fack ju Göhte (German) named?
+QT:	 None
+E:	 
+R:	 
 
 
 Q:	 At what coordinates can we find a big sign that states 'Hollywood'?
+QT:	 verb_prop
 E:	 a big sign
 R:	 find
-QT:	 verb_prop
 
 
 Q:	 At which locations was The Intouchables filmed?
+QT:	 passive
 E:	 which
 R:	 filmed
-QT:	 passive
 
 
-Q:	 By what company was the film Tarzan directed?
 Question type could not be found ...
-Not recognised.
+[ERROR] Made possible by Djim
+Q:	 By what company was the film Tarzan directed?
+QT:	 None
+E:	 
+R:	 
 
 
 Q:	 By which companies was Arrested Development produced?
+QT:	 passive
 E:	 which
 R:	 produced
-QT:	 passive
 
 
-Q:	 By which movie was Fack ju Göhte (German) followed?
 Question type could not be found ...
-Not recognised.
+[ERROR] Made possible by Djim
+Q:	 By which movie was Fack ju Göhte (German) followed?
+QT:	 None
+E:	 
+R:	 
 
 
 Q:	 By whom is Obi-Wan Kenobi killed in the Star Wars saga?
+QT:	 XofY
 E:	 Obi-Wan Kenobi killed in the Star Wars saga
 R:	 
-QT:	 XofY
 
 
 Q:	  Can "The Matrix" be watched on Netflix?
+QT:	 passive
 E:	 Netflix
 R:	 watched
-QT:	 passive
 
 
 Q:	 Can you tell me in which city the movie The King of Comedy is set?
+QT:	 passive
 E:	 Comedy
 R:	 tell
-QT:	 passive
 
 
 Q:	 Did Iron Man pass the Bechdel test?
+QT:	 verb_prop
 E:	 Bechdel test
 R:	 pass
-QT:	 verb_prop
 
 
 Q:	 Did Leonardo Dicaprio receive an Oscar?
+QT:	 verb_prop
 E:	 Oscar
 R:	 receive
-QT:	 verb_prop
 
 
 Q:	 Did Pamela Anderson star in Borat?
+QT:	 XofY
 E:	 Borat
 R:	 Pamela Anderson star
-QT:	 XofY
 
 
 Q:	 Did Samuel L. Jackson produce Pulp Fiction?
-The answer to your question is: Lawrence Bender
+QT:	 verb_prop
 E:	 Pulp Fiction
 R:	 produce
-QT:	 verb_prop
 
 
 Q:	 Did The Lego Movie 2: The Second Part pass the Bechdel test?
+QT:	 verb_prop
 E:	 Bechdel test
 R:	 pass
-QT:	 verb_prop
 
 
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
 Q:	 Did the movie Green Book win an Academy Award for Best Picture?
-Error.
+QT:	 XofY
+E:	 Best Picture
+R:	 
 
 
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
 Q:	 Did Tommy Lee Jones star in the movie the Fugitive?
-Error.
+QT:	 XofY
+E:	 Fugitive
+R:	 
 
 
 Q:	 director jurassic world fallen kingdom
+QT:	 verb_prop
 E:	 kingdom
 R:	 fall
-QT:	 verb_prop
 
 
 Q:	 Does Casablanca have a website?
+QT:	 verb_prop
 E:	 a website
 R:	 have
-QT:	 verb_prop
 
 
 Q:	 Does Christopher Nolan's first feature film pass the Bechdel test?
+QT:	 verb_prop
 E:	 Bechdel test
 R:	 pass
-QT:	 verb_prop
 
 
 Q:	 Does Perfect Blue (1997) pass the Mako Mori test?
+QT:	 verb_prop
 E:	 Mako Mori test
 R:	 pass
-QT:	 verb_prop
 
 
 Q:	 Does Solaris pass the Bechdel test?
+QT:	 verb_prop
 E:	 Bechdel test
 R:	 pass
-QT:	 verb_prop
 
 
 Q:	 Does the movie Roundhay Garden Scene pass the Bechdel test?
+QT:	 verb_prop
 E:	 Bechdel test
 R:	 pass
-QT:	 verb_prop
 
 
 Q:	 Does Walt Disney Productions own Beauty and the Beast?
+QT:	 verb_prop
 E:	 Beauty and the Beast
 R:	 own
-QT:	 verb_prop
 
 
 Q:	 filming location the martian
-Question type could not be found ...
-Not recognised.
+QT:	 location
+E:	 
+R:	 
 
 
 Q:	 For his role in which movie did Leonardo DiCaprio receive an Academy Award?
+QT:	 verb_prop
 E:	 Academy Award
 R:	 receive
-QT:	 verb_prop
 
 
 Q:	 For how many awards has, the actor or actress with the most nominations in his or her career and who played in the film Lion (2016), been nominated?
+QT:	 passive
 E:	 Lion ( 2016 )
 R:	 nominated
-QT:	 passive
 
 
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(PROPN)]
 Q:	 For what award was Omar Sy nominated for his role in The Intouchables?
-Error.
+QT:	 XofY
+E:	 Omar Sy nominated for his role in The Intouchables
+R:	 
 
 
 Q:	 For what film did Guillermo del Toro win the Academy Award for best director?
+QT:	 XofY
 E:	 Guillermo del Toro win the Academy Award for best director
 R:	 
-QT:	 XofY
 
 
 Q:	 For what movie did Leonardo DiCaprio win an Oscar?
+QT:	 verb_prop
 E:	 Oscar
 R:	 win
-QT:	 verb_prop
 
 
 Q:	 For what movie did Leonardo DiCaprio won an Academy Award for best actor?
+QT:	 XofY
 E:	 Leonardo DiCaprio won an Academy Award for best actor
 R:	 
-QT:	 XofY
 
 
 Q:	 For what movie has Martin Scorsese won an oscar?
+QT:	 verb_prop
 E:	 an oscar
 R:	 win
-QT:	 verb_prop
 
 
 Q:	 For what movie Meryl Streep received her first Academy Award?
+QT:	 verb_prop
 E:	 Academy Award
 R:	 receive
-QT:	 verb_prop
 
 
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(PROPN)]
 Q:	 For which awards was the work of Hans Zimmer in the movie 'Interstellar' nominated?
-Error.
+QT:	 XofY
+E:	 Hans Zimmer in the movie Interstellar nominated
+R:	 
 
 
-Q:	 For which award was the movie Climax nominated for?
 Question type could not be found ...
-Not recognised.
+[ERROR] Made possible by Djim
+Q:	 For which award was the movie Climax nominated for?
+QT:	 None
+E:	 
+R:	 
 
 
 Q:	 For which films did Cate Blanchett receive an Academy Award?
+QT:	 verb_prop
 E:	 Academy Award
 R:	 receive
-QT:	 verb_prop
 
 
 Q:	 For which movie did Greta Gerwig receive an Academy Award nomination?
+QT:	 verb_prop
 E:	 Academy Award nomination
 R:	 receive
-QT:	 verb_prop
 
 
 Q:	 For which movie did Leonardo Dicaprio receive the Academy award for best actor?
+QT:	 XofY
 E:	 Leonardo Dicaprio receive the Academy award for best actor
 R:	 
-QT:	 XofY
 
 
 Q:	 For which movie did Robert Downey Jr. receive the Golden Globe Award for Best Actor?
+QT:	 XofY
 E:	 Robert Downey Jr. receive the Golden Globe Award for Best Actor
 R:	 
-QT:	 XofY
 
 
 Q:	 For which Oscars/Academy Awards was the film Shrek nominated?
+QT:	 XofY
 E:	 Oscars/Academy Awards was the film Shrek nominated
 R:	 
-QT:	 XofY
 
 
 Q:	 From what country does the movie T-34 originate?
-Question type could not be found ...
-Not recognised.
+QT:	 location
+E:	 
+R:	 
 
 
 Q:	 From which Disney movie is the great castle in the middle of Disneyland Paris?
+QT:	 XofY
 E:	 Disney movie is the great castle in the middle of Disneyland Paris
 R:	 
-QT:	 XofY
 
 
-Q:	 From which movie is the quote “I’ll be back”?
 Question type could not be found ...
-Not recognised.
+[ERROR] Made possible by Djim
+Q:	 From which movie is the quote “I’ll be back”?
+QT:	 None
+E:	 
+R:	 
 
 
 Q:	 Han Solo was played by which actor in Star Wars: Episode IV – A New Hope?
+QT:	 passive
 E:	 Star Wars
 R:	 played
-QT:	 passive
 
 
 Q:	 Hayao Miyazaki, director of the Oscar winning "Spirited Away" was born in what year?
+QT:	 passive
 E:	 Oscar
 R:	 born
-QT:	 passive
 
 
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
 Q:	 Henry Cavill played which fictional character in the movie "Zack Snyder's Justice League"?
-Error.
+QT:	 XofY
+E:	 Zack Snyders Justice League
+R:	 
 
 
 Q:	 How did Obi-Wan Kenobi die?
-Question type could not be found ...
-Not recognised.
+QT:	 cost
+E:	 
+R:	 
 
 
 Q:	 How did the composer of Django Unchained die?
-E:	 Django Unchained die
-R:	 composer
-QT:	 XofY
+QT:	 cost
+E:	 
+R:	 
 
 
 Q:	 How is Arnold Schwarzenegger remembered in the movie industry?
-E:	 the movie industry
-R:	 Arnold Schwarzenegger remember
-QT:	 XofY
+QT:	 cost
+E:	 
+R:	 
 
 
 Q:	 How is the movie called that The Disaster Artist is based on?
+QT:	 passive
 E:	 
 R:	 
-QT:	 passive
 
 
 Q:	 How long does Home Alone take?
+QT:	 duration
 E:	 
 R:	 duration
-QT:	 duration
 
 
 Q:	 How long does it take to watch the documentary The Social Dilemma?
+QT:	 duration
 E:	 The Social Dilemma
 R:	 duration
-QT:	 duration
 
 
 Q:	 How long does the movie Shot Caller take to watch?
+QT:	 duration
 E:	 to watch
 R:	 duration
-QT:	 duration
 
 
 Q:	 How long is Bridge of Spies?
+QT:	 duration
 E:	 Bridge of Spies
 R:	 duration
-QT:	 duration
 
 
 Q:	 How long is Monty Python's life of Brian?
+QT:	 duration
 E:	 Monty Pythons life of Brian
 R:	 duration
-QT:	 duration
 
 
 Q:	 How long is Pulp Fiction?
+QT:	 duration
 E:	 Pulp Fiction
 R:	 duration
-QT:	 duration
 
 
 Q:	 How long is Shrek Forever After?
+QT:	 duration
 E:	 Shrek Forever After
 R:	 duration
-QT:	 duration
 
 
 Q:	 How long is the film I spit on your grave?
+QT:	 duration
 E:	 I spit on your grave
 R:	 duration
-QT:	 duration
 
 
 Q:	 How long is the film "Scary movie"?
+QT:	 duration
 E:	 Scary movie
 R:	 duration
-QT:	 duration
 
 
 Q:	 How long is the film Titanic?
+QT:	 duration
 E:	 the film Titanic
 R:	 duration
-QT:	 duration
 
 
 Q:	 How long is the first Jurassic Park movie?
+QT:	 duration
 E:	 Jurassic Park movie
 R:	 duration
-QT:	 duration
 
 
 Q:	 How long is The Holy Mountain?
+QT:	 duration
 E:	 The Holy Mountain
 R:	 duration
-QT:	 duration
 
 
 Q:	 How long is "The Matrix"?
+QT:	 duration
 E:	 The Matrix
 R:	 duration
-QT:	 duration
 
 
 Q:	 How long is the movie "127 Hours"?
+QT:	 duration
 E:	 Hours
 R:	 duration
-QT:	 duration
 
 
 Q:	 How long is the movie Avatar?
+QT:	 duration
 E:	 Avatar
 R:	 duration
-QT:	 duration
 
 
 Q:	 How long is the movie Intouchables?
+QT:	 duration
 E:	 Intouchables
 R:	 duration
-QT:	 duration
 
 
 Q:	 How long is the movie Iron Man?
+QT:	 duration
 E:	 Iron Man
 R:	 duration
-QT:	 duration
 
 
 Q:	 How long is the movie Mulholland Drive?
+QT:	 duration
 E:	 Mulholland Drive
 R:	 duration
-QT:	 duration
 
 
 Q:	 How long is the movie "Once Upon a Time in Hollywood"?
+QT:	 duration
 E:	 Once Upon a Time in Hollywood
 R:	 duration
-QT:	 duration
 
 
 Q:	 How long is The Shawshank Redemption?
+QT:	 duration
 E:	 The Shawshank Redemption
 R:	 duration
-QT:	 duration
 
 
 Q:	 How long is the Wolf of Wallstreet?
+QT:	 duration
 E:	 Wolf of Wallstreet
 R:	 duration
-QT:	 duration
 
 
-Q:	  How many Acadamy Awards has "Titanic" won?
 Question type could not be found ...
-Not recognised.
+[ERROR] Made possible by Djim
+Q:	  How many Acadamy Awards has "Titanic" won?
+QT:	 None
+E:	 
+R:	 
 
 
 Q:	 How many Academy Award nominations does Morgan Freeman have?
-E:	 How many Academy Award nominations
-R:	 have
-QT:	 verb_prop
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many Academy Awards did Leonardo DiCaprio receive?
-Question type could not be found ...
-Not recognised.
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many academy awards did Meryl Streep recieve?
-E:	 How many academy awards
-R:	 recieve
-QT:	 verb_prop
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many Academy Awards does Quentin Tarantino have?
-E:	 How many Academy Awards
-R:	 have
-QT:	 verb_prop
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many Academy Awards has Meryl Streep won so far?
-Question type could not be found ...
-Not recognised.
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many awards did Christopher Nolan receive?
-E:	 How many awards
-R:	 receive
-QT:	 verb_prop
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many awards did George Clooney receive?
-E:	 How many awards
-R:	 receive
-QT:	 verb_prop
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many awards did Quentin Tarantino receive?
-E:	 How many awards
-R:	 receive
-QT:	 verb_prop
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many awards did the movie Whiplash receive?
-E:	 Whiplash receive
-R:	 do
-QT:	 verb_prop
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many awards did Titanic win?
-E:	 Titanic win
-R:	 do
-QT:	 verb_prop
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many awards has Quentin Tarentino won?
-Question type could not be found ...
-Not recognised.
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many awards has Ryan Reynolds earned?
-Question type could not be found ...
-Not recognised.
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many Back to the Future movies are there?
-E:	 Future movies are there
+QT:	 count
+E:	 
 R:	 
-QT:	 XofY
 
 
 Q:	 How many Balto movies have been made?
+QT:	 passive
 E:	 
 R:	 made
-QT:	 passive
 
 
 Q:	 How many Bridget Jones movies have been made?
+QT:	 passive
 E:	 
 R:	 made
-QT:	 passive
 
 
 Q:	 How many cast members are in 12 angry men?
-E:	 12 angry men
+QT:	 count
+E:	 
 R:	 
-QT:	 XofY
 
 
 Q:	 How many characters have part in the fictional group The Fellowship of The Ring?
-Error.
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many children does David Lynch have?
-E:	 How many children
-R:	 have
-QT:	 verb_prop
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many children does Johnny Depp have?
-Question type could not be found ...
-Not recognised.
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many children does Morgan Freeman have?
-E:	 How many children
-R:	 have
-QT:	 verb_prop
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many children does the actor Daniel Craig have?
-Question type could not be found ...
-Not recognised.
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many children has Steven Spielberg?
-E:	 Steven Spielberg
-R:	 have
-QT:	 verb_prop
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many different actors have played the role of SpiderMan?
-E:	 SpiderMan
-R:	 play role
-QT:	 XofY
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many episodes does Twin Peaks have?
-E:	 How many episodes
-R:	 have
-QT:	 verb_prop
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many films are part of the Harry Potter film series?
-E:	 Harry Potter film series
-R:	 part
-QT:	 XofY
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many films did Goffrey Ho directed?
-E:	 How many films
-R:	 direct
-QT:	 verb_prop
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many followers does Ryan Reynolds have?
-Question type could not be found ...
-Not recognised.
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many followers does Studio Ghibli have on social media?
-Error.
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many Harry Potter movies are there?
-Question type could not be found ...
-Not recognised.
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many "How To Train Your Dragon" movies are there?
-E:	 " movies
-R:	 be
-QT:	 verb_prop
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many Iron Man movie parts are there?
-Question type could not be found ...
-Not recognised.
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many members does UEFA have?
-E:	 How many members
-R:	 have
-QT:	 verb_prop
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many minutes is Spirited Away?
-E:	 Away
-R:	 duration
-QT:	 duration
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many minutes long is The Wolf of Wall Street?
+QT:	 duration
 E:	 The Wolf of Wall Street
 R:	 duration
-QT:	 duration
 
 
 Q:	 How many movies are included in the Harry Potter series?
+QT:	 passive
 E:	 Harry Potter series
 R:	 included
-QT:	 passive
 
 
 Q:	 how many movies are in the Marvel cinematic Universe?
+QT:	 XofY
 E:	 Marvel cinematic Universe
 R:	 
-QT:	 XofY
 
 
 Q:	 How many movies are there in the "Ocean's" series?
-E:	 Oceans series
-R:	 there
-QT:	 XofY
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many movies of harry potter are there?
-E:	 harry potter are there
+QT:	 count
+E:	 
 R:	 
-QT:	 XofY
 
 
 Q:	 How many occupations does Rowan Atkinson have?
-E:	 How many occupations
-R:	 have
-QT:	 verb_prop
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many Oscar nomination does Meryl Streep have?
-E:	 How many Oscar nomination
-R:	 have
-QT:	 verb_prop
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many oscars did th movie 'the Titanic' win?
-E:	 Titanic ' win
-R:	 do
-QT:	 verb_prop
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many oscars did Titanic win?
-E:	 Titanic win
-R:	 do
-QT:	 verb_prop
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many people live in Hollywood?
-Error.
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many Pokémon episodes are there?
-Question type could not be found ...
-Not recognised.
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many prices did Tenet won
-Question type could not be found ...
-Not recognised.
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many screenwriters did Good Will Hunting have?
-Question type could not be found ...
-Not recognised.
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many seasons does Malcolm in the Middle have?
-E:	 Middle have
-R:	 Malcolm
-QT:	 XofY
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many seasons does the series How I Met Your Mother have?
-E:	 Your Mother
-R:	 have
-QT:	 verb_prop
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many seasons of the show Merlin exist?
-Error.
+QT:	 count
+E:	 
+R:	 
 
 
-Q:	  How many "Star Wars" films are there?
 Question type could not be found ...
-Not recognised.
+[ERROR] Made possible by Djim
+Q:	  How many "Star Wars" films are there?
+QT:	 None
+E:	 
+R:	 
 
 
 Q:	 How many twitter followers does Zac Efron have?
-E:	 How many twitter followers
-R:	 have
-QT:	 verb_prop
+QT:	 count
+E:	 
+R:	 
 
 
 Q:	 How many years ago did Blu-Ray DVDs come out?
-Question type could not be found ...
-Not recognised.
+QT:	 time
+E:	 
+R:	 
 
 
 Q:	 How much did 2001: A Space Oddyssey cost to make?
-Question type could not be found ...
-Not recognised.
+QT:	 cost
+E:	 
+R:	 
 
 
 Q:	 How much did Avengers: Endgame (2019) earn in the box office worldwide?
-E:	 worldwide
-R:	 avenger : Endgame ( 2019 ) earn
-QT:	 XofY
+QT:	 cost
+E:	 
+R:	 
 
 
 Q:	 How much did Avengers: Endgame cost?
-Question type could not be found ...
-Not recognised.
+QT:	 cost
+E:	 
+R:	 
 
 
 Q:	 How much did Inception cost to produce?
-E:	 How much did Inception cost
-R:	 produce
-QT:	 verb_prop
+QT:	 cost
+E:	 
+R:	 
 
 
 Q:	 How much did it cost to film Tenet?
-The answer to your question is: 200000000
-E:	 Tenet
-R:	 cost
-QT:	 verb_prop
+QT:	 cost
+E:	 
+R:	 
 
 
 Q:	 How much did it cost to make The Lord of the Rings: The Fellowship of the Ring?
-E:	 Rings: The Fellowship of the Ring
-R:	 it cost to make
-QT:	 XofY
+QT:	 cost
+E:	 
+R:	 
 
 
 Q:	 How much did Saving private ryan cost in United States dollars?
-E:	 United States dollars
-R:	 save private ryan cost
-QT:	 XofY
+QT:	 cost
+E:	 
+R:	 
 
 
 Q:	 How much did The LEGO Batman Movie make at box office?
-E:	 box office
-R:	 LEGO Batman Movie make
-QT:	 XofY
+QT:	 cost
+E:	 
+R:	 
 
 
 Q:	 How much did the most expensive movie to produce cost?
-E:	 cost
-R:	 movie
-QT:	 verb_prop
+QT:	 cost
+E:	 
+R:	 
 
 
 Q:	 How much did the movie "Inception" earn in box office?
+QT:	 cost
 E:	 
-R:	 movie  Inception  earn
-QT:	 XofY
+R:	 
 
 
 Q:	 How much did the production of The Grand Budapest Hotel cost?
-E:	 How much
-R:	 cost
-QT:	 verb_prop
+QT:	 cost
+E:	 
+R:	 
 
 
 Q:	 How much did the production of The Lord of the Rings: The Return of the King cost?
-E:	 The Lord of the Rings: The Return of the King cost
-R:	 production the
-QT:	 XofY
+QT:	 cost
+E:	 
+R:	 
 
 
 Q:	 How much did the production of the movie "Inglourious Basterds" (2009) cost?
-E:	 Inglourious Basterds (2009) cost
-R:	 production
-QT:	 XofY
+QT:	 cost
+E:	 
+R:	 
 
 
 Q:	 How much did the sci-fi movie Avatar cost?
-Question type could not be found ...
-Not recognised.
+QT:	 cost
+E:	 
+R:	 
 
 
 Q:	 How much did Titanic cost to make?
-Question type could not be found ...
-Not recognised.
+QT:	 cost
+E:	 
+R:	 
 
 
 Q:	 How much did Toy Story make?
-Question type could not be found ...
-Not recognised.
+QT:	 cost
+E:	 
+R:	 
 
 
 Q:	 How much did Wolf of Wallstreet cost?
-E:	 Wallstreet cost
-R:	 Wolf
-QT:	 XofY
+QT:	 cost
+E:	 
+R:	 
 
 
 Q:	 How much does it cost for producing The Girl with the Dragon Tattoo?
-E:	 The Girl with the Dragon Tattoo
-R:	 it cost for produce
-QT:	 XofY
+QT:	 cost
+E:	 
+R:	 
 
 
 Q:	 How much dollar did it cost to produce the movie Tenet?
-E:	 Tenet
-R:	 cost
-QT:	 verb_prop
+QT:	 cost
+E:	 
+R:	 
 
 
 Q:	  How much dollars did the movie "Avatar"(2009) cost?
+QT:	 verb_prop
 E:	 the movie " Avatar"(2009 )
 R:	  
-QT:	 verb_prop
 
 
 Q:	 How much money did Tenet cost to produce?
-E:	 How much money
-R:	 cost
-QT:	 verb_prop
+QT:	 cost
+E:	 
+R:	 
 
 
 Q:	 How much money was spent to create "John Wick 2" ?
+QT:	 passive
 E:	 
 R:	 spent
-QT:	 passive
 
 
 Q:	 How much time does it cost to watch The Karate Kid from 1984?
+QT:	 duration
 E:	 The Karate Kid from 1984
 R:	 duration
-QT:	 duration
 
 
 Q:	 How old should you be to watch Kingsman: the Secret Service?
-E:	 Kingsman : the Secret Service
-R:	 be
-QT:	 verb_prop
+QT:	 cost
+E:	 
+R:	 
 
 
 Q:	  How old was Leonardo DiCaprio when he played in "Inception"?
-E:	 Inception
-R:	 Leonardo DiCaprio when he play
-QT:	 XofY
+QT:	 time
+E:	 
+R:	 
 
 
 Q:	 How tall is Amitabh Bachchan?
-Question type could not be found ...
-Not recognised.
+QT:	 tall
+E:	 
+R:	 
 
 
 Q:	 How tall is Arnold Schwarzenegger
-Question type could not be found ...
-Not recognised.
+QT:	 tall
+E:	 
+R:	 
 
 
 Q:	 How tall is Bryan Cranston?
-Question type could not be found ...
-Not recognised.
+QT:	 tall
+E:	 
+R:	 
 
 
 Q:	 How tall is Danny DeVito?
-Question type could not be found ...
-Not recognised.
+QT:	 tall
+E:	 
+R:	 
 
 
 Q:	 How tall is the actor Mark Ruffalo?
-Question type could not be found ...
-Not recognised.
+QT:	 tall
+E:	 
+R:	 
 
 
 Q:	 How tall is the actor playing Mark Watney in The Martian?
-E:	 The Martian
-R:	 actor play Mark Watney
-QT:	 XofY
+QT:	 tall
+E:	 
+R:	 
 
 
 Q:	 How tall is the actor Toby Jones?
-Question type could not be found ...
-Not recognised.
+QT:	 tall
+E:	 
+R:	 
 
 
 Q:	 How tall is Will Smith?
-Question type could not be found ...
-Not recognised.
+QT:	 tall
+E:	 
+R:	 
 
 
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(PROPN)]
 Q:	 In 1996 Nicolas Cage won an Academy Award for Best Actor, which work was it for?
-Error.
+QT:	 XofY
+E:	 Nicolas Cage won an Academy Award for Best Actor, which work was it for
+R:	 
 
 
 Q:	 Inception was directed by whom?
+QT:	 passive
 E:	 whom
 R:	 directed
-QT:	 passive
 
 
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(PROPN)]
 Q:	 In how many movies has the Winter Soldier featured, played by Sebastian Stan?
-Error.
+QT:	 XofY
+E:	 Winter Soldier featured, played by Sebastian Stan
+R:	 
 
 
 Q:	 Interstellar was directed by whom?
+QT:	 passive
 E:	 whom
 R:	 directed
-QT:	 passive
 
 
 Q:	 In The Godfather, who played Vito Corleone?
+QT:	 verb_prop
 E:	 Vito Corleone
 R:	 in
-QT:	 verb_prop
 
 
-Q:	 In what aspect ratio was Zack Snyder's Justice League shot?
 Question type could not be found ...
-Not recognised.
+[ERROR] Made possible by Djim
+Q:	 In what aspect ratio was Zack Snyder's Justice League shot?
+QT:	 None
+E:	 
+R:	 
 
 
 Q:	 In what capital was the film The Fault in Our Stars, filmed?
+QT:	 XofY
 E:	 The Fault in Our Stars, filmed
 R:	 film the fault in our
-QT:	 XofY
 
 
 Q:	 In what country is Château Picard located?
+QT:	 passive
 E:	 
 R:	 located
-QT:	 passive
 
 
 Q:	 In what country is the university, where the director of Seven Pounds studied, located?
-E:	 Seven Pounds studied, located
-R:	 university , where the director
-QT:	 XofY
+QT:	 location
+E:	 
+R:	 
 
 
 Q:	 In what country was Bohemian Rhapsody released on the 31st of October, 2018?
-Error.
+QT:	 location
+E:	 
+R:	 
 
 
 Q:	 In what country was Lord of the Rings filmed?
-Error.
+QT:	 location
+E:	 
+R:	 
 
 
-Q:	 In what film format was Rosemary's Baby shot?
 Question type could not be found ...
-Not recognised.
+[ERROR] Made possible by Djim
+Q:	 In what film format was Rosemary's Baby shot?
+QT:	 None
+E:	 
+R:	 
 
 
 Q:	 In what format is David Attenborough: A Life on Our Planet available?
+QT:	 XofY
 E:	 David Attenborough: A Life on Our Planet available
 R:	 
-QT:	 XofY
 
 
-Q:	 In what industry other than filmmaking is the Warner Bros. production company active?
 Question type could not be found ...
-Not recognised.
+[ERROR] Made possible by Djim
+Q:	 In what industry other than filmmaking is the Warner Bros. production company active?
+QT:	 None
+E:	 
+R:	 
 
 
 Q:	 In what language was Shrek originally released?
+QT:	 passive
 E:	 
 R:	 released
-QT:	 passive
 
 
 Q:	 In what movies did Anthony Hopkins play Hannibal Lecter?
+QT:	 verb_prop
 E:	 Hannibal Lecter
 R:	 play
-QT:	 verb_prop
 
 
 Q:	 In what period is the action of the movie "Gladiator" set in?
+QT:	 XofY
 E:	 Gladiator set in
 R:	 action the movie 
-QT:	 XofY
 
 
 Q:	 In what year did Gene Roddenberry die?
-Question type could not be found ...
-Not recognised.
+QT:	 time
+E:	 
+R:	 
 
 
 Q:	 In what year did Meryl Streep start acting?
-Question type could not be found ...
-Not recognised.
+QT:	 time
+E:	 
+R:	 
 
 
 Q:	 In what year did the first Harry Potter movie come out?
-Question type could not be found ...
-Not recognised.
+QT:	 time
+E:	 
+R:	 
 
 
 Q:	 In what year did the TV-show Friends premiere?
-E:	 Friends
-R:	 premiere
-QT:	 verb_prop
+QT:	 time
+E:	 
+R:	 
 
 
 Q:	 In what year is Steven Spielberg's famous war movie starring Tom Hanks set?
-E:	 Tom Hanks
-R:	 set
-QT:	 verb_prop
+QT:	 time
+E:	 
+R:	 
 
 
 Q:	 In what year is The Revenant set?
+QT:	 passive
 E:	 
 R:	 set
-QT:	 passive
 
 
 Q:	 In what years did the producers of "Three Billboards Outside Ebbing, Missouri" whose career started between 1990 and 2000, start their career?
-E:	 their career
-R:	 start
-QT:	 verb_prop
+QT:	 time
+E:	 
+R:	 
 
 
 Q:	 In what year was Ice Age: The Meltdown released?
-Question type could not be found ...
-Not recognised.
+QT:	 time
+E:	 
+R:	 
 
 
 Q:	 In what year was James Cameron's Avatar released?
+QT:	 passive
 E:	 
 R:	 released
-QT:	 passive
 
 
 Q:	 In what year was Soylent Green released?
+QT:	 passive
 E:	 
 R:	 released
-QT:	 passive
 
 
 Q:	 In what year was the documentary Miss Americana released?
-Question type could not be found ...
-Not recognised.
+QT:	 time
+E:	 
+R:	 
 
 
 Q:	 In what year was The Matrix released?
+QT:	 passive
 E:	 
 R:	 released
-QT:	 passive
 
 
 Q:	 In what year was the movie Grease published?
-Question type could not be found ...
-Not recognised.
+QT:	 time
+E:	 
+R:	 
 
 
 Q:	 In what year was the movie Interstellar released?
-Question type could not be found ...
-Not recognised.
+QT:	 time
+E:	 
+R:	 
 
 
 Q:	 In what year was the movie 'psycho' published??
-Question type could not be found ...
-Not recognised.
+QT:	 time
+E:	 
+R:	 
 
 
 Q:	 In what year was the movie "The Dark Knight" released?
-Question type could not be found ...
-Not recognised.
+QT:	 time
+E:	 
+R:	 
 
 
 Q:	 In what year was "To All The Boys I've Loved Before" publicised?
-E:	 To All The Boys Ive Loved Before publicised
-R:	  to all
-QT:	 XofY
+QT:	 time
+E:	 
+R:	 
 
 
 Q:	 In which 2004 movie is Bob Parr the father of a family?
+QT:	 XofY
 E:	 Bob Parr the father of a family
 R:	 
-QT:	 XofY
 
 
-Q:	 In which aspect ratio was Kingsman: The Secret Service filmed
 Question type could not be found ...
-Not recognised.
+[ERROR] Made possible by Djim
+Q:	 In which aspect ratio was Kingsman: The Secret Service filmed
+QT:	 None
+E:	 
+R:	 
 
 
 Q:	 In which city was Christoph Waltz born?
+QT:	 XofY
 E:	 Christoph Waltz born
 R:	 
-QT:	 XofY
 
 
 Q:	 In which countries was the Joker published on 4 October 2019?
+QT:	 passive
 E:	 October 2019
 R:	 published
-QT:	 passive
 
 
 Q:	 In which countries was the movie Spectre published first?
-E:	 Spectre published first
+QT:	 location
+E:	 
 R:	 
-QT:	 XofY
 
 
 Q:	 In which country is Jungle Book set?
+QT:	 passive
 E:	 
 R:	 
-QT:	 passive
 
 
 Q:	 In which country was the director of Parasite born?
-E:	 Parasite born
-R:	 director
-QT:	 XofY
+QT:	 location
+E:	 
+R:	 
 
 
 Q:	 In which country was the first release of movie The Matrix?
-E:	 The Matrix
-R:	 first release movie the
-QT:	 XofY
+QT:	 location
+E:	 
+R:	 
 
 
-Q:	 In which month was Michael Douglas born in?
 Question type could not be found ...
-Not recognised.
+[ERROR] Made possible by Djim
+Q:	 In which month was Michael Douglas born in?
+QT:	 None
+E:	 
+R:	 
 
 
 Q:	 In which movies directed by Quintin Tarantino did Brad Pitt play?
+QT:	 XofY
 E:	 Quintin Tarantino did Brad Pitt play
 R:	 
-QT:	 XofY
 
 
 Q:	 In which Star Wars movies does the character Kylo Ren appear in?
-The answer to your question is: Star Wars Episode VII: The Force Awakens
-The answer to your question is: Star Wars: Episode VIII – The Last Jedi
-The answer to your question is: Star Wars Episode IX: The Rise of Skywalker
-The answer to your question is: Star Wars universe
+QT:	 verb_prop
 E:	 Kylo Ren
 R:	 appear
-QT:	 verb_prop
 
 
 Q:	 In which television series is the character Eric Cartman featured?
+QT:	 XofY
 E:	 Eric Cartman featured
 R:	 
-QT:	 XofY
 
 
 Q:	 In which war does the film character Forrest Gump partake in?
+QT:	 XofY
 E:	 Forrest Gump partake in
 R:	 film character
-QT:	 XofY
 
 
+Question type could not be found ...
+[ERROR] Made possible by Djim
 Q:	 Is Brad Pitt male?
+QT:	 None
+E:	 
+R:	 
+
+
 Question type could not be found ...
-Not recognised.
-
-
+[ERROR] Made possible by Djim
 Q:	 Is Die Hard a Christmas film?
+QT:	 None
+E:	 
+R:	 
+
+
 Question type could not be found ...
-Not recognised.
-
-
+[ERROR] Made possible by Djim
 Q:	 Is Nicolas Cage Nicolas Cage's real name, if no, what is it?
+QT:	 None
+E:	 
+R:	 
+
+
 Question type could not be found ...
-Not recognised.
-
-
+[ERROR] Made possible by Djim
 Q:	 Is The Incredibles movie animated?
-Question type could not be found ...
-Not recognised.
+QT:	 None
+E:	 
+R:	 
 
 
 Q:	 Jonah Hill was nominated twice for the Academy Award for Best Supporting Actor. Name the movies.
+QT:	 passive
 E:	 Best Supporting Actor
 R:	 Name
-QT:	 passive
 
 
 Q:	 List all the actors that have played James Bond?
+QT:	 verb_prop
 E:	 James Bond
 R:	 list
-QT:	 verb_prop
 
 
 Q:	 Of how many movies consists the Harry Potter series?
-The answer to your question is: Harry Potter and the Philosopher's Stone
-The answer to your question is: Harry Potter and the Goblet of Fire
-The answer to your question is: Harry Potter and the Deathly Hallows
-The answer to your question is: Harry Potter and the Half-Blood Prince
-The answer to your question is: Harry Potter and the Chamber of Secrets
-The answer to your question is: Harry Potter and the Prisoner of Azkaban
-The answer to your question is: Harry Potter and the Order of the Phoenix
+QT:	 verb_prop
 E:	 Harry Potter series
 R:	 consist
-QT:	 verb_prop
 
 
 Q:	 Of which four movies does the Hunger Games trilogy exist?
+QT:	 XofY
 E:	 Hunger Games trilogy exist
 R:	 
-QT:	 XofY
 
 
+Question type could not be found ...
+[ERROR] Made possible by Djim
 Q:	 Of which trilogy is Hot Fuzz a part of?
+QT:	 None
+E:	 
+R:	 
+
+
 Question type could not be found ...
-Not recognised.
-
-
+[ERROR] Made possible by Djim
 Q:	 On what book is Apocalypse Now based?
+QT:	 None
+E:	 
+R:	 
+
+
 Question type could not be found ...
-Not recognised.
-
-
+[ERROR] Made possible by Djim
 Q:	 On what book is the 2011 film Limitless based on?
-Question type could not be found ...
-Not recognised.
+QT:	 None
+E:	 
+R:	 
 
 
 Q:	 On what date did the actor playing Brian O'Conner in The Fast and the Furious die?
+QT:	 XofY
 E:	 Brian OConner in The Fast and the Furious die
 R:	 actor play
-QT:	 XofY
 
 
+Question type could not be found ...
+[ERROR] Made possible by Djim
 Q:	 On what day was Will Smith born?
+QT:	 None
+E:	 
+R:	 
+
+
 Question type could not be found ...
-Not recognised.
-
-
+[ERROR] Made possible by Djim
 Q:	 On what is the movie Imitation Game based on?
-Question type could not be found ...
-Not recognised.
+QT:	 None
+E:	 
+R:	 
 
 
 Q:	 On what year was The Matrix released?
+QT:	 passive
 E:	 
 R:	 released
-QT:	 passive
 
 
 Q:	 On which book is Schindler's List based?
+QT:	 XofY
 E:	 Schindlers List based
 R:	 
-QT:	 XofY
 
 
 Q:	 On which other movie/tv series is the movie El Camino: A Breaking Bad Movie based on?
+QT:	 XofY
 E:	 El Camino: A Breaking Bad Movie based on
 R:	 movie
-QT:	 XofY
 
 
 Q:	 On which writer's work was Lord of the Rings based on?
+QT:	 XofY
 E:	 Lord of the Rings based on
 R:	 
-QT:	 XofY
 
 
-Q:	 Star Wars genre
 Question type could not be found ...
-Not recognised.
+[ERROR] Made possible by Djim
+Q:	 Star Wars genre
+QT:	 None
+E:	 
+R:	 
 
 
 Q:	 The 2011 film Tinker Tailor Soldier Spy is made after a work by whom?
+QT:	 passive
 E:	 whom
 R:	 made
-QT:	 passive
 
 
 Q:	 The character Galadriel from the Lord of the Rings series has been played by which two actresses?
+QT:	 passive
 E:	 which
 R:	 played
-QT:	 passive
 
 
 Q:	 The Matrix series currently has three movies. What is the last one called?
+QT:	 verb_prop
 E:	 three movies
 R:	 have
-QT:	 verb_prop
 
 
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
 Q:	 The Three Flavours Cornetto trilogy, directed by Edgar Wright contains which three films?
-Error.
+QT:	 XofY
+E:	 Wright contains which three films
+R:	 
 
 
+Question type could not be found ...
+[ERROR] Made possible by Djim
 Q:	 To what ethnic group does Martin Scorsese belong?
+QT:	 None
+E:	 
+R:	 
+
+
 Question type could not be found ...
-Not recognised.
-
-
+[ERROR] Made possible by Djim
 Q:	 To what genre belongs the television series Suits?
-Question type could not be found ...
-Not recognised.
+QT:	 None
+E:	 
+R:	 
 
 
 Q:	 To which genres does Avengers: Endgame belong?
+QT:	 verb_prop
 E:	 Avengers
 R:	 belong
-QT:	 verb_prop
 
 
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(PROPN)]
 Q:	 To which genres does Weathering with You belong?
-Error.
+QT:	 XofY
+E:	 Weathering with You belong
+R:	 
 
 
-Q:	 voice woody toy story
 Question type could not be found ...
-Not recognised.
+[ERROR] Made possible by Djim
+Q:	 voice woody toy story
+QT:	 None
+E:	 
+R:	 
 
 
 Q:	 Was Brad Pitt married to Angelina Jolie?
+QT:	 XofY
 E:	 Angelina Jolie
 R:	 Brad Pitt marry
-QT:	 XofY
 
 
 Q:	 Was Harrison Ford in Apocalypse Now?
+QT:	 XofY
 E:	 Apocalypse Now
 R:	 Harrison Ford
-QT:	 XofY
 
 
 Q:	 Was Top Gun filmed in San Diego?
+QT:	 XofY
 E:	 San Diego
 R:	 Top Gun film
-QT:	 XofY
 
 
 Q:	 What actor collaborated with Quentin Tarantino the most?
-Error.
+QT:	 what_which_verb
+E:	 
+R:	 actor
 
 
 Q:	 What actor played the role of "Legolas" in the "The Lord of the Rings" trilogy?
-Error.
+QT:	 what_which_verb
+E:	 
+R:	 actor
 
 
 Q:	 What actor received an Oscar/Academy Award for their work in Bohemian Rhapsody?
-Error.
+QT:	 what_which_verb
+E:	 
+R:	 actor
 
 
 Q:	 What actors have played War Machine?
-The answer to your question is: professional wrestling
-The answer to your question is: mixed martial arts
-E:	 War Machine
-R:	 play
-QT:	 verb_prop
+QT:	 what_which_verb
+E:	 
+R:	 actor
 
 
 Q:	 What actors played in both Fight Club, and American History X?
-Error.
+QT:	 what_which_verb
+E:	 
+R:	 actor
 
 
 Q:	 What are all the Hobbit movies?
-Question type could not be found ...
-Not recognised.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 the Hobbit
 
 
 Q:	 What are all the Lord of the Rings movies?
-E:	 Rings movies
-R:	 all Lord
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 the Rings
 
 
 Q:	 What are all the wizards called in Lord of the Rings?
-E:	 Lord of the Rings
-R:	 all wizard call in
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 of the
 
 
 Q:	 What are FIFA's subsidiaries?
-Question type could not be found ...
-Not recognised.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 FIFAs
 
 
 Q:	 What are some of the most well known movies by Alfred Hitchcock?
-E:	 Alfred Hitchcock
-R:	 some most well know movie by
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 by Alfred
 
 
 Q:	 What are the first 2 Star Wars trilogies?
-Question type could not be found ...
-Not recognised.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Star Wars
 
 
 Q:	 What are the first three movies that Arnold Schwarzenegger is most well known for?
+QT:	 passive
 E:	 that
 R:	 
-QT:	 passive
 
 
 Q:	 What are the genres of Inception?
-The answer to your question is: drama
-The answer to your question is: adventure film
-The answer to your question is: science fiction film
-The answer to your question is: heist film
-The answer to your question is: mystery film
-The answer to your question is: thriller film
-The answer to your question is: science fiction action film
-The answer to your question is: film score
-The answer to your question is: jazz
-The answer to your question is: thrash metal
-E:	 Inception
-R:	 genre
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 genres of
 
 
 Q:	 What are the genres of the movie Black Mirror: Bandersnatch?
-The answer to your question is: drama
-The answer to your question is: science fiction film
-E:	 Black Mirror: Bandersnatch
-R:	 genre
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Mirror:
 
 
 Q:	 What are the genres of the movie Interstellar?
-The answer to your question is: drama
-The answer to your question is: adventure film
-The answer to your question is: science fiction film
-The answer to your question is: dystopian film
-The answer to your question is: drama
-E:	 Interstellar
-R:	 genre
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 the movie
 
 
 Q:	 What are the genres of the movie Jaws?
-The answer to your question is: drama
-The answer to your question is: thriller film
-The answer to your question is: film based on a novel
-E:	 Jaws
-R:	 genre
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 the movie
 
 
 Q:	 What are the genres of the movie "Promising Young Woman"?
-E:	 Promising Young Woman
-R:	 genre
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Young Woman
 
 
 Q:	 What are the genres of the movie The Breakfast Club?
-The answer to your question is: drama
-The answer to your question is: comedy-drama
-The answer to your question is: teen film
-The answer to your question is: coming-of-age story
-E:	 The Breakfast Club
-R:	 genre
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 The Breakfast
 
 
 Q:	 What are the genres of Whiplash?
-E:	 Whiplash
-R:	 genre
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 genres of
 
 
 Q:	 What are the given names of Leonardo DiCaprio?
-E:	 Leonardo DiCaprio
-R:	 give name
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 of Leonardo
 
 
 Q:	 What are the languages spoken in Steven Cameron's Avatar?
-E:	 Steven Camerons Avatar
-R:	 language speak
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Camerons
 
 
 Q:	 What are the main subjects in Django Unchained?
-The answer to your question is: slavery in the United States
-The answer to your question is: revenge
-E:	 Django Unchained
-R:	 main subject
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 in Django
 
 
 Q:	 What are the main subjects of Saving Private Ryan?
-The answer to your question is: World War II
-The answer to your question is: Invasion of Normandy
-The answer to your question is: Sole Survivor Policy
-The answer to your question is: altruistic suicide
-The answer to your question is: Operation Overlord
-The answer to your question is: rescue operation
-The answer to your question is: comradeship
-E:	 Saving Private Ryan
-R:	 main subject
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Saving Private
 
 
 Q:	 What are the main subjects of the movie Taken?
-The answer to your question is: prostitution
-The answer to your question is: organized crime
-E:	 Taken
-R:	 main subject
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 the movie
 
 
 Q:	 What are the main subjects of the movie Tenet?
-The answer to your question is: World War III
-The answer to your question is: time
-The answer to your question is: causality
-E:	 Tenet
-R:	 main subject
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 the movie
 
 
 Q:	  What are the main subjects of the movie "The Pianist"(2002) ?
+QT:	 XofY
 E:	 The Pianist(2002) 
 R:	 main subject
-QT:	 XofY
 
 
 Q:	 What are the main subjects of the Netflix miniseries the Queen's Gambit?
-E:	 the Queen 's Gambit
-R:	 miniserie
-QT:	 verb_prop
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Queens
 
 
 Q:	 What are the main subjects of The Trial of the Chicago 7?
-E:	 The Trial of the Chicago 7
-R:	 main subject the
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 the Chicago
 
 
 Q:	 What are the names of all three parts of the Lord of the Rings trilogy?
-E:	 Lord of the Rings trilogy
-R:	 name all three part of the
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 the Rings
 
 
 Q:	 What are the names of Johnny Depp's children?
-E:	 Johnny Depps children
-R:	 name
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Depps
 
 
 Q:	 What are the names of Martin Scorsese's children?
-E:	 Martin Scorseses children
-R:	 name
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Scorseses
 
 
 Q:	 What are the names of the children of the director of Mowgli: Legend of the Jungle?
-E:	 Mowgli: Legend of the Jungle
-R:	 name the child of the director of
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 of the
 
 
 Q:	 What are the names of the Coen Brothers?
-E:	 Coen Brothers
-R:	 name
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 the Coen
 
 
 Q:	 What are the names of the episodes in the Harry Potter film series?
-E:	 Harry Potter film series
-R:	 name the episode in the
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Potter film
 
 
 Q:	 What are the names of the four hobbits in the Lord of the Rings?
-E:	 Lord of the Rings
-R:	 name the four hobbit in the
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 of the
 
 
 Q:	 What are the names of the four members of the A-team?
-Error.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 A-
 
 
 Q:	 What are the names of the genres of Antwone Fisher?
-E:	 Antwone Fisher
-R:	 name the genre of
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 of Antwone
 
 
 Q:	 What are the names of the "Lord of the Ring" trilogy?
-E:	 Lord of the Ring trilogy
-R:	 name the 
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Ring
 
 
 Q:	 What are the names of the separate parts of the Ice Age film franchise?
-E:	 Ice Age film franchise
-R:	 name the separate part of the
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Age film
 
 
 Q:	 What are the names of the two brothers who won the 69th Academy Award for Best Original Screenplay?
-E:	 Academy Award for Best Original Screenplay
-R:	 name the two brother who win the 69th
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Best Original
 
 
 Q:	 What are the narrative locations (cities) in the movie "Lost in Translation"?
-Error.
+QT:	 location
+E:	 
+R:	 
 
 
 Q:	 What are the nicknames of the lead character of The Big Lebowski?
-E:	 The Big Lebowski
-R:	 nickname the lead character of the
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 The Big
 
 
 Q:	 What are the notable works of composer John Williams?
-The answer to your question is: Schindler's List
-The answer to your question is: Star Wars (soundtrack)
-The answer to your question is: Indiana Jones Adventure
-The answer to your question is: Munich
-The answer to your question is: Augustus
-The answer to your question is: Stoner
-The answer to your question is: Butcher's Crossing
-E:	 John Williams
-R:	 notable work
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 composer John
 
 
 Q:	  What are the original languages of the movie "The pianist"(2002)?
+QT:	 XofY
 E:	 The pianist(2002)
 R:	 original language
-QT:	 XofY
 
 
 Q:	 What are the roles that Samuel L. Jackson played in the Star Wars franchise and the Marvel Cinamatic Universe?
-E:	 Star Wars franchise and the Marvel Cinamatic Universe
-R:	 role that Samuel L. Jackson play
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Marvel Cinamatic
 
 
 Q:	 What are the sequels of Kingsman: the Secret Service?
-E:	 Kingsman: the Secret Service
-R:	 sequel
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 the Secret
 
 
 Q:	 What are the titles of the Harry Potter movies?
-E:	 Harry Potter movies
-R:	 title
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Harry Potter
 
 
 Q:	 What are the titles of the movies of The Hunger Games film series?
-E:	 The Hunger Games film series
-R:	 title the movie of the
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Games film
 
 
 Q:	 What are the titles of the three parts of the Lord of the Rings trilogy?
-E:	 Lord of the Rings trilogy
-R:	 title the three part of the
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 the Rings
 
 
 Q:	 What are the top three best worldwide grossing animated movies?
-Question type could not be found ...
-Not recognised.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 grossing animated
 
 
 Q:	 What award did wolf of Wallstreet receive?
-E:	 Wallstreet receive
-R:	 wolf
-QT:	 XofY
+QT:	 what_which_verb
+E:	 
+R:	 award
 
 
 Q:	 What awards did Frozen receive?
-E:	 What awards
-R:	 receive
-QT:	 verb_prop
+QT:	 what_which_verb
+E:	 
+R:	 award
 
 
 Q:	 What awards did Inglourious Basterds received?
-Question type could not be found ...
-Not recognised.
+QT:	 what_which_verb
+E:	 
+R:	 award
 
 
 Q:	 What awards did the actor Daniel Craig win?
-Question type could not be found ...
-Not recognised.
+QT:	 what_which_verb
+E:	 
+R:	 award
 
 
 Q:	 What awards did The Godfather receive?
-E:	 What awards
-R:	 receive
-QT:	 verb_prop
+QT:	 what_which_verb
+E:	 
+R:	 award
 
 
 Q:	 What awards did the movie "Joker" receive?
-E:	 Joker " receive
-R:	 do
-QT:	 verb_prop
+QT:	 what_which_verb
+E:	 
+R:	 award
 
 
 Q:	 What awards has George Lucas won?
-E:	 What awards
-R:	 win
-QT:	 verb_prop
+QT:	 what_which_verb
+E:	 
+R:	 award
 
 
 Q:	 What awards has Johnny Depp received?
-Question type could not be found ...
-Not recognised.
+QT:	 what_which_verb
+E:	 
+R:	 award
 
 
 Q:	 What book is the movie Mean Girls based on?
-Question type could not be found ...
-Not recognised.
+QT:	 what_A_is_X_Y
+E:	 
+R:	 Girls based
 
 
 Q:	 What caused Gollum's death?
-E:	 Gollum 's death
-R:	 cause
-QT:	 verb_prop
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Gollums
 
 
 Q:	 What caused the death of Walt Disney?
-Error.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 of Walt
 
 
 Q:	 What character did Tim Allen play in Toy Story?
-E:	 Toy Story
-R:	 Tim Allen play
-QT:	 XofY
+QT:	 what_which_verb
+E:	 
+R:	 character
 
 
 Q:	 What character does Bruce Willis play in Die Hard?
-E:	 What character
-R:	 play
-QT:	 verb_prop
+QT:	 what_which_verb
+E:	 
+R:	 character
 
 
 Q:	 What color is actor Michael Sheen's hair?
-Question type could not be found ...
-Not recognised.
+QT:	 whatXisY
+E:	 
+R:	 color
 
 
 Q:	 What color is the film character Shrek?
-Question type could not be found ...
-Not recognised.
+QT:	 whatXisY
+E:	 
+R:	 color
 
 
 Q:	 What company produced the film series "Harry Potter?"
-E:	 Harry Potter
-R:	 produce
-QT:	 verb_prop
+QT:	 what_which_verb
+E:	 
+R:	 company
 
 
 Q:	 What country is the film Lion King originally from?
-Question type could not be found ...
-Not recognised.
+QT:	 location
+E:	 
+R:	 
 
 
 Q:	 What country was Blood Diamond filmed in?
-Question type could not be found ...
-Not recognised.
+QT:	 location
+E:	 
+R:	 
 
 
 Q:	 What country was Jim Carrey born in?
-Question type could not be found ...
-Not recognised.
+QT:	 location
+E:	 
+R:	 
 
 
 Q:	 What country won the oscar for best foreign film in 2020?
-Error.
+QT:	 location
+E:	 
+R:	 
 
 
 Q:	 What did it cost to make Blade Runner?
-The answer to your question is: 28000000
-E:	 Blade Runner
-R:	 cost
-QT:	 verb_prop
+QT:	 what_is_Xs_Y
+E:	 
+R:	 make Blade
 
 
 Q:	 What Dutch actors starred in Blade Runner?
-Error.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 in Blade
 
 
 Q:	 What else is the actor Arnold Schwarzenegger known for?
-Question type could not be found ...
-Not recognised.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Schwarzenegger known
 
 
 Q:	 What film, directed by Bong Joon-ho, led him to receive the Academy Award for Best Director?
-Error.
+QT:	 what_which_verb
+E:	 
+R:	 film
 
 
 Q:	 What film genre is the Titanic?
-Question type could not be found ...
-Not recognised.
+QT:	 whatXisY
+E:	 
+R:	 film genre
 
 
 Q:	 What films are in the Unbreakable movie series?
-E:	 Unbreakable movie series
-R:	 
-QT:	 XofY
+QT:	 whatXisY
+E:	 
+R:	 films
 
 
 Q:	 What film won Academy Award for Best Picture in 2015?
-Error.
+QT:	 what_which_verb
+E:	 
+R:	 film
 
 
 Q:	 What game is Minecraft: The Movie based on?
-Question type could not be found ...
-Not recognised.
+QT:	 what_A_is_X_Y
+E:	 
+R:	 Movie based
 
 
 Q:	 What game is Minecraft: The Movie based on?
-Question type could not be found ...
-Not recognised.
+QT:	 what_A_is_X_Y
+E:	 
+R:	 Movie based
 
 
 Q:	 What genre are the Harry Potter movies?
-Question type could not be found ...
-Not recognised.
+QT:	 whatXisY
+E:	 
+R:	 genre
 
 
 Q:	 What genre is Argo?
-Question type could not be found ...
-Not recognised.
+QT:	 whatXisY
+E:	 
+R:	 genre
 
 
 Q:	 What genre is Gravity part of?
-Question type could not be found ...
-Not recognised.
+QT:	 whatXisY
+E:	 
+R:	 genre
 
 
 Q:	 What genre is Midsommar?
-Question type could not be found ...
-Not recognised.
+QT:	 whatXisY
+E:	 
+R:	 genre
 
 
 Q:	 What genre is Schindler's List?
-Question type could not be found ...
-Not recognised.
+QT:	 whatXisY
+E:	 
+R:	 genre
 
 
 Q:	 What genre is Skyfall?
-Question type could not be found ...
-Not recognised.
+QT:	 whatXisY
+E:	 
+R:	 genre
 
 
 Q:	 What genre is Star Wars?
-Question type could not be found ...
-Not recognised.
+QT:	 whatXisY
+E:	 
+R:	 genre
 
 
 Q:	 What genre is The Hangover?
-Question type could not be found ...
-Not recognised.
+QT:	 whatXisY
+E:	 
+R:	 genre
 
 
 Q:	 What genre is the movie Saving Private Ryan?
-Question type could not be found ...
-Not recognised.
+QT:	 whatXisY
+E:	 
+R:	 genre
 
 
 Q:	 What genre is the Netflix Death Note movie?
-Question type could not be found ...
-Not recognised.
+QT:	 whatXisY
+E:	 
+R:	 genre
 
 
 Q:	 What genres does the film The Shop around the Corner belong to?
-Error.
+QT:	 what_which_verb
+E:	 
+R:	 genre
 
 
 Q:	 What genre(s) is the film Free Fire?
-Question type could not be found ...
-Not recognised.
+QT:	 whatXisY
+E:	 
+R:	 genre(s)
 
 
 Q:	 What genres is The Hitman's Bodyguard?
-Question type could not be found ...
-Not recognised.
+QT:	 whatXisY
+E:	 
+R:	 genres
 
 
 Q:	 What genres is the movie Grease?
-Question type could not be found ...
-Not recognised.
+QT:	 whatXisY
+E:	 
+R:	 genres
 
 
 Q:	 What happens when a player commits a foul?
-E:	 a foul
-R:	 happen
-QT:	 verb_prop
+QT:	 time
+E:	 
+R:	 
 
 
 Q:	 What institutions of education did Steve Carell go to?
-E:	 Steve Carell go to
-R:	 
-QT:	 XofY
+QT:	 what_which_verb
+E:	 
+R:	 institution
 
 
 Q:	 What is Adam Sandler's net worth?
-Question type could not be found ...
-Not recognised.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 s net
 
 
 Q:	 What is an example of a film?
-E:	 a film
-R:	 example
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 of a
 
 
 Q:	 What is/are the genre/genres of the movie Hacksaw Ridge?
+QT:	 what_is_Xs_Y
 E:	 
-R:	 genre / genre
-QT:	 XofY
+R:	 movie Hacksaw
 
 
 Q:	 What is/are the main subject/subjects of the movie Mr. Nobody?
+QT:	 what_is_Xs_Y
 E:	 
-R:	 main subject / subject
-QT:	 XofY
+R:	 movie Mr.
 
 
 Q:	 What is/are the publication date(s) of The Girl with the Dragon Tattoo?
-E:	 Dragon Tattoo
-R:	 publication date(s ) the
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 the Dragon
 
 
 Q:	 What is Batman's birth name?
-Question type could not be found ...
-Not recognised.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 s birth
 
 
 Q:	 What is Christopher Nolan an instance of?
-Question type could not be found ...
-Not recognised.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 an instance
 
 
 Q:	 What is Christopher Nolan's middle name?
-Question type could not be found ...
-Not recognised.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 s middle
 
 
 Q:	 What is Dwayne Johnson's nickname?
-Question type could not be found ...
-Not recognised.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Johnsons
 
 
 Q:	 What is Four Lions mainly about?
-Question type could not be found ...
-Not recognised.
+QT:	 about
+E:	 
+R:	 main subject
 
 
 Q:	 What is Francis Ford Coppola most succesful movie?
-Question type could not be found ...
-Not recognised.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 most succesful
 
 
 Q:	 What is Gone With The Wind about?
-Error.
+QT:	 about
+E:	 
+R:	 main subject
 
 
 Q:	 What is Harry Potter about?
+QT:	 about
+E:	 
+R:	 main subject
+
+
 Question type could not be found ...
-Not recognised.
-
-
+[ERROR] Made possible by Djim
 Q:	  What is IMDB?
-Question type could not be found ...
-Not recognised.
+QT:	 None
+E:	 
+R:	 
 
 
 Q:	 What is Inception about?
-Question type could not be found ...
-Not recognised.
+QT:	 about
+E:	 
+R:	 main subject
 
 
 Q:	 What is Italy's national championship called?
-Question type could not be found ...
-Not recognised.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 national championship
 
 
 Q:	 What is Leonardo Di caprio his Age?
-Question type could not be found ...
-Not recognised.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 caprio his
 
 
 Q:	 What is Leonardo DiCaprio's birth name?
-Question type could not be found ...
-Not recognised.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 s birth
 
 
 Q:	 What is Minami Takayama's blood type?
-Question type could not be found ...
-Not recognised.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 s blood
 
 
 Q:	 What is Minami Takayama's occupation?
-Question type could not be found ...
-Not recognised.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Takayamas
 
 
 Q:	 What is most notable work from the American composer John Williams?
-E:	 John Williams
-R:	 most notable work
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 composer John
 
 
 Q:	 What is Nicolas Cage's birth name?
-Question type could not be found ...
-Not recognised.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 s birth
 
 
 Q:	 What is Omar Sy's country of citizenship?
+QT:	 location
 E:	 
-R:	 Omar Sy s country
-QT:	 XofY
+R:	 
 
 
 Q:	 What is Pulp Fiction?
-Question type could not be found ...
-Not recognised.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 is Pulp
 
 
 Q:	 What is Quentin Tarantino's date of birth?
+QT:	 what_is_Xs_Y
 E:	 
-R:	 Quentin Tarantino s date
-QT:	 XofY
+R:	 date of
 
 
 Q:	 What is Quentin Tarantino's religion?
-Question type could not be found ...
-Not recognised.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Tarantinos
 
 
 Q:	 What is Schindler's List about?
-Question type could not be found ...
-Not recognised.
+QT:	 about
+E:	 
+R:	 main subject
 
 
 Q:	 What is spider-man's name?
-Question type could not be found ...
-Not recognised.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 mans
 
 
 Q:	 What is Spiderman's name?
-Question type could not be found ...
-Not recognised.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Spidermans
 
 
 Q:	 What is the 2009 movie 'Up' about?
-Question type could not be found ...
-Not recognised.
+QT:	 about
+E:	 
+R:	 main subject
 
 
 Q:	 What is the actor Jack Nicholson's date of birth?
+QT:	 what_is_Xs_Y
 E:	 
-R:	 actor Jack Nicholson s date
-QT:	 XofY
+R:	 date of
 
 
 Q:	 What is the birth city of Jim Carrey?
-E:	 Jim Carrey
-R:	 birth city
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 of Jim
 
 
 Q:	 What is the box office of 8 Mile?
-E:	 Mile
-R:	 box office
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 of 8
 
 
 Q:	 What is the box office of Interstellar?
-E:	 Interstellar
-R:	 box office
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 office of
 
 
 Q:	 What is the box office of the movie Harry Potter and the Goblet of Fire?
-E:	 Harry Potter and the Goblet of Fire
-R:	 box office the movie
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Goblet of
 
 
 Q:	 What is the catchphrase of James Bond?
-E:	 James Bond
-R:	 catchphrase
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 of James
 
 
 Q:	 What is the catchphrase of the fictional character James Bond?
-The answer to your question is: The name is Bond, James Bond
-E:	 James Bond
-R:	 catchphrase
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 character James
 
 
 Q:	 What is the cause of death of Paul Walker?
-The answer to your question is: traffic collision
-E:	 Paul Walker
-R:	 cause of death
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 of Paul
 
 
 Q:	 What is the combined duration of all films in the Underworld series?
+QT:	 duration
 E:	 Underworld series
 R:	 duration
-QT:	 duration
 
 
 Q:	 What is the country of citizenship of Quentin Tarantino?
-The answer to your question is: United States of America
-E:	 Quentin Tarantino
-R:	 country of citizenship
-QT:	 XofY
+QT:	 location
+E:	 
+R:	 
 
 
 Q:	 What is the country of origin of "10 Things I Hate About You"?
-E:	 Things I Hate About You
-R:	 country of origin
-QT:	 XofY
+QT:	 location
+E:	 
+R:	 
 
 
 Q:	 What is the country of origin of Black Mirror?
-E:	 Black Mirror
-R:	 country of origin
-QT:	 XofY
+QT:	 location
+E:	 
+R:	 
 
 
 Q:	 What is the country of origin of mr. Bean?
-E:	 Bean
-R:	 country of origin
-QT:	 XofY
+QT:	 location
+E:	 
+R:	 
 
 
 Q:	 What is the country of origin of the animated series 'Death Note'?
-The answer to your question is: Japan
-The answer to your question is: United States of America
-The answer to your question is: Japan
-E:	 Death Note
-R:	 country of origin
-QT:	 XofY
+QT:	 location
+E:	 
+R:	 
 
 
 Q:	 What is the country of origin of the drama film 'Mommy'?
-E:	 Mommy
-R:	 country of origin
-QT:	 XofY
+QT:	 location
+E:	 
+R:	 
 
 
 Q:	 What is the date of birth of the actress Natalie Portman?
-E:	 Natalie Portman
-R:	 birth date
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 actress Natalie
 
 
 Q:	 What is the director Gaspar Noé employed at?
-Question type could not be found ...
-Not recognised.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Noé employed
 
 
 Q:	 What is the dragon called in the Hobbit movies?
-E:	 Hobbit movies
-R:	 dragon call
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 the Hobbit
 
 
 Q:	 What is the duration of 2001: A Space Odyssey?
+QT:	 duration
 E:	 A Space Odyssey
 R:	 duration
-QT:	 duration
 
 
 Q:	 What is the duration of I Am Legend?
+QT:	 duration
 E:	 Legend
 R:	 duration
-QT:	 duration
 
 
 Q:	 What is the duration of John Wick?
+QT:	 duration
 E:	 John Wick
 R:	 duration
-QT:	 duration
 
 
 Q:	 What is the duration of "Star Wars Episode IV: A New Hope"?
+QT:	 duration
 E:	 Star Wars Episode IV: A New Hope
 R:	 duration
-QT:	 duration
 
 
 Q:	 What is the duration of The Fast and the Furious?
+QT:	 duration
 E:	 The Fast and the Furious
 R:	 duration
-QT:	 duration
 
 
 Q:	 What is the duration of The Fault in Our Stars?
+QT:	 duration
 E:	 The Fault in Our Stars
 R:	 duration
-QT:	 duration
 
 
 Q:	 What is the duration of The Girl with the Dragon Tattoo?
+QT:	 duration
 E:	 The Girl with the Dragon Tattoo
 R:	 duration
-QT:	 duration
 
 
 Q:	 What is the duration of The Grand Budapest Hotel?
+QT:	 duration
 E:	 The Grand Budapest Hotel
 R:	 duration
-QT:	 duration
 
 
 Q:	  What is the duration of the movie "Avatar"(2009)?
+QT:	 duration
 E:	 What is the duration of the movie Avatar(2009)
 R:	 duration
-QT:	 duration
 
 
 Q:	 What is the duration of the movie "Tenet"?
+QT:	 duration
 E:	 Tenet
 R:	 duration
-QT:	 duration
 
 
 Q:	 What is the Dutch age rating for the movie Bohemian Rhapsody?
-E:	 Bohemian Rhapsody
-R:	 dutch age rating
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 movie Bohemian
 
 
 Q:	 What is the english name for the fictional realm from the Marvel cinematic universe named Asgard in dutch?
-E:	 Marvel cinematic universe named Asgard in dutch
-R:	 english name for the fictional realm from the
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Asgard in
 
 
 Q:	 What is the famous phrase from the movie Forrest Gump?
-E:	 Forrest Gump
-R:	 famous phrase
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 movie Forrest
 
 
 Q:	 What is the film Dr. Strangelove also known as in English?
-E:	 English
-R:	 film
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 as in
 
 
 Q:	 What is the filming location of Narcos?
-E:	 Narcos
-R:	 film location
-QT:	 XofY
+QT:	 location
+E:	 
+R:	 
 
 
 Q:	 What is the filming location of the movie "Pulp Fiction"?
-The answer to your question is: Los Angeles
-E:	 Pulp Fiction
-R:	 filming location
-QT:	 XofY
+QT:	 location
+E:	 
+R:	 
 
 
 Q:	  What is the first line from "Forest Gump"?
-The answer to your question is: Hello. My name's Forrest. Forrest Gump. Do you want a chocolate? I could eat about a million and a half of these. My mama always said life was like a box of chocolates. You never know what you're gonna get. Those must be comfortable shoes. I bet you could walk all day in shoes like that and not feel a thing. I wish I had shoes like that.
+QT:	 XofY
 E:	 Forest Gump
 R:	 first line
-QT:	 XofY
 
 
 Q:	 What is the first line of Citizen Kane?
-The answer to your question is: Rosebud...
-E:	 Citizen Kane
-R:	 first line
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 of Citizen
 
 
 Q:	 What is the first movie in the Harry Potter series?
-E:	 Harry Potter series
-R:	 first movie
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Harry Potter
 
 
 Q:	 What is the full name of Johnny Depp?
-The answer to your question is: John Christopher Depp
-E:	 Johnny Depp
-R:	 full name
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 of Johnny
 
 
 Q:	 What is the full name of legendary actor Nicolas Cage?
-The answer to your question is: Nicolas Kim Coppola
-E:	 Nicolas Cage
-R:	 full name
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 actor Nicolas
 
 
 Q:	 What is the gender of Elon Musk?
-The answer to your question is: male
-E:	 Elon Musk
-R:	 gender
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 of Elon
 
 
 Q:	 What is the genre of Dunkirk?
-E:	 Dunkirk
-R:	 genre
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 genre of
 
 
 Q:	 What is the genre of Enter the Void?
-E:	 Void
-R:	 be
-QT:	 verb_prop
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Enter the
 
 
 Q:	 What is the genre of Parasite?
-E:	 Parasite
-R:	 genre
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 genre of
 
 
 Q:	 What is the genre of Pirates of the Caribbean?
-E:	 Pirates of the Caribbean
-R:	 genre pirate of the
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 of the
 
 
 Q:	 What is the genre of the movie Interstellar?
-E:	 Interstellar
-R:	 genre
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 the movie
 
 
 Q:	 What is the genre of the movie "Zootopia"?
-E:	 Zootopia
-R:	 genre
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Zootopia
 
 
 Q:	 What is the German label for the 1968 Sergio Leone film Once Upon a Time in the West?
+QT:	 duration
 E:	 Sergio Leone film Once Upon a Time in the West
-R:	 german label for the 1968
-QT:	 XofY
+R:	 duration
 
 
 Q:	 What is the highest grossing movie of all time?
-E:	 all time
-R:	 high grossing movie
-QT:	 XofY
+QT:	 duration
+E:	 the highest grossing movie of all time
+R:	 duration
 
 
 Q:	 What is the highest grossing movie that Michael Keaton played in?
+QT:	 what_is_Xs_Y
 E:	 
-R:	 high grossing movie that Michael Keaton play
-QT:	 XofY
+R:	 Keaton played
 
 
 Q:	 What is the highest-grossing R-rated movie of all time?
-E:	 
-R:	 highest - gross r - rate movie
-QT:	 XofY
+QT:	 duration
+E:	 the highest-grossing R-rated movie of all time
+R:	 duration
 
 
 Q:	 What is the IMDb ID of Coherence?
-E:	 Coherence
-R:	 imdb ID
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 ID of
 
 
 Q:	 What is the Kijkwijzer rating of IT?
-The answer to your question is: 16
-E:	 IT
-R:	 Kijkwijzer rating
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 rating of
 
 
 Q:	 What is the Kijkwijzer rating of The Hitman's Bodygard?
-E:	 The Hitmans Bodygard
-R:	 Kijkwijzer rating
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Hitmans
 
 
 Q:	 What is the last name of the character Rick in Rick and Morty?
-E:	 Rick in Rick and Morty
-R:	 last name the character
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Rick and
 
 
 Q:	 What is the latest Avengers movie?
-Question type could not be found ...
-Not recognised.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 latest Avengers
 
 
 Q:	 What is the Lego Movie based on?
-Question type could not be found ...
-Not recognised.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Movie based
 
 
 Q:	 What is the longest duration of the movie Just Mercy?
+QT:	 duration
 E:	 Just Mercy
 R:	 duration
-QT:	 duration
 
 
 Q:	 What is the Lord of the ring movie called in German?
-E:	 German
-R:	 the
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 called in
 
 
 Q:	 What is the main subject of The Big Short?
-The answer to your question is: financial crisis of 2007–08
-E:	 The Big Short
-R:	 main subject
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 The Big
 
 
 Q:	 What is the main subject of the film I spit on your grave?
-Error.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 on your
 
 
 Q:	 What is the main subject of "The Godfather"?
-The answer to your question is: organized crime
-E:	 The Godfather
-R:	 main subject
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 The Godfather
 
 
 Q:	 What is the main subject of the movie Interstellar?
-The answer to your question is: interstellar travel
-E:	 Interstellar
-R:	 main subject
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 the movie
 
 
 Q:	 What is the main subject of the movie Interstellar?
-The answer to your question is: interstellar travel
-E:	 Interstellar
-R:	 main subject
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 the movie
 
 
 Q:	 What is the main subject of the movie I, Robot?
-The answer to your question is: artificial intelligence
-E:	 I, Robot
-R:	 main subject
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 I,
 
 
 Q:	 What is the main subject of the movie "Paranormal Activity"?
-E:	 Paranormal Activity
-R:	 main subject
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Paranormal Activity
 
 
 Q:	 What is the motto of FIFA?
-E:	 FIFA
-R:	 motto
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 motto of
 
 
 Q:	 What is the movie The Avengers about?
-Question type could not be found ...
-Not recognised.
+QT:	 about
+E:	 
+R:	 main subject
 
 
 Q:	 What is the name of Kevin Hart's first spouse?
-E:	 Kevin Harts first spouse
-R:	 name
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 s first
 
 
 Q:	 What is the name of Simba's father in the movie The Lion King?
-E:	 Simbas father in the movie The Lion King
-R:	 name
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 The Lion
 
 
 Q:	  What is the name of Spider-Man?
+QT:	 XofY
 E:	 Spider-Man
 R:	 name
-QT:	 XofY
 
 
 Q:	 What is the name of the actor playing in Joh Wick?
-E:	 Joh Wick
-R:	 name the actor play in
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 in Joh
 
 
 Q:	 What is the name of the actor playing Walter White in the series Breaking Bad?
-E:	 Walter White in the series Breaking Bad
-R:	 name the actor play
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 series Breaking
 
 
 Q:	 What is the name of the actor that played Alan Turing in the movie Imitation Game?
-E:	 Alan Turing in the movie Imitation Game
-R:	 name the actor that play
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 movie Imitation
 
 
 Q:	 What is the name of the actor who's father was a hitman?
-E:	 the actor whos father was a hitman
-R:	 
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 was a
 
 
 Q:	  What is the name of the actress playing "Rachel Green" in "Friends"?
+QT:	 XofY
 E:	 Rachel Green in Friends
 R:	 name the actress play 
-QT:	 XofY
 
 
 Q:	 What is the name of the Alfonso Cuaron movie, released in 2018?
-E:	 Alfonso Cuaron movie, released in 2018
-R:	 name the
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 released in
 
 
 Q:	 What is the name of the character Kate Winslet playded in the Titanic?
-E:	 Kate Winslet playded in the Titanic
-R:	 name the character
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 in the
 
 
 Q:	 What is the name of the character played by Al Pacino in The Godfather?
-E:	 Al Pacino in The Godfather
-R:	 name the character play by
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 in The
 
 
 Q:	 What is the name of the character played by Elijah Wood in the Lord of the Rings movies?
-E:	 Elijah Wood in the Lord of the Rings movies
-R:	 name the character play by
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 the Rings
 
 
 Q:	 What is the name of the dad of Steven Spielberg?
-E:	 Steven Spielberg
-R:	 name the dad of
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 of Steven
 
 
 Q:	 What is the name of the first film of the Star Trek film series?
-E:	 Star Trek film series
-R:	 name the first film of the
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Trek film
 
 
 Q:	 What is the name of the hobbit played by Elijah Wood in the Lord of the Rings movies?
-E:	 Elijah Wood in the Lord of the Rings movies
-R:	 name the hobbit play by
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 the Rings
 
 
 Q:	 What is the name of the main character from Mad Max?
-E:	 Mad Max
-R:	 name the main character from
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 from Mad
 
 
 Q:	 What is the name of the main character of Walt Disney's first film?
-E:	 Walt Disneys first film
-R:	 name the main character of
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 s first
 
 
 Q:	 What is the name of the mockumentary movie, starring the Lonely Island?
-E:	 Lonely Island
-R:	 be
-QT:	 verb_prop
+QT:	 what_is_Xs_Y
+E:	 
+R:	 the Lonely
 
 
 Q:	 What is the name of the second Wonder Woman movie?
-E:	 Wonder Woman movie
-R:	 name
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Wonder Woman
 
 
 Q:	 What is the name of the sequel to Finding Nemo?
-The answer to your question is: 2003-05-30T00:00:00Z
-E:	 Nemo
-R:	 be
-QT:	 verb_prop
+QT:	 what_is_Xs_Y
+E:	 
+R:	 to Finding
 
 
 Q:	 What is the name of the song of the series "Friends"?
-Error.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Friends
 
 
 Q:	 What is the name of the story that the movie Arrival is based on?
+QT:	 passive
 E:	 that
 R:	 
-QT:	 passive
 
 
 Q:	 What is the name of the theme music of Peaky Blinders?
-E:	 Peaky Blinders
-R:	 name the theme music of
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 of Peaky
 
 
 Q:	 What is the name of the third movie of the Lord of the Rings trilogy?
-E:	 Lord of the Rings trilogy
-R:	 name the third movie of the
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 the Rings
 
 
 Q:	 What is the name of the voice actor that plays Mufasa in The Lion King?
-E:	 Mufasa in The Lion King
-R:	 name the voice actor that play
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 The Lion
 
 
 Q:	 What is the name of Thor's hammer in the Avengers?
-E:	 Thors hammer in the Avengers
-R:	 name
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 in the
 
 
 Q:	 What is the narrative location of Family Guy?
-E:	 Family Guy
-R:	 narrative location
-QT:	 XofY
+QT:	 location
+E:	 
+R:	 
 
 
 Q:	 What is the narrative location of The Office?
-The answer to your question is: Scranton
-E:	 The Office
-R:	 narrative location
-QT:	 XofY
+QT:	 location
+E:	 
+R:	 
 
 
 Q:	 What is the native label of Smeagol?
-E:	 Smeagol
-R:	 native label
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 label of
 
 
 Q:	 What is the native language of Gollum?
-The answer to your question is: Westron
-E:	 Gollum
-R:	 native language
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 language of
 
 
 Q:	 What is the Netflix ID of the film Shrek?
-The answer to your question is: 60020686
-E:	 Shrek
-R:	 Netflix ID
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 the film
 
 
 Q:	 What is the net worth of George Clooney
-The answer to your question is: 500000000
-E:	 George Clooney
-R:	 net worth
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 worth of
 
 
 Q:	 What is the official name of the Oscars?
-E:	 Oscars
-R:	 official name
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 of the
 
 
 Q:	 What is the oldest Disney movie?
-Question type could not be found ...
-Not recognised.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 oldest Disney
 
 
 Q:	 What is the original broadcaster of Breaking Bad?
-E:	 Breaking Bad
-R:	 original broadcaster
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 of Breaking
 
 
 Q:	 What is the original Japanese name of 'Spirited Away'?
-E:	 Spirited Away
-R:	 original japanese name
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Spirited Away
 
 
 Q:	 What is the original language of Fight Club?
-The answer to your question is: English
-E:	 Fight Club
-R:	 original language
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 of Fight
 
 
 Q:	 What is the original language of Harry Potter and the Chamber of Secrets?
-The answer to your question is: English
-E:	 Harry Potter and the Chamber of Secrets
-R:	 original language
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Chamber of
 
 
 Q:	 What is the original language of Memories of Murder?
-The answer to your question is: Korean
-E:	 Memories of Murder
-R:	 original language
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Memories of
 
 
 Q:	 What is the original language of movie Anna Karenina?
-E:	 Anna Karenina
-R:	 original language
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 movie Anna
 
 
 Q:	 What is the original language of Murder on the Orient Express?
-E:	 Murder on the Orient Express
-R:	 original language murder on the
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 the Orient
 
 
 Q:	 What is the original language of the movie Parasite?
-The answer to your question is: Korean
-E:	 Parasite
-R:	 original language
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 the movie
 
 
 Q:	 What is the prequel of Mission: Impossible - Rogue Nation?
-E:	 Mission: Impossible - Rogue Nation
-R:	 prequel
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 - Rogue
 
 
 Q:	 What is the production company of Shrek?
-E:	 Shrek
-R:	 production company
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 company of
 
 
 Q:	 What is the production company of the movie "Black Widow"?
-E:	 Black Widow
-R:	 production company
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Black Widow
 
 
 Q:	 What is the protagonist of the movie Dumbo?
-E:	 Dumbo
-R:	 protagonist
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 the movie
 
 
 Q:	 What is the publication date of Harry Potter and the Philosopher's Stone?
-E:	 Harry Potter and the Philosophers Stone
-R:	 publication date
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Philosophers
 
 
 Q:	 What is the publication date of the film Fifty Shades of Grey?
-E:	 Fifty Shades of Grey
-R:	 publication date the film fifty
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Shades of
 
 
 Q:	 What is the publication date of The Road to El Dorado?
-E:	 The Road to El Dorado
-R:	 publication date the
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 to El
 
 
 Q:	 What is the release year of 'Die Hard'?
-Question type could not be found ...
-Not recognised.
+QT:	 time
+E:	 
+R:	 
 
 
 Q:	 What is the religion of Sam Esmail?
-The answer to your question is: Islam
-E:	 Sam Esmail
-R:	 religion
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 of Sam
 
 
 Q:	 What is the runtime of The Godfather?
-The answer to your question is: 175
-E:	 The Godfather
-R:	 runtime
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 of The
 
 
 Q:	 What is the second name of Samuel L. Jackson?
-E:	 Samuel L. Jackson
-R:	 second name
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Samuel L.
 
 
 Q:	 What is the sequel of Wreck-It Ralph?
-E:	 Wreck-It Ralph
-R:	 sequel
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 -It
 
 
 Q:	 What is the sequel to Captain America : Winter Soldier?
-E:	 Captain America : Winter Soldier
-R:	 sequel
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 : Winter
 
 
 Q:	 What is the sequel to Gremlins?
-E:	 Gremlins
-R:	 sequel
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 sequel to
 
 
 Q:	 What is the sequel to Monsters, Inc.?
-E:	 Monsters, Inc.
-R:	 sequel
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Monsters,
 
 
 Q:	 What is the sequel to the movie Rise of the Planet of the Apes?
-E:	 Rise of the Planet of the Apes
-R:	 sequel to the movie rise the
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 of the
 
 
 Q:	 What is the series Game of Trones based on?
-E:	 Trones based on
-R:	 series
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Trones based
 
 
 Q:	 What is the series ordinal of Detective Conan: The Private Eyes' Requiem?
-E:	 Detective Conan: The Private Eyes Requiem
-R:	 series ordinal
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Eyes
 
 
 Q:	 What is the site of the 1997 Titanic movie?
-Error.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 1997 Titanic
 
 
 Q:	 What is the Social Network based on?
-Question type could not be found ...
-Not recognised.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Network based
 
 
 Q:	 What is the theme for Pulp Fiction?
-The answer to your question is: organized crime
-E:	 Pulp Fiction
-R:	 theme
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 for Pulp
 
 
 Q:	 What is the title of Pulp Fiction?
-The answer to your question is: Pulp Fiction
-E:	 Pulp Fiction
-R:	 title
-QT:	 XofY
+QT:	 what_is_Xs_Y
+E:	 
+R:	 of Pulp
 
 
 Q:	 What is the title of Steven Spielberg's film about the holocaust?
-Error.
+QT:	 about
+E:	 
+R:	 main subject
 
 
 Q:	 What is the title of the movie produced by Christopher Nolan, published in 2014?
-Error.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 published in
 
 
 Q:	 What is the title of the theme music of the TV-show Friends?
-Error.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 -show
 
 
 Q:	 What is the total number of cast members of Iron Man?
-Error.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 of Iron
 
 
 Q:	 What is the twitter username of the Japanese TV series, Doraemon?
-Error.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 series,
 
 
 Q:	 What is the type of Hotel Transylvania?
-Error.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 of Hotel
 
 
 Q:	 What is Tom Hanks Net worth?
-Question type could not be found ...
-Not recognised.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Hanks Net
 
 
 Q:	 What is Total Recall based on?
-Question type could not be found ...
-Not recognised.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Recall based
 
 
 Q:	 What is Will Smith's real name?
-Question type could not be found ...
-Not recognised.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 s real
 
 
 Q:	 What jewelry is Smeagol owner of?
-Question type could not be found ...
-Not recognised.
+QT:	 whatXisY
+E:	 
+R:	 jewelry
 
 
 Q:	 What kind of film is Iron Man?
-Error.
+QT:	 whatXisY
+E:	 
+R:	 kind of film
 
 
 Q:	 What kind of movie is Despicable Me?
-Error.
+QT:	 whatXisY
+E:	 
+R:	 kind of movie
 
 
 Q:	 What kind of movie is Harry Potter?
-Error.
+QT:	 whatXisY
+E:	 
+R:	 kind of movie
 
 
 Q:	 What Korean movie won the Academy Award for Best Picture in 2020?
-Error.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Picture in
 
 
 Q:	 What language is spoken in Parasite?
-Error.
+QT:	 passive
+E:	 Parasite
+R:	 spoken
 
 
 Q:	 What language is spoken in Parasite?
-Error.
+QT:	 passive
+E:	 Parasite
+R:	 spoken
 
 
 Q:	 What languages are spoken in Game of Trones?
-Error.
+QT:	 passive
+E:	 Trones
+R:	 spoken
 
 
 Q:	 What languages does Christoph Waltz speak?
-Error.
+QT:	 what_which_verb
+E:	 
+R:	 language
 
 
 Q:	 What language was the movie "Climax" produced in?
-Question type could not be found ...
-Not recognised.
+QT:	 what_A_is_X_Y
+E:	 
+R:	  produced
 
 
 Q:	 What language was the movie "Climax" produced in?
-Question type could not be found ...
-Not recognised.
+QT:	 what_A_is_X_Y
+E:	 
+R:	  produced
 
 
 Q:	 What locations is the film Colossal set in?
-Question type could not be found ...
-Not recognised.
+QT:	 location
+E:	 
+R:	 
 
 
 Q:	 What location were the Golden Globe Awards held at in 2020?
-Error.
+QT:	 location
+E:	 
+R:	 
 
 
 Q:	 What movie did Leonardo DiCaprio receive an Academy Award for?
-Error.
+QT:	 what_which_verb
+E:	 
+R:	 movie
 
 
 Q:	 What movie did Leonardo DiCaprio win his first Oscar for?
-Error.
+QT:	 what_which_verb
+E:	 
+R:	 movie
 
 
 Q:	 What movie from Andrei Tarkovsky came out in 1972?
-Error.
+QT:	 what_which_verb
+E:	 
+R:	 movie
 
 
 Q:	 What movie gave Tom Hanks his first Academy Award nomination?
-Error.
+QT:	 what_which_verb
+E:	 
+R:	 movie
 
 
 Q:	 What movie genre is How to train your Dragon?
-Error.
+QT:	 what_A_is_X_Y
+E:	 
+R:	 train your
 
 
 Q:	 What movie genre is "Persona"?
-Question type could not be found ...
-Not recognised.
+QT:	 whatXisY
+E:	 
+R:	 movie genre
 
 
 Q:	 What movie genre is The Impossible?
-Question type could not be found ...
-Not recognised.
+QT:	 whatXisY
+E:	 
+R:	 movie genre
 
 
 Q:	 What movie genre is the movie 'Pineapple express'?
-Question type could not be found ...
-Not recognised.
+QT:	 whatXisY
+E:	 
+R:	 movie genre
 
 
 Q:	 What movie inspired The Matrix?
-Error.
+QT:	 what_which_verb
+E:	 
+R:	 movie
 
 
 Q:	 What movie(s) did M. Night Shyamalan direct before the year 2000?
-Error.
+QT:	 time
+E:	 
+R:	 
 
 
 Q:	 What movie(s) feature both Jack Nicholson and Meryl Streep?
-Error.
+QT:	 what_which_verb
+E:	 
+R:	 movie(s
 
 
 Q:	 What movies has Ben Affleck directed?
-Error.
+QT:	 what_which_verb
+E:	 
+R:	 movie
 
 
 Q:	 What movies have Lucasfilm made?
-Error.
+QT:	 what_which_verb
+E:	 
+R:	 movie
 
 
 Q:	 What movie was Interstellar influenced by?
-Question type could not be found ...
-Not recognised.
+QT:	 what_A_is_X_Y
+E:	 
+R:	 Interstellar influenced
 
 
 Q:	 What movie won best picture in the 2020 Academy Awards?
-Error.
+QT:	 what_which_verb
+E:	 
+R:	 movie
 
 
 Q:	 What MPAA film rating did The Matrix receive?
-Error.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 The Matrix
 
 
 Q:	 What nationality does Scarlett Johansson have?
-Error.
+QT:	 what_which_verb
+E:	 
+R:	 nationality
 
 
 Q:	 What organizations is the film "Trading Places" distributed by?
-Question type could not be found ...
-Not recognised.
+QT:	 what_A_is_X_Y
+E:	 
+R:	  distributed
 
 
 Q:	 What production company created the animated movie "Finding Nemo"?
-Error.
+QT:	 what_which_verb
+E:	 
+R:	 production
 
 
 Q:	 What production company made Despicable Me?
-Error.
+QT:	 what_which_verb
+E:	 
+R:	 production
 
 
 Q:	 What species is Jean-Luc Picard?
-Question type could not be found ...
-Not recognised.
+QT:	 whatXisY
+E:	 
+R:	 species
 
 
 Q:	 What sport is portrayed in the movie "Rush"?
-Error.
+QT:	 passive
+E:	 Rush "
+R:	 portrayed
 
 
 Q:	 What sport is Space Jam about?
-Question type could not be found ...
-Not recognised.
+QT:	 whatXisY
+E:	 
+R:	 sport
 
 
 Q:	 What's the duration of Elysium?
-Error.
+QT:	 duration
+E:	 Elysium
+R:	 duration
 
 
 Q:	 What's the duration of Mad Max: Fury Road?
-Error.
+QT:	 duration
+E:	 Mad Max: Fury Road
+R:	 duration
 
 
 Q:	 What's the German name of Groundhog Day?
-Error.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 of Groundhog
 
 
 Q:	 What's the IMDb ID of the series 24?
-Error.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 the series
 
 
 Q:	 What's the name of Batman?
-Error.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 name of
 
 
 Q:	 What's the name of the character played by Samuel L. Jackson in The Avengers Saga?
-Error.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 The Avengers
 
 
 Q:	 What's the name of the character played by Samuel L. Jackson in The Avengers Saga?
-Error.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 The Avengers
 
 
 Q:	 What the movie "Interstellar" is influenced by?
-Error.
+QT:	 passive
+E:	 What
+R:	 influenced
 
 
 Q:	 What time periods is City of God set in?
-Error.
+QT:	 duration
+E:	 City of God set in
+R:	 duration
 
 
 Q:	 What type of movie is Korengal?
-Error.
+QT:	 whatXisY
+E:	 
+R:	 type of movie
 
 
 Q:	 What university did Adam Sandler attend?
-Error.
+QT:	 what_which_verb
+E:	 
+R:	 university
 
 
 Q:	 What was George Cloony's first wife's name?
-Question type could not be found ...
-Not recognised.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 wifes
 
 
 Q:	 What was Martin Scorsese's first film?
-Question type could not be found ...
-Not recognised.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 s first
 
 
 Q:	 What was the box office amount for the movie Psycho
-Error.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 for the
 
 
 Q:	 What was the box office for Whiplash
-Error.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 box office
 
 
 Q:	 What was the box office of Avatar?
-Error.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 office of
 
 
 Q:	 What was the box office of Avatar in the United States?
-Error.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 the United
 
 
 Q:	 What was the budget for Avatar?
-Error.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 budget for
 
 
 Q:	 What was the budget for Avengers: Endgame?
-Error.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Avengers:
 
 
 Q:	 What was the budget of the 2009 movie, Avatar?
-Error.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 movie,
 
 
 Q:	 What was the cause of death of Alan Rickman?
-Error.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 of Alan
 
 
 Q:	 What was the duration of Bladerunner 2049?
-Error.
+QT:	 duration
+E:	 Bladerunner 2049
+R:	 duration
 
 
 Q:	 What was the filming location of the film Metropolis?
-Error.
+QT:	 location
+E:	 
+R:	 
 
 
 Q:	 What was the filming location of the Harry Potter film series?
-Error.
+QT:	 location
+E:	 
+R:	 
 
 
 Q:	 What was the first movie in the world?
-Error.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 in the
 
 
 Q:	 What was the first movie that won the most awards?
-Error.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 the most
 
 
 Q:	 What was the first movie Theater?
-Question type could not be found ...
-Not recognised.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 first movie
 
 
 Q:	 What was the first movie to win an Oscar?
-Error.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 win an
 
 
 Q:	 What was the first movie with sound?
-Error.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 movie with
 
 
 Q:	 What was the first publication date of the movie Shrek?
-Error.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 the movie
 
 
 Q:	 What was the life expectancy in The Netherlands in 1999?
-Error.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Netherlands in
 
 
 Q:	 What was the movie Shawshank Redemption based on?
-Question type could not be found ...
-Not recognised.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Redemption based
 
 
 Q:	 What was the name of Jean-Luc Picard as given by the Borg?
-Error.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 by the
 
 
 Q:	 What was the name of the beer consumed by character in the Harry Potter universe?
-Error.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Harry Potter
 
 
 Q:	 What was the original broadcaster of the TV-show Friends?
-Error.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 -show
 
 
 Q:	 What was the original language of Fack ju Göhte?
-Error.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Fack ju
 
 
 Q:	 What was the publication date of the first Jurassic Park movie?
-Error.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Jurassic Park
 
 
 Q:	 What was the worldwide box office result of James Cameron's Titanic?
-Error.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Camerons
 
 
 Q:	 What was Wes Anderson's first movie?
-Question type could not be found ...
-Not recognised.
+QT:	 what_is_Xs_Y
+E:	 
+R:	 s first
 
 
 Q:	 What were the filming locations of The Matrix?
-Error.
+QT:	 location
+E:	 
+R:	 
 
 
 Q:	 What year did Grease come out?
-Question type could not be found ...
-Not recognised.
+QT:	 time
+E:	 
+R:	 
 
 
 Q:	 What year did Interstellar come out?
-Question type could not be found ...
-Not recognised.
+QT:	 time
+E:	 
+R:	 
 
 
 Q:	 What year did the film Finding Nemo come out?
-Error.
+QT:	 time
+E:	 
+R:	 
 
 
 Q:	 What year did the Godfather come out?
-Question type could not be found ...
-Not recognised.
+QT:	 time
+E:	 
+R:	 
 
 
 Q:	 What year did Will Smith start acting?
-Question type could not be found ...
-Not recognised.
+QT:	 time
+E:	 
+R:	 
 
 
 Q:	 What year is Hacksaw Ridge set in?
-Question type could not be found ...
-Not recognised.
+QT:	 time
+E:	 
+R:	 
 
 
 Q:	 What year was Christopher Nolan's 'Inception' originally released?
-Question type could not be found ...
-Not recognised.
+QT:	 time
+E:	 
+R:	 
 
 
 Q:	 What year was Grave of the Fireflies initially released?
-Error.
+QT:	 time
+E:	 
+R:	 
 
 
 Q:	 What year was Japanese film director Hayao Miyazaki born?
-Question type could not be found ...
-Not recognised.
+QT:	 time
+E:	 
+R:	 
 
 
 Q:	 What year was the movie 'The Matrix' published?
-Question type could not be found ...
-Not recognised.
+QT:	 time
+E:	 
+R:	 
 
 
 Q:	 What year was the notebook made?
-Question type could not be found ...
-Not recognised.
+QT:	 time
+E:	 
+R:	 
 
 
 Q:	 What year were the first Academy Awards hosted?
-Question type could not be found ...
-Not recognised.
+QT:	 time
+E:	 
+R:	 
 
 
 Q:	 When did Alan Rickman die?
-Question type could not be found ...
-Not recognised.
+QT:	 time
+E:	 
+R:	 
 
 
 Q:	 When did Chadwick Boseman die?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When did Charlie Chaplin pass away?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When did Christopher lee die?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When did Christopher Lee die?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When did David Fincher start working?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When did Disney have less than 100,000 employees?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When did Herman Brood die?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When did Kung Fu Panda came out as a movie?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When did Leonardo DiCaprio start acting?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When did Leonardo DiCaprio win his first award?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When did Leonardo DiCario win an Oscar?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When did "Nomadland" premiere?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When did Paul Walker die?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When did Quentin Tarantino first start working on movies?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When did Roberto Benigni receive a Nastro D'Argento for Best Actor?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When did Robin Williams die?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When did Rushmore come out?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When did Stan Lee die?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When did Star Wars: Episode IV – A New Hope get published in the United States?
+QT:	 passive
+E:	 United States
+R:	 
+
+
+Q:	 When did the Avatar film hit cinemas in Germany?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When did the awarded actress Katharine Hepburn die?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When did the first Harry Potter movie come out?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When did the movie Full Metal Jacket air?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When did the pilot episode of The Blacklist air?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When did the richest actress die?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When did the TV-series Doctor Who first start?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When did Walt Disney die?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When did Walter Disney die?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When is Blade Runner 2049 set?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When is George Clooney born?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When is Jack Bauer's birthday?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When is J.K.Rowling's birthday?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When is the first release date of movie The Matrix?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When is Tony Stark's birthday?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When premiered the original Lion King?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When premiered the prequel to Incredibles 2?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When The Lord of the Rings: The Return of the King released?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When was actrice Jennifer Lawrence born?
+QT:	 passive
+E:	 
+R:	 born
+
+
+Q:	 When was Adurey Hepburn born?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When was Alfred Hitchcock born?
+QT:	 passive
+E:	 
+R:	 born
+
+
+Q:	 When was Al Pacino born?
+QT:	 passive
+E:	 
+R:	 born
+
+
+Q:	 When was Anne Hathaway born?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When was Audrey Hepburn born?
+QT:	 passive
+E:	 
+R:	 born
+
+
+Q:	 When was Brad Pitt born?
+QT:	 passive
+E:	 
+R:	 born
+
+
+Q:	 When was Casino Royale released?
+QT:	 passive
+E:	 
+R:	 released
+
+
+Q:	 When was Christian Bale born?
+QT:	 passive
+E:	 
+R:	 born
+
+
+Q:	 When was David Lynch born?
+QT:	 passive
+E:	 
+R:	 born
+
+
+Q:	 When was "Forrest Gump" released?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	  When was Hans Zimmer born?
+QT:	 passive
+E:	 
+R:	 born
+
+
+Q:	 When was Harrison Ford born?
+QT:	 passive
+E:	 
+R:	 born
+
+
+Q:	 When was Harry Potter and the Philosopher stone publish in the US?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When was Inception released?
+QT:	 passive
+E:	 
+R:	 released
+
+
+Q:	 When was Interstellar released?
+QT:	 passive
+E:	 
+R:	 released
+
+
+Q:	 When was James Cameron born?
+QT:	 passive
+E:	 
+R:	 born
+
+
+Q:	 When was Jason Statham born?
+QT:	 passive
+E:	 
+R:	 born
+
+
+Q:	 When was Jurassic Park first released?
+QT:	 passive
+E:	 
+R:	 released
+
+
+Q:	 When was "Kill Bill" first premiered?
+QT:	 passive
+E:	 
+R:	 premiered
+
+
+Q:	 When was Leonardo di caprio born?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When was Leonardo DiCaprio born?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When was Leonardo DiCaprio born?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When was Nicolas Cage born?
+QT:	 passive
+E:	 
+R:	 born
+
+
+Q:	 When was Parasite filmed?
+QT:	 passive
+E:	 
+R:	 filmed
+
+
+Q:	 When was Parasite released?
+QT:	 passive
+E:	 
+R:	 released
+
+
+Q:	 When was parasite released in South Korea?
+QT:	 passive
+E:	 South Korea
+R:	 released
+
+
+Q:	 When was Quentin Tarantino born?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When was Quentin Tarantino's cinema opened?
+QT:	 passive
+E:	 
+R:	 opened
+
+
+Q:	 When was Quentin Tarantino's most recent movie released?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When was Ridley Scott born?
+QT:	 passive
+E:	 
+R:	 born
+
+
+Q:	 When was Robert Langdon born?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When was Snow White and the Seven Dwarfs by Disney made?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When was Stalker released?
+QT:	 passive
+E:	 
+R:	 released
+
+
+Q:	 When was Star Wars: Episode IV – A New Hope, published in France?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When was Steven Spielberg born?
+QT:	 passive
+E:	 
+R:	 born
+
+
+Q:	 When was Terence Hill born?
+QT:	 passive
+E:	 
+R:	 born
+
+
+Q:	 When was the academy awards Oscars organised for the first time?
+QT:	 duration
+E:	 Oscars organised for the first time
+R:	 duration
+
+
+Q:	 When was the American romantic disaster film Titanic released?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When was "The Avengers" released in Germany?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When was the director of Coming to America born?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When was the first Harry Potter movie released?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When was the first James Bond movie released?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When was the first Lord of the Rings movie released?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When was the first movie "Kill Bill" released?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When was the first Star Wars movie relaesed?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When was the first Star Wars Movie released?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When was the first world cup?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When was the last Hobbit movie released?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When was the last Lord of the Rings movie released
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When was the movie A Silent Voice publicated in Germany?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When was the movie Avatar released in the United States of America?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When was the movie Fight Club released for the first time?
+QT:	 duration
+E:	 Fight Club released for the first time
+R:	 duration
+
+
+Q:	 When was the movie the matrix released?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When was the movie The Prestige released?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When was the movie Zootopia released in the United States?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When was the Pixar movie Brave released?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When was the Playstation 5 released?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When was the première of Iron Man?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When was The Shawshank Redemption published in Germany?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When was The Shawshank Redemption released in the United States?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When was the Spanish film director Eduardo Casanova born?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When was the subreddit for Star Wars created?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When was The Truman Show released?
+QT:	 passive
+E:	 
+R:	 released
+
+
+Q:	 When was the youngest actress of Mard born?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When was Titanic released in Germany?
+QT:	 passive
+E:	 Germany
+R:	 released
+
+
+Q:	 When was Tom Hanks born?
+QT:	 passive
+E:	 
+R:	 born
+
+
+Q:	 When was Tom Hanks born?
+QT:	 passive
+E:	 
+R:	 born
+
+
+Q:	 When were the fiftieth Oscars held?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When were the Lord of the Rings movies released
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When will Dune come out?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When will the 93rd Academy Awards take place?
+QT:	 time
+E:	 
+R:	 
+
+
+Q:	 When will The Matrix 4 be released?
+QT:	 passive
+E:	 
+R:	 released
+
+
+Q:	 When will the next Jurassic World movie be released in the US?
+QT:	 passive
+E:	 the US
+R:	 released
+
+
+Q:	 Where are the Academy Awards held?
+QT:	 passive
+E:	 
+R:	 held
+
+
+Q:	 Where did It Happened One Night take place?
+QT:	 location
+E:	 
+R:	 
+
+
+Q:	 Where did Leonardo DiCaprio go to school?
+QT:	 location
+E:	 
+R:	 
+
+
+Q:	 Where did the film director Martin Scorsese was born?
+QT:	 passive
+E:	 
+R:	 born
+
+
+Q:	 Where did the Oscars take place in 2020?
+QT:	 location
+E:	 
+R:	 
+
+
+Q:	 Where did the story of 'Ford v Ferrari' take place?
+QT:	 location
+E:	 
+R:	 
+
+
+Q:	 Where does A Star Is Born take place?
+QT:	 passive
+E:	 place
+R:	 Born
+
+
+Q:	 Where does Die Hard take place?
+QT:	 location
+E:	 
+R:	 
+
+
+Q:	 Where does Ender's Game take place?
+QT:	 location
+E:	 
+R:	 
+
+
+Q:	 Where does Guy Ritchie come from?
+QT:	 location
+E:	 
+R:	 
+
+
+Q:	 Where does Saving Private Ryan take place?
+QT:	 location
+E:	 
+R:	 
+
+
+Q:	 Where does the action take place in the movie "1917"?
+QT:	 location
+E:	 
+R:	 
+
+
+Q:	 Where does Winnie the Pooh live?
+QT:	 location
+E:	 
+R:	 
+
+
+Q:	 Where is Captain America from?
+QT:	 location
+E:	 
+R:	 
+
+
+Q:	 Where is Jason Statham from?
+QT:	 location
+E:	 
+R:	 
+
+
+Q:	 Where is Jurassic Park located in the film from 1993?
+QT:	 location
+E:	 
+R:	 
+
+
+Q:	 Where is the headquarter of Marvel Studios?
+QT:	 location
+E:	 
+R:	 
+
+
+Q:	 Where is the narrative location of the movie Just Mecry?
+QT:	 location
+E:	 
+R:	 
+
+
+Q:	 Where was Angels and Demons filmed?
+QT:	 location
+E:	 
+R:	 
+
+
+Q:	 Where was Anne Hathaway born?
+QT:	 location
+E:	 
+R:	 
+
+
+Q:	 Where was Before Sunrise filmed?
+QT:	 location
+E:	 
+R:	 
+
+
+Q:	 Where was Christopher Nolan born?
+QT:	 passive
+E:	 
+R:	 born
+
+
+Q:	 Where was David Attenborough educated?
+QT:	 passive
+E:	 
+R:	 educated
+
+
+Q:	 Where was Forrest Gump produced?
+QT:	 passive
+E:	 
+R:	 produced
+
+
+Q:	 Where was Gaspar Noé born?
+QT:	 passive
+E:	 
+R:	 born
+
+
+Q:	 Where was Idris Elba born?
+QT:	 passive
+E:	 
+R:	 born
+
+
+Q:	 Where was Joker filmed?
+QT:	 passive
+E:	 
+R:	 filmed
+
+
+Q:	 Where was Jurassic Park filmed?
+QT:	 passive
+E:	 
+R:	 filmed
+
+
+Q:	 Where was Leonardo DiCaprio born?
+QT:	 location
+E:	 
+R:	 
+
+
+Q:	 Where was Mark Ruffalo born?
+QT:	 passive
+E:	 
+R:	 born
+
+
+Q:	 Where was Meryl Streep born?
+QT:	 location
+E:	 
+R:	 
+
+
+Q:	 Where was Minority Report created?
+QT:	 passive
+E:	 
+R:	 created
+
+
+Q:	 Where was Morgan Freeman born?
+QT:	 passive
+E:	 
+R:	 born
+
+
+Q:	 Where was Napoleon Dynamite filmed?
+QT:	 location
+E:	 
+R:	 
+
+
+Q:	 Where was Pulp Fiction filmed
+QT:	 location
+E:	 
+R:	 
+
+
+Q:	 Where was Roger Federer born?
+QT:	 passive
+E:	 
+R:	 born
+
+
+Q:	 Where was Slumdog Millionaire filmed?
+QT:	 location
+E:	 
+R:	 
+
+
+Q:	 Where was Spy Kids filmed?
+QT:	 passive
+E:	 
+R:	 filmed
+
+
+Q:	 Where was the 2012 UEFA European cup held?
+QT:	 location
+E:	 
+R:	 
+
+
+Q:	 Where was the first Harrry Potter movie filmed?
+QT:	 location
+E:	 
+R:	 
+
+
+Q:	 Where was The Guard set?
+QT:	 passive
+E:	 
+R:	 set
+
+
+Q:	 Where was The Lord of the Rings: The Fellowship of the Ring filmed?
+QT:	 location
+E:	 
+R:	 
+
+
+Q:	 Where was The Lord of the Rings trilogy filmed?
+QT:	 location
+E:	 
+R:	 
+
+
+Q:	 Where was the movie El Camino: A Breaking Bad Movie filmed?
+QT:	 location
+E:	 
+R:	 
+
+
+Q:	 Where was the movie "Pulp Fiction" filmed?
+QT:	 location
+E:	 
+R:	 
+
+
+Q:	 Where was the movie Tropic Thunder shot at?
+QT:	 location
+E:	 
+R:	 
+
+
+Q:	 Where was the movie "Who killed captain Alex" filmed?
+QT:	 location
+E:	 
+R:	 
+
+
+Q:	 Where was the origin of The Grand Budapest Hotel?
+QT:	 location
+E:	 
+R:	 
+
+
+Q:	 Where was the Roundhay Garden Scene made?
+QT:	 passive
+E:	 
+R:	 made
+
+
+Q:	 Where was The Seventh Seal filmed?
+QT:	 passive
+E:	 
+R:	 filmed
+
+
+Q:	 Where was The Titanic filmed?
+QT:	 location
+E:	 
+R:	 
+
+
+Q:	 Where was Titanic shot?
+QT:	 location
+E:	 
+R:	 
+
+
+Q:	 Where was Whiplash filmed?
+QT:	 passive
+E:	 
+R:	 filmed
+
+
+Q:	 whet is the original title of The Platform?
+QT:	 XofY
+E:	 The Platform
+R:	 original title
+
+
+Q:	 Which Academy Awards did the movie "Avatar" receive?
+QT:	 what_is_Xs_Y
+E:	 
+R:	 Avatar
+
+
+Q:	 Which actor got an Academy Award for Best Actor for the role in The Revenant?
+QT:	 what_which_verb
+E:	 
+R:	 actor
+
+
+Q:	 Which actor played Aragorn in Lord of the Rings?
+QT:	 what_which_verb
+E:	 
+R:	 actor
+
+
+Q:	 Which actor plays the lead character in the TV-series the Mandalorian?
+QT:	 what_which_verb
+E:	 
+R:	 actor
+
+
+Q:	 Which actor plays the main figure in Wonder Woman?
+QT:	 what_which_verb
+E:	 
+R:	 actor
+
+
+Q:	 Which actors have played Tony Stark?
+QT:	 what_which_verb
+E:	 
+R:	 actor
+
+
+Q:	 Which actors have portrayed the character James Bond?
+QT:	 what_which_verb
+E:	 
+R:	 actor
+
+
+Q:	 Which actors played the role of James Bond
+QT:	 what_which_verb
+E:	 
+R:	 actor
+
+
+Q:	 Which actors, who were born in a city which shares a border with Tanzana, and played in Long shot have more than 1 million Twitter followers?
+QT:	 passive
+E:	 Long shot
+R:	 have
+
+
+Q:	 Which actor was Bruce Banner played by in the 2003 movie Hulk?
+QT:	 what_A_is_X_Y
+E:	 
+R:	 2003 movie
+
+
+Q:	 Which actress died because of drowing caused by coronary artery disease and cocaine intoxication?
+QT:	 what_which_verb
+E:	 
+R:	 actress
+
+
+Q:	 Which actresses, whose firstnames start with an M, have won the Academy Award for Best actress?
+QT:	 what_is_Xs_Y
+E:	 
+R:	 for Best
+
+
+Q:	 Which actress plays Beth Harmon in the Netflix miniseries the Queen's Gambit?
+QT:	 what_which_verb
+E:	 
+R:	 actress
+
+
+Q:	 Which actress was murdered by the Manson Cult?
+QT:	 passive
+E:	 Manson Cult
+R:	 murdered
+
+
+Q:	 Which awards did actress Anne Hathaway receive?
+QT:	 what_which_verb
+E:	 
+R:	 award
+
+
+Q:	 Which awards did Blade Runner receive
+QT:	 what_which_verb
+E:	 
+R:	 award
+
+
+Q:	 Which awards did Inception receive?
+QT:	 what_which_verb
+E:	 
+R:	 award
+
+
+Q:	 Which awards did Memento win?
+QT:	 what_which_verb
+E:	 
+R:	 award
+
+
+Q:	 Which awards did Parasite receive at the 92nd Academy Awards?
+QT:	 what_which_verb
+E:	 
+R:	 award
+
+
+Q:	  Which awards did the movie "The Hunger Games"(2012) recieve?
+QT:	 verb_prop
+E:	 the movie " The Hunger Games"(2012 )
+R:	  
+
+
+Q:	 Which awards did the movie 'Uncut Gems' win?
+QT:	 what_which_verb
+E:	 
+R:	 award
+
+
+Q:	 Which awards did The Platform win?
+QT:	 whatXisY
+E:	 
+R:	 awards
+
+
+Q:	 Which cast members of Trust Fund, who played a character in that film from which the name starts with an M, are stage actors as well as television actors?
+QT:	 what_is_Xs_Y
+E:	 
+R:	 as television
+
+
+Q:	 Which century is divergent set in?
+QT:	 passive
+E:	 
+R:	 set
+
+
+Q:	 Which company distributed Alien?
+QT:	 what_which_verb
+E:	 
+R:	 company
+
+
+Q:	 Which company distributed The Platform?
+QT:	 what_which_verb
+E:	 
+R:	 company
+
+
+Q:	 Which company produced Kiki's Delivery service?
+QT:	 what_which_verb
+E:	 
+R:	 company
+
+
+Q:	 Which company produced Star Wars?
+QT:	 what_which_verb
+E:	 
+R:	 company
+
+
+Q:	 Which company produced Westworld
+QT:	 what_which_verb
+E:	 
+R:	 company
+
+
+Q:	 Which countries is Martin Scorsese a citizen in?
+QT:	 location
+E:	 
+R:	 
+
+
+Q:	 Which country first published Kingsman: the Secret Service?
+QT:	 location
+E:	 
+R:	 
+
+
+Q:	 Which country made Godzilla?
+QT:	 location
+E:	 
+R:	 
+
+
+Q:	 Which director has been nominated most for the Best Director Academy Award?
+QT:	 passive
+E:	 Best Director Academy Award
+R:	 nominated
+
+
+Q:	 Which director has directed the most films?
+QT:	 what_which_verb
+E:	 
+R:	 director
+
+
+Q:	 Which Dutch cabaret artist directed the movie Billy?
+QT:	 what_is_Xs_Y
+E:	 
+R:	 the movie
+
+
+Q:	 Which famous composer created music for Inception?
+QT:	 what_is_Xs_Y
+E:	 
+R:	 music for
+
+
+Q:	 Which film series about Middle-earth did Peter Jackson direct?
+QT:	 what_which_verb
+E:	 
+R:	 film
+
+
+Q:	 Which genre is Johnny English Strikes Again?
+QT:	 whatXisY
+E:	 
+R:	 genre
+
+
+Q:	 Which genres is the Film "Avatar" associated with?
+QT:	 what_A_is_X_Y
+E:	 
+R:	  associated
+
+
+Q:	 Which group of superheroes is Iron Man a member of?
+QT:	 whatXisY
+E:	 
+R:	 group of superheroes
+
+
+Q:	 Which Harry Potter movie made the most money at the box office?
+QT:	 what_is_Xs_Y
+E:	 
+R:	 the box
+
+
+Q:	 Which is the highest-grossing movie?
+QT:	 what_is_Xs_Y
+E:	 
+R:	 -grossing
+
+
+Q:	 Which is the longest Jim Carrey movie?
+QT:	 duration
+E:	 Jim Carrey movie
+R:	 duration
+
+
+Q:	 Which languages are in Call Me By Your Name?
+QT:	 whatXisY
+E:	 
+R:	 languages
+
+
+Q:	 Which languages does Hayden Christensen speak?
+QT:	 what_which_verb
+E:	 
+R:	 language
+
+
+Q:	  Which locations were used to film the movie "Black Panther"(2018)
+QT:	 passive
+E:	 
+R:	 used
+
+
+Q:	 Which movie came after Pokemon 3: The Movie?
+QT:	 what_which_verb
+E:	 
+R:	 movie
+
+
+Q:	 Which movie directors are convicted of sexual assault?
+QT:	 passive
+E:	 sexual assault
+R:	 convicted
+
+
+Q:	 Which movie followed 'Star Wars: Episode IV - A New Hope'?
+QT:	 what_which_verb
+E:	 
+R:	 movie
+
+
+Q:	 Which movie had the longest production time?
+QT:	 duration
+E:	 the longest production time
+R:	 duration
+
+
+Q:	 Which movie in the franchise was Pirates of the Caribbean: On Stranger Tides?
+QT:	 whatXisY
+E:	 
+R:	 movie in the franchise
+
+
+Q:	 Which movie is the Disaster Artist about?
+QT:	 whatXisY
+E:	 
+R:	 movie
+
+
+Q:	 Which movie is the last in The Infinity Saga?
+QT:	 whatXisY
+E:	 
+R:	 movie
+
+
+Q:	 Which movies are directed by Alice Wu?
+QT:	 passive
+E:	 Alice Wu
+R:	 directed
+
+
+Q:	 Which movies are in the Star Wars prequel trilogy?
+QT:	 what_A_is_X_Y
+E:	 
+R:	 Wars prequel
+
+
+Q:	 Which movies are in the The Lord of the Rings trilogy?
+QT:	 whatXisY
+E:	 
+R:	 movies
+
+
+Q:	 Which movies are part of the "How To Train Your Dragon" franchise?
+QT:	 what_A_is_X_Y
+E:	 
+R:	 Dragon
+
+
+Q:	 Which movies did Christopher Nolan direct?
+QT:	 what_which_verb
+E:	 
+R:	 movie
+
+
+Q:	 Which movies did Christopher Nolan direct?
+QT:	 what_which_verb
+E:	 
+R:	 movie
+
+
+Q:	 Which movies did John Williams compose music for?
+QT:	 whatXisY
+E:	 
+R:	 movies
+
+
+Q:	 Which movies, directed by David O. Russell, did Jennifer Lawrence act in?
+QT:	 what_which_verb
+E:	 
+R:	 movie
+
+
+Q:	 Which movies earned Steven Spielberg an Academy Award?
+QT:	 what_which_verb
+E:	 
+R:	 movie
+
+
+Q:	 Which movie was based on the book I Heard You Paint Houses (2004)?
+QT:	 passive
+E:	 I Heard You Paint Houses ( 2004
+R:	 based
+
+
+Q:	 Which movie won the Academy Award for Best Animated Feature in 2003
+QT:	 what_which_verb
+E:	 
+R:	 movie
+
+
+Q:	 Which movie won the Academy Award for Best Picture in 2020?
+QT:	 what_which_verb
+E:	 
+R:	 movie
+
+
+Q:	 Which neuroscientist plays in a serie?
+QT:	 what_which_verb
+E:	 
+R:	 neuroscientist
+
+
+Q:	 Which Non-English Language movie was the first to win the Academy Award for Best Picture?
+QT:	 what_is_Xs_Y
+E:	 
+R:	 for Best
+
+
+Q:	 Which oscars did Guillermo del Toro's 2017 film win?
+QT:	 what_which_verb
+E:	 
+R:	 oscar
+
+
+Q:	 Which parts does a film have?
+QT:	 what_which_verb
+E:	 
+R:	 part
+
+
+Q:	 Which performers have been in the role of Anakin Skywalker?
+QT:	 what_which_verb
+E:	 
+R:	 performer
+
+
+Q:	 Which production companies are associated with the movie Shutter Island?
+QT:	 passive
+E:	 Shutter Island
+R:	 associated
+
+
+Q:	 Which production company produced Finding Nemo?
+QT:	 what_which_verb
+E:	 
+R:	 production
+
+
+Q:	 Which production company produced Twister?
+QT:	 what_which_verb
+E:	 
+R:	 production
+
+
+Q:	 Which role did Will Smith play in I, Robot?
+QT:	 what_which_verb
+E:	 
+R:	 role
+
+
+Q:	 Which screenwriter of "Enders Game" is already dead?
+QT:	 whatXisY
+E:	 
+R:	 screenwriter of Enders Game
+
+
+Q:	 Which song is the theme music of "No Time to Die"?
+QT:	 duration
+E:	 No Time to Die
+R:	 duration
+
+
+Q:	 Which TV series is the Naked Gun trilogy based on?
+QT:	 what_A_is_X_Y
+E:	 
+R:	 trilogy based
+
+
+Q:	 Which war film was nominated in 92nd Academy Awards?
+QT:	 passive
+E:	 Academy Awards
+R:	 nominated
+
+
+Q:	 Which work is "The Shawshank Redemption" based on?
+QT:	 what_A_is_X_Y
+E:	 
+R:	  based
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who acted as James Bond?
+QT:	 XofY
+E:	 James Bond
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(PROPN)]
+Q:	 Who acted as tony stark in iron man?
+QT:	 XofY
+E:	 tony stark in iron man
+R:	 
+
+
 Question type could not be found ...
-Not recognised.
+[ERROR] Made possible by Djim
+Q:	 Who are Nicolas Cage's Siblings?
+QT:	 None
+E:	 
+R:	 
+
+
+Q:	 Who are the cast members in The Lighhouse?
+QT:	 XofY
+E:	 The Lighhouse
+R:	 cast member
+
+
+Q:	 Who are the cast members of The Blair Witch Project?
+QT:	 XofY
+E:	 The Blair Witch Project
+R:	 cast member
+
+
+Q:	 Who are the children of Shrek?
+QT:	 XofY
+E:	 Shrek
+R:	 child
+
+
+Q:	 Who are the creators of Glee?
+QT:	 XofY
+E:	 Glee
+R:	 creator
+
+
+Q:	 Who are the creators of How I met your mother?
+QT:	 verb_prop
+E:	 your mother
+R:	 be
+
+
+Q:	 Who are the creators of South Park?
+QT:	 XofY
+E:	 South Park
+R:	 creator
+
+
+Q:	 Who are the directors of Iron man
+QT:	 XofY
+E:	 Iron man
+R:	 director
+
+
+Q:	 Who are the directors of movie The Matrix?
+QT:	 XofY
+E:	 The Matrix
+R:	 director
+
+
+Q:	 Who are the directors of Schindler's List?
+QT:	 XofY
+E:	 Schindlers List
+R:	 director
+
+
+Q:	 Who are the directors of the Matrix?
+QT:	 XofY
+E:	 Matrix
+R:	 director
+
+
+Q:	 Who are the directors of The Matrix?
+QT:	 XofY
+E:	 The Matrix
+R:	 director
+
+
+Q:	 Who are the directors of the movie Avengers: Endgame?
+QT:	 XofY
+E:	 Avengers: Endgame
+R:	 director
+
+
+Q:	 Who are the directors of the movie "Captain America: The Winter Soldier"?
+QT:	 XofY
+E:	 Captain America: The Winter Soldier
+R:	 director
+
+
+Q:	 Who are the directors of the movie "The Matrix"?
+QT:	 XofY
+E:	 The Matrix
+R:	 director
+
+
+Q:	 Who are the executive producers of Suits?
+QT:	 XofY
+E:	 Suits
+R:	 executive producer
+
+
+Q:	 Who are the film editors of Titanic?
+QT:	 XofY
+E:	 Titanic
+R:	 film editor
+
+
+Q:	 Who are the founders of Pixar Animation Studios?
+QT:	 XofY
+E:	 Pixar Animation Studios
+R:	 founder
+
+
+Q:	 Who are the leading actors of "Black Swan"?
+QT:	 XofY
+E:	 Black Swan
+R:	 lead actor
+
+
+Q:	 Who are the main characters of Fifty Shades of Grey?
+QT:	 XofY
+E:	 Fifty Shades of Grey
+R:	 main character
+
+
+Q:	 Who are the main two actors from the movie Titanic?
+QT:	 XofY
+E:	 Titanic
+R:	 main two actor
+
+
+Q:	 Who are the members of The Black Keys?
+QT:	 XofY
+E:	 The Black Keys
+R:	 member
+
+
+Q:	 Who are the members of the Teenage Mutant Ninja Turtles?
+QT:	 XofY
+E:	 Teenage Mutant Ninja Turtles
+R:	 member
+
+
+Q:	 Who are the original broadcasters of the tv series Community?
+QT:	 XofY
+E:	 Community
+R:	 original broadcaster
+
+
+Question type could not be found ...
+[ERROR] Made possible by Djim
+Q:	 Who are the Russo brothers?
+QT:	 None
+E:	 
+R:	 
+
+
+Q:	 Who are the screenwriters for The Place Beyong The Pines?
+QT:	 XofY
+E:	 The Place Beyong The Pines
+R:	 screenwriter
+
+
+Q:	 Who are the screenwriters of Avatar: The Last Airbender?
+QT:	 XofY
+E:	 Avatar: The Last Airbender
+R:	 screenwriter
+
+
+Q:	 Who are the screenwriters of Venom?
+QT:	 XofY
+E:	 Venom
+R:	 screenwriter
+
+
+Q:	 Who are the screenwriters on Avengers: Endgame?
+QT:	 XofY
+E:	 Avengers: Endgame
+R:	 screenwriter
+
+
+Q:	 Who are the three main cast members in the Harry Potter film series?
+QT:	 XofY
+E:	 Harry Potter film series
+R:	 three main cast member
+
+
+Q:	 Who are the three main characters in the Harry Potter movies?
+QT:	 XofY
+E:	 Harry Potter movies
+R:	 three main character
+
+
+Q:	 Who are the three main characters of Harry Potter?
+QT:	 XofY
+E:	 Harry Potter
+R:	 three main character
+
+
+Q:	 Who are the two main characters in Better Call Saul?
+QT:	 XofY
+E:	 Call Saul
+R:	 two main character
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(PROPN)]
+Q:	 Who came up with the idea of the Inception movie?
+QT:	 XofY
+E:	 Inception movie
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who composed the music for Avatar?
+QT:	 XofY
+E:	 Avatar
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who composed the music for Dunkirk?
+QT:	 XofY
+E:	 Dunkirk
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who composed the music for Gone Girl?
+QT:	 XofY
+E:	 Gone Girl
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who composed the music for Inception
+QT:	 XofY
+E:	 Inception
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(PROPN)]
+Q:	 Who composed the music for Lord of The Rings: The Fellowship of the Ring?
+QT:	 XofY
+E:	 Lord of The Rings: The Fellowship of the Ring
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who composed the music for Slumdog Millionaire?
+QT:	 XofY
+E:	 Slumdog Millionaire
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who composed the music for the 2001 film Amelie?
+QT:	 XofY
+E:	 Amelie
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who composed the music for the epic science fantasy space opera saga and media franchise 'Star Wars'?
+QT:	 XofY
+E:	 Star Wars
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(PROPN)]
+Q:	 Who composed the music for The Lord of the Rings: The Fellowship of the Ring?
+QT:	 XofY
+E:	 The Lord of the Rings: The Fellowship of the Ring
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who composed the music for the movie "Interstellar"?
+QT:	 XofY
+E:	 Interstellar
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who composed the music for the netflix original movie 'Polar'?
+QT:	 XofY
+E:	 Polar
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who composed the music for the original Twin Peaks series?
+QT:	 XofY
+E:	 Twin Peaks series
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who composed the music for the Star Wars Trilogy?
+QT:	 XofY
+E:	 Star Wars Trilogy
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who composed the music for Unbreakable?
+QT:	 XofY
+E:	 Unbreakable
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who composed the music Pirates of the Caribbean?
+QT:	 XofY
+E:	 Caribbean
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who composed the soundtrack for the 2019 movie 'Polar'?
+QT:	 XofY
+E:	 Polar
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who composed the soundtrack for the movie 'Interstellar'?
+QT:	 XofY
+E:	 Interstellar
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who composed the soundtrack of the movie Cloud atlas
+QT:	 XofY
+E:	 Cloud atlas
+R:	 
+
+
+Q:	 Who created Star Wars?
+QT:	 verb_prop
+E:	 Star Wars
+R:	 create
+
+
+Q:	 Who created Star Wars?
+QT:	 verb_prop
+E:	 Star Wars
+R:	 create
+
+
+Q:	 Who created Star Wars?
+QT:	 verb_prop
+E:	 Star Wars
+R:	 create
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who created the music for Interstellar?
+QT:	 XofY
+E:	 Interstellar
+R:	 
+
+
+Q:	 Who created the Star Trek franchise?
+QT:	 verb_prop
+E:	 Star Trek franchise
+R:	 create
+
+
+Q:	 Who did Arnold Schwarzenegger replace as the governor of California in 2003?
+QT:	 XofY
+E:	 California in 2003
+R:	 
+
+
+Q:	 Who did Leonardo DiCaprio play in The WOlf of Wall Street?
+QT:	 XofY
+E:	 The WOlf of Wall Street
+R:	 
+
+
+Q:	 Who did Rupert Grint play in the movie Harry Potter and the Philosopher's Stone?
+QT:	 XofY
+E:	 Harry Potter and the Philosophers Stone
+R:	 Rupert Grint play
+
+
+Q:	 Who directed A Star Is Born?
+QT:	 passive
+E:	 
+R:	 Born
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who directed Bionicle: Mask of Light?
+QT:	 XofY
+E:	 
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who directed Bridge of Spies?
+QT:	 XofY
+E:	 Spies
+R:	 
+
+
+Q:	 Who directed "Event Horizon" (1997)?
+QT:	 verb_prop
+E:	 Event Horizon " ( 1997 )
+R:	 direct
+
+
+Q:	 Who directed Fight Club?
+QT:	 verb_prop
+E:	 Fight Club
+R:	 direct
+
+
+Q:	 Who directed Hellboy?
+QT:	 verb_prop
+E:	 Hellboy
+R:	 direct
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who directed In a World...?
+QT:	 XofY
+E:	 World...
+R:	 
+
+
+Q:	 Who directed Inception?
+QT:	 verb_prop
+E:	 Inception
+R:	 direct
+
+
+Question type could not be found ...
+[ERROR] Made possible by Djim
+Q:	 Who directed Independence Day
+QT:	 None
+E:	 
+R:	 
+
+
+Q:	 Who directed James Bond: Skyfall?
+QT:	 verb_prop
+E:	 Skyfall
+R:	 direct
+
+
+Q:	 Who directed Kung Fu Panda 2?
+QT:	 verb_prop
+E:	 Kung Fu
+R:	 direct
+
+
+Question type could not be found ...
+[ERROR] Made possible by Djim
+Q:	 Who directed "Life is Beautiful"?
+QT:	 None
+E:	 
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who directed Lord of The Rings?
+QT:	 XofY
+E:	 The Rings
+R:	 
+
+
+Q:	 Who directed Minari?
+QT:	 verb_prop
+E:	 Minari
+R:	 direct
+
+
+Q:	 Who directed Once Upon a Time in Hollywood?
+QT:	 duration
+E:	 Once Upon a Time in Hollywood
+R:	 duration
+
+
+Q:	 Who directed Parasite?
+QT:	 verb_prop
+E:	 Parasite
+R:	 direct
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who directed photography for Gravity?
+QT:	 XofY
+E:	 Gravity
+R:	 
+
+
+Q:	 Who directed Pulp Fiction?
+QT:	 verb_prop
+E:	 Pulp Fiction
+R:	 direct
+
+
+Q:	 Who directed Pulp Fiction?
+QT:	 verb_prop
+E:	 Pulp Fiction
+R:	 direct
+
+
+Q:	 Who directed Pulp Fiction?
+QT:	 verb_prop
+E:	 Pulp Fiction
+R:	 direct
+
+
+Q:	 Who directed Sicko (2007)
+QT:	 verb_prop
+E:	 Sicko ( 2007
+R:	 direct
+
+
+Q:	 Who directed Tenet?
+QT:	 verb_prop
+E:	 Tenet
+R:	 direct
+
+
+Q:	 Who directed the 1990 movie Tremors?
+QT:	 verb_prop
+E:	 Tremors
+R:	 direct
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who directed the 2018 biographical film about Queen?
+QT:	 XofY
+E:	 Queen
+R:	 
+
+
+Q:	 Who directed The Big Lebowski?
+QT:	 verb_prop
+E:	 The Big Lebowski
+R:	 direct
+
+
+Q:	 Who directed The Dark Knight?
+QT:	 verb_prop
+E:	 The Dark Knight
+R:	 direct
+
+
+Q:	 Who directed the film "Titanic"?
+QT:	 verb_prop
+E:	 Titanic "
+R:	 direct
+
+
+Q:	 Who directed the first Shrek movie?
+QT:	 verb_prop
+E:	 Shrek movie
+R:	 direct
+
+
+Q:	 Who directed the movie 8 1/2?
+QT:	 verb_prop
+E:	 the movie
+R:	 direct
+
+
+Q:	 Who directed the movie Fight Club?
+QT:	 verb_prop
+E:	 Fight Club
+R:	 direct
+
+
+Q:	 Who directed the movie Goodfellas?
+QT:	 verb_prop
+E:	 Goodfellas
+R:	 direct
+
+
+Q:	 Who directed the movie "How To Train Your Dragon"?
+QT:	 verb_prop
+E:	 Your Dragon
+R:	 direct
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who directed the movie "Need for Speed"?
+QT:	 XofY
+E:	 
+R:	 
+
+
+Q:	 Who directed the movie "Pulp fiction"?
+QT:	 verb_prop
+E:	 Pulp fiction
+R:	 direct
+
+
+Q:	 Who directed the movie 'Shindler's list'?
+QT:	 verb_prop
+E:	 Shindler 's list
+R:	 direct
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(PROPN)]
+Q:	 Who directed the movie that won the "Best Actress" award at 91st Acadeny Awards in 2018?
+QT:	 XofY
+E:	 Awards in 2018
+R:	 
+
+
+Q:	 Who directed the movie "The Godfather"?
+QT:	 verb_prop
+E:	 The Godfather "
+R:	 direct
+
+
+Q:	 Who directed the movie "The Lion King"?
+QT:	 verb_prop
+E:	 The Lion King
+R:	 direct
+
+
+Q:	 Who directed the movie "Zootopia"?
+QT:	 verb_prop
+E:	 Zootopia "
+R:	 direct
+
+
+Q:	 Who directed The Prestige
+QT:	 verb_prop
+E:	 The Prestige
+R:	 direct
+
+
+Q:	 Who directed The Room?
+QT:	 verb_prop
+E:	 The Room
+R:	 direct
+
+
+Q:	 Who directed The Room?
+QT:	 verb_prop
+E:	 The Room
+R:	 direct
+
+
+Q:	 Who directed The Shawshank Redemption?
+QT:	 verb_prop
+E:	 The Shawshank Redemption
+R:	 direct
+
+
+Q:	 Who directed The Shining?
+QT:	 verb_prop
+E:	 The Shining
+R:	 direct
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who directed The Sound of Music?
+QT:	 XofY
+E:	 Music
+R:	 
+
+
+Q:	 Who directed the Titanic?
+QT:	 verb_prop
+E:	 Titanic
+R:	 direct
+
+
+Q:	 Who directed The Titanic?
+QT:	 verb_prop
+E:	 The Titanic
+R:	 direct
+
+
+Q:	 Who directed Whiplash?
+QT:	 verb_prop
+E:	 Whiplash
+R:	 direct
+
+
+Q:	 Who edited Star Wars: Episode IV - A New Hope?
+QT:	 verb_prop
+E:	 Star Wars Episode IV - A New Hope
+R:	 edit
+
+
+Q:	 Who founded LG Electronics?
+QT:	 verb_prop
+E:	 Electronics
+R:	 found
+
+
+Q:	 Who founded the Walt Disney Animation Studios?
+QT:	 verb_prop
+E:	 Walt Disney Animation Studios
+R:	 found
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who framed Roger Rabbit in Who Framed Roger Rabbit?
+QT:	 XofY
+E:	 Who Framed Roger Rabbit
+R:	 
+
+
+Q:	 Who has a higher net worth, Jim Carrey or Martin Lawrence?
+QT:	 verb_prop
+E:	 a higher net worth
+R:	 have
+
+
+Q:	  Who has played Spider-Man?
+QT:	 verb_prop
+E:	 Spider - Man
+R:	  
+
+
+Q:	 Who have played Batman?
+QT:	 verb_prop
+E:	 Batman
+R:	 play
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who holds the record of most awards won?
+QT:	 XofY
+E:	 most awards won
+R:	 
+
+
+Q:	 Who is an enemy of Bilbo Baggins?
+QT:	 XofY
+E:	 Bilbo Baggins
+R:	 enemy
+
+
+Q:	 Who is/are the producer(s) of the movie Shutter Island?
+QT:	 XofY
+E:	 Island
+R:	 producer(s )
+
+
+Q:	 Who is Ariel voiced by in The Little Mermaid?
+QT:	 passive
+E:	 The Little Mermaid
+R:	 voiced
+
+
+Question type could not be found ...
+[ERROR] Made possible by Djim
+Q:	 Who is Batman?
+QT:	 None
+E:	 
+R:	 
+
+
+Question type could not be found ...
+[ERROR] Made possible by Djim
+Q:	 Who is Elizabeth Keen's father?
+QT:	 None
+E:	 
+R:	 
+
+
+Question type could not be found ...
+[ERROR] Made possible by Djim
+Q:	 Who is Hans Zimmer?
+QT:	 None
+E:	 
+R:	 
+
+
+Q:	 Who is in the cast of the movie 'Bad Trip'?
+QT:	 XofY
+E:	 Bad Trip
+R:	 in cast the movie 
+
+
+Question type could not be found ...
+[ERROR] Made possible by Djim
+Q:	 Who is Josey Matas famous nephew?
+QT:	 None
+E:	 
+R:	 
+
+
+Question type could not be found ...
+[ERROR] Made possible by Djim
+Q:	 Who is Jules Winnfield?
+QT:	 None
+E:	 
+R:	 
+
+
+Question type could not be found ...
+[ERROR] Made possible by Djim
+Q:	 Who is Julia Robert's husband?
+QT:	 None
+E:	 
+R:	 
+
+
+Question type could not be found ...
+[ERROR] Made possible by Djim
+Q:	 Who is Lars von Trier?
+QT:	 None
+E:	 
+R:	 
+
+
+Q:	 Who is married to Shrek?
+QT:	 XofY
+E:	 Shrek
+R:	 married
+
+
+Q:	 Who is playing Dr. Stephen Strange in the Doctor Strange?
+QT:	 XofY
+E:	 Doctor Strange
+R:	 play Dr. Stephen Strange
+
+
+Q:	 Who is said to be the same as Ash Ketchum?
+QT:	 passive
+E:	 Ash Ketchum
+R:	 said
+
+
+Q:	 Who is the actor commonly associated in movie coluture with the "Voice of God"?
+QT:	 XofY
+E:	 Voice of God
+R:	 actor commonly associate in movie coluture with the 
+
+
+Q:	 Who is the actor of Chandler Bing in Friends?
+QT:	 XofY
+E:	 Chandler Bing in Friends
+R:	 actor
+
+
+Q:	 Who is the actor of Roy Batty?
+QT:	 XofY
+E:	 Roy Batty
+R:	 actor
+
+
+Q:	 Who is the actor of Wanda in WandaVision?
+QT:	 XofY
+E:	 Wanda in WandaVision
+R:	 actor
+
+
+Q:	 Who is the actor playing Barney in the How I Met Your Mother series?
+QT:	 verb_prop
+E:	 Your Mother series
+R:	 be
+
+
+Q:	 Who is the actor that plays Bilbo Baggings in the Hobbit movies?
+QT:	 XofY
+E:	 Hobbit movies
+R:	 actor that play Bilbo Baggings
+
+
+Q:	 Who is the captian of England's national football team?
+QT:	 XofY
+E:	 Englands national football team
+R:	 captian
+
+
+Q:	 Who is the CEO of Netflix?
+QT:	 XofY
+E:	 Netflix
+R:	 ceo
+
+
+Q:	 Who is the composer of Iron Man?
+QT:	 XofY
+E:	 Iron Man
+R:	 composer
+
+
+Q:	 Who is the composer of Lord of The Rings?
+QT:	 XofY
+E:	 Lord of The Rings
+R:	 composer
+
+
+Q:	 Who is the composer of Pirates of the Caribbean?
+QT:	 XofY
+E:	 Pirates of the Caribbean
+R:	 composer
+
+
+Q:	 Who is the composer of Star Trek III: The Search for Spock?
+QT:	 XofY
+E:	 Star Trek III: The Search for Spock
+R:	 composer
+
+
+Q:	 Who is the composer of the movie Django Unchained?
+QT:	 XofY
+E:	 Django Unchained
+R:	 composer
+
+
+Q:	 Who is the costume designer of the movie "Shrek"?
+QT:	 XofY
+E:	 Shrek
+R:	 costume designer
+
+
+Q:	 Who is the creator of the Avengers?
+QT:	 XofY
+E:	 Avengers
+R:	 creator
+
+
+Q:	 Who is the creator of the film character Darth Vader?
+QT:	 XofY
+E:	 Darth Vader
+R:	 creator
+
+
+Q:	 Who is the creator of the TV series "Succession"?
+QT:	 XofY
+E:	 Succession
+R:	 creator
+
+
+Q:	 Who is the creator of the TV-series the Mandalorian?
+QT:	 XofY
+E:	 Mandalorian
+R:	 creator
+
+
+Q:	 Who is the director of Anubis en de Wraak van Arghus?
+QT:	 XofY
+E:	 Anubis en de Wraak van Arghus
+R:	 director
+
+
+Q:	 Who is the director of Avatar?
+QT:	 XofY
+E:	 Avatar
+R:	 director
+
+
+Q:	 Who is the director of Coherence?
+QT:	 XofY
+E:	 Coherence
+R:	 director
+
+
+Q:	 Who is the director of Coherence?
+QT:	 XofY
+E:	 Coherence
+R:	 director
+
+
+Q:	 Who is the director of Detective Conan: The Private Eyes' Requiem?
+QT:	 XofY
+E:	 Detective Conan: The Private Eyes Requiem
+R:	 director
+
+
+Q:	 Who is the director of Doctor Strange in the Multiverse of Madness?
+QT:	 XofY
+E:	 Doctor Strange in the Multiverse of Madness
+R:	 director
+
+
+Q:	 Who is the director of Fury?
+QT:	 XofY
+E:	 Fury
+R:	 director
+
+
+Q:	 Who is the director of Harry Potter?
+QT:	 XofY
+E:	 Harry Potter
+R:	 director
+
+
+Q:	 Who is the director of Love Actually?
+QT:	 XofY
+E:	 Love Actually
+R:	 director
+
+
+Q:	 Who is the director of Pulp Fiction?
+QT:	 XofY
+E:	 Pulp Fiction
+R:	 director
+
+
+Q:	 Who is the director of Pulp Fiction and Inglourious Basterds?
+QT:	 XofY
+E:	 Pulp Fiction and Inglourious Basterds
+R:	 director
+
+
+Q:	 Who is the director of Reservoir Dogs?
+QT:	 XofY
+E:	 Reservoir Dogs
+R:	 director
+
+
+Q:	 Who is the director of the film Avatar?
+QT:	 XofY
+E:	 Avatar
+R:	 director
+
+
+Q:	 Who is the director of The Hangover?
+QT:	 XofY
+E:	 The Hangover
+R:	 director
+
+
+Q:	 Who is the director of the movie Fight Club?
+QT:	 XofY
+E:	 Fight Club
+R:	 director
+
+
+Q:	 Who is the director of the movie Forrest Gump?
+QT:	 XofY
+E:	 Forrest Gump
+R:	 director
+
+
+Q:	 Who is the director of the movie Interstellar?
+QT:	 XofY
+E:	 Interstellar
+R:	 director
+
+
+Q:	 Who is the director of the movie "Midsommar"?
+QT:	 XofY
+E:	 Midsommar
+R:	 director
+
+
+Q:	 Who is the director of the movie Midsommar?
+QT:	 XofY
+E:	 Midsommar
+R:	 director
+
+
+Q:	 Who is the director of the Titanic?
+QT:	 XofY
+E:	 Titanic
+R:	 director
+
+
+Q:	 Who is the director of Wolf of Wallstreet?
+QT:	 XofY
+E:	 Wolf of Wallstreet
+R:	 director
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(PROPN)]
+Q:	 Who is the editor of The Half of It?
+QT:	 XofY
+E:	 The Half of It
+R:	 
+
+
+Q:	 Who is the executive producer of the series "Peaky Blinders"?
+QT:	 XofY
+E:	 Peaky Blinders
+R:	 executive producer
+
+
+Q:	 Who is the father of Luke Skywalker?
+QT:	 XofY
+E:	 Luke Skywalker
+R:	 father
+
+
+Q:	 Who is the father of Simba?
+QT:	 XofY
+E:	 Simba
+R:	 father
+
+
+Q:	 Who is the film producer of the first 3D movie?
+QT:	 XofY
+E:	 the first 3D movie
+R:	 film producer
+
+
+Q:	 Who is the first actor to play James Bond?
+QT:	 verb_prop
+E:	 James Bond
+R:	 be
+
+
+Q:	 Who is the first african american woman to ever win an Oscar?
+QT:	 verb_prop
+E:	 Oscar
+R:	 be
+
+
+Q:	 Who is the founder and creator of Star Wars?
+QT:	 XofY
+E:	 Star Wars
+R:	 founder and creator
+
+
+Q:	 Who is the founder of the Star Wars franchise?
+QT:	 XofY
+E:	 Star Wars franchise
+R:	 founder
+
+
+Q:	 Who is the head coach of FC Groningen?
+QT:	 XofY
+E:	 Groningen
+R:	 head coach
+
+
+Q:	 Who is the lead actor of Inception?
+QT:	 XofY
+E:	 Inception
+R:	 lead actor
+
+
+Q:	  Who is the main actor in "Vanilla Sky"?
+QT:	 XofY
+E:	 Vanilla Sky
+R:	 main actor
+
+
+Q:	 Who is the main actor of the movie Forrest Gump?
+QT:	 XofY
+E:	 Forrest Gump
+R:	 main actor
+
+
+Q:	 Who is the main character from Mad Max?
+QT:	 XofY
+E:	 Mad Max
+R:	 main character
+
+
+Q:	 Who is the main character in Hannah Montena?
+QT:	 XofY
+E:	 Hannah Montena
+R:	 main character
+
+
+Q:	 Who is the main character in the Davinci Code?
+QT:	 XofY
+E:	 Davinci Code
+R:	 main character
+
+
+Q:	  Who is the main player in the movie "The Hunger Games"(2012)?
+QT:	 XofY
+E:	 The Hunger Games(2012)
+R:	 main player
+
+
+Q:	 Who is the mother of Leonardo DiCaprio?
+QT:	 XofY
+E:	 Leonardo DiCaprio
+R:	 mother
+
+
+Q:	 Who is the oldest producer of the "Dark Knight"?
+QT:	 XofY
+E:	 Dark Knight
+R:	 old producer
+
+
+Q:	 Who is the original broadcaster of The Social Dilemma movie?
+QT:	 XofY
+E:	 The Social Dilemma movie
+R:	 original broadcaster
+
+
+Q:	 Who is the screenwriter of Fifty Shades of Grey?
+QT:	 XofY
+E:	 Fifty Shades of Grey
+R:	 screenwriter
+
+
+Q:	 Who is the screenwriter of the movie Just Mercy?
+QT:	 XofY
+E:	 Just Mercy
+R:	 screenwriter
+
+
+Q:	 Who is the voice actor of Conan Edogawa?
+QT:	 XofY
+E:	 Conan Edogawa
+R:	 voice actor
+
+
+Q:	 Who is the voice actor of Darth Vader in Star Wars?
+QT:	 XofY
+E:	 Darth Vader in Star Wars
+R:	 voice actor
+
+
+Q:	 Who is the voice of Shrek?
+QT:	 XofY
+E:	 Shrek
+R:	 voice
+
+
+Q:	 Who is the writer of James Bond?
+QT:	 XofY
+E:	 James Bond
+R:	 writer
+
+
+Q:	 Who is the youngest film director of the World?
+QT:	 XofY
+E:	 World
+R:	 young film director
+
+
+Question type could not be found ...
+[ERROR] Made possible by Djim
+Q:	 Who is Tom Hanks currently married to?
+QT:	 None
+E:	 
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who made the music for Inception?
+QT:	 XofY
+E:	 Inception
+R:	 
+
+
+Q:	 Who made the Skyfall theme song?
+QT:	 verb_prop
+E:	 Skyfall theme song
+R:	 make
+
+
+Q:	 Who narrated The Big Lebowski?
+QT:	 verb_prop
+E:	 The Big Lebowski
+R:	 narrate
+
+
+Q:	 Who owns Pixar?
+QT:	 verb_prop
+E:	 Pixar
+R:	 own
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who participated in the World cup 2018 final?
+QT:	 XofY
+E:	 World cup 2018 final
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who performed the music on Interstallar?
+QT:	 XofY
+E:	 Interstallar
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(PROPN)]
+Q:	 Who played a lead role in both Riverdale and the Suite Life of Zack and Cody?
+QT:	 XofY
+E:	 Riverdale and the Suite Life of Zack and Cody
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who played Brian in "2 Fast 2 Furious?"
+QT:	 XofY
+E:	 Fast 2 Furious
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who played Elliot Alderson in Mr. Robot?
+QT:	 XofY
+E:	 Mr. Robot
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who played Freddie Mercury in Bohemian Rhapsody?
+QT:	 XofY
+E:	 Bohemian Rhapsody
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(PROPN)]
+Q:	 Who played Frodo Baggins in The Lord of the Rings movies?
+QT:	 XofY
+E:	 The Lord of the Rings movies
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who played Hitler in Der Untergang?
+QT:	 XofY
+E:	 Der Untergang
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who played in Inception?
+QT:	 XofY
+E:	 Inception
+R:	 
+
+
+Q:	 Who played in "John Wick" and was born in Stockholm?
+QT:	 passive
+E:	 Stockholm
+R:	 played
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who played Joker in The Dark Knight?
+QT:	 XofY
+E:	 The Dark Knight
+R:	 
+
+
+Q:	 Who played Katniss Everdeen?
+QT:	 verb_prop
+E:	 Katniss Everdeen
+R:	 play
+
+
+Q:	 Who played Katniss Everdeen?
+QT:	 verb_prop
+E:	 Katniss Everdeen
+R:	 play
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who played Obi-Wan in the Star Wars prequel trilogy?
+QT:	 XofY
+E:	 Wars prequel trilogy
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who played Obi-Wan Kenobi in Star Wars?
+QT:	 XofY
+E:	 
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who played Po in "Kung Fu Panda"?
+QT:	 XofY
+E:	 Kung Fu Panda
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who played Ron Weasley in the Harry Potter movies?
+QT:	 XofY
+E:	 Harry Potter movies
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(PROPN)]
+Q:	 Who played the character Marty McFly in the Back to the Future trilogy?
+QT:	 XofY
+E:	 Back to the Future trilogy
+R:	 
+
+
+Q:	 Who played the first James Bond?
+QT:	 verb_prop
+E:	 James Bond
+R:	 play
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who played the lead role in the film 'The Truman Show'?
+QT:	 XofY
+E:	 The Truman Show
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(PROPN)]
+Q:	 Who played the main role of Arthur Fleck in the 2019 release of 'Joker'?
+QT:	 XofY
+E:	 Arthur Fleck in the 2019 release of Joker
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(PROPN)]
+Q:	 Who played the role of Will Smith in The Fresh Prince of Bel-Air?
+QT:	 XofY
+E:	 Will Smith in The Fresh Prince of Bel-Air
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who played the title character in 2008 film Iron Man?
+QT:	 XofY
+E:	 Iron Man
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who played Wilm Hosenfeld in The Pianist?
+QT:	 XofY
+E:	 The Pianist
+R:	 
+
+
+Q:	 Who plays Alan Garner in the movie The Hangover?
+QT:	 verb_prop
+E:	 The Hangover
+R:	 play
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who plays Dwight Schrute in The Office?
+QT:	 XofY
+E:	 The Office
+R:	 
+
+
+Q:	 Who plays Forrest Gump?
+QT:	 verb_prop
+E:	 Forrest Gump
+R:	 play
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(PROPN)]
+Q:	 Who plays Frodo Baggings in The Lord of the Rings: the Two Towers?
+QT:	 XofY
+E:	 The Lord of the Rings: the Two Towers
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(PROPN)]
+Q:	 Who plays Harley Quinn in Suicide Squad and Birds of Prey?
+QT:	 XofY
+E:	 Suicide Squad and Birds of Prey
+R:	 
+
+
+Q:	 Who plays John Wick?
+QT:	 verb_prop
+E:	 John Wick
+R:	 play
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(PROPN)]
+Q:	 Who plays Jordan Belfort in The Wolf of Wall Street?
+QT:	 XofY
+E:	 The Wolf of Wall Street
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who plays the leading actor in the movie Black Panther?
+QT:	 XofY
+E:	 Black Panther
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who plays the main character in The Joker?
+QT:	 XofY
+E:	 The Joker
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(PROPN)]
+Q:	 Who plays the role of Gimli in the 'The Lord of the Rings' film series?
+QT:	 XofY
+E:	 Gimli in the The Lord of the Rings film series
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(PROPN)]
+Q:	 Who plays the role of Nikola Tesla in 'The Prestige'?
+QT:	 XofY
+E:	 Nikola Tesla in The Prestige
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(PROPN)]
+Q:	 Who plays the role of Tony Almeida in 24?
+QT:	 XofY
+E:	 Tony Almeida in 24
+R:	 
+
+
+Q:	 Who portrays Jean-Luc Picard?
+QT:	 verb_prop
+E:	 Jean - Luc Picard
+R:	 portray
+
+
+Q:	 Who presented the 65th British Academy Film Awards?
+QT:	 verb_prop
+E:	 British Academy Film Awards
+R:	 present
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who presented the Oscars in 2012?
+QT:	 XofY
+E:	 2012
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who produced Bowling for Columbine?
+QT:	 XofY
+E:	 Columbine
+R:	 
+
+
+Q:	 Who produced Interstellar?
+QT:	 verb_prop
+E:	 Interstellar
+R:	 produce
+
+
+Q:	 Who produced The Avengers movie
+QT:	 verb_prop
+E:	 The Avengers movie
+R:	 produce
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(PROPN)]
+Q:	 Who stars in The Man From Earth?
+QT:	 XofY
+E:	 The Man From Earth
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who voiced Ozai in Avatar: The Last Airbender?
+QT:	 XofY
+E:	 Avatar: The Last Airbender
+R:	 
+
+
+Q:	 Who voiced Vanellope in Wreck-It Ralph?
+QT:	 verb_prop
+E:	 It Ralph
+R:	 voice
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who voices Mr. Fox in Wes Anderson's Fantastic Mr. Fox?
+QT:	 XofY
+E:	 Wes Andersons Fantastic Mr. Fox
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(PROPN)]
+Q:	 Who voices Nala in the 2019 version of The Lion King?
+QT:	 XofY
+E:	 The Lion King
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who voices the character Po in Kung Fu Panda?
+QT:	 XofY
+E:	 Kung Fu Panda
+R:	 
+
+
+Q:	 Who was a music composer in the movie "Interstellar"?
+QT:	 XofY
+E:	 Interstellar
+R:	 music composer
+
+
+Q:	  Who was awarded for the 'MTV Movie Award for Hest Villain' in 2018?
+QT:	 passive
+E:	 2018
+R:	 awarded
+
+
+Q:	 Who was in charge of designing costumes for the film Joker?
+QT:	 XofY
+E:	 Joker
+R:	 in charge design costume for film
+
+
+Q:	 Who was the actor playing Frank Martin in "The Transporter" in 2002?
+QT:	 XofY
+E:	 The Transporter in 2002
+R:	 actor play
+
+
+Q:	 Who was the best actor of 2020
+QT:	 XofY
+E:	 2020
+R:	 good actor
+
+
+Q:	 Who was the composer for Pirates of the Caribbean: The Curse of the Black Pearl?
+QT:	 XofY
+E:	 Pirates of the Caribbean: The Curse of the Black Pearl
+R:	 composer for
+
+
+Q:	 Who was the composer of Inception?
+QT:	 XofY
+E:	 Inception
+R:	 composer
+
+
+Q:	 Who was the composer of the music in Inception
+QT:	 XofY
+E:	 Inception
+R:	 composer the music in
+
+
+Q:	 Who was the costume designer for the movie "Sully"?
+QT:	 XofY
+E:	 Sully
+R:	 costume designer
+
+
+Q:	 Who was the director of Inception?
+QT:	 XofY
+E:	 Inception
+R:	 director
+
+
+Q:	 Who was the director of Interstellar?
+QT:	 XofY
+E:	 Interstellar
+R:	 director
+
+
+Q:	 Who was the director of Kimi no Na wa?
+QT:	 XofY
+E:	 Kimi no Na wa
+R:	 director
+
+
+Q:	 Who was the director of photogrpahy for Memento?
+QT:	 XofY
+E:	 Memento
+R:	 director photogrpahy for
+
+
+Q:	 Who was the director of Skyfall?
+QT:	 XofY
+E:	 Skyfall
+R:	 director
+
+
+Q:	 Who was the director of the 2020 movie Tenet?
+QT:	 XofY
+E:	 Tenet
+R:	 director
+
+
+Q:	 Who was the director of the film Avatar?
+QT:	 XofY
+E:	 Avatar
+R:	 director
+
+
+Q:	 Who was the director of The Hobbit trilogy?
+QT:	 XofY
+E:	 The Hobbit trilogy
+R:	 director
+
+
+Q:	 Who was the director of the Lord of the Rings trilogy?
+QT:	 XofY
+E:	 Lord of the Rings trilogy
+R:	 director the
+
+
+Q:	 Who was the director of the movie "Star Wars: Episode IV – A New Hope"?
+QT:	 XofY
+E:	 Star Wars: Episode IV – A New Hope
+R:	 director
+
+
+Q:	 Who was the first person to ever win an Oscar?
+QT:	 verb_prop
+E:	 Oscar
+R:	 be
+
+
+Q:	 Who was the first person to play James Bond?
+QT:	 verb_prop
+E:	 James Bond
+R:	 be
+
+
+Q:	 Who was the lead actor in "Tenet"?
+QT:	 XofY
+E:	 Tenet
+R:	 lead actor
+
+
+Q:	  Who was the performer in the movie "Interstellar"(2014)
+QT:	 XofY
+E:	 Interstellar(2014)
+R:	 performer
+
+
+Q:	 Who was the protagonist in "The Transporter" in 2002?
+QT:	 XofY
+E:	 The Transporter in 2002
+R:	 protagonist in 
+
+
+Q:	 Who was the screenwriter for 2012?
+QT:	 XofY
+E:	 2012
+R:	 screenwriter
+
+
+Q:	 Who was the screenwriter for the movie "The Silence of the Lambs"?
+QT:	 XofY
+E:	 The Silence of the Lambs
+R:	 screenwriter for the movie  the silence the
+
+
+Q:	 Who was the screenwriter of mission impossible Fallout?
+QT:	 XofY
+E:	 Fallout
+R:	 screenwriter
+
+
+Q:	 Who was the screenwriter of Rocky IV?
+QT:	 XofY
+E:	 Rocky IV
+R:	 screenwriter
+
+
+Q:	 Who was the screenwriter of the "Social Media"?
+QT:	 XofY
+E:	 Social Media
+R:	 screenwriter
+
+
+Q:	 Who was the voice actor of E.T.?
+QT:	 XofY
+E:	 E.T.
+R:	 voice actor
+
+
+Q:	 Who were the cast members of the movie Lighthouse?
+QT:	 XofY
+E:	 Lighthouse
+R:	 cast member
+
+
+Q:	 Who were the composers for Batman Begins?
+QT:	 XofY
+E:	 Batman Begins
+R:	 composer
+
+
+Q:	 Who were the creators of one of the most popular TV shows of all times, 'Game of Thrones', often referred to by the fanbase as D and D?
+QT:	 passive
+E:	 D and D
+R:	 referred
+
+
+Q:	 Who were the film editors of a "A New Hope" that were female?
+QT:	 XofY
+E:	 A New Hope that were female
+R:	 film editor
+
+
+Q:	 Who were the founders of Studio Ghibli?
+QT:	 XofY
+E:	 Studio Ghibli
+R:	 founder
+
+
+Q:	 Who were the screenwriters of Ocean's 11?
+QT:	 XofY
+E:	 Oceans 11
+R:	 screenwriter
+
+
+Q:	 Who were the screenwriters of Team America: World Police?
+QT:	 XofY
+E:	 Team America: World Police
+R:	 screenwriter
+
+
+Q:	 Who were the screenwriters of the James Bond movie Skyfall?
+QT:	 XofY
+E:	 James Bond movie Skyfall
+R:	 screenwriter
+
+
+Q:	 Who were the two main actors of "Catch me if you can"?
+QT:	 verb_prop
+E:	 me
+R:	 be
+
+
+Q:	 Who won the 2011-12 Champions League?
+QT:	 verb_prop
+E:	 Champions League
+R:	 win
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who won the 91st Academy Award for Best Director?
+QT:	 XofY
+E:	 Best Director
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(PROPN)]
+Q:	 Who won the Academy Award for Best Actor in 2020?
+QT:	 XofY
+E:	 Best Actor in 2020
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(PROPN)]
+Q:	 Who won the Academy Award for Best Actor in 2020?
+QT:	 XofY
+E:	 Best Actor in 2020
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(PROPN)]
+Q:	 Who won the Academy Award for Best Director in 2012?
+QT:	 XofY
+E:	 Best Director in 2012
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(PROPN)]
+Q:	 Who won the Academy Award for Best Film in 2020?
+QT:	 XofY
+E:	 Best Film in 2020
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(PROPN)]
+Q:	 Who won the Academy Award for Best Supporting Actor in 1995?
+QT:	 XofY
+E:	 Supporting Actor in 1995
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who won the Best Picture Award in 2020 Academy Awards?
+QT:	 XofY
+E:	 Academy Awards
+R:	 
+
+
+Q:	 Who won the first Academy Award?
+QT:	 verb_prop
+E:	 Academy Award
+R:	 win
+
+
+Q:	 Who won the most Academy Awards?
+QT:	 verb_prop
+E:	 Academy Awards
+R:	 win
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(PROPN)]
+Q:	 Who won the oscar for Best Actress between 2012 - 2016
+QT:	 XofY
+E:	 Best Actress between 2012 - 2016
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(PROPN)]
+Q:	 Who won the Oscar for best actress in the 77th Academy Awards?
+QT:	 XofY
+E:	 Academy Awards
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(PROPN)]
+Q:	 Who won the Oscar for Best Supporting Actor in 2013?
+QT:	 XofY
+E:	 Supporting Actor in 2013
+R:	 
+
+
+Q:	 Who wrote the books on which the Bourne Trilogy was based?
+QT:	 passive
+E:	 which
+R:	 wrote
+
+
+Q:	 Who wrote the book that the movie Turkish Delight is based on?
+QT:	 passive
+E:	 that
+R:	 wrote
+
+
+Q:	 Who wrote the on which the Shawshank Redemption was based
+QT:	 passive
+E:	 which
+R:	 wrote
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(PROPN)]
+Q:	 Who wrote the score for Lord of the Rings?
+QT:	 XofY
+E:	 Lord of the Rings
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who wrote the score for the movie Interstellar?
+QT:	 XofY
+E:	 Interstellar
+R:	 
+
+
+[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]
+Q:	 Who wrote the screenplay and played the main character for Rocky?
+QT:	 XofY
+E:	 Rocky
+R:	 
+
+
+Q:	 Who wrote Titanic?
+QT:	 verb_prop
+E:	 Titanic
+R:	 write
+
+
+Question type could not be found ...
+[ERROR] Made possible by Djim
+Q:	 Why did Brangelina end?
+QT:	 None
+E:	 
+R:	 
+
+
+Q:	 With whom did Christopher Nolan co-produce the 2020 film Tenet?
+QT:	 verb_prop
+E:	 Tenet
+R:	 produce
 
 
