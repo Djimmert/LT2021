@@ -169,6 +169,11 @@ def main():
         reader = csv.reader(inf, delimiter='\t')
         for row in reader:
             id, q = row[0], row[1]
+            q = q.replace("?", "").rstrip()
+            q = q.replace('Oscars', 'academy awards')
+            q = q.replace('Oscar', 'academy award')
+            q = q.replace('oscars', 'academy awards')
+            q = q.replace('oscar', 'academy award')
             parse = nlp(q)
             question_type = get_question_type(q)
             ents, props = merge_entities_properties(q, parse, question_type)
