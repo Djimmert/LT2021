@@ -76,6 +76,10 @@ def check_keywords(parse, q):
         return {'P495': 'country of origin'}
     elif "follower" in lemmas:
         return {'P8687': 'social media followers'}
+    elif 'tall' in lemmas:
+        return {'P2048': 'height'}
+    elif 'cost' in lemmas:
+        return {'P2130': 'cost'}
 
 
 def retrieve_answer(q, question_type, ents, props):
