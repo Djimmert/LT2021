@@ -22,6 +22,8 @@ def call_falcon(q):
     url = 'https://labs.tib.eu/falcon/falcon2/api?mode=long'
     q = q.replace("'", '')  # Avoid conflict in payload
     q = q.replace('"', '')  # Avoid conflict in payload
+    q = q.replace('movie', '')  # Improve performance
+    q = q.replace('film', '')  # Improve performance
     payload = '{"text":"' + q + '"}'
     r = requests.post(url, data=payload.encode('utf-8'), headers=headers)
     if r.status_code == 200:  # OK
@@ -53,4 +55,4 @@ def get_entities_properties_libs(q):
     :return: dicts of entities and relations where key: id and value: label
     """
     entities1, relations = call_falcon(q)
-    return entities1 | call_entitylinker(q), relations
+    return {**entities1, **call_entitylinker(q)}, relations

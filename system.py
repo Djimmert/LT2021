@@ -2,14 +2,14 @@ from system_deps import *
 from system_libs import *
 import csv
 import argparse
+import simplejson  # For Python 3.9-
+
 
 def merge_entities_properties(q, parse, question_type):
     deps_ent, deps_prop = get_entity_property_deps(parse, question_type)
     libs_ents, libs_props = get_entities_properties_libs(q)
-    print("deps:\t", deps_ent, deps_prop)
-    print("libs:\t", libs_ents, libs_props)
 
-    return libs_ents | deps_ent, libs_props | deps_prop
+    return {**libs_ents, **deps_ent}, {**libs_props, **deps_prop}
 
 
 def check_keywords(parse, q):
@@ -69,14 +69,13 @@ def retrieve_answer(q, question_type, ents, props):
 
     for entity_id in ents:
         for property_id in props:
-            print(entity_id, property_id)
             # Build query
-            if question_type != "passive":
-                query = "SELECT ?answerLabel WHERE {SERVICE wikibase:label \
-                { bd:serviceParam wikibase:language '[AUTO_LANGUAGE],en'. } wd:" + entity_id + " wdt:" + property_id + " ?answer .}"
-            else:
-                query = "SELECT ?answerLabel WHERE {SERVICE wikibase:label \
-                { bd:serviceParam wikibase:language '[AUTO_LANGUAGE],en'. } ?answer wdt:" + property_id + " wd:" + entity_id + " .}"
+            #if question_type != "passive":
+            query = "SELECT ?answerLabel WHERE {SERVICE wikibase:label \
+            { bd:serviceParam wikibase:language '[AUTO_LANGUAGE],en'. } wd:" + entity_id + " wdt:" + property_id + " ?answer .}"
+            #else:
+            #    query = "SELECT ?answerLabel WHERE {SERVICE wikibase:label \
+            #    { bd:serviceParam wikibase:language '[AUTO_LANGUAGE],en'. } ?answer wdt:" + property_id + " wd:" + entity_id + " .}"
 
             while True:
                 try:
@@ -84,7 +83,7 @@ def retrieve_answer(q, question_type, ents, props):
                                     params={'query': query, 'format': 'json'}).json()
                     break
 
-                except json.decoder.JSONDecodeError:  # Sometimes nothing is returned
+                except (json.decoder.JSONDecodeError, simplejson.errors.JSONDecodeError):  # Sometimes nothing is returned
                     continue  # Try again
 
             if data['results']['bindings']:
@@ -125,47 +124,40 @@ def main():
 
     parser = argparse.ArgumentParser()
     parser.add_argument('questionfile', help='path to .txt file with all questions')
+    parser.add_argument('outfile', help='path to file to write to')
     args = parser.parse_args()
 
     with open(args.questionfile, 'r', encoding="utf-16") as f:
         total = sum(1 for row in f)
 
     i = 1
-    with open(args.questionfile, 'r', encoding="utf-16") as f:
-        reader = csv.reader(f, delimiter='\t')
+    with open(args.questionfile, 'r', encoding="utf-16") as inf, open(args.outfile, 'w', encoding="utf-16") as outf:
+        reader = csv.reader(inf, delimiter='\t')
         for row in reader:
             id, q = row[0], row[1]
-            # q = "Your question here"  # If you want to test a particular q
-            q = "in what month was Meryl Streep born"
-            print('Q:\t', q)
             parse = nlp(q)
             question_type = get_question_type(q)
-            print('QT\t', question_type)
             ents, props = merge_entities_properties(q, parse, question_type)
             if check_keywords(parse, q):  # Overwrite
-                print("[!] Property overwritten by keywords.")
                 props = check_keywords(parse, q)
-            print('E:\t', ents)
-            print('R:\t', props)
             answer = retrieve_answer(q, question_type, ents, props)
             if answer:
                 if question_type == "yes/no":
                     if answer:
-                        print("yes")
+                        outf.write(str(i) + '\t' + 'yes\n')
                     else:
-                        print("no")
+                        outf.write(str(i) + '\t' + 'no\n')
                 else:
-                    print(answer)
+                    outf.write(str(i) + '\t' + ','.join(answer) + '\n')
             else:
                 if question_type == "count":
-                    print("12")
+                    outf.write(str(i) + '\t' + '12\n')
                 else:
-                    print("yes")
+                    outf.write(str(i) + '\t' + 'yes\n')
             sys.stderr.write("\r" + "Answered question " + str(i) + " of " + str(total))
             sys.stderr.flush()
             i += 1
-            print()
-            print()
+
 
 if __name__ == "__main__":
     main()
