@@ -35,6 +35,46 @@ def get_question_type(input_q):
     sent = sent.replace("'", "")  # Strip single apostrophe
 
     question_type = ""
+    if lemmas[0] == "do":
+        question_type = "yes/no"
+    else:
+        for rel in dep:
+            if 'pass' in rel:
+                question_type = "passive"  # e.g. 'Which movies are directed by X?'
+                break
+            elif any(item in duration_keywords for item in lemmas):
+                question_type = "duration"  # e.g. 'How long is X?'
+            elif any(item in location_keywords for item in lemmas):
+                question_type = "location" # e.g. 'Where was X filmed?'
+            elif any(item in time_keywords for item in lemmas):
+                question_type = "time" # e.g. 'When was X published?'
+            elif parse[0].text == "What" or parse[0].text == "Which":
+                if parse[1].pos_ == "NOUN":
+                    if "VERB" in pos:
+                        if "AUX" in pos and lemmas[pos.index("AUX")] == "be":
+                            question_type = "what_A_is_X_Y" # e.g 'What book is X based on?'
+                        elif "AUX" in pos and lemmas[pos.index("VERB")] == "earn":
+                            question_type = "what_A_is_X_Y" # e.g. 'Which movies earned X an award?'
+                        else:
+                            question_type = "what_which_verb" # e.g. 'What awards did X receive?'
+                    else:
+                        question_type = "whatXisY" # e.g. 'What genre is X?'
+                elif 'about' in lemmas:
+                    question_type = "about"
+                else:
+                    question_type = "what_is_Xs_Y" # e.g. 'What is X's hair color?'
+            elif parse[0].text == "How":
+                if parse[1].text == "tall":
+                    question_type = "tall" # e.g 'How tall is X?'
+                elif parse[1].text == "many":
+                    question_type = "count" # e.g. 'How many X films are there?'
+                else:
+                    question_type = "cost" # e.g. 'How much did X cost to make?'
+            else:
+                if 'pobj' in rel:
+                    question_type = "XofY"  # e.g. 'Who is the director of X?'
+                if 'dobj' in rel:
+                    question_type = "verb_prop"  # e.g. 'Who directed X?'
     for rel in dep:
         if 'pass' in rel:
             question_type = "passive"  # e.g. 'Which movies are directed by X?'
@@ -202,6 +242,12 @@ def get_entity_property_deps(parse, question_type):
         pass
     elif question_type == "cost":
         prop = {'P2130': 'cost'}
+        pass
+    elif question_type == "yes/no":
+        main_verb_id = dep.index("ROOT")
+        ent = lemmas[1:main_verb_id]
+        prop_broad = lemmas[main_verb_id+1:-1]
+        prop = [w for w in prop_broad if pos[lemmas.index(w)] != "DET"]
 
     else:
         pass
