@@ -230,8 +230,7 @@ def get_entity_property_deps(parse, question_type):
             ent = parse[entity_istitle[0][0]:entity_istitle[-1][0] + 1].text.split(" ")
         else:
             ent = sent.split(" ")[dep.index("ROOT") + 1:]
-        if parse[-4:-2].text.split(" ") == ['based', 'on'] or parse[-4:-2].text.split(" ") == ['influenced',
-                                                                                               'by'] or 'earned' in sent:
+        if parse[-4:-2].text.split(" ") == ['influenced', 'by'] or 'earned' in sent:
             prop = parse[-4:-2].text.split(" ")
         elif "AUX" in pos:
             prop = parse[1:pos.index("AUX")].text.split(" ")

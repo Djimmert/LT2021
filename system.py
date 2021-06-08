@@ -80,6 +80,12 @@ def check_keywords(parse, q):
         return {'P2048': 'height'}
     elif 'cost' in lemmas:
         return {'P2130': 'cost'}
+    elif 'based on' in q:
+        return {'P144': 'based on'}
+    elif 'first line' in q:
+        return {'P1922': 'first line'}
+    elif 'Kijkwijzer' in q:
+        return {'P2684': 'Kijkwijzer rating'}
 
 
 def retrieve_answer(q, question_type, ents, props):
