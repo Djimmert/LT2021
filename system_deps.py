@@ -55,43 +55,46 @@ def get_question_type(input_q):
     sent = sent.replace("'", "")  # Strip single apostrophe
 
     question_type = ""
-    for rel in dep:
-        if 'pass' in rel:
-            question_type = "passive"  # e.g. 'Which movies are directed by X?'
-            break
-        elif any(item in duration_keywords for item in lemmas):
-            question_type = "duration"  # e.g. 'How long is X?'
-        elif any(item in location_keywords for item in lemmas):
-            question_type = "location" # e.g. 'Where was X filmed?'
-        elif any(item in time_keywords for item in lemmas):
-            question_type = "time" # e.g. 'When was X published?'
-        elif parse[0].text == "What" or parse[0].text == "Which":
-            if parse[1].pos_ == "NOUN":
-                if "VERB" in pos:
-                    if "AUX" in pos and lemmas[pos.index("AUX")] == "be":
-                        question_type = "what_A_is_X_Y" # e.g 'What book is X based on?'
-                    elif "AUX" in pos and lemmas[pos.index("VERB")] == "earn":
-                        question_type = "what_A_is_X_Y" # e.g. 'Which movies earned X an award?'
+    if lemmas[0] == "do":
+        question_type = "yes/no"
+    else:
+        for rel in dep:
+            if 'pass' in rel:
+                question_type = "passive"  # e.g. 'Which movies are directed by X?'
+                break
+            elif any(item in duration_keywords for item in lemmas):
+                question_type = "duration"  # e.g. 'How long is X?'
+            elif any(item in location_keywords for item in lemmas):
+                question_type = "location" # e.g. 'Where was X filmed?'
+            elif any(item in time_keywords for item in lemmas):
+                question_type = "time" # e.g. 'When was X published?'
+            elif parse[0].text == "What" or parse[0].text == "Which":
+                if parse[1].pos_ == "NOUN":
+                    if "VERB" in pos:
+                        if "AUX" in pos and lemmas[pos.index("AUX")] == "be":
+                            question_type = "what_A_is_X_Y" # e.g 'What book is X based on?'
+                        elif "AUX" in pos and lemmas[pos.index("VERB")] == "earn":
+                            question_type = "what_A_is_X_Y" # e.g. 'Which movies earned X an award?'
+                        else:
+                            question_type = "what_which_verb" # e.g. 'What awards did X receive?'
                     else:
-                        question_type = "what_which_verb" # e.g. 'What awards did X receive?'
+                        question_type = "whatXisY" # e.g. 'What genre is X?'
+                elif 'about' in lemmas:
+                    question_type = "about"
                 else:
-                    question_type = "whatXisY" # e.g. 'What genre is X?'
-            elif 'about' in lemmas:
-                question_type = "about"
+                    question_type = "what_is_Xs_Y" # e.g. 'What is X's hair color?'
+            elif parse[0].text == "How":
+                if parse[1].text == "tall":
+                    question_type = "tall" # e.g 'How tall is X?'
+                elif parse[1].text == "many":
+                    question_type = "count" # e.g. 'How many X films are there?'
+                else:
+                    question_type = "cost" # e.g. 'How much did X cost to make?'
             else:
-                question_type = "what_is_Xs_Y" # e.g. 'What is X's hair color?'
-        elif parse[0].text == "How":
-            if parse[1].text == "tall":
-                question_type = "tall" # e.g 'How tall is X?'
-            elif parse[1].text == "many":
-                question_type = "count" # e.g. 'How many X films are there?'
-            else:
-                question_type = "cost" # e.g. 'How much did X cost to make?'
-        else:
-            if 'pobj' in rel:
-                question_type = "XofY"  # e.g. 'Who is the director of X?'
-            if 'dobj' in rel:
-                question_type = "verb_prop"  # e.g. 'Who directed X?'
+                if 'pobj' in rel:
+                    question_type = "XofY"  # e.g. 'Who is the director of X?'
+                if 'dobj' in rel:
+                    question_type = "verb_prop"  # e.g. 'Who directed X?'
 
     # for keyword in duration_keywords:
     #     if keyword in sent:
@@ -240,6 +243,11 @@ def get_entity_property(parse, question_type):
         pass
     elif question_type == "cost":
         pass
+    elif question_type == "yes/no":
+        main_verb_id = dep.index("ROOT")
+        ent = lemmas[1:main_verb_id]
+        prop_broad = lemmas[main_verb_id+1:-1]
+        prop = [w for w in prop_broad if pos[lemmas.index(w)] != "DET"]
 
     else:
         print("[ERROR] Made possible by Djim")
@@ -308,6 +316,13 @@ def retrieve_answer(prop, ent, question_type):
 
                 # Send query and print results
                 results = requests.get(sparql_url, params={'query': query, 'format': 'json'}).json()
+                if question_type == "yes/no":
+                    if results:
+                        print("yes")
+                    else:
+                        print("no")
+                    return
+                else:
                 if question_type != "duration":
                     for item in results['results']['bindings']:  # We show all items: sometimes one name can refer to multiple possible entities!
                         for var in item:
