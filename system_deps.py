@@ -323,7 +323,6 @@ def retrieve_answer(prop, ent, question_type):
                         print("no")
                     return
                 else:
-                if question_type != "duration":
                     for item in results['results']['bindings']:  # We show all items: sometimes one name can refer to multiple possible entities!
                         for var in item:
                             print("The answer to your question is:", item[var]['value'])
