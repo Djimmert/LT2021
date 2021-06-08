@@ -3,26 +3,10 @@
 # Authors: Jasper Bos (s3794687); Djim C. Casander (s3162753); Esther Ploeger (s3798461)
 # Date:    June 8th, 2021
 
-import argparse
 import requests
-import csv
 import spacy
-import sys
 
 nlp = spacy.load("en_core_web_md")
-#nlp.add_pipe("entityLinker", last=True)
-url = 'https://www.wikidata.org/w/api.php'
-sparql_url = 'https://query.wikidata.org/sparql'
-
-params_prop = {'action': 'wbsearchentities',
-               'language': 'en',
-               'format': 'json',
-               'type': 'property'}
-
-params_ent = {'action': 'wbsearchentities',
-              'language': 'en',
-              'format': 'json',
-              'type': 'item'}
 
 
 def get_question_type(input_q):
@@ -32,13 +16,9 @@ def get_question_type(input_q):
     :return: question type, abbreviation (str)
     """
     # Define keywords
-    # duration_keywords = ['how long', 'How long', 'duration',
-    #                      'How many minutes', 'how many minutes',
-    #                      'How much time', 'how much time',
-    #                      'What is the length of', 'what is the length of']
     duration_keywords = ['long', 'duration', 'minutes', 'time', 'length']
-    time_keywords = ['century', 'year', 'when']
-    location_keywords = ['country', 'location', 'where']
+    time_keywords = ['century', 'year', 'when', 'month']
+    location_keywords = ['country', 'location', 'where', 'coordinates']
 
     # Extract sentence structure
     parse = nlp(input_q)
@@ -55,7 +35,6 @@ def get_question_type(input_q):
     sent = sent.replace("'", "")  # Strip single apostrophe
 
     question_type = ""
-<<<<<<< Updated upstream
     if lemmas[0] == "do":
         question_type = "yes/no"
     else:
@@ -78,7 +57,6 @@ def get_question_type(input_q):
                             question_type = "what_A_is_X_Y" # e.g. 'Which movies earned X an award?'
                         else:
                             question_type = "what_which_verb" # e.g. 'What awards did X receive?'
-=======
     for rel in dep:
         if 'pass' in rel:
             question_type = "passive"  # e.g. 'Which movies are directed by X?'
@@ -98,7 +76,6 @@ def get_question_type(input_q):
                         question_type = "what_A_is_X_Y" # e.g 'What book is X based on?'
                     elif "AUX" in pos and lemmas[pos.index("VERB")] == "earn":
                         question_type = "what_A_is_X_Y" # e.g. 'Which movies earned X an award?'
->>>>>>> Stashed changes
                     else:
                         question_type = "whatXisY" # e.g. 'What genre is X?'
                 elif 'about' in lemmas:
@@ -113,22 +90,47 @@ def get_question_type(input_q):
                 else:
                     question_type = "cost" # e.g. 'How much did X cost to make?'
             else:
-<<<<<<< Updated upstream
-                if 'pobj' in rel:
-                    question_type = "XofY"  # e.g. 'Who is the director of X?'
-                if 'dobj' in rel:
-                    question_type = "verb_prop"  # e.g. 'Who directed X?'
-
-=======
                 question_type = "cost" # e.g. 'How much did X cost to make?'
         else:
             if 'dobj' in rel:
                 question_type = "verb_prop"  # e.g. 'Who directed X?'
-        
->>>>>>> Stashed changes
-    # for keyword in duration_keywords:
-    #     if keyword in sent:
-    #         question_type = "duration"  # e.g. 'How long is X?'
+
+    for rel in dep:
+        if 'pass' in rel:
+            question_type = "passive"  # e.g. 'Which movies are directed by X?'
+            break
+        elif any(item in duration_keywords for item in lemmas):
+            question_type = "duration"  # e.g. 'How long is X?'
+        elif any(item in location_keywords for item in lemmas):
+            question_type = "location"  # e.g. 'Where was X filmed?'
+        elif any(item in time_keywords for item in lemmas):
+            question_type = "time"  # e.g. 'When was X published?'
+        elif parse[0].text.lower() == "what" or parse[0].text.lower() == "which":
+            if parse[1].pos_ == "NOUN":
+                if "VERB" in pos:
+                    if "AUX" in pos and lemmas[pos.index("AUX")] == "be":
+                        question_type = "what_A_is_X_Y"  # e.g 'What book is X based on?'
+                    elif "AUX" in pos and lemmas[pos.index("VERB")] == "earn":
+                        question_type = "what_A_is_X_Y"  # e.g. 'Which movies earned X an award?'
+                    else:
+                        question_type = "what_which_verb" # e.g. 'What awards did X receive?'
+                else:
+                    question_type = "whatXisY"  # e.g. 'What genre is X?'
+            elif 'about' in lemmas:
+                question_type = "about"
+            else:
+                question_type = "what_is_Xs_Y"  # e.g. 'What is X's hair color?'
+        elif "tall" in lemmas:
+            question_type = "tall"  # e.g 'How tall is X?'
+        elif "many" in lemmas and "follower" not in lemmas and "cost" not in lemmas:  # e.g. 'How many X films are there?'
+            question_type = "count"
+        elif "cost" in lemmas:
+            question_type = "cost"  # e.g. 'How much did X cost to make?'
+        else:
+            if 'pobj' in rel:
+                question_type = "XofY"  # e.g. 'Who is the director of X?'
+            if 'dobj' in rel:
+                question_type = "verb_prop"  # e.g. 'Who directed X?'
 
     if not question_type:
         print("Question type could not be found ...")
@@ -136,13 +138,15 @@ def get_question_type(input_q):
         return question_type
 
 
-def get_entity_property(parse, question_type):
+def get_entity_property_deps(parse, question_type):
     """
-    Determine and clean entity and property from question type and parse
+    Determine and clean entity and property from question type and parse.
+
     :param parse: nlp parse of input question
-    :question type: abbreviation of question type (str)
+    :question_type: abbreviation of question type (str)
     """
 
+    # Init ent and prop
     ent = []
     prop = []
 
@@ -160,7 +164,6 @@ def get_entity_property(parse, question_type):
     sent = sent.replace("'", "")  # Strip single apostrophe
 
     if question_type == "XofY":
-
         # Property: from AUX to ADP
         if pos.count("ADP") == 1:
             try:
@@ -175,20 +178,6 @@ def get_entity_property(parse, question_type):
             except ValueError:  # 'AUX' not in list
                 print('[!] AUX not in list ?? lemmas[pos.index(AUX) + 1:pos.index(ADP)]')
                 pass
-
-        # More than one adposition: 'of' is likely in property (e.g. 'cause of death')
-        # Filter these specific common cases out manually
-        else:
-            if "cause of death" in parse.text:
-                prop = ["cause of death"]
-            elif "city of birth" in parse.text:
-                prop = ["birth city"]
-            elif "date of birth" in parse.text:
-                prop = ["birth date"]
-            elif "country of origin" in parse.text:
-                prop = ["country of origin"]
-            elif "country of citizenship" in parse.text:
-                prop = ["country of citizenship"]
 
             # Perhaps there is an 'of' in the entity, such as in 'Lord of the Rings'
             else:
@@ -218,7 +207,7 @@ def get_entity_property(parse, question_type):
         prop = [main_verb.lemma_]
 
     elif question_type == "duration":
-        prop = ["duration"]
+        prop = {'P2047': 'duration'}
         # Find entity: probably follows main verb (ROOT)
         ent = sent.split(" ")[dep.index("ROOT") + 1:]
 
@@ -269,10 +258,11 @@ def get_entity_property(parse, question_type):
 
     elif question_type == "tall":
         # Find entity
-        prop = ['height']
+        prop = {'P2048': 'height'}
     elif question_type == "count":
         pass
     elif question_type == "cost":
+        prop = {'P2130': 'cost'}
         pass
     elif question_type == "yes/no":
         main_verb_id = dep.index("ROOT")
@@ -281,7 +271,7 @@ def get_entity_property(parse, question_type):
         prop = [w for w in prop_broad if pos[lemmas.index(w)] != "DET"]
 
     else:
-        print("[ERROR] Made possible by Djim")
+        pass
 
     # Filter entity: starts with first capital letter and start is not an adjective (e.g. the Dutch movie ...)
     try:
@@ -295,9 +285,7 @@ def get_entity_property(parse, question_type):
     ent = " ".join(ent)
     prop = " ".join(prop)
 
-    prop = prop.replace('"', "")  # Strip double apostrophe
-    prop = prop.replace("'", "")  # Strip single apostrophe
-
+    ent, prop = retrieve_id_label(ent, prop)
     return ent, prop
 
 
@@ -307,28 +295,32 @@ def phrase(word):
     This was copied (but slightly modified) from examples above.
     """
 
-    children = []
-    for child in word.subtree :
-        children.append(child.text)
-    return children
+    return [child.text for child in word.subtree]
 
 
-def retrieve_answer(prop, ent, question_type):
-    """
-    Build query and retrieve answer from WikiData
-    :param prop: property, str
-    :param ent: entity, str
-    :param question_type: question type abbreviation, str
-    """
+def retrieve_id_label(ent, prop):
+    url = 'https://www.wikidata.org/w/api.php'
 
-    # Find property in Wikidata
-    params_prop['search'] = prop
-    json = requests.get(url,params_prop).json()
+    params_prop = {'action': 'wbsearchentities',
+                   'language': 'en',
+                   'format': 'json',
+                   'type': 'property'}
 
-    # Find entity in Wikidata
-    params_ent['search'] = ent
-    json_e = requests.get(url,params_ent).json()
+    params_ent = {'action': 'wbsearchentities',
+                  'language': 'en',
+                  'format': 'json',
+                  'type': 'item'}
 
+    if prop:
+        # Find property in Wikidata
+        params_prop['search'] = prop
+        try:
+            json_p = requests.get(url, params_prop).json()
+            prop = {json_p['search'][0]['id']: json_p['search'][0]['label']}
+        except IndexError:  # No result
+            prop = dict()  # Empty dict
+    else:
+        prop = dict()  # Empty dict
 
     # Retrieve Wikidata answer
     try:
@@ -362,8 +354,6 @@ def retrieve_answer(prop, ent, question_type):
         pass  # Not found
 
 
-<<<<<<< Updated upstream
-=======
 def get_entities_properties(q):
     """
     Uses Spacy Entity Linker anc Falcon2.0 to identify the entities of Wikidata in q.
@@ -412,7 +402,6 @@ def check_keywords(q):
         return 'P69' # Educated at
 
 
->>>>>>> Stashed changes
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('questionfile', help='path to .txt file with all questions')
@@ -443,3 +432,16 @@ def main():
 
 if __name__ == "__main__":
     main()
+    if ent:
+        # Find entity in Wikidata
+        params_ent['search'] = ent
+        try:
+            json_e = requests.get(url, params_ent).json()
+            ent = {json_e['search'][0]['id']: json_e['search'][0]['label']}
+
+        except IndexError:  # No result
+            ent = dict()  # Empty dict
+    else:
+        ent = dict()  # Empty dict
+
+    return ent, prop
