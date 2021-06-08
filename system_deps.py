@@ -150,7 +150,19 @@ def get_entity_property_deps(parse, question_type):
     elif question_type == "duration":
         prop = {'P2047': 'duration'}
         # Find entity: probably follows main verb (ROOT)
-        ent = sent.split(" ")[dep.index("ROOT") + 1:]
+        entity_quotes = []
+        entity_istitle = []
+        for word in parse:
+            if word.text == '"':
+                entity_quotes.append((word.i, word.text))
+            if word.text.istitle() and word.i != 0:
+                entity_istitle.append((word.i, word.text))
+        if len(entity_quotes) > 1:
+            ent = parse[entity_quotes[0][0]+1:entity_quotes[-1][0]].text.split(" ")
+        elif entity_istitle:
+            ent = parse[entity_istitle[0][0]:entity_istitle[-1][0]+1].text.split(" ")
+        else:
+            ent = sent.split(" ")[dep.index("ROOT") + 1:]
 
     elif question_type == "passive":
         for word in parse:
@@ -162,11 +174,40 @@ def get_entity_property_deps(parse, question_type):
             if word.pos_ == "VERB" and word.dep_ == "ROOT":
                 prop = [word.text]
     elif question_type == "location":
-        # Find entity using Falcon
-        # Filter property answers based on answer type using VALUES
-        pass
+        entity_quotes = []
+        entity_istitle = []
+        for word in parse:
+            if word.text == '"':
+                entity_quotes.append((word.i, word.text))
+            if word.text.istitle() and word.i != 0:
+                entity_istitle.append((word.i, word.text))
+        if len(entity_quotes) > 1:
+            ent = parse[entity_quotes[0][0]+1:entity_quotes[-1][0]].text.split(" ")
+        elif entity_istitle:
+            ent = parse[entity_istitle[0][0]:entity_istitle[-1][0]+1].text.split(" ")
+        else:
+            ent = sent.split(" ")[dep.index("ROOT") + 1:]
+        if 'from' in lemmas:
+            prop = {'P19': 'place of birth', 'P495': 'country of origin'}
+        elif 'filmed' in sent:
+            prop = {'P915': 'filming location'}
+        elif 'born' in lemmas:
+            prop = {'P19': 'place of birth'}
+        
     elif question_type == "time":
-        # Find entity using Falcon
+        entity_quotes = []
+        entity_istitle = []
+        for word in parse:
+            if word.text == '"':
+                entity_quotes.append((word.i, word.text))
+            if word.text.istitle() and word.i != 0:
+                entity_istitle.append((word.i, word.text))
+        if len(entity_quotes) > 1:
+            ent = parse[entity_quotes[0][0]+1:entity_quotes[-1][0]].text.split(" ")
+        elif entity_istitle:
+            ent = parse[entity_istitle[0][0]:entity_istitle[-1][0]+1].text.split(" ")
+        else:
+            ent = sent.split(" ")[dep.index("ROOT") + 1:]
         # Filter property answers based on data type of answer using VALUES
         pass
     elif question_type == "what_A_is_X_Y":
@@ -206,7 +247,7 @@ def get_entity_property_deps(parse, question_type):
     elif question_type == "yes/no":
         main_verb_id = dep.index("ROOT")
         ent = lemmas[1:main_verb_id]
-        prop_broad = lemmas[main_verb_id+1:-1]
+        prop_broad = lemmas[main_verb_id+1:-2]
         prop = [w for w in prop_broad if pos[lemmas.index(w)] != "DET"]
 
     else:
@@ -222,9 +263,12 @@ def get_entity_property_deps(parse, question_type):
 
     # Convert entity and property from list to string
     ent = " ".join(ent)
-    prop = " ".join(prop)
+    if type(prop) == list:
+        prop = " ".join(prop)
+        ent, prop = retrieve_id_label(ent, prop)
+    else:
+        ent, prop_irrelevant = retrieve_id_label(ent, "")
 
-    ent, prop = retrieve_id_label(ent, prop)
     return ent, prop
 
 

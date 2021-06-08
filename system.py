@@ -54,6 +54,11 @@ def check_keywords(parse, q):
         return {'P6251': 'catchphrase'}
     elif 'how many children' in q:
         return {'P1971': 'number of children', 'P40': 'child'}
+    elif 'country of citizenship' in q:
+        return {'P27': 'country of citizenship'}
+    elif 'country of origin' in q:
+        return {'P495': 'country of origin'}
+
 
 
 def retrieve_answer(q, question_type, ents, props):
