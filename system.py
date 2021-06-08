@@ -2,6 +2,8 @@ from system_deps import *
 from system_libs import *
 import csv
 import argparse
+import simplejson  # For Python 3.9-
+
 
 def merge_entities_properties(q, parse, question_type):
     deps_ent, deps_prop = get_entity_property_deps(parse, question_type)
