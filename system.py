@@ -84,7 +84,7 @@ def retrieve_answer(q, question_type, ents, props):
                                     params={'query': query, 'format': 'json'}).json()
                     break
 
-                except json.decoder.JSONDecodeError:  # Sometimes nothing is returned
+                except (json.decoder.JSONDecodeError, simplejson.errors.JSONDecodeError):  # Sometimes nothing is returned
                     continue  # Try again
 
             if data['results']['bindings']:
