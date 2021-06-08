@@ -1,5 +1,5 @@
 # System.py
-Three packages are required to run `system.py`.
+Three packages are required to run `system.py`. Python 3.9+ is required.
 ## Installation
 ### Install [SpaCy](https://spacy.io/usage) and its language model
 1. `pip3 install -U spacy`
