@@ -231,8 +231,10 @@ def get_entity_property_deps(parse, question_type):
             ent = parse[entity_istitle[0][0]:entity_istitle[-1][0]+1].text.split(" ")
         else:
             ent = sent.split(" ")[dep.index("ROOT") + 1:]
-        # Find property: probably last two words of sentence (parse[-4:-2])
-        prop = parse[-4:-2].text.split(" ")
+        if parse[-4:-2].text.split(" ") == ['based', 'on'] or parse[-4:-2].text.split(" ") == ['influenced', 'by'] or 'earned' in sent:
+            prop = parse[-4:-2].text.split(" ")
+        elif "AUX" in pos:
+            prop = parse[1:pos.index("AUX")].text.split(" ")
     elif question_type == "what_which_verb":
         # Find entity
         # Find property: probably second word (parse[1])
