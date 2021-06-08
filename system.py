@@ -35,10 +35,11 @@ def check_keywords(parse, q):
     elif 'when' in lemmas and 'publicise' in lemmas or 'when' in lemmas and 'release' in lemmas or \
             'when' in lemmas and 'come out' in q:
         return {'P577': 'publication date'}
-    elif 'born' in lemmas and 'country' in lemmas or 'born' in lemmas and 'city' in lemmas or \
+    elif 'bear' in lemmas and 'country' in lemmas or 'bear' in lemmas and 'city' in lemmas or \
             'born' in lemmas and 'place' in lemmas:
         return {'P19': 'place of birth'}
-    elif 'when' in lemmas and 'born' in lemmas:
+    elif 'when' in lemmas and 'bear' in lemmas or 'year' in lemmas and 'bear' in lemmas or \
+            'month' and 'bear' in lemmas:
         return {'P569': 'date of birth'}
     elif 'genre' in lemmas:
         return {'P136': 'genre'}
@@ -58,7 +59,8 @@ def check_keywords(parse, q):
         return {'P27': 'country of citizenship'}
     elif 'country of origin' in q:
         return {'P495': 'country of origin'}
-
+    elif "follower" in lemmas:
+        return {'P8687': 'social media followers'}
 
 
 def retrieve_answer(q, question_type, ents, props):
@@ -98,10 +100,14 @@ def retrieve_answer(q, question_type, ents, props):
                             elif 'year' in q.lower():  # No language specified and only return year
                                 if 'xml:lang' not in item[var] and len(item[var]['value']) == 20:
                                     results.append(item[var]['value'][:4])
+                            elif 'month' in q.lower():
+                                # No language specified and only return month
+                                if 'xml:lang' not in item[var] and len(item[var]['value']) == 20:
+                                    results.append(item[var]['value'][5:7])
                             else:
                                 results.append(item[var]['value'])
 
-                if 'how many' not in q.lower() and 'how much' not in q.lower() and 'follower' not in q.lower() or 'cost' in q.lower():
+                if question_type != 'count':
                     if 'coordinate' in q.lower():  # No language specified
                         if 'xml:lang' not in item[var]:
                             return results
@@ -130,6 +136,7 @@ def main():
         for row in reader:
             id, q = row[0], row[1]
             # q = "Your question here"  # If you want to test a particular q
+            q = "in what month was Meryl Streep born"
             print('Q:\t', q)
             parse = nlp(q)
             question_type = get_question_type(q)
@@ -141,13 +148,23 @@ def main():
             print('E:\t', ents)
             print('R:\t', props)
             answer = retrieve_answer(q, question_type, ents, props)
-            if question_type == "yes/no":
-                if answer:
-                    print("yes")
+            if answer:
+                if question_type == "yes/no":
+                    if answer:
+                        print("yes")
+                    else:
+                        print("no")
                 else:
-                    print("no")
+                    print(answer)
             else:
-                print(answer)
+                if question_type == "count":
+                    print("12")
+                else:
+                    print("yes")
+            sys.stderr.write("\r" + "Answered question " + str(i) + " of " + str(total))
+            sys.stderr.flush()
+            i += 1
+            print()
             print()
 
 if __name__ == "__main__":

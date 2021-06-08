@@ -1,0 +1,2378 @@
+spacy_entity_linker
+Q:	 How many followers does Studio Ghibli have on social media?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q182950': 'Studio Ghibli', 'Q50298131': 'Rm9sbG93ZXJz', 'Q202833': 'social media'} {'P155': 'followers'}
+E:	 {'Q182950': 'Studio Ghibli', 'Q50298131': 'Rm9sbG93ZXJz', 'Q202833': 'social media'}
+R:	 {'P155': 'followers'}
+Q182950 P155
+1
+
+
+Q:	 How many Harry Potter movies are there?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q216930': 'Harry potter', 'Q434841': 'Movies', 'Q11424': 'film'} {'P57': 'movies'}
+E:	 {'Q216930': 'Harry potter', 'Q434841': 'Movies', 'Q11424': 'film'}
+R:	 {'P57': 'movies'}
+Q216930 P57
+1
+
+
+Q:	 How many "How To Train Your Dragon" movies are there?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q1179487': 'dragon movies', 'Q1148444': 'blunderbuss', 'Q11424': 'film'} {'P403': 'Train'}
+E:	 {'Q1179487': 'dragon movies', 'Q1148444': 'blunderbuss', 'Q11424': 'film'}
+R:	 {'P403': 'Train'}
+Q1179487 P403
+Q1148444 P403
+Q11424 P403
+yes
+
+
+Q:	 How many Iron Man movie parts are there?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q192724': 'iron man movie parts', 'Q11424': 'film'} {}
+E:	 {'Q192724': 'iron man movie parts', 'Q11424': 'film'}
+R:	 {}
+yes
+
+
+Q:	 How many members does UEFA have?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q6277030': 'Members', 'Q35572': 'Union of European Football Associations', 'Q379825': 'element'} {}
+E:	 {'Q6277030': 'Members', 'Q35572': 'Union of European Football Associations', 'Q379825': 'element'}
+R:	 {}
+yes
+
+
+Q:	 How many minutes is Spirited Away?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q7727': 'Minutes', 'Q400960': 'Away', 'Q2085515': 'minutes'} {'P4292': 'Spirited'}
+E:	 {'Q7727': 'Minutes', 'Q400960': 'Away', 'Q2085515': 'minutes'}
+R:	 {'P4292': 'Spirited'}
+Q7727 P4292
+Q400960 P4292
+Q2085515 P4292
+yes
+
+
+Q:	 How many minutes long is The Wolf of Wall Street?
+QT	 duration
+deps:	 {'Q1392744': 'The Wolf of Wall Street'} {'P2047': 'duration'}
+libs:	 {'Q7727': 'Minutes long', 'Q1392744': 'The Wolf of Wall Street', 'Q2085515': 'minutes', 'Q11690': 'Wall Street'} {}
+E:	 {'Q7727': 'Minutes long', 'Q1392744': 'The Wolf of Wall Street', 'Q2085515': 'minutes', 'Q11690': 'Wall Street'}
+R:	 {'P2047': 'duration'}
+Q7727 P2047
+Q1392744 P2047
+1
+
+
+Q:	 How many movies are included in the Harry Potter series?
+QT	 passive
+deps:	 {'Q8337': 'Harry Potter'} {'P5008': 'on focus list of Wikimedia project'}
+libs:	 {'Q1179487': 'Movies', 'Q8337': 'Harry Potter', 'Q11424': 'film'} {'P527': 'included'}
+E:	 {'Q1179487': 'Movies', 'Q8337': 'Harry Potter', 'Q11424': 'film'}
+R:	 {'P527': 'included', 'P5008': 'on focus list of Wikimedia project'}
+Q1179487 P527
+Q1179487 P5008
+Q8337 P527
+Q8337 P5008
+Q11424 P527
+9
+
+
+Q:	 how many movies are in the Marvel cinematic Universe?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q1179487': 'Movies', 'Q642878': 'Marvel Cinematic Universe', 'Q11424': 'film', 'Q1': 'Universe'} {}
+E:	 {'Q1179487': 'Movies', 'Q642878': 'Marvel Cinematic Universe', 'Q11424': 'film', 'Q1': 'Universe'}
+R:	 {}
+yes
+
+
+Q:	 How many movies are there in the "Ocean's" series?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q1179487': 'Movies', 'Q1179882': 'Oceans series', 'Q11424': 'film', 'Q170198': 'series', 'Q1408498': 'Ocean Software'} {}
+E:	 {'Q1179487': 'Movies', 'Q1179882': 'Oceans series', 'Q11424': 'film', 'Q170198': 'series', 'Q1408498': 'Ocean Software'}
+R:	 {}
+yes
+
+
+Q:	 How many movies of harry potter are there?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q8337': 'Harry Potter', 'Q11424': 'film'} {}
+E:	 {'Q8337': 'Harry Potter', 'Q11424': 'film'}
+R:	 {}
+yes
+
+
+Q:	 How many occupations does Rowan Atkinson have?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q863921': 'Occupations', 'Q23760': 'Rowan Atkinson', 'Q28640': 'profession'} {}
+E:	 {'Q863921': 'Occupations', 'Q23760': 'Rowan Atkinson', 'Q28640': 'profession'}
+R:	 {}
+yes
+
+
+Q:	 How many Oscar nomination does Meryl Streep have?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q426293': 'Oscar', 'Q1156895': 'Nomination', 'Q873': 'Meryl Streep', 'Q9941': 'O'} {'P140': 'nomination'}
+E:	 {'Q426293': 'Oscar', 'Q1156895': 'Nomination', 'Q873': 'Meryl Streep', 'Q9941': 'O'}
+R:	 {'P140': 'nomination'}
+Q426293 P140
+Q1156895 P140
+Q873 P140
+1
+
+
+Q:	 How many oscars did th movie 'the Titanic' win?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q223983': 'Oscars', 'Q44578': 'th movie the titanic win', 'Q3442': 'Astronotus ocellatus', 'Q11424': 'film', 'Q50000': 'victory', 'Q25173': 'RMS Titanic'} {}
+E:	 {'Q223983': 'Oscars', 'Q44578': 'th movie the titanic win', 'Q3442': 'Astronotus ocellatus', 'Q11424': 'film', 'Q50000': 'victory', 'Q25173': 'RMS Titanic'}
+R:	 {}
+yes
+
+
+Q:	 How many oscars did Titanic win?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q9941': 'Oscars', 'Q25173': 'Titanic', 'Q3442': 'Astronotus ocellatus', 'Q50000': 'victory'} {'P276': 'win'}
+E:	 {'Q9941': 'Oscars', 'Q25173': 'Titanic', 'Q3442': 'Astronotus ocellatus', 'Q50000': 'victory'}
+R:	 {'P276': 'win'}
+Q9941 P276
+Q25173 P276
+1
+
+
+Q:	 How many people live in Hollywood?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q34006': 'Hollywood', 'Q5': 'human'} {'P551': 'live', 'P172': 'people'}
+E:	 {'Q34006': 'Hollywood', 'Q5': 'human'}
+R:	 {'P551': 'live', 'P172': 'people'}
+Q34006 P551
+Q34006 P172
+Q5 P551
+Q5 P172
+yes
+
+
+Q:	 How many Pokémon episodes are there?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q846649': 'Pokémon', 'Q864': 'Pokémon'} {'P1113': 'episodes'}
+E:	 {'Q846649': 'Pokémon', 'Q864': 'Pokémon'}
+R:	 {'P1113': 'episodes'}
+Q846649 P1113
+Q864 P1113
+yes
+
+
+Q:	 How many prices did Tenet won
+QT	 count
+deps:	 {} {}
+libs:	 {'Q297279': 'Prices', 'Q641184': 'Tenet', 'Q160151': 'price', 'Q63985561': 'Tenet'} {'P31': 'won'}
+E:	 {'Q297279': 'Prices', 'Q641184': 'Tenet', 'Q160151': 'price', 'Q63985561': 'Tenet'}
+R:	 {'P31': 'won'}
+Q297279 P31
+1
+
+
+Q:	 How many screenwriters did Good Will Hunting have?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q28389': 'screenwriter', 'Q193835': 'Good will hunting', 'Q60786798': 'Good', 'Q5141174': 'Hunting'} {}
+E:	 {'Q28389': 'screenwriter', 'Q193835': 'Good will hunting', 'Q60786798': 'Good', 'Q5141174': 'Hunting'}
+R:	 {}
+yes
+
+
+Q:	 How many seasons does Malcolm in the Middle have?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q313554': 'Malcolm', 'Q2544136': 'In the middle', 'Q24384': 'season', 'Q16203840': 'Malcolm', 'Q22253581': 'Middle'} {'P2437': 'seasons', 'P19': 'in the Middle'}
+E:	 {'Q313554': 'Malcolm', 'Q2544136': 'In the middle', 'Q24384': 'season', 'Q16203840': 'Malcolm', 'Q22253581': 'Middle'}
+R:	 {'P2437': 'seasons', 'P19': 'in the Middle'}
+Q313554 P2437
+Q313554 P19
+1
+
+
+Q:	 How many seasons does the series How I Met Your Mother have?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q24384': 'season', 'Q170198': 'series', 'Q25339558': 'mother!'} {'P1068': 'Met', 'P2437': 'seasons', 'P179': 'series', 'P25': 'Mother'}
+E:	 {'Q24384': 'season', 'Q170198': 'series', 'Q25339558': 'mother!'}
+R:	 {'P1068': 'Met', 'P2437': 'seasons', 'P179': 'series', 'P25': 'Mother'}
+Q24384 P1068
+Q24384 P2437
+Q24384 P179
+Q24384 P25
+Q170198 P1068
+Q170198 P2437
+Q170198 P179
+Q170198 P25
+Q25339558 P1068
+Q25339558 P2437
+Q25339558 P179
+Q25339558 P25
+yes
+
+
+Q:	 How many seasons of the show Merlin exist?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q131918': 'Merlin', 'Q24384': 'season', 'Q53858110': 'Manuel Luís Cafumana', 'Q188044': 'Merlin'} {'P2437': 'seasons'}
+E:	 {'Q131918': 'Merlin', 'Q24384': 'season', 'Q53858110': 'Manuel Luís Cafumana', 'Q188044': 'Merlin'}
+R:	 {'P2437': 'seasons'}
+Q131918 P2437
+Q24384 P2437
+Q53858110 P2437
+Q188044 P2437
+yes
+
+
+Q:	  How many "Star Wars" films are there?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q462': 'Star Wars', 'Q11424': 'film'} {}
+E:	 {'Q462': 'Star Wars', 'Q11424': 'film'}
+R:	 {}
+yes
+
+
+Q:	 How many twitter followers does Zac Efron have?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q1402866': 'Twitter followers', 'Q45229': 'Zac Efron', 'Q918': 'Twitter'} {}
+E:	 {'Q1402866': 'Twitter followers', 'Q45229': 'Zac Efron', 'Q918': 'Twitter'}
+R:	 {}
+yes
+
+
+Q:	 How many years ago did Blu-Ray DVDs come out?
+QT	 time
+deps:	 {'Q47770': 'Blu-ray Disc'} {}
+libs:	 {'Q8050963': 'Years ago', 'Q47770': 'Blu-ray', 'Q697704': 'Dvds', 'Q577': 'year', 'Q5294': 'DVD'} {'P155': 'come', 'P5106': 'DVDs'}
+E:	 {'Q8050963': 'Years ago', 'Q47770': 'Blu-ray Disc', 'Q697704': 'Dvds', 'Q577': 'year', 'Q5294': 'DVD'}
+R:	 {'P155': 'come', 'P5106': 'DVDs'}
+Q8050963 P155
+yes
+
+
+Q:	 How much did 2001: A Space Oddyssey cost to make?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q277547': 'A', 'Q103474': '2001:  space oddyssey cost', 'Q240673': 'cost', 'Q1457764': 'CTV Sci-Fi Channel'} {}
+E:	 {'Q277547': 'A', 'Q103474': '2001:  space oddyssey cost', 'Q240673': 'cost', 'Q1457764': 'CTV Sci-Fi Channel'}
+R:	 {}
+yes
+
+
+Q:	 How much did Avengers: Endgame (2019) earn in the box office worldwide?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q332225': 'Avengers: endgame (2019)', 'Q895522': 'box office worldwide', 'Q182218': 'The Avengers', 'Q1235448': 'Endgame', 'Q877435': 'box office'} {'P3962': 'earn'}
+[!] Property overwritten by keywords.
+E:	 {'Q332225': 'Avengers: endgame (2019)', 'Q895522': 'box office worldwide', 'Q182218': 'The Avengers', 'Q1235448': 'Endgame', 'Q877435': 'box office'}
+R:	 {'P2142': 'box office'}
+Q332225 P2142
+Q895522 P2142
+Q182218 P2142
+2
+
+
+Q:	 How much did Avengers: Endgame cost?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q113700': 'Avengers: endgame', 'Q240673': 'cost', 'Q182218': 'The Avengers', 'Q1235448': 'Endgame'} {'P161': 'cost'}
+E:	 {'Q113700': 'Avengers: endgame', 'Q240673': 'cost', 'Q182218': 'The Avengers', 'Q1235448': 'Endgame'}
+R:	 {'P161': 'cost'}
+Q113700 P161
+['Honor Blackman', 'Diana Rigg', 'Linda Thorson', 'Patrick Macnee', 'Ian Hendry', 'Patrick Newell']
+
+
+Q:	 How much did Inception cost to produce?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q25188': 'Inception'} {'P162': 'produce'}
+E:	 {'Q25188': 'Inception'}
+R:	 {'P162': 'produce'}
+Q25188 P162
+['Christopher Nolan', 'Emma Thomas']
+
+
+Q:	 How much did it cost to film Tenet?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q624144': 'Tenet', 'Q63985561': 'Tenet'} {'P281': 'cost', 'P136': 'film'}
+E:	 {'Q624144': 'Tenet', 'Q63985561': 'Tenet'}
+R:	 {'P281': 'cost', 'P136': 'film'}
+Q624144 P281
+['15400']
+
+
+Q:	 How much did it cost to make The Lord of the Rings: The Fellowship of the Ring?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q127367': 'lord of the rings: the fellowship of the ring', 'Q15228': 'The Lord of the Rings', 'Q19866947': 'Rings', 'Q1404101': 'fellow', 'Q212804': 'The Ring'} {'P2130': 'cost'}
+E:	 {'Q127367': 'lord of the rings: the fellowship of the ring', 'Q15228': 'The Lord of the Rings', 'Q19866947': 'Rings', 'Q1404101': 'fellow', 'Q212804': 'The Ring'}
+R:	 {'P2130': 'cost'}
+Q127367 P2130
+['93000000']
+
+
+Q:	 How much did Saving private ryan cost in United States dollars?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q165817': 'saving private ryan cost in united states dollars', 'Q240673': 'cost', 'Q4917': 'United States dollar'} {}
+E:	 {'Q165817': 'saving private ryan cost in united states dollars', 'Q240673': 'cost', 'Q4917': 'United States dollar'}
+R:	 {}
+yes
+
+
+Q:	 How much did The LEGO Batman Movie make at box office?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q170484': 'Lego', 'Q116852': 'batman movie make at box office', 'Q23013169': 'The LEGO Batman Movie', 'Q877435': 'box office'} {}
+[!] Property overwritten by keywords.
+E:	 {'Q170484': 'Lego', 'Q116852': 'batman movie make at box office', 'Q23013169': 'The LEGO Batman Movie', 'Q877435': 'box office'}
+R:	 {'P2142': 'box office'}
+Q170484 P2142
+Q116852 P2142
+1
+
+
+Q:	 How much did the most expensive movie to produce cost?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q11424': 'film', 'Q240673': 'cost'} {'P1056': 'produce', 'P161': 'cost'}
+E:	 {'Q11424': 'film', 'Q240673': 'cost'}
+R:	 {'P1056': 'produce', 'P161': 'cost'}
+Q11424 P1056
+Q11424 P161
+Q240673 P1056
+Q240673 P161
+yes
+
+
+Q:	 How much did the movie "Inception" earn in box office?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q25188': 'Inception', 'Q11424': 'film', 'Q877435': 'box office'} {'P3962': 'earn', 'P2142': 'box office'}
+[!] Property overwritten by keywords.
+E:	 {'Q25188': 'Inception', 'Q11424': 'film', 'Q877435': 'box office'}
+R:	 {'P2142': 'box office'}
+Q25188 P2142
+1
+
+
+Q:	 How much did the production of The Grand Budapest Hotel cost?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q850990': 'Production of the grand budapest hotel cost', 'Q739302': 'production', 'Q3521099': 'The Grand Budapest Hotel'} {}
+E:	 {'Q850990': 'Production of the grand budapest hotel cost', 'Q739302': 'production', 'Q3521099': 'The Grand Budapest Hotel'}
+R:	 {}
+yes
+
+
+Q:	 How much did the production of The Lord of the Rings: The Return of the King cost?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q131074': 'Production of the lord of the rings: the return of the king cost', 'Q240673': 'cost', 'Q739302': 'production', 'Q15228': 'The Lord of the Rings', 'Q19866947': 'Rings', 'Q115285': 'The Return of the King', 'Q2680856': 'King'} {}
+E:	 {'Q131074': 'Production of the lord of the rings: the return of the king cost', 'Q240673': 'cost', 'Q739302': 'production', 'Q15228': 'The Lord of the Rings', 'Q19866947': 'Rings', 'Q115285': 'The Return of the King', 'Q2680856': 'King'}
+R:	 {}
+yes
+
+
+Q:	 How much did the production of the movie "Inglourious Basterds" (2009) cost?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q153723': 'Inglourious Basterds', 'Q739302': 'production', 'Q11424': 'film', 'Q240673': 'cost'} {}
+E:	 {'Q153723': 'Inglourious Basterds', 'Q739302': 'production', 'Q11424': 'film', 'Q240673': 'cost'}
+R:	 {}
+yes
+
+
+Q:	 How much did the sci-fi movie Avatar cost?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q24871': 'Avatar', 'Q33': 'Finland'} {'P2130': 'cost'}
+E:	 {'Q24871': 'Avatar', 'Q33': 'Finland'}
+R:	 {'P2130': 'cost'}
+Q24871 P2130
+['237000000']
+
+
+Q:	 How much did Titanic cost to make?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q25173': 'titanic cost', 'Q240673': 'cost'} {}
+E:	 {'Q25173': 'titanic cost', 'Q240673': 'cost'}
+R:	 {}
+yes
+
+
+Q:	 How much did Toy Story make?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q171048': 'Toy Story'} {}
+E:	 {'Q171048': 'Toy Story'}
+R:	 {}
+yes
+
+
+Q:	 How much did Wolf of Wallstreet cost?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q18498': 'Wolf of wallstreet cost', 'Q174302': 'Of wallstreet cost', 'Q240673': 'cost', 'Q8029793': 'Wolf'} {'P31': 'Wolf of  cost'}
+E:	 {'Q18498': 'Wolf of wallstreet cost', 'Q174302': 'Of wallstreet cost', 'Q240673': 'cost', 'Q8029793': 'Wolf'}
+R:	 {'P31': 'Wolf of  cost'}
+Q18498 P31
+['taxon', 'apex predator']
+
+
+Q:	 How much does it cost for producing The Girl with the Dragon Tattoo?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q276343': 'Girl with the dragon tattoo', 'Q61875850': 'Girl', 'Q1148444': 'blunderbuss'} {'P161': 'cost'}
+E:	 {'Q276343': 'Girl with the dragon tattoo', 'Q61875850': 'Girl', 'Q1148444': 'blunderbuss'}
+R:	 {'P161': 'cost'}
+Q276343 P161
+['Noomi Rapace', 'Gunnel Lindblom', 'Lena Endre', 'Michael Nyqvist', 'Tehilla Blad', 'Marika Lagercrantz', 'Ewa Fröling', 'Annika Hallin', 'Sofia Ledarp', 'Jacob Ericksson', 'David Dencik', 'Björn Granath', 'Julia Sporre', 'Sven-Bertil Taube', 'Leo Bill', 'Peter Haber', 'Georgi Staykov', 'Peter Andersson', 'Emil Almén', 'Margareta Stone', 'Reuben Sallmander', 'Ingvar Hirdwall', 'Barbro Enberg', 'Willie Andréason', 'Gösta Bredefeldt', 'Darri Ingólfsson', 'Michalis Koutsogiannakis', 'Tomas Köhler', 'Mikael Rahm', 'Stefan Sauk']
+
+
+Q:	 How much dollar did it cost to produce the movie Tenet?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q2023575': 'Dollar', 'Q11424': 'movie tenet', 'Q14083': 'dollar', 'Q63985561': 'Tenet'} {'P161': 'cost', 'P1056': 'produce'}
+E:	 {'Q2023575': 'Dollar', 'Q11424': 'movie tenet', 'Q14083': 'dollar', 'Q63985561': 'Tenet'}
+R:	 {'P161': 'cost', 'P1056': 'produce'}
+Q2023575 P161
+Q2023575 P1056
+Q11424 P161
+Q11424 P1056
+Q14083 P161
+Q14083 P1056
+Q63985561 P161
+['Robert Pattinson', 'Aaron Taylor-Johnson', 'Kenneth Branagh', 'Michael Caine', 'Dimple Kapadia', 'Clémence Poésy', 'Martin Donovan', 'Andrew Howard', 'John David Washington', 'Elizabeth Debicki', 'Marcel Sabat', 'Denzil Smith']
+
+
+Q:	  How much dollars did the movie "Avatar"(2009) cost?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q1195819': ' how much dollars', 'Q24871': 'Movie avatar(2009)', 'Q240673': 'cost', 'Q14083': 'dollar', 'Q11424': 'film'} {'P2130': 'cost'}
+E:	 {'Q1195819': ' how much dollars', 'Q24871': 'Movie avatar(2009)', 'Q240673': 'cost', 'Q14083': 'dollar', 'Q11424': 'film'}
+R:	 {'P2130': 'cost'}
+Q1195819 P2130
+Q24871 P2130
+['237000000']
+
+
+Q:	 How much money did Tenet cost to produce?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q1368': 'money', 'Q411325': 'tenet cost', 'Q63985561': 'Tenet'} {'P162': 'produce'}
+E:	 {'Q1368': 'money', 'Q411325': 'tenet cost', 'Q63985561': 'Tenet'}
+R:	 {'P162': 'produce'}
+Q1368 P162
+Q411325 P162
+Q63985561 P162
+['Christopher Nolan', 'Emma Thomas']
+
+
+Q:	 How much money was spent to create "John Wick 2" ?
+QT	 passive
+deps:	 {} {}
+libs:	 {'Q1368': 'money', 'Q102272': 'John wick 2', 'Q15732802': 'John Wick'} {'P1817': 'spent', 'P571': 'create'}
+E:	 {'Q1368': 'money', 'Q102272': 'John wick 2', 'Q15732802': 'John Wick'}
+R:	 {'P1817': 'spent', 'P571': 'create'}
+Q1368 P1817
+Q1368 P571
+Q102272 P1817
+Q102272 P571
+Q15732802 P1817
+Q15732802 P571
+yes
+
+
+Q:	 How much time does it cost to watch The Karate Kid from 1984?
+QT	 duration
+deps:	 {'Q846679': 'The Karate Kid'} {'P2047': 'duration'}
+libs:	 {'Q210271': 'Karate kid from 1984', 'Q11471': 'time', 'Q846679': 'The Karate Kid'} {'P161': 'cost', 'P1355': 'watch', 'P421': 'time'}
+E:	 {'Q210271': 'Karate kid from 1984', 'Q11471': 'time', 'Q846679': 'The Karate Kid'}
+R:	 {'P161': 'cost', 'P1355': 'watch', 'P421': 'time', 'P2047': 'duration'}
+Q210271 P161
+Q210271 P1355
+Q210271 P421
+Q210271 P2047
+Q11471 P161
+Q11471 P1355
+Q11471 P421
+Q11471 P2047
+Q846679 P161
+['Ralph Macchio', 'Randee Heller', 'Elisabeth Shue', 'Frances Bay', 'Pat Morita', 'Ronald Thomas', 'Larry Drake', 'Andrew Shue', 'Martin Kove', 'William Zabka', 'Bruce Malmuth', 'Chad McQueen', 'Christopher Kriesa', 'Larry B. Scott', 'Chris Casamassa', 'Israel Juarbe', 'William Bassett', 'Todd Lookinland']
+
+
+Q:	 How old should you be to watch Kingsman: the Secret Service?
+QT	 verb_prop
+deps:	 {} {'P577': 'publication date'}
+libs:	 {'Q736318': 'Old', 'Q79733': 'Kingsman', 'Q181694': ': the secret service', 'Q17018738': 'Kingsman', 'Q1523567': 'Secret Service'} {'P1355': 'watch', 'P131': ': the Secret Service'}
+E:	 {'Q736318': 'Old', 'Q79733': 'Kingsman', 'Q181694': ': the secret service', 'Q17018738': 'Kingsman', 'Q1523567': 'Secret Service'}
+R:	 {'P1355': 'watch', 'P131': ': the Secret Service', 'P577': 'publication date'}
+Q736318 P1355
+Q736318 P131
+['Siklós  District']
+
+
+Q:	  How old was Leonardo DiCaprio when he played in "Inception"?
+QT	 time
+deps:	 {'Q3406134': 'date of establishment'} {}
+libs:	 {'Q5918053': ' how old', 'Q38111': 'Leonardo DiCaprio', 'Q25188': 'Inception'} {'P175': 'played', 'P571': 'Inception'}
+E:	 {'Q5918053': ' how old', 'Q38111': 'Leonardo DiCaprio', 'Q25188': 'Inception', 'Q3406134': 'date of establishment'}
+R:	 {'P175': 'played', 'P571': 'Inception'}
+Q5918053 P175
+['Robin Gibb']
+
+
+Q:	 How tall is Amitabh Bachchan?
+QT	 tall
+deps:	 {} {'P2048': 'height'}
+libs:	 {'Q2390476': 'Tall', 'Q9570': 'Amitabh Bachchan'} {}
+E:	 {'Q2390476': 'Tall', 'Q9570': 'Amitabh Bachchan'}
+R:	 {'P2048': 'height'}
+Q2390476 P2048
+Q9570 P2048
+['1.88']
+
+
+Q:	 How tall is Arnold Schwarzenegger
+QT	 tall
+deps:	 {} {'P2048': 'height'}
+libs:	 {'Q2390476': 'Tall', 'Q2685': 'Arnold Schwarzenegger'} {}
+E:	 {'Q2390476': 'Tall', 'Q2685': 'Arnold Schwarzenegger'}
+R:	 {'P2048': 'height'}
+Q2390476 P2048
+Q2685 P2048
+['1.88']
+
+
+Q:	 How tall is Bryan Cranston?
+QT	 tall
+deps:	 {} {'P2048': 'height'}
+libs:	 {'Q2390476': 'Tall', 'Q23547': 'Bryan Cranston'} {}
+E:	 {'Q2390476': 'Tall', 'Q23547': 'Bryan Cranston'}
+R:	 {'P2048': 'height'}
+Q2390476 P2048
+Q23547 P2048
+['1.79']
+
+
+Q:	 How tall is Danny DeVito?
+QT	 tall
+deps:	 {} {'P2048': 'height'}
+libs:	 {'Q2390476': 'Tall', 'Q26806': 'Danny DeVito'} {}
+E:	 {'Q2390476': 'Tall', 'Q26806': 'Danny DeVito'}
+R:	 {'P2048': 'height'}
+Q2390476 P2048
+Q26806 P2048
+['147']
+
+
+Q:	 How tall is the actor Mark Ruffalo?
+QT	 tall
+deps:	 {} {'P2048': 'height'}
+libs:	 {'Q49006': 'Tall', 'Q41422': 'Mark Ruffalo'} {'P161': 'actor'}
+E:	 {'Q49006': 'Tall', 'Q41422': 'Mark Ruffalo'}
+R:	 {'P161': 'actor', 'P2048': 'height'}
+Q49006 P161
+['Roger Aaron Brown', 'Patrick Swayze', 'Scott Glenn', 'William H. Macy', "Catherine O'Hara", 'Stephen Lang', 'Nick Stahl', 'Oliver Platt', 'Burgess Meredith', 'Jared Harris', 'Scott Wilson', 'Joe Grifasi', 'John P. Ryan', 'Moira Harris', 'Kevin Brown', 'Eric Lawson']
+
+
+Q:	 How tall is the actor playing Mark Watney in The Martian?
+QT	 tall
+deps:	 {} {'P2048': 'height'}
+libs:	 {'Q2390476': 'Tall', 'Q1161625': 'Mark watney', 'Q218860': 'In the martian', 'Q33999': 'actor', 'Q26689986': 'Mark Lee', 'Q18547944': 'The Martian'} {'P1352': 'playing', 'P161': 'actor', 'P361': 'in The Martian'}
+E:	 {'Q2390476': 'Tall', 'Q1161625': 'Mark watney', 'Q218860': 'In the martian', 'Q33999': 'actor', 'Q26689986': 'Mark Lee', 'Q18547944': 'The Martian'}
+R:	 {'P1352': 'playing', 'P161': 'actor', 'P361': 'in The Martian', 'P2048': 'height'}
+Q2390476 P1352
+Q2390476 P161
+Q2390476 P361
+Q2390476 P2048
+Q1161625 P1352
+Q1161625 P161
+['Maria Schell', 'Rod Steiger', 'Stuart Whitman', 'Harry Baird', 'Brenda De Banzie', 'Maurice Denham', 'Donald Wolfit', 'Donald Houston', 'Eddie Byrne', 'Al Mulock', 'Amanda Black']
+
+
+Q:	 How tall is the actor Toby Jones?
+QT	 tall
+deps:	 {} {'P2048': 'height'}
+libs:	 {'Q49006': 'Tall', 'Q342419': 'Toby Jones', 'Q33999': 'actor'} {'P161': 'actor'}
+E:	 {'Q49006': 'Tall', 'Q342419': 'Toby Jones', 'Q33999': 'actor'}
+R:	 {'P161': 'actor', 'P2048': 'height'}
+Q49006 P161
+['Roger Aaron Brown', 'Patrick Swayze', 'Scott Glenn', 'William H. Macy', "Catherine O'Hara", 'Stephen Lang', 'Nick Stahl', 'Oliver Platt', 'Burgess Meredith', 'Jared Harris', 'Scott Wilson', 'Joe Grifasi', 'John P. Ryan', 'Moira Harris', 'Kevin Brown', 'Eric Lawson']
+
+
+Q:	 How tall is Will Smith?
+QT	 tall
+deps:	 {} {'P2048': 'height'}
+libs:	 {'Q2390476': 'Tall', 'Q217465': 'Smith', 'Q40096': 'Will Smith'} {}
+E:	 {'Q2390476': 'Tall', 'Q217465': 'Smith', 'Q40096': 'Will Smith'}
+R:	 {'P2048': 'height'}
+Q2390476 P2048
+Q217465 P2048
+Q40096 P2048
+['1.88']
+
+
+Q:	 In 1996 Nicolas Cage won an Academy Award for Best Actor, which work was it for?
+QT	 XofY
+deps:	 {} {}
+libs:	 {'Q42869': 'Nicolas Cage', 'Q2070': '1996', 'Q41417': 'Academy award for best actor, which work', 'Q4671334': 'Academy Award', 'Q103916': 'Academy Award for Best Actor', 'Q42213': 'work'} {'P31': 'won', 'P2183': '1996'}
+E:	 {'Q42869': 'Nicolas Cage', 'Q2070': '1996', 'Q41417': 'Academy award for best actor, which work', 'Q4671334': 'Academy Award', 'Q103916': 'Academy Award for Best Actor', 'Q42213': 'work'}
+R:	 {'P31': 'won', 'P2183': '1996'}
+Q42869 P31
+['human']
+
+
+Q:	 Inception was directed by whom?
+QT	 passive
+deps:	 {'Q7950328': 'WHOM'} {'P57': 'director'}
+libs:	 {'Q25188': 'Inception'} {'P57': 'directed', 'P571': 'inception'}
+E:	 {'Q25188': 'Inception', 'Q7950328': 'WHOM'}
+R:	 {'P57': 'director', 'P571': 'inception'}
+Q25188 P57
+Q25188 P571
+Q7950328 P57
+Q7950328 P571
+yes
+
+
+Q:	 In how many movies has the Winter Soldier featured, played by Sebastian Stan?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q1179487': 'Movies', 'Q149524': 'winter soldier featured,', 'Q455898': 'Sebastian Stan', 'Q11424': 'film', 'Q28006858': 'Bucky Barnes'} {'P175': 'played'}
+E:	 {'Q1179487': 'Movies', 'Q149524': 'winter soldier featured,', 'Q455898': 'Sebastian Stan', 'Q11424': 'film', 'Q28006858': 'Bucky Barnes'}
+R:	 {'P175': 'played'}
+Q1179487 P175
+1
+
+
+Q:	 Interstellar was directed by whom?
+QT	 passive
+deps:	 {'Q7950328': 'WHOM'} {'P57': 'director'}
+libs:	 {'Q13417189': 'Interstellar'} {'P57': 'directed'}
+E:	 {'Q13417189': 'Interstellar', 'Q7950328': 'WHOM'}
+R:	 {'P57': 'director'}
+Q13417189 P57
+Q7950328 P57
+yes
+
+
+Q:	 In The Godfather, who played Vito Corleone?
+QT	 verb_prop
+deps:	 {'Q745077': 'Vito Corleone'} {'P131': 'located in the administrative territorial entity'}
+libs:	 {'Q47703': 'The Godfather', 'Q745077': 'Vito Corleone'} {'P175': 'played'}
+E:	 {'Q47703': 'The Godfather', 'Q745077': 'Vito Corleone'}
+R:	 {'P175': 'played', 'P131': 'located in the administrative territorial entity'}
+Q47703 P175
+['Nino Rota']
+
+
+Q:	 In what aspect ratio was Zack Snyder's Justice League shot?
+Question type could not be found ...
+QT	 None
+deps:	 {} {}
+libs:	 {'Q250036': 'Zack snyders justice league', 'Q1441762': 'aspect ratio', 'Q2140674': 'ballistic trauma', 'Q139890': 'Zack Snyder'} {'P1740': 'shot', 'P449': 'aspect ratio'}
+E:	 {'Q250036': 'Zack snyders justice league', 'Q1441762': 'aspect ratio', 'Q2140674': 'ballistic trauma', 'Q139890': 'Zack Snyder'}
+R:	 {'P1740': 'shot', 'P449': 'aspect ratio'}
+Q250036 P1740
+Q250036 P449
+['Cartoon Network']
+
+
+Q:	 In what capital was the film The Fault in Our Stars, filmed?
+QT	 XofY
+deps:	 {} {}
+libs:	 {'Q47089': 'Film the fault in our stars,', 'Q5119': 'capital', 'Q11424': 'film', 'Q5438142': 'Fault', 'Q1752259': 'Stars'} {'P186': 'filmed', 'P36': 'capital'}
+E:	 {'Q47089': 'Film the fault in our stars,', 'Q5119': 'capital', 'Q11424': 'film', 'Q5438142': 'Fault', 'Q1752259': 'Stars'}
+R:	 {'P186': 'filmed', 'P36': 'capital'}
+Q47089 P186
+['rock']
+
+
+Q:	 In what country is Château Picard located?
+QT	 passive
+deps:	 {} {'P276': 'location'}
+libs:	 {'Q1319754': 'Château picard', 'Q3336843': 'country within the United Kingdom', 'Q62573305': 'Star Trek: Picard'} {'P131': 'located', 'P17': 'country'}
+E:	 {'Q1319754': 'Château picard', 'Q3336843': 'country within the United Kingdom', 'Q62573305': 'Star Trek: Picard'}
+R:	 {'P131': 'located', 'P17': 'country', 'P276': 'location'}
+Q1319754 P131
+Q1319754 P17
+Q1319754 P276
+Q3336843 P131
+Q3336843 P17
+Q3336843 P276
+Q62573305 P131
+Q62573305 P17
+Q62573305 P276
+yes
+
+
+Q:	 In what country is the university, where the director of Seven Pounds studied, located?
+QT	 location
+deps:	 {'Q635924': 'Seven Pounds'} {}
+libs:	 {'Q27656': 'university, where the director of seven pounds studied,', 'Q3336843': 'country within the United Kingdom', 'Q3918': 'university', 'Q2526255': 'film director', 'Q635924': 'Seven Pounds'} {'P131': 'located', 'P17': 'country'}
+E:	 {'Q27656': 'university, where the director of seven pounds studied,', 'Q3336843': 'country within the United Kingdom', 'Q3918': 'university', 'Q2526255': 'film director', 'Q635924': 'Seven Pounds'}
+R:	 {'P131': 'located', 'P17': 'country'}
+Q27656 P131
+Q27656 P17
+['United States of America']
+
+
+Q:	 In what country was Bohemian Rhapsody released on the 31st of October, 2018?
+QT	 location
+deps:	 {} {}
+libs:	 {'Q187745': 'Bohemian Rhapsody', 'Q20735522': '31st of october, 2018', 'Q3336843': 'country within the United Kingdom', 'Q4634797': '31st', 'Q124': 'October'} {'P577': 'released', 'P495': 'country'}
+E:	 {'Q187745': 'Bohemian Rhapsody', 'Q20735522': '31st of october, 2018', 'Q3336843': 'country within the United Kingdom', 'Q4634797': '31st', 'Q124': 'October'}
+R:	 {'P577': 'released', 'P495': 'country'}
+Q187745 P577
+['1975-01-01T00:00:00Z']
+
+
+Q:	 In what country was Lord of the Rings filmed?
+QT	 location
+deps:	 {'Q15228': 'The Lord of the Rings'} {'P915': 'filming location'}
+libs:	 {'Q15228': 'The Lord of the Rings', 'Q3336843': 'country within the United Kingdom', 'Q19866947': 'Rings'} {'P136': 'filmed', 'P17': 'country'}
+[!] Property overwritten by keywords.
+E:	 {'Q15228': 'The Lord of the Rings', 'Q3336843': 'country within the United Kingdom', 'Q19866947': 'Rings'}
+R:	 {'P915': 'filming location'}
+Q15228 P915
+Q3336843 P915
+Q19866947 P915
+yes
+
+
+Q:	 In what film format was Rosemary's Baby shot?
+Question type could not be found ...
+QT	 None
+deps:	 {} {}
+libs:	 {'Q607179': 'Rosemarys baby', 'Q759853': 'film format', 'Q59101449': 'Baby', 'Q122679': 'rosemary'} {'P1740': 'shot', 'P57': 'film format'}
+E:	 {'Q607179': 'Rosemarys baby', 'Q759853': 'film format', 'Q59101449': 'Baby', 'Q122679': 'rosemary'}
+R:	 {'P1740': 'shot', 'P57': 'film format'}
+Q607179 P1740
+Q607179 P57
+['Roman Polanski']
+
+
+Q:	 In what format is David Attenborough: A Life on Our Planet available?
+QT	 XofY
+deps:	 {} {}
+libs:	 {'Q277547': 'A', 'Q549484': 'david ttenborough:  life on our planet available', 'Q5470012': 'format', 'Q183337': 'David Attenborough', 'Q244615': "Conway's Game of Life", 'Q1817113': 'Planet'} {'P437': 'format'}
+E:	 {'Q277547': 'A', 'Q549484': 'david ttenborough:  life on our planet available', 'Q5470012': 'format', 'Q183337': 'David Attenborough', 'Q244615': "Conway's Game of Life", 'Q1817113': 'Planet'}
+R:	 {'P437': 'format'}
+Q277547 P437
+Q549484 P437
+['vinyl record', 'music streaming']
+
+
+Q:	 In what industry other than filmmaking is the Warner Bros. production company active?
+Question type could not be found ...
+QT	 None
+deps:	 {} {}
+libs:	 {'Q126399': 'warner bros production company active', 'Q8148': 'industry', 'Q11396960': 'production company'} {'P452': 'industry'}
+E:	 {'Q126399': 'warner bros production company active', 'Q8148': 'industry', 'Q11396960': 'production company'}
+R:	 {'P452': 'industry'}
+Q126399 P452
+['filmmaking', 'video game industry']
+
+
+Q:	 In what language was Shrek originally released?
+QT	 passive
+deps:	 {} {'P577': 'publication date'}
+libs:	 {'Q483815': 'Shrek', 'Q3429290': 'Originally', 'Q315': 'language'} {'P577': 'released', 'P277': 'language', 'P364': 'originally'}
+E:	 {'Q483815': 'Shrek', 'Q3429290': 'Originally', 'Q315': 'language'}
+R:	 {'P577': 'publication date', 'P277': 'language', 'P364': 'originally'}
+Q483815 P577
+Q483815 P277
+Q483815 P364
+Q3429290 P577
+Q3429290 P277
+Q3429290 P364
+Q315 P577
+Q315 P277
+Q315 P364
+yes
+
+
+Q:	 In what movies did Anthony Awards has ""Titanic"" won?"
+Question type could not be found ...
+QT	 None
+deps:	 {} {}
+libs:	 {'Q1179487': 'Movies', 'Q572811': 'Anthony Awards', 'Q25173': 'titanic won', 'Q11424': 'film'} {}
+E:	 {'Q1179487': 'Movies', 'Q572811': 'Anthony Awards', 'Q25173': 'titanic won', 'Q11424': 'film'}
+R:	 {}
+yes
+
+
+Q:	 How many Academy Award nominations does Morgan Freeman have?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q8624': 'Academy award nominations', 'Q48337': 'Morgan Freeman', 'Q1156895': 'nomination'} {}
+E:	 {'Q8624': 'Academy award nominations', 'Q48337': 'Morgan Freeman', 'Q1156895': 'nomination'}
+R:	 {}
+yes
+
+
+Q:	 How many Academy Awards did Leonardo DiCaprio receive?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q19020': 'Academy Awards', 'Q38111': 'Leonardo DiCaprio'} {'P131': 'receive'}
+E:	 {'Q19020': 'Academy Awards', 'Q38111': 'Leonardo DiCaprio'}
+R:	 {'P131': 'receive'}
+Q19020 P131
+1
+
+
+Q:	 How many academy awards did Meryl Streep recieve?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q19020': 'Academy Awards', 'Q873': 'Meryl Streep'} {'P166': 'recieve'}
+E:	 {'Q19020': 'Academy Awards', 'Q873': 'Meryl Streep'}
+R:	 {'P166': 'recieve'}
+Q19020 P166
+Q873 P166
+33
+
+
+Q:	 How many Academy Awards does Quentin Tarantino have?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q19020': 'Academy Awards', 'Q3772': 'Quentin Tarantino'} {}
+E:	 {'Q19020': 'Academy Awards', 'Q3772': 'Quentin Tarantino'}
+R:	 {}
+yes
+
+
+Q:	 How many Academy Awards has Meryl Streep won so far?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q19020': 'Academy Awards', 'Q873': 'Meryl Streep', 'Q228819': 'Far'} {'P31': 'won'}
+E:	 {'Q19020': 'Academy Awards', 'Q873': 'Meryl Streep', 'Q228819': 'Far'}
+R:	 {'P31': 'won'}
+Q19020 P31
+1
+
+
+Q:	 How many awards did Christopher Nolan receive?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q25191': 'Christopher Nolan', 'Q618779': 'award'} {'P166': 'awards'}
+E:	 {'Q25191': 'Christopher Nolan', 'Q618779': 'award'}
+R:	 {'P166': 'awards'}
+Q25191 P166
+6
+
+
+Q:	 How many awards did George Clooney receive?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q23844': 'George Clooney', 'Q618779': 'award'} {'P166': 'awards'}
+E:	 {'Q23844': 'George Clooney', 'Q618779': 'award'}
+R:	 {'P166': 'awards'}
+Q23844 P166
+14
+
+
+Q:	 How many awards did Quentin Tarantino receive?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q3772': 'Quentin Tarantino', 'Q618779': 'award'} {'P166': 'awards'}
+E:	 {'Q3772': 'Quentin Tarantino', 'Q618779': 'award'}
+R:	 {'P166': 'awards'}
+Q3772 P166
+16
+
+
+Q:	 How many awards did the movie Whiplash receive?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q4019484': 'Whiplash', 'Q213053': 'The Movie', 'Q618779': 'award', 'Q11424': 'film', 'Q15648198': 'Whiplash'} {'P131': 'receive', 'P166': 'awards', 'P57': 'movie'}
+E:	 {'Q4019484': 'Whiplash', 'Q213053': 'The Movie', 'Q618779': 'award', 'Q11424': 'film', 'Q15648198': 'Whiplash'}
+R:	 {'P131': 'receive', 'P166': 'awards', 'P57': 'movie'}
+Q4019484 P131
+Q4019484 P166
+Q4019484 P57
+Q213053 P131
+Q213053 P166
+2
+
+
+Q:	 How many awards did Titanic win?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q1197729': 'Titanic', 'Q618779': 'award', 'Q50000': 'victory'} {'P166': 'awards'}
+E:	 {'Q1197729': 'Titanic', 'Q618779': 'award', 'Q50000': 'victory'}
+R:	 {'P166': 'awards'}
+Q1197729 P166
+1
+
+
+Q:	 How many awards has Quentin Tarentino won?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q3772': 'Quentin tarentino', 'Q618779': 'award', 'Q1158484': 'Quentin'} {'P166': 'awards'}
+E:	 {'Q3772': 'Quentin tarentino', 'Q618779': 'award', 'Q1158484': 'Quentin'}
+R:	 {'P166': 'awards'}
+Q3772 P166
+16
+
+
+Q:	 How many awards has Ryan Reynolds earned?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q192682': 'Ryan Reynolds', 'Q618779': 'award'} {'P4709': 'earned', 'P166': 'awards'}
+E:	 {'Q192682': 'Ryan Reynolds', 'Q618779': 'award'}
+R:	 {'P4709': 'earned', 'P166': 'awards'}
+Q192682 P4709
+Q192682 P166
+6
+
+
+Q:	 How many Back to the Future movies are there?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q1179487': 'Future movies', 'Q11424': 'film'} {}
+E:	 {'Q1179487': 'Future movies', 'Q11424': 'film'}
+R:	 {}
+yes
+
+
+Q:	 How many Balto movies have been made?
+QT	 passive
+deps:	 {} {'P170': 'creator'}
+libs:	 {'Q764116': 'Balto', 'Q434841': 'Movies', 'Q11424': 'film'} {'P57': 'movies'}
+E:	 {'Q764116': 'Balto', 'Q434841': 'Movies', 'Q11424': 'film'}
+R:	 {'P57': 'movies', 'P170': 'creator'}
+Q764116 P57
+Q764116 P170
+Q434841 P57
+Q434841 P170
+Q11424 P57
+Q11424 P170
+yes
+
+
+Q:	 How many Bridget Jones movies have been made?
+QT	 passive
+deps:	 {} {'P170': 'creator'}
+libs:	 {'Q913841': 'Bridget jones movies', 'Q11424': 'film'} {}
+E:	 {'Q913841': 'Bridget jones movies', 'Q11424': 'film'}
+R:	 {'P170': 'creator'}
+Q913841 P170
+Q11424 P170
+yes
+
+
+Q:	 How many cast members are in 12 angry men?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q2345': 'Cast members are in 12 angry men', 'Q496098': 'casting', 'Q8441': 'man'} {}
+E:	 {'Q2345': 'Cast members are in 12 angry men', 'Q496098': 'casting', 'Q8441': 'man'}
+R:	 {}
+yes
+
+
+Q:	 How many characters have part in the fictional group The Fellowship of The Ring?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q127367': 'fictional group the fellowship of the ring', 'Q32483': 'character', 'Q7401': 'part', 'Q83478': 'group', 'Q1404101': 'fellow', 'Q212804': 'The Ring'} {'P674': 'characters'}
+E:	 {'Q127367': 'fictional group the fellowship of the ring', 'Q32483': 'character', 'Q7401': 'part', 'Q83478': 'group', 'Q1404101': 'fellow', 'Q212804': 'The Ring'}
+R:	 {'P674': 'characters'}
+Q127367 P674
+21
+
+
+Q:	 How many children does David Lynch have?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q2071': 'David Lynch', 'Q7569': 'child'} {'P40': 'children'}
+[!] Property overwritten by keywords.
+E:	 {'Q2071': 'David Lynch', 'Q7569': 'child'}
+R:	 {'P1971': 'number of children', 'P40': 'child'}
+Q2071 P1971
+1
+
+
+Q:	 How many children does Johnny Depp have?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q37175': 'Johnny Depp', 'Q7569': 'child'} {'P40': 'children'}
+[!] Property overwritten by keywords.
+E:	 {'Q37175': 'Johnny Depp', 'Q7569': 'child'}
+R:	 {'P1971': 'number of children', 'P40': 'child'}
+Q37175 P1971
+1
+
+
+Q:	 How many children does Morgan Freeman have?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q48337': 'Morgan Freeman', 'Q7569': 'child'} {'P40': 'children'}
+[!] Property overwritten by keywords.
+E:	 {'Q48337': 'Morgan Freeman', 'Q7569': 'child'}
+R:	 {'P1971': 'number of children', 'P40': 'child'}
+Q48337 P1971
+1
+
+
+Q:	 How many children does the actor Daniel Craig have?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q4547': 'Daniel Craig', 'Q7569': 'child', 'Q33999': 'actor'} {'P40': 'children', 'P161': 'actor'}
+[!] Property overwritten by keywords.
+E:	 {'Q4547': 'Daniel Craig', 'Q7569': 'child', 'Q33999': 'actor'}
+R:	 {'P1971': 'number of children', 'P40': 'child'}
+Q4547 P1971
+1
+
+
+Q:	 How many children has Steven Spielberg?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q8877': 'Steven Spielberg', 'Q7569': 'child'} {'P40': 'children'}
+[!] Property overwritten by keywords.
+E:	 {'Q8877': 'Steven Spielberg', 'Q7569': 'child'}
+R:	 {'P1971': 'number of children', 'P40': 'child'}
+Q8877 P1971
+1
+
+
+Q:	 How many different actors have played the role of SpiderMan?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q33999': 'actor', 'Q982558': 'Spiderman', 'Q214339': 'role', 'Q79037': 'Spider-Man'} {'P54': 'played', 'P453': 'role'}
+E:	 {'Q33999': 'actor', 'Q982558': 'Spiderman', 'Q214339': 'role', 'Q79037': 'Spider-Man'}
+R:	 {'P54': 'played', 'P453': 'role'}
+Q33999 P54
+Q33999 P453
+Q982558 P54
+7
+
+
+Q:	 How many episodes does Twin Peaks have?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q5855689': 'Twin peaks', 'Q1983062': 'episode', 'Q2085': 'Twin Peaks'} {'P1113': 'episodes'}
+E:	 {'Q5855689': 'Twin peaks', 'Q1983062': 'episode', 'Q2085': 'Twin Peaks'}
+R:	 {'P1113': 'episodes'}
+Q5855689 P1113
+Q1983062 P1113
+Q2085 P1113
+1
+
+
+Q:	 How many films are part of the Harry Potter film series?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q11424': 'film', 'Q8337': 'Harry potter', 'Q24856': 'film series', 'Q7401': 'part'} {'P57': 'film series'}
+E:	 {'Q11424': 'film', 'Q8337': 'Harry potter', 'Q24856': 'film series', 'Q7401': 'part'}
+R:	 {'P57': 'film series'}
+Q11424 P57
+Q8337 P57
+Q24856 P57
+Q7401 P57
+yes
+
+
+Q:	 How many films did Goffrey Ho directed?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q11424': 'film', 'Q325947': 'Goffrey ho', 'Q1846': 'holmium'} {'P57': 'directed'}
+E:	 {'Q11424': 'film', 'Q325947': 'Goffrey ho', 'Q1846': 'holmium'}
+R:	 {'P57': 'directed'}
+Q11424 P57
+Q325947 P57
+Q1846 P57
+yes
+
+
+Q:	 How many followers does Ryan Reynolds have?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q7384463': 'Ryan reynolds', 'Q50298131': 'Rm9sbG93ZXJz', 'Q192682': 'Ryan Reynolds'} {'P155': 'followers'}
+E:	 {'Q7384463': 'Ryan reynolds', 'Q50298131': 'Rm9sbG93ZXJz', 'Q192682': 'Ryan Reynolds'}
+R:	 {'P155': 'followers'}
+Q7384463 P155
+Q50298131 P155
+1
+
+
+Q:	 How many followers does Studio Ghibli have on social media?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q182950': 'Studio Ghibli', 'Q50298131': 'Rm9sbG93ZXJz', 'Q202833': 'social media'} {'P155': 'followers'}
+E:	 {'Q182950': 'Studio Ghibli', 'Q50298131': 'Rm9sbG93ZXJz', 'Q202833': 'social media'}
+R:	 {'P155': 'followers'}
+Q182950 P155
+1
+
+
+Q:	 How many Harry Potter movies are there?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q216930': 'Harry potter', 'Q434841': 'Movies', 'Q11424': 'film'} {'P57': 'movies'}
+E:	 {'Q216930': 'Harry potter', 'Q434841': 'Movies', 'Q11424': 'film'}
+R:	 {'P57': 'movies'}
+Q216930 P57
+1
+
+
+Q:	 How many "How To Train Your Dragon" movies are there?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q1179487': 'dragon movies', 'Q1148444': 'blunderbuss', 'Q11424': 'film'} {'P403': 'Train'}
+E:	 {'Q1179487': 'dragon movies', 'Q1148444': 'blunderbuss', 'Q11424': 'film'}
+R:	 {'P403': 'Train'}
+Q1179487 P403
+Q1148444 P403
+Q11424 P403
+yes
+
+
+Q:	 How many Iron Man movie parts are there?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q192724': 'iron man movie parts', 'Q11424': 'film'} {}
+E:	 {'Q192724': 'iron man movie parts', 'Q11424': 'film'}
+R:	 {}
+yes
+
+
+Q:	 How many members does UEFA have?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q6277030': 'Members', 'Q35572': 'Union of European Football Associations', 'Q379825': 'element'} {}
+E:	 {'Q6277030': 'Members', 'Q35572': 'Union of European Football Associations', 'Q379825': 'element'}
+R:	 {}
+yes
+
+
+Q:	 How many minutes is Spirited Away?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q7727': 'Minutes', 'Q400960': 'Away', 'Q2085515': 'minutes'} {'P4292': 'Spirited'}
+E:	 {'Q7727': 'Minutes', 'Q400960': 'Away', 'Q2085515': 'minutes'}
+R:	 {'P4292': 'Spirited'}
+Q7727 P4292
+Q400960 P4292
+Q2085515 P4292
+yes
+
+
+Q:	 How many minutes long is The Wolf of Wall Street?
+QT	 duration
+deps:	 {'Q1392744': 'The Wolf of Wall Street'} {'P2047': 'duration'}
+libs:	 {'Q7727': 'Minutes long', 'Q1392744': 'The Wolf of Wall Street', 'Q2085515': 'minutes', 'Q11690': 'Wall Street'} {}
+E:	 {'Q7727': 'Minutes long', 'Q1392744': 'The Wolf of Wall Street', 'Q2085515': 'minutes', 'Q11690': 'Wall Street'}
+R:	 {'P2047': 'duration'}
+Q7727 P2047
+Q1392744 P2047
+1
+
+
+Q:	 How many movies are included in the Harry Potter series?
+QT	 passive
+deps:	 {'Q8337': 'Harry Potter'} {'P5008': 'on focus list of Wikimedia project'}
+libs:	 {'Q1179487': 'Movies', 'Q8337': 'Harry Potter', 'Q11424': 'film'} {'P527': 'included'}
+E:	 {'Q1179487': 'Movies', 'Q8337': 'Harry Potter', 'Q11424': 'film'}
+R:	 {'P527': 'included', 'P5008': 'on focus list of Wikimedia project'}
+Q1179487 P527
+Q1179487 P5008
+Q8337 P527
+Q8337 P5008
+Q11424 P527
+9
+
+
+Q:	 how many movies are in the Marvel cinematic Universe?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q1179487': 'Movies', 'Q642878': 'Marvel Cinematic Universe', 'Q11424': 'film', 'Q1': 'Universe'} {}
+E:	 {'Q1179487': 'Movies', 'Q642878': 'Marvel Cinematic Universe', 'Q11424': 'film', 'Q1': 'Universe'}
+R:	 {}
+yes
+
+
+Q:	 How many movies are there in the "Ocean's" series?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q1179487': 'Movies', 'Q1179882': 'Oceans series', 'Q11424': 'film', 'Q170198': 'series', 'Q1408498': 'Ocean Software'} {}
+E:	 {'Q1179487': 'Movies', 'Q1179882': 'Oceans series', 'Q11424': 'film', 'Q170198': 'series', 'Q1408498': 'Ocean Software'}
+R:	 {}
+yes
+
+
+Q:	 How many movies of harry potter are there?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q8337': 'Harry Potter', 'Q11424': 'film'} {}
+E:	 {'Q8337': 'Harry Potter', 'Q11424': 'film'}
+R:	 {}
+yes
+
+
+Q:	 How many occupations does Rowan Atkinson have?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q863921': 'Occupations', 'Q23760': 'Rowan Atkinson', 'Q28640': 'profession'} {}
+E:	 {'Q863921': 'Occupations', 'Q23760': 'Rowan Atkinson', 'Q28640': 'profession'}
+R:	 {}
+yes
+
+
+Q:	 How many Oscar nomination does Meryl Streep have?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q426293': 'Oscar', 'Q1156895': 'Nomination', 'Q873': 'Meryl Streep', 'Q9941': 'O'} {'P140': 'nomination'}
+E:	 {'Q426293': 'Oscar', 'Q1156895': 'Nomination', 'Q873': 'Meryl Streep', 'Q9941': 'O'}
+R:	 {'P140': 'nomination'}
+Q426293 P140
+Q1156895 P140
+Q873 P140
+1
+
+
+Q:	 How many oscars did th movie 'the Titanic' win?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q223983': 'Oscars', 'Q44578': 'th movie the titanic win', 'Q3442': 'Astronotus ocellatus', 'Q11424': 'film', 'Q50000': 'victory', 'Q25173': 'RMS Titanic'} {}
+E:	 {'Q223983': 'Oscars', 'Q44578': 'th movie the titanic win', 'Q3442': 'Astronotus ocellatus', 'Q11424': 'film', 'Q50000': 'victory', 'Q25173': 'RMS Titanic'}
+R:	 {}
+yes
+
+
+Q:	 How many oscars did Titanic win?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q9941': 'Oscars', 'Q25173': 'Titanic', 'Q3442': 'Astronotus ocellatus', 'Q50000': 'victory'} {'P276': 'win'}
+E:	 {'Q9941': 'Oscars', 'Q25173': 'Titanic', 'Q3442': 'Astronotus ocellatus', 'Q50000': 'victory'}
+R:	 {'P276': 'win'}
+Q9941 P276
+Q25173 P276
+1
+
+
+Q:	 How many people live in Hollywood?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q34006': 'Hollywood', 'Q5': 'human'} {'P551': 'live', 'P172': 'people'}
+E:	 {'Q34006': 'Hollywood', 'Q5': 'human'}
+R:	 {'P551': 'live', 'P172': 'people'}
+Q34006 P551
+Q34006 P172
+Q5 P551
+Q5 P172
+yes
+
+
+Q:	 How many Pokémon episodes are there?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q846649': 'Pokémon', 'Q864': 'Pokémon'} {'P1113': 'episodes'}
+E:	 {'Q846649': 'Pokémon', 'Q864': 'Pokémon'}
+R:	 {'P1113': 'episodes'}
+Q846649 P1113
+Q864 P1113
+yes
+
+
+Q:	 How many prices did Tenet won
+QT	 count
+deps:	 {} {}
+libs:	 {'Q297279': 'Prices', 'Q641184': 'Tenet', 'Q160151': 'price', 'Q63985561': 'Tenet'} {'P31': 'won'}
+E:	 {'Q297279': 'Prices', 'Q641184': 'Tenet', 'Q160151': 'price', 'Q63985561': 'Tenet'}
+R:	 {'P31': 'won'}
+Q297279 P31
+1
+
+
+Q:	 How many screenwriters did Good Will Hunting have?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q28389': 'screenwriter', 'Q193835': 'Good will hunting', 'Q60786798': 'Good', 'Q5141174': 'Hunting'} {}
+E:	 {'Q28389': 'screenwriter', 'Q193835': 'Good will hunting', 'Q60786798': 'Good', 'Q5141174': 'Hunting'}
+R:	 {}
+yes
+
+
+Q:	 How many seasons does Malcolm in the Middle have?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q313554': 'Malcolm', 'Q2544136': 'In the middle', 'Q24384': 'season', 'Q16203840': 'Malcolm', 'Q22253581': 'Middle'} {'P2437': 'seasons', 'P19': 'in the Middle'}
+E:	 {'Q313554': 'Malcolm', 'Q2544136': 'In the middle', 'Q24384': 'season', 'Q16203840': 'Malcolm', 'Q22253581': 'Middle'}
+R:	 {'P2437': 'seasons', 'P19': 'in the Middle'}
+Q313554 P2437
+Q313554 P19
+1
+
+
+Q:	 How many seasons does the series How I Met Your Mother have?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q24384': 'season', 'Q170198': 'series', 'Q25339558': 'mother!'} {'P1068': 'Met', 'P2437': 'seasons', 'P179': 'series', 'P25': 'Mother'}
+E:	 {'Q24384': 'season', 'Q170198': 'series', 'Q25339558': 'mother!'}
+R:	 {'P1068': 'Met', 'P2437': 'seasons', 'P179': 'series', 'P25': 'Mother'}
+Q24384 P1068
+Q24384 P2437
+Q24384 P179
+Q24384 P25
+Q170198 P1068
+Q170198 P2437
+Q170198 P179
+Q170198 P25
+Q25339558 P1068
+Q25339558 P2437
+Q25339558 P179
+Q25339558 P25
+yes
+
+
+Q:	 How many seasons of the show Merlin exist?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q131918': 'Merlin', 'Q24384': 'season', 'Q53858110': 'Manuel Luís Cafumana', 'Q188044': 'Merlin'} {'P2437': 'seasons'}
+E:	 {'Q131918': 'Merlin', 'Q24384': 'season', 'Q53858110': 'Manuel Luís Cafumana', 'Q188044': 'Merlin'}
+R:	 {'P2437': 'seasons'}
+Q131918 P2437
+Q24384 P2437
+Q53858110 P2437
+Q188044 P2437
+yes
+
+
+Q:	  How many "Star Wars" films are there?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q462': 'Star Wars', 'Q11424': 'film'} {}
+E:	 {'Q462': 'Star Wars', 'Q11424': 'film'}
+R:	 {}
+yes
+
+
+Q:	 How many twitter followers does Zac Efron have?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q1402866': 'Twitter followers', 'Q45229': 'Zac Efron', 'Q918': 'Twitter'} {}
+E:	 {'Q1402866': 'Twitter followers', 'Q45229': 'Zac Efron', 'Q918': 'Twitter'}
+R:	 {}
+yes
+
+
+Q:	 How many years ago did Blu-Ray DVDs come out?
+QT	 time
+deps:	 {'Q47770': 'Blu-ray Disc'} {}
+libs:	 {'Q8050963': 'Years ago', 'Q47770': 'Blu-ray', 'Q697704': 'Dvds', 'Q577': 'year', 'Q5294': 'DVD'} {'P155': 'come', 'P5106': 'DVDs'}
+E:	 {'Q8050963': 'Years ago', 'Q47770': 'Blu-ray Disc', 'Q697704': 'Dvds', 'Q577': 'year', 'Q5294': 'DVD'}
+R:	 {'P155': 'come', 'P5106': 'DVDs'}
+Q8050963 P155
+yes
+
+
+Q:	 How much did 2001: A Space Oddyssey cost to make?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q277547': 'A', 'Q103474': '2001:  space oddyssey cost', 'Q240673': 'cost', 'Q1457764': 'CTV Sci-Fi Channel'} {}
+E:	 {'Q277547': 'A', 'Q103474': '2001:  space oddyssey cost', 'Q240673': 'cost', 'Q1457764': 'CTV Sci-Fi Channel'}
+R:	 {}
+yes
+
+
+Q:	 How much did Avengers: Endgame (2019) earn in the box office worldwide?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q332225': 'Avengers: endgame (2019)', 'Q895522': 'box office worldwide', 'Q182218': 'The Avengers', 'Q1235448': 'Endgame', 'Q877435': 'box office'} {'P3962': 'earn'}
+[!] Property overwritten by keywords.
+E:	 {'Q332225': 'Avengers: endgame (2019)', 'Q895522': 'box office worldwide', 'Q182218': 'The Avengers', 'Q1235448': 'Endgame', 'Q877435': 'box office'}
+R:	 {'P2142': 'box office'}
+Q332225 P2142
+Q895522 P2142
+Q182218 P2142
+2
+
+
+Q:	 How much did Avengers: Endgame cost?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q113700': 'Avengers: endgame', 'Q240673': 'cost', 'Q182218': 'The Avengers', 'Q1235448': 'Endgame'} {'P161': 'cost'}
+E:	 {'Q113700': 'Avengers: endgame', 'Q240673': 'cost', 'Q182218': 'The Avengers', 'Q1235448': 'Endgame'}
+R:	 {'P161': 'cost'}
+Q113700 P161
+['Honor Blackman', 'Diana Rigg', 'Linda Thorson', 'Patrick Macnee', 'Ian Hendry', 'Patrick Newell']
+
+
+Q:	 How much did Inception cost to produce?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q25188': 'Inception'} {'P162': 'produce'}
+E:	 {'Q25188': 'Inception'}
+R:	 {'P162': 'produce'}
+Q25188 P162
+['Christopher Nolan', 'Emma Thomas']
+
+
+Q:	 How much did it cost to film Tenet?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q624144': 'Tenet', 'Q63985561': 'Tenet'} {'P281': 'cost', 'P136': 'film'}
+E:	 {'Q624144': 'Tenet', 'Q63985561': 'Tenet'}
+R:	 {'P281': 'cost', 'P136': 'film'}
+Q624144 P281
+['15400']
+
+
+Q:	 How much did it cost to make The Lord of the Rings: The Fellowship of the Ring?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q127367': 'lord of the rings: the fellowship of the ring', 'Q15228': 'The Lord of the Rings', 'Q19866947': 'Rings', 'Q1404101': 'fellow', 'Q212804': 'The Ring'} {'P2130': 'cost'}
+E:	 {'Q127367': 'lord of the rings: the fellowship of the ring', 'Q15228': 'The Lord of the Rings', 'Q19866947': 'Rings', 'Q1404101': 'fellow', 'Q212804': 'The Ring'}
+R:	 {'P2130': 'cost'}
+Q127367 P2130
+['93000000']
+
+
+Q:	 How much did Saving private ryan cost in United States dollars?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q165817': 'saving private ryan cost in united states dollars', 'Q240673': 'cost', 'Q4917': 'United States dollar'} {}
+E:	 {'Q165817': 'saving private ryan cost in united states dollars', 'Q240673': 'cost', 'Q4917': 'United States dollar'}
+R:	 {}
+yes
+
+
+Q:	 How much did The LEGO Batman Movie make at box office?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q170484': 'Lego', 'Q116852': 'batman movie make at box office', 'Q23013169': 'The LEGO Batman Movie', 'Q877435': 'box office'} {}
+[!] Property overwritten by keywords.
+E:	 {'Q170484': 'Lego', 'Q116852': 'batman movie make at box office', 'Q23013169': 'The LEGO Batman Movie', 'Q877435': 'box office'}
+R:	 {'P2142': 'box office'}
+Q170484 P2142
+Q116852 P2142
+1
+
+
+Q:	 How much did the most expensive movie to produce cost?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q11424': 'film', 'Q240673': 'cost'} {'P1056': 'produce', 'P161': 'cost'}
+E:	 {'Q11424': 'film', 'Q240673': 'cost'}
+R:	 {'P1056': 'produce', 'P161': 'cost'}
+Q11424 P1056
+Q11424 P161
+Q240673 P1056
+Q240673 P161
+yes
+
+
+Q:	 How much did the movie "Inception" earn in box office?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q25188': 'Inception', 'Q11424': 'film', 'Q877435': 'box office'} {'P3962': 'earn', 'P2142': 'box office'}
+[!] Property overwritten by keywords.
+E:	 {'Q25188': 'Inception', 'Q11424': 'film', 'Q877435': 'box office'}
+R:	 {'P2142': 'box office'}
+Q25188 P2142
+1
+
+
+Q:	 How much did the production of The Grand Budapest Hotel cost?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q850990': 'Production of the grand budapest hotel cost', 'Q739302': 'production', 'Q3521099': 'The Grand Budapest Hotel'} {}
+E:	 {'Q850990': 'Production of the grand budapest hotel cost', 'Q739302': 'production', 'Q3521099': 'The Grand Budapest Hotel'}
+R:	 {}
+yes
+
+
+Q:	 How much did the production of The Lord of the Rings: The Return of the King cost?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q131074': 'Production of the lord of the rings: the return of the king cost', 'Q240673': 'cost', 'Q739302': 'production', 'Q15228': 'The Lord of the Rings', 'Q19866947': 'Rings', 'Q115285': 'The Return of the King', 'Q2680856': 'King'} {}
+E:	 {'Q131074': 'Production of the lord of the rings: the return of the king cost', 'Q240673': 'cost', 'Q739302': 'production', 'Q15228': 'The Lord of the Rings', 'Q19866947': 'Rings', 'Q115285': 'The Return of the King', 'Q2680856': 'King'}
+R:	 {}
+yes
+
+
+Q:	 How much did the production of the movie "Inglourious Basterds" (2009) cost?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q153723': 'Inglourious Basterds', 'Q739302': 'production', 'Q11424': 'film', 'Q240673': 'cost'} {}
+E:	 {'Q153723': 'Inglourious Basterds', 'Q739302': 'production', 'Q11424': 'film', 'Q240673': 'cost'}
+R:	 {}
+yes
+
+
+Q:	 How much did the sci-fi movie Avatar cost?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q24871': 'Avatar', 'Q33': 'Finland'} {'P2130': 'cost'}
+E:	 {'Q24871': 'Avatar', 'Q33': 'Finland'}
+R:	 {'P2130': 'cost'}
+Q24871 P2130
+['237000000']
+
+
+Q:	 How much did Titanic cost to make?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q25173': 'titanic cost', 'Q240673': 'cost'} {}
+E:	 {'Q25173': 'titanic cost', 'Q240673': 'cost'}
+R:	 {}
+yes
+
+
+Q:	 How much did Toy Story make?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q171048': 'Toy Story'} {}
+E:	 {'Q171048': 'Toy Story'}
+R:	 {}
+yes
+
+
+Q:	 How much did Wolf of Wallstreet cost?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q18498': 'Wolf of wallstreet cost', 'Q174302': 'Of wallstreet cost', 'Q240673': 'cost', 'Q8029793': 'Wolf'} {'P31': 'Wolf of  cost'}
+E:	 {'Q18498': 'Wolf of wallstreet cost', 'Q174302': 'Of wallstreet cost', 'Q240673': 'cost', 'Q8029793': 'Wolf'}
+R:	 {'P31': 'Wolf of  cost'}
+Q18498 P31
+['taxon', 'apex predator']
+
+
+Q:	 How much does it cost for producing The Girl with the Dragon Tattoo?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q276343': 'Girl with the dragon tattoo', 'Q61875850': 'Girl', 'Q1148444': 'blunderbuss'} {'P161': 'cost'}
+E:	 {'Q276343': 'Girl with the dragon tattoo', 'Q61875850': 'Girl', 'Q1148444': 'blunderbuss'}
+R:	 {'P161': 'cost'}
+Q276343 P161
+['Noomi Rapace', 'Gunnel Lindblom', 'Lena Endre', 'Michael Nyqvist', 'Tehilla Blad', 'Marika Lagercrantz', 'Ewa Fröling', 'Annika Hallin', 'Sofia Ledarp', 'Jacob Ericksson', 'David Dencik', 'Björn Granath', 'Julia Sporre', 'Sven-Bertil Taube', 'Leo Bill', 'Peter Haber', 'Georgi Staykov', 'Peter Andersson', 'Emil Almén', 'Margareta Stone', 'Reuben Sallmander', 'Ingvar Hirdwall', 'Barbro Enberg', 'Willie Andréason', 'Gösta Bredefeldt', 'Darri Ingólfsson', 'Michalis Koutsogiannakis', 'Tomas Köhler', 'Mikael Rahm', 'Stefan Sauk']
+
+
+Q:	 How much dollar did it cost to produce the movie Tenet?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q2023575': 'Dollar', 'Q11424': 'movie tenet', 'Q14083': 'dollar', 'Q63985561': 'Tenet'} {'P161': 'cost', 'P1056': 'produce'}
+E:	 {'Q2023575': 'Dollar', 'Q11424': 'movie tenet', 'Q14083': 'dollar', 'Q63985561': 'Tenet'}
+R:	 {'P161': 'cost', 'P1056': 'produce'}
+Q2023575 P161
+Q2023575 P1056
+Q11424 P161
+Q11424 P1056
+Q14083 P161
+Q14083 P1056
+Q63985561 P161
+['Robert Pattinson', 'Aaron Taylor-Johnson', 'Kenneth Branagh', 'Michael Caine', 'Dimple Kapadia', 'Clémence Poésy', 'Martin Donovan', 'Andrew Howard', 'John David Washington', 'Elizabeth Debicki', 'Marcel Sabat', 'Denzil Smith']
+
+
+Q:	  How much dollars did the movie "Avatar"(2009) cost?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q1195819': ' how much dollars', 'Q24871': 'Movie avatar(2009)', 'Q240673': 'cost', 'Q14083': 'dollar', 'Q11424': 'film'} {'P2130': 'cost'}
+E:	 {'Q1195819': ' how much dollars', 'Q24871': 'Movie avatar(2009)', 'Q240673': 'cost', 'Q14083': 'dollar', 'Q11424': 'film'}
+R:	 {'P2130': 'cost'}
+Q1195819 P2130
+Q24871 P2130
+['237000000']
+
+
+Q:	 How much money did Tenet cost to produce?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q1368': 'money', 'Q411325': 'tenet cost', 'Q63985561': 'Tenet'} {'P162': 'produce'}
+E:	 {'Q1368': 'money', 'Q411325': 'tenet cost', 'Q63985561': 'Tenet'}
+R:	 {'P162': 'produce'}
+Q1368 P162
+Q411325 P162
+Q63985561 P162
+['Christopher Nolan', 'Emma Thomas']
+
+
+Q:	 How much money was spent to create "John Wick 2" ?
+QT	 passive
+deps:	 {} {}
+libs:	 {'Q1368': 'money', 'Q102272': 'John wick 2', 'Q15732802': 'John Wick'} {'P1817': 'spent', 'P571': 'create'}
+E:	 {'Q1368': 'money', 'Q102272': 'John wick 2', 'Q15732802': 'John Wick'}
+R:	 {'P1817': 'spent', 'P571': 'create'}
+Q1368 P1817
+Q1368 P571
+Q102272 P1817
+Q102272 P571
+Q15732802 P1817
+Q15732802 P571
+yes
+
+
+Q:	 How much time does it cost to watch The Karate Kid from 1984?
+QT	 duration
+deps:	 {'Q846679': 'The Karate Kid'} {'P2047': 'duration'}
+libs:	 {'Q210271': 'Karate kid from 1984', 'Q11471': 'time', 'Q846679': 'The Karate Kid'} {'P161': 'cost', 'P1355': 'watch', 'P421': 'time'}
+E:	 {'Q210271': 'Karate kid from 1984', 'Q11471': 'time', 'Q846679': 'The Karate Kid'}
+R:	 {'P161': 'cost', 'P1355': 'watch', 'P421': 'time', 'P2047': 'duration'}
+Q210271 P161
+Q210271 P1355
+Q210271 P421
+Q210271 P2047
+Q11471 P161
+Q11471 P1355
+Q11471 P421
+Q11471 P2047
+Q846679 P161
+['Ralph Macchio', 'Randee Heller', 'Elisabeth Shue', 'Frances Bay', 'Pat Morita', 'Ronald Thomas', 'Larry Drake', 'Andrew Shue', 'Martin Kove', 'William Zabka', 'Bruce Malmuth', 'Chad McQueen', 'Christopher Kriesa', 'Larry B. Scott', 'Chris Casamassa', 'Israel Juarbe', 'William Bassett', 'Todd Lookinland']
+
+
+Q:	 How old should you be to watch Kingsman: the Secret Service?
+QT	 verb_prop
+deps:	 {} {'P577': 'publication date'}
+libs:	 {'Q736318': 'Old', 'Q79733': 'Kingsman', 'Q181694': ': the secret service', 'Q17018738': 'Kingsman', 'Q1523567': 'Secret Service'} {'P1355': 'watch', 'P131': ': the Secret Service'}
+E:	 {'Q736318': 'Old', 'Q79733': 'Kingsman', 'Q181694': ': the secret service', 'Q17018738': 'Kingsman', 'Q1523567': 'Secret Service'}
+R:	 {'P1355': 'watch', 'P131': ': the Secret Service', 'P577': 'publication date'}
+Q736318 P1355
+Q736318 P131
+['Siklós  District']
+
+
+Q:	  How old was Leonardo DiCaprio when he played in "Inception"?
+QT	 time
+deps:	 {'Q3406134': 'date of establishment'} {}
+libs:	 {'Q5918053': ' how old', 'Q38111': 'Leonardo DiCaprio', 'Q25188': 'Inception'} {'P175': 'played', 'P571': 'Inception'}
+E:	 {'Q5918053': ' how old', 'Q38111': 'Leonardo DiCaprio', 'Q25188': 'Inception', 'Q3406134': 'date of establishment'}
+R:	 {'P175': 'played', 'P571': 'Inception'}
+Q5918053 P175
+['Robin Gibb']
+
+
+Q:	 How tall is Amitabh Bachchan?
+QT	 tall
+deps:	 {} {'P2048': 'height'}
+libs:	 {'Q2390476': 'Tall', 'Q9570': 'Amitabh Bachchan'} {}
+E:	 {'Q2390476': 'Tall', 'Q9570': 'Amitabh Bachchan'}
+R:	 {'P2048': 'height'}
+Q2390476 P2048
+Q9570 P2048
+['1.88']
+
+
+Q:	 How tall is Arnold Schwarzenegger
+QT	 tall
+deps:	 {} {'P2048': 'height'}
+libs:	 {'Q2390476': 'Tall', 'Q2685': 'Arnold Schwarzenegger'} {}
+E:	 {'Q2390476': 'Tall', 'Q2685': 'Arnold Schwarzenegger'}
+R:	 {'P2048': 'height'}
+Q2390476 P2048
+Q2685 P2048
+['1.88']
+
+
+Q:	 How tall is Bryan Cranston?
+QT	 tall
+deps:	 {} {'P2048': 'height'}
+libs:	 {'Q2390476': 'Tall', 'Q23547': 'Bryan Cranston'} {}
+E:	 {'Q2390476': 'Tall', 'Q23547': 'Bryan Cranston'}
+R:	 {'P2048': 'height'}
+Q2390476 P2048
+Q23547 P2048
+['1.79']
+
+
+Q:	 How tall is Danny DeVito?
+QT	 tall
+deps:	 {} {'P2048': 'height'}
+libs:	 {'Q2390476': 'Tall', 'Q26806': 'Danny DeVito'} {}
+E:	 {'Q2390476': 'Tall', 'Q26806': 'Danny DeVito'}
+R:	 {'P2048': 'height'}
+Q2390476 P2048
+Q26806 P2048
+['147']
+
+
+Q:	 How tall is the actor Mark Ruffalo?
+QT	 tall
+deps:	 {} {'P2048': 'height'}
+libs:	 {'Q49006': 'Tall', 'Q41422': 'Mark Ruffalo'} {'P161': 'actor'}
+E:	 {'Q49006': 'Tall', 'Q41422': 'Mark Ruffalo'}
+R:	 {'P161': 'actor', 'P2048': 'height'}
+Q49006 P161
+['Roger Aaron Brown', 'Patrick Swayze', 'Scott Glenn', 'William H. Macy', "Catherine O'Hara", 'Stephen Lang', 'Nick Stahl', 'Oliver Platt', 'Burgess Meredith', 'Jared Harris', 'Scott Wilson', 'Joe Grifasi', 'John P. Ryan', 'Moira Harris', 'Kevin Brown', 'Eric Lawson']
+
+
+Q:	 How tall is the actor playing Mark Watney in The Martian?
+QT	 tall
+deps:	 {} {'P2048': 'height'}
+libs:	 {'Q2390476': 'Tall', 'Q1161625': 'Mark watney', 'Q218860': 'In the martian', 'Q33999': 'actor', 'Q26689986': 'Mark Lee', 'Q18547944': 'The Martian'} {'P1352': 'playing', 'P161': 'actor', 'P361': 'in The Martian'}
+E:	 {'Q2390476': 'Tall', 'Q1161625': 'Mark watney', 'Q218860': 'In the martian', 'Q33999': 'actor', 'Q26689986': 'Mark Lee', 'Q18547944': 'The Martian'}
+R:	 {'P1352': 'playing', 'P161': 'actor', 'P361': 'in The Martian', 'P2048': 'height'}
+Q2390476 P1352
+Q2390476 P161
+Q2390476 P361
+Q2390476 P2048
+Q1161625 P1352
+Q1161625 P161
+['Maria Schell', 'Rod Steiger', 'Stuart Whitman', 'Harry Baird', 'Brenda De Banzie', 'Maurice Denham', 'Donald Wolfit', 'Donald Houston', 'Eddie Byrne', 'Al Mulock', 'Amanda Black']
+
+
+Q:	 How tall is the actor Toby Jones?
+QT	 tall
+deps:	 {} {'P2048': 'height'}
+libs:	 {'Q49006': 'Tall', 'Q342419': 'Toby Jones', 'Q33999': 'actor'} {'P161': 'actor'}
+E:	 {'Q49006': 'Tall', 'Q342419': 'Toby Jones', 'Q33999': 'actor'}
+R:	 {'P161': 'actor', 'P2048': 'height'}
+Q49006 P161
+['Roger Aaron Brown', 'Patrick Swayze', 'Scott Glenn', 'William H. Macy', "Catherine O'Hara", 'Stephen Lang', 'Nick Stahl', 'Oliver Platt', 'Burgess Meredith', 'Jared Harris', 'Scott Wilson', 'Joe Grifasi', 'John P. Ryan', 'Moira Harris', 'Kevin Brown', 'Eric Lawson']
+
+
+Q:	 How tall is Will Smith?
+QT	 tall
+deps:	 {} {'P2048': 'height'}
+libs:	 {'Q2390476': 'Tall', 'Q217465': 'Smith', 'Q40096': 'Will Smith'} {}
+E:	 {'Q2390476': 'Tall', 'Q217465': 'Smith', 'Q40096': 'Will Smith'}
+R:	 {'P2048': 'height'}
+Q2390476 P2048
+Q217465 P2048
+Q40096 P2048
+['1.88']
+
+
+Q:	 In 1996 Nicolas Cage won an Academy Award for Best Actor, which work was it for?
+QT	 XofY
+deps:	 {} {}
+libs:	 {'Q42869': 'Nicolas Cage', 'Q2070': '1996', 'Q41417': 'Academy award for best actor, which work', 'Q4671334': 'Academy Award', 'Q103916': 'Academy Award for Best Actor', 'Q42213': 'work'} {'P31': 'won', 'P2183': '1996'}
+E:	 {'Q42869': 'Nicolas Cage', 'Q2070': '1996', 'Q41417': 'Academy award for best actor, which work', 'Q4671334': 'Academy Award', 'Q103916': 'Academy Award for Best Actor', 'Q42213': 'work'}
+R:	 {'P31': 'won', 'P2183': '1996'}
+Q42869 P31
+['human']
+
+
+Q:	 Inception was directed by whom?
+QT	 passive
+deps:	 {'Q7950328': 'WHOM'} {'P57': 'director'}
+libs:	 {'Q25188': 'Inception'} {'P57': 'directed', 'P571': 'inception'}
+E:	 {'Q25188': 'Inception', 'Q7950328': 'WHOM'}
+R:	 {'P57': 'director', 'P571': 'inception'}
+Q25188 P57
+Q25188 P571
+Q7950328 P57
+Q7950328 P571
+yes
+
+
+Q:	 In how many movies has the Winter Soldier featured, played by Sebastian Stan?
+QT	 count
+deps:	 {} {}
+libs:	 {'Q1179487': 'Movies', 'Q149524': 'winter soldier featured,', 'Q455898': 'Sebastian Stan', 'Q11424': 'film', 'Q28006858': 'Bucky Barnes'} {'P175': 'played'}
+E:	 {'Q1179487': 'Movies', 'Q149524': 'winter soldier featured,', 'Q455898': 'Sebastian Stan', 'Q11424': 'film', 'Q28006858': 'Bucky Barnes'}
+R:	 {'P175': 'played'}
+Q1179487 P175
+1
+
+
+Q:	 Interstellar was directed by whom?
+QT	 passive
+deps:	 {'Q7950328': 'WHOM'} {'P57': 'director'}
+libs:	 {'Q13417189': 'Interstellar'} {'P57': 'directed'}
+E:	 {'Q13417189': 'Interstellar', 'Q7950328': 'WHOM'}
+R:	 {'P57': 'director'}
+Q13417189 P57
+Q7950328 P57
+yes
+
+
+Q:	 In The Godfather, who played Vito Corleone?
+QT	 verb_prop
+deps:	 {'Q745077': 'Vito Corleone'} {'P131': 'located in the administrative territorial entity'}
+libs:	 {'Q47703': 'The Godfather', 'Q745077': 'Vito Corleone'} {'P175': 'played'}
+E:	 {'Q47703': 'The Godfather', 'Q745077': 'Vito Corleone'}
+R:	 {'P175': 'played', 'P131': 'located in the administrative territorial entity'}
+Q47703 P175
+['Nino Rota']
+
+
+Q:	 In what aspect ratio was Zack Snyder's Justice League shot?
+Question type could not be found ...
+QT	 None
+deps:	 {} {}
+libs:	 {'Q250036': 'Zack snyders justice league', 'Q1441762': 'aspect ratio', 'Q2140674': 'ballistic trauma', 'Q139890': 'Zack Snyder'} {'P1740': 'shot', 'P449': 'aspect ratio'}
+E:	 {'Q250036': 'Zack snyders justice league', 'Q1441762': 'aspect ratio', 'Q2140674': 'ballistic trauma', 'Q139890': 'Zack Snyder'}
+R:	 {'P1740': 'shot', 'P449': 'aspect ratio'}
+Q250036 P1740
+Q250036 P449
+['Cartoon Network']
+
+
+Q:	 In what capital was the film The Fault in Our Stars, filmed?
+QT	 XofY
+deps:	 {} {}
+libs:	 {'Q47089': 'Film the fault in our stars,', 'Q5119': 'capital', 'Q11424': 'film', 'Q5438142': 'Fault', 'Q1752259': 'Stars'} {'P186': 'filmed', 'P36': 'capital'}
+E:	 {'Q47089': 'Film the fault in our stars,', 'Q5119': 'capital', 'Q11424': 'film', 'Q5438142': 'Fault', 'Q1752259': 'Stars'}
+R:	 {'P186': 'filmed', 'P36': 'capital'}
+Q47089 P186
+['rock']
+
+
+Q:	 In what country is Château Picard located?
+QT	 passive
+deps:	 {} {'P276': 'location'}
+libs:	 {'Q1319754': 'Château picard', 'Q3336843': 'country within the United Kingdom', 'Q62573305': 'Star Trek: Picard'} {'P131': 'located', 'P17': 'country'}
+E:	 {'Q1319754': 'Château picard', 'Q3336843': 'country within the United Kingdom', 'Q62573305': 'Star Trek: Picard'}
+R:	 {'P131': 'located', 'P17': 'country', 'P276': 'location'}
+Q1319754 P131
+Q1319754 P17
+Q1319754 P276
+Q3336843 P131
+Q3336843 P17
+Q3336843 P276
+Q62573305 P131
+Q62573305 P17
+Q62573305 P276
+yes
+
+
+Q:	 In what country is the university, where the director of Seven Pounds studied, located?
+QT	 location
+deps:	 {'Q635924': 'Seven Pounds'} {}
+libs:	 {'Q27656': 'university, where the director of seven pounds studied,', 'Q3336843': 'country within the United Kingdom', 'Q3918': 'university', 'Q2526255': 'film director', 'Q635924': 'Seven Pounds'} {'P131': 'located', 'P17': 'country'}
+E:	 {'Q27656': 'university, where the director of seven pounds studied,', 'Q3336843': 'country within the United Kingdom', 'Q3918': 'university', 'Q2526255': 'film director', 'Q635924': 'Seven Pounds'}
+R:	 {'P131': 'located', 'P17': 'country'}
+Q27656 P131
+Q27656 P17
+['United States of America']
+
+
+Q:	 In what country was Bohemian Rhapsody released on the 31st of October, 2018?
+QT	 location
+deps:	 {} {}
+libs:	 {'Q187745': 'Bohemian Rhapsody', 'Q20735522': '31st of october, 2018', 'Q3336843': 'country within the United Kingdom', 'Q4634797': '31st', 'Q124': 'October'} {'P577': 'released', 'P495': 'country'}
+E:	 {'Q187745': 'Bohemian Rhapsody', 'Q20735522': '31st of october, 2018', 'Q3336843': 'country within the United Kingdom', 'Q4634797': '31st', 'Q124': 'October'}
+R:	 {'P577': 'released', 'P495': 'country'}
+Q187745 P577
+['1975-01-01T00:00:00Z']
+
+
+Q:	 In what country was Lord of the Rings filmed?
+QT	 location
+deps:	 {'Q15228': 'The Lord of the Rings'} {'P915': 'filming location'}
+libs:	 {'Q15228': 'The Lord of the Rings', 'Q3336843': 'country within the United Kingdom', 'Q19866947': 'Rings'} {'P136': 'filmed', 'P17': 'country'}
+[!] Property overwritten by keywords.
+E:	 {'Q15228': 'The Lord of the Rings', 'Q3336843': 'country within the United Kingdom', 'Q19866947': 'Rings'}
+R:	 {'P915': 'filming location'}
+Q15228 P915
+Q3336843 P915
+Q19866947 P915
+yes
+
+
+Q:	 In what film format was Rosemary's Baby shot?
+Question type could not be found ...
+QT	 None
+deps:	 {} {}
+libs:	 {'Q607179': 'Rosemarys baby', 'Q759853': 'film format', 'Q59101449': 'Baby', 'Q122679': 'rosemary'} {'P1740': 'shot', 'P57': 'film format'}
+E:	 {'Q607179': 'Rosemarys baby', 'Q759853': 'film format', 'Q59101449': 'Baby', 'Q122679': 'rosemary'}
+R:	 {'P1740': 'shot', 'P57': 'film format'}
+Q607179 P1740
+Q607179 P57
+['Roman Polanski']
+
+
+Q:	 In what format is David Attenborough: A Life on Our Planet available?
+QT	 XofY
+deps:	 {} {}
+libs:	 {'Q277547': 'A', 'Q549484': 'david ttenborough:  life on our planet available', 'Q5470012': 'format', 'Q183337': 'David Attenborough', 'Q244615': "Conway's Game of Life", 'Q1817113': 'Planet'} {'P437': 'format'}
+E:	 {'Q277547': 'A', 'Q549484': 'david ttenborough:  life on our planet available', 'Q5470012': 'format', 'Q183337': 'David Attenborough', 'Q244615': "Conway's Game of Life", 'Q1817113': 'Planet'}
+R:	 {'P437': 'format'}
+Q277547 P437
+Q549484 P437
+['vinyl record', 'music streaming']
+
+
+Q:	 In what industry other than filmmaking is the Warner Bros. production company active?
+Question type could not be found ...
+QT	 None
+deps:	 {} {}
+libs:	 {'Q126399': 'warner bros production company active', 'Q8148': 'industry', 'Q11396960': 'production company'} {'P452': 'industry'}
+E:	 {'Q126399': 'warner bros production company active', 'Q8148': 'industry', 'Q11396960': 'production company'}
+R:	 {'P452': 'industry'}
+Q126399 P452
+['filmmaking', 'video game industry']
+
+
+Q:	 In what language was Shrek originally released?
+QT	 passive
+deps:	 {} {'P577': 'publication date'}
+libs:	 {'Q483815': 'Shrek', 'Q3429290': 'Originally', 'Q315': 'language'} {'P577': 'released', 'P277': 'language', 'P364': 'originally'}
+E:	 {'Q483815': 'Shrek', 'Q3429290': 'Originally', 'Q315': 'language'}
+R:	 {'P577': 'publication date', 'P277': 'language', 'P364': 'originally'}
+Q483815 P577
+Q483815 P277
+Q483815 P364
+Q3429290 P577
+Q3429290 P277
+Q3429290 P364
+Q315 P577
+Q315 P277
+Q315 P364
+yes
+
+
+Q:	 In what movies did Anthony Hopkins play Hannibal Lecter?
+QT	 verb_prop
+deps:	 {'Q211013': 'Hannibal Lecter'} {'P641': 'sport'}
+libs:	 {'Q1179487': 'Movies', 'Q964322': 'Anthony hopkins', 'Q211013': 'Hannibal Lecter', 'Q11424': 'film', 'Q65932': 'Anthony Hopkins'} {'P1303': 'play'}
+E:	 {'Q1179487': 'Movies', 'Q964322': 'Anthony hopkins', 'Q211013': 'Hannibal Lecter', 'Q11424': 'film', 'Q65932': 'Anthony Hopkins'}
+R:	 {'P1303': 'play', 'P641': 'sport'}
+Q1179487 P1303
+Q1179487 P641
+Q964322 P1303
+['piano']
+
+
+Q:	 In what period is the action of the movie "Gladiator" set in?
+QT	 XofY
+deps:	 {} {}
+libs:	 {'Q128518': 'Gladiator', 'Q172008': 'full stop', 'Q188473': 'action film', 'Q11424': 'film'} {'P21': 'set', 'P2047': 'period'}
+E:	 {'Q128518': 'Gladiator', 'Q172008': 'full stop', 'Q188473': 'action film', 'Q11424': 'film'}
+R:	 {'P21': 'set', 'P2047': 'period'}
+Q128518 P21
+Q128518 P2047
+['155']
+
+
+Q:	 In what year did Gene Roddenberry die?
+QT	 time
+deps:	 {'Q191716': 'Gene Roddenberry'} {}
+libs:	 {'Q191716': 'Gene Roddenberry', 'Q577': 'year'} {'P20': 'die', 'P569': 'year'}
+E:	 {'Q191716': 'Gene Roddenberry', 'Q577': 'year'}
+R:	 {'P20': 'die', 'P569': 'year'}
+Q191716 P20
+yes
+
+
+Q:	 In what year did Meryl Streep start acting?
+QT	 time
+deps:	 {'Q873': 'Meryl Streep'} {}
+libs:	 {'Q873': 'Meryl Streep', 'Q970797': 'start', 'Q577': 'year'} {'P397': 'start', 'P2031': 'acting', 'P569': 'year'}
+E:	 {'Q873': 'Meryl Streep', 'Q970797': 'start', 'Q577': 'year'}
+R:	 {'P397': 'start', 'P2031': 'acting', 'P569': 'year'}
+Q873 P397
+Q873 P2031
+['1977']
+
+
+Q:	 In what year did the first Harry Potter movie come out?
+QT	 time
+deps:	 {'Q8337': 'Harry Potter'} {}
+libs:	 {'Q8337': 'Harry potter', 'Q182254': 'Movie', 'Q577': 'year', 'Q11424': 'film'} {'P156': 'come', 'P577': 'year', 'P57': 'movie'}
+E:	 {'Q8337': 'Harry Potter', 'Q182254': 'Movie', 'Q577': 'year', 'Q11424': 'film'}
+R:	 {'P156': 'come', 'P577': 'year', 'P57': 'movie'}
+Q8337 P156
+Q8337 P577
+['1997']
+
+
+Q:	 In what year did the TV-show Friends premiere?
+QT	 time
+deps:	 {'Q491': 'friendship'} {}
+libs:	 {'Q8539': 'tv-show friends', 'Q577': 'year', 'Q79784': 'Friends'} {'P6': 'premiere', 'P577': 'year'}
+E:	 {'Q8539': 'tv-show friends', 'Q577': 'year', 'Q79784': 'Friends', 'Q491': 'friendship'}
+R:	 {'P6': 'premiere', 'P577': 'year'}
+Q8539 P6
+Q8539 P577
+Q577 P6
+Q577 P577
+Q79784 P6
+Q79784 P577
+Q491 P6
+Q491 P577
+yes
+
+
+Q:	 In what year is Steven Spielberg's famous war movie starring Tom Hanks set?
+QT	 time
+deps:	 {} {}
+libs:	 {'Q8877': 'Steven Spielberg', 'Q2263': 'Tom Hanks', 'Q577': 'year', 'Q369747': 'war film'} {'P21': 'set', 'P569': 'year', 'P345': 'Steven Spielbergs famous war movie starring'}
+E:	 {'Q8877': 'Steven Spielberg', 'Q2263': 'Tom Hanks', 'Q577': 'year', 'Q369747': 'war film'}
+R:	 {'P21': 'set', 'P569': 'year', 'P345': 'Steven Spielbergs famous war movie starring'}
+Q8877 P21
+yes
+
+
+Q:	 In what year is The Revenant set?
+QT	 passive
+deps:	 {} {'P527': 'has part'}
+libs:	 {'Q834114': 'Revenant set', 'Q577': 'year', 'Q18002795': 'The Revenant'} {'P577': 'year'}
+E:	 {'Q834114': 'Revenant set', 'Q577': 'year', 'Q18002795': 'The Revenant'}
+R:	 {'P577': 'year', 'P527': 'has part'}
+Q834114 P577
+Q834114 P527
+Q577 P577
+Q577 P527
+yes
+
+
+Q:	 In what years did the producers of "Three Billboards Outside Ebbing, Missouri" whose career started between 1990 and 2000, start their career?
+QT	 time
+deps:	 {'Q24053277': 'Three Billboards Outside Ebbing, Missouri'} {}
+libs:	 {'Q169119': 'Years', 'Q1224791': 'Producers of three billboards outside ebbing, missouri', 'Q35024': '1990 and 2000,', 'Q577': 'year', 'Q3282637': 'film producer', 'Q4911771': 'Billboards', 'Q961258': 'Outside', 'Q1581': 'Missouri', 'Q282049': 'career'} {'P17': 'started', 'P571': 'start', 'P106': 'career'}
+E:	 {'Q169119': 'Years', 'Q1224791': 'Producers of three billboards outside ebbing, missouri', 'Q35024': '1990 and 2000,', 'Q577': 'year', 'Q3282637': 'film producer', 'Q4911771': 'Billboards', 'Q961258': 'Outside', 'Q1581': 'Missouri', 'Q282049': 'career', 'Q24053277': 'Three Billboards Outside Ebbing, Missouri'}
+R:	 {'P17': 'started', 'P571': 'start', 'P106': 'career'}
+Q169119 P17
+Q169119 P571
+['1999']
+
+
+Q:	 In what year was Ice Age: The Meltdown released?
+QT	 time
+deps:	 {'Q190910': 'Ice Age: The Meltdown'} {}
+libs:	 {'Q190910': 'Ice age: the meltdown', 'Q577': 'year', 'Q943532': 'Ice Age', 'Q47036859': 'Meltdown'} {'P577': 'year'}
+E:	 {'Q190910': 'Ice Age: The Meltdown', 'Q577': 'year', 'Q943532': 'Ice Age', 'Q47036859': 'Meltdown'}
+R:	 {'P577': 'year'}
+Q190910 P577
+['2006', '2006', '2006', '2006']
+
+
+Q:	 In what year was James Cameron's Avatar released?
+QT	 passive
+deps:	 {} {'P577': 'publication date'}
+libs:	 {'Q24871': 'Avatar', 'Q577': 'year', 'Q42574': 'James Cameron'} {'P577': 'year'}
+E:	 {'Q24871': 'Avatar', 'Q577': 'year', 'Q42574': 'James Cameron'}
+R:	 {'P577': 'publication date'}
+Q24871 P577
+Q577 P577
+Q42574 P577
+yes
+
+
+Q:	 In what year was Soylent Green released?
+QT	 passive
+deps:	 {} {'P577': 'publication date'}
+libs:	 {'Q426196': 'Soylent Green', 'Q577': 'year'} {'P577': 'year'}
+E:	 {'Q426196': 'Soylent Green', 'Q577': 'year'}
+R:	 {'P577': 'publication date'}
+Q426196 P577
+Q577 P577
+yes
+
+
+Q:	 In what year was the documentary Miss Americana released?
+QT	 time
+deps:	 {'Q77833628': 'Miss Americana'} {}
+libs:	 {'Q115162': 'Miss americana', 'Q652943': 'The Documentary', 'Q577': 'year', 'Q3005427': 'Documentary', 'Q467355': 'Americana'} {'P577': 'year', 'P3750': 'documentary'}
+E:	 {'Q115162': 'Miss americana', 'Q652943': 'The Documentary', 'Q577': 'year', 'Q3005427': 'Documentary', 'Q467355': 'Americana', 'Q77833628': 'Miss Americana'}
+R:	 {'P577': 'year', 'P3750': 'documentary'}
+Q115162 P577
+['2012']
+
+
+Q:	 In what year was The Matrix released?
+QT	 passive
+deps:	 {} {'P577': 'publication date'}
+libs:	 {'Q83495': 'The Matrix', 'Q577': 'year'} {'P577': 'year'}
+E:	 {'Q83495': 'The Matrix', 'Q577': 'year'}
+R:	 {'P577': 'publication date'}
+Q83495 P577
+Q577 P577
+yes
+
+
+Q:	 In what year was the movie Grease published?
+QT	 time
+deps:	 {'Q127980': 'fat'} {}
+libs:	 {'Q182254': 'Movie grease', 'Q577': 'year', 'Q11424': 'film', 'Q267721': 'Grease'} {'P577': 'year'}
+E:	 {'Q182254': 'Movie grease', 'Q577': 'year', 'Q11424': 'film', 'Q267721': 'Grease', 'Q127980': 'fat'}
+R:	 {'P577': 'year'}
+Q182254 P577
+['2007', '2007', '2007']
+
+
+Q:	 In what year was the movie Interstellar released?
+QT	 time
+deps:	 {'Q13417189': 'Interstellar'} {}
+libs:	 {'Q385447': 'Movie interstellar', 'Q577': 'year', 'Q11424': 'film', 'Q13417189': 'Interstellar'} {'P577': 'year'}
+E:	 {'Q385447': 'Movie interstellar', 'Q577': 'year', 'Q11424': 'film', 'Q13417189': 'Interstellar'}
+R:	 {'P577': 'year'}
+Q385447 P577
+['1988']
+
+
+Q:	 In what year was the movie 'psycho' published??
+QT	 time
+deps:	 {} {}
+libs:	 {'Q163038': 'movie psycho', 'Q577': 'year', 'Q201608': 'Dennis Rodman', 'Q11424': 'film'} {'P577': 'year'}
+E:	 {'Q163038': 'movie psycho', 'Q577': 'year', 'Q201608': 'Dennis Rodman', 'Q11424': 'film'}
+R:	 {'P577': 'year'}
+Q163038 P577
+['1960', '1960']
+
+
+Q:	 In what year was the movie "The Dark Knight" released?
+QT	 time
+deps:	 {'Q2695156': 'Batman'} {}
+libs:	 {'Q55291': 'Movie the dark knight', 'Q577': 'year', 'Q11424': 'film', 'Q163872': 'The Dark Knight'} {'P577': 'year'}
+E:	 {'Q55291': 'Movie the dark knight', 'Q577': 'year', 'Q11424': 'film', 'Q163872': 'The Dark Knight', 'Q2695156': 'Batman'}
+R:	 {'P577': 'year'}
+Q55291 P577
+['1997']
+
+
+Q:	 In what year was "To All The Boys I've Loved Before" publicised?
+QT	 time
+deps:	 {'Q35783117': "To All the Boys I've Loved Before"} {}
+libs:	 {'Q577': 'year', 'Q2923057': 'Boys'} {}
+E:	 {'Q577': 'year', 'Q2923057': 'Boys', 'Q35783117': "To All the Boys I've Loved Before"}
+R:	 {}
+yes
+
+
+Q:	 In which 2004 movie is Bob Parr the father of a family?
+QT	 XofY
+deps:	 {} {}
+libs:	 {'Q11424': 'film', 'Q616658': 'Bob parr', 'Q39619': 'The father of a family', 'Q4933597': 'Bob Parr', 'Q7565': 'father', 'Q8436': 'family'} {'P22': 'the father of a family'}
+E:	 {'Q11424': 'film', 'Q616658': 'Bob parr', 'Q39619': 'The father of a family', 'Q4933597': 'Bob Parr', 'Q7565': 'father', 'Q8436': 'family'}
+R:	 {'P22': 'the father of a family'}
+Q11424 P22
+Q616658 P22
+Q39619 P22
+['Abu Talib ibn ‘Abd al-Muttalib']
+
+
+Q:	 In which aspect ratio was Kingsman: The Secret Service filmed
+Question type could not be found ...
+QT	 None
+deps:	 {} {}
+libs:	 {'Q79733': 'Kingsman', 'Q107894': ': the secret service', 'Q1441762': 'aspect ratio', 'Q17018738': 'Kingsman', 'Q1523567': 'Secret Service'} {'P57': 'filmed', 'P2061': 'aspect ratio', 'P131': ': The Secret Service'}
+E:	 {'Q79733': 'Kingsman', 'Q107894': ': the secret service', 'Q1441762': 'aspect ratio', 'Q17018738': 'Kingsman', 'Q1523567': 'Secret Service'}
+R:	 {'P57': 'filmed', 'P2061': 'aspect ratio', 'P131': ': The Secret Service'}
+Q79733 P57
+Q79733 P2061
+Q79733 P131
+['Mohave County']
+
+
+Q:	 In which city was Christoph Waltz born?
+QT	 XofY
+deps:	 {} {}
+libs:	 {'Q76819': 'Christoph Waltz', 'Q515': 'city'} {'P19': 'city'}
+E:	 {'Q76819': 'Christoph Waltz', 'Q515': 'city'}
+R:	 {'P19': 'city'}
+Q76819 P19
+['Vienna']
+
+
+Q:	 In which countries was the Joker published on 4 October 2019?
+QT	 passive
+deps:	 {'Q47087606': 'October 2019'} {'P577': 'publication date'}
+libs:	 {'Q6256': 'country', 'Q1498615': 'The joker', 'Q831558': '4 october 2019', 'Q42759035': 'Joker', 'Q124': 'October'} {'P577': 'published'}
+E:	 {'Q6256': 'country', 'Q1498615': 'The joker', 'Q831558': '4 october 2019', 'Q42759035': 'Joker', 'Q124': 'October', 'Q47087606': 'October 2019'}
+R:	 {'P577': 'publication date'}
+Q6256 P577
+Q1498615 P577
+Q831558 P577
+Q42759035 P577
+Q124 P577
+Q47087606 P577
+yes
+
+
+Q:	 In which countries was the movie Spectre published first?
+QT	 location
+deps:	 {'Q18602670': 'Spectre'} {}
+libs:	 {'Q6256': 'country', 'Q3492869': 'Spectre', 'Q182254': 'The Movie', 'Q11424': 'film', 'Q18602670': 'Spectre'} {'P577': 'published', 'P57': 'movie'}
+E:	 {'Q6256': 'country', 'Q3492869': 'Spectre', 'Q182254': 'The Movie', 'Q11424': 'film', 'Q18602670': 'Spectre'}
+R:	 {'P577': 'published', 'P57': 'movie'}
+Q6256 P577
+Q6256 P57
+Q3492869 P577
+['1977-01-01T00:00:00Z']
+
+
+Q:	 In which country is Jungle Book set?
+QT	 passive
+deps:	 {} {}
+libs:	 {'Q16857406': 'The Jungle Book', 'Q36161': 'set', 'Q3336843': 'country within the United Kingdom'} {'P21': 'set', 'P17': 'country'}
+E:	 {'Q16857406': 'The Jungle Book', 'Q36161': 'set', 'Q3336843': 'country within the United Kingdom'}
+R:	 {'P21': 'set', 'P17': 'country'}
+Q16857406 P21
+Q16857406 P17
+Q36161 P21
+Q36161 P17
+Q3336843 P21
+Q3336843 P17
+yes
+
+
+Q:	 In which country was the director of Parasite born?
+QT	 location
+deps:	 {'Q61448040': 'Parasite'} {}
+libs:	 {'Q17073283': 'Parasite', 'Q3336843': 'country within the United Kingdom', 'Q2526255': 'film director', 'Q61448040': 'Parasite'} {'P2556': 'born', 'P17': 'country', 'P57': 'director'}
+E:	 {'Q17073283': 'Parasite', 'Q3336843': 'country within the United Kingdom', 'Q2526255': 'film director', 'Q61448040': 'Parasite'}
+R:	 {'P2556': 'born', 'P17': 'country', 'P57': 'director'}
+Q17073283 P2556
+Q17073283 P17
+Q17073283 P57
+Q3336843 P2556
+Q3336843 P17
+['United Kingdom']
+
+
+Q:	 In which country was the first release of movie The Matrix?
+QT	 location
+deps:	 {'Q83495': 'The Matrix'} {}
+libs:	 {'Q182254': 'Release of movie the matrix', 'Q3336843': 'country within the United Kingdom', 'Q24238946': 'liberation', 'Q11424': 'film', 'Q83495': 'The Matrix'} {'P17': 'country'}
+E:	 {'Q182254': 'Release of movie the matrix', 'Q3336843': 'country within the United Kingdom', 'Q24238946': 'liberation', 'Q11424': 'film', 'Q83495': 'The Matrix'}
+R:	 {'P17': 'country'}
+Q182254 P17
+Q3336843 P17
+['United Kingdom']
+
+
+Q:	 In which month was Michael Douglas born in?
+QT	 time
+deps:	 {'Q119798': 'Michael Douglas'} {}
+libs:	 {'Q6829931': 'Michael douglas', 'Q5151': 'month', 'Q119798': 'Michael Douglas'} {'P19': 'born', 'P2922': 'month'}
+E:	 {'Q6829931': 'Michael douglas', 'Q5151': 'month', 'Q119798': 'Michael Douglas'}
+R:	 {'P19': 'born', 'P2922': 'month'}
+Q6829931 P19
+['Portsmouth']
+
+
+Q:	 In which movies directed by Quintin Tarantino did Brad Pitt play?
+QT	 XofY
+deps:	 {} {}
+libs:	 {'Q1179487': 'Movies', 'Q3772': 'Quentin Tarantino', 'Q373912': 'Brad pitt', 'Q11424': 'film', 'Q35332': 'Brad Pitt'} {'P169': 'directed', 'P1303': 'play'}
+E:	 {'Q1179487': 'Movies', 'Q3772': 'Quentin Tarantino', 'Q373912': 'Brad pitt', 'Q11424': 'film', 'Q35332': 'Brad Pitt'}
+R:	 {'P169': 'directed', 'P1303': 'play'}
+Q1179487 P169
+Q1179487 P1303
+Q3772 P169
+Q3772 P1303
+Q373912 P169
+Q373912 P1303
+Q11424 P169
+Q11424 P1303
+Q35332 P169
+Q35332 P1303
+yes
+
+
+Q:	 In which Star Wars movies does the character Kylo Ren appear in?
+QT	 verb_prop
+deps:	 {'Q21515016': 'Kylo Ren'} {'P2817': 'appears in the heritage monument list'}
+libs:	 {'Q462': 'Star wars movies', 'Q1593658': 'Kylo ren', 'Q815674': 'The Character', 'Q11424': 'film', 'Q32483': 'character', 'Q21515016': 'Kylo Ren'} {'P1441': 'appear', 'P674': 'character'}
+E:	 {'Q462': 'Star wars movies', 'Q1593658': 'Kylo ren', 'Q815674': 'The Character', 'Q11424': 'film', 'Q32483': 'character', 'Q21515016': 'Kylo Ren'}
+R:	 {'P1441': 'appear', 'P674': 'character', 'P2817': 'appears in the heritage monument list'}
+Q462 P1441
+Q462 P674
+Q462 P2817
+Q1593658 P1441
+Q1593658 P674
+Q1593658 P2817
+Q815674 P1441
+Q815674 P674
+Q815674 P2817
+Q11424 P1441
+Q11424 P674
+Q11424 P2817
+Q32483 P1441
+Q32483 P674
+Q32483 P2817
+Q21515016 P1441
+['Star Wars Episode VII: The Force Awakens', 'Star Wars: Episode VIII – The Last Jedi', 'Star Wars Episode IX: The Rise of Skywalker']
+
+
+Q:	 In which television series is the character Eric Cartman featured?
+QT	 XofY
+deps:	 {} {'P1552': 'has quality'}
+libs:	 {'Q47352': 'Eric Cartman', 'Q95074': 'The Character', 'Q289': 'television', 'Q32483': 'character'} {'P1441': 'featured', 'P179': 'television series', 'P674': 'character'}
+E:	 {'Q47352': 'Eric Cartman', 'Q95074': 'The Character', 'Q289': 'television', 'Q32483': 'character'}
+R:	 {'P1441': 'featured', 'P179': 'television series', 'P674': 'character', 'P1552': 'has quality'}
+Q47352 P1441
+['South Park']
+
+
+Q:	 In which war does the film character Forrest Gump partake in?
+QT	 XofY
+deps:	 {} {}
+libs:	 {'Q134773': 'Forrest Gump', 'Q928545': 'film character  partake', 'Q11424': 'film', 'Q198': 'war'} {'P155': 'war', 'P57': 'film character  partake'}
+E:	 {'Q134773': 'Forrest Gump', 'Q928545': 'film character  partake', 'Q11424': 'film', 'Q198': 'war'}
+R:	 {'P155': 'war', 'P57': 'film character  partake'}
+Q134773 P155
+Q134773 P57
+['Robert Zemeckis']
+
+
+Q:	 Is Brad Pitt male?
+Question type could not be found ...
+QT	 None
+deps:	 {} {}
+libs:	 {'Q373912': 'Brad pitt', 'Q235034': 'University of Pittsburgh'} {'P21': 'male'}
+E:	 {'Q373912': 'Brad pitt', 'Q235034': 'University of Pittsburgh'}
+R:	 {'P21': 'male'}
+Q373912 P21
+['male']
+
+
+Q:	 Is Die Hard a Christmas film?
+Question type could not be found ...
+QT	 None
+deps:	 {} {}
+libs:	 {'Q86791': 'Hard a christmas film', 'Q19809': 'Christmas'} {'P194': 'Die'}
+E:	 {'Q86791': 'Hard a christmas film', 'Q19809': 'Christmas'}
+R:	 {'P194': 'Die'}
+Q86791 P194
+Q19809 P194
+yes
+
+
+Q:	 Is Nicolas Cage Nicolas Cage's real name, if no, what is it?
+Question type could not be found ...
+QT	 None
+deps:	 {} {}
+libs:	 {'Q42869': 'Nicolas Cage', 'Q618191': 'Real name, if no,', 'Q1071027': 'personal name'} {'P734': 'Cages real name, if no,'}
+E:	 {'Q42869': 'Nicolas Cage', 'Q618191': 'Real name, if no,', 'Q1071027': 'personal name'}
+R:	 {'P734': 'Cages real name, if no,'}
+Q42869 P734
+['Coppola']
+
+
+Q:	 Is The Incredibles movie animated?
+Question type could not be found ...
+QT	 None
+deps:	 {} {}
+libs:	 {'Q213326': 'Incredibles movie', 'Q11424': 'film'} {'P4021': 'animated'}
+E:	 {'Q213326': 'Incredibles movie', 'Q11424': 'film'}
+R:	 {'P4021': 'animated'}
+Q213326 P4021
+['117']
+
+
+Q:	 Jonah Hill was nominated twice for the Academy Award for Best Supporting Actor. Name the movies.
+QT	 passive
+deps:	 {'Q96474603': 'award for best supporting actor'} {'P735': 'given name'}
+libs:	 {'Q313388': 'Jonah Hill', 'Q106291': 'Twice for the academy award for best supporting actor name the movies', 'Q4671334': 'Academy Award', 'Q1416106': 'supporting actor', 'Q11424': 'film'} {'P1411': 'nominated'}
+E:	 {'Q313388': 'Jonah Hill', 'Q106291': 'Twice for the academy award for best supporting actor name the movies', 'Q4671334': 'Academy Award', 'Q1416106': 'supporting actor', 'Q11424': 'film', 'Q96474603': 'award for best supporting actor'}
+R:	 {'P1411': 'nominated', 'P735': 'given name'}
+Q313388 P1411
+Q313388 P735
+Q106291 P1411

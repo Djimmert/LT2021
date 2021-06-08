@@ -65,7 +65,7 @@ def get_question_type(input_q):
                     question_type = "what_is_Xs_Y" # e.g. 'What is X's hair color?'
             elif "tall" in lemmas:
                 question_type = "tall" # e.g 'How tall is X?'
-            elif "many" in lemmas or "much" in lemmas and "follower" not in lemmas:
+            elif ("many" in lemmas or "much" in lemmas) and "follower" not in lemmas and "cost" not in lemmas:
                 question_type = "count" # e.g. 'How many X films are there?'
             elif "cost" in lemmas:
                 question_type = "cost" # e.g. 'How much did X cost to make?'
