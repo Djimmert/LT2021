@@ -41,7 +41,10 @@ def get_question_type(input_q):
     else:
         for rel in dep:
             if 'pass' in rel:
-                question_type = "passive"  # e.g. 'Which movies are directed by X?'
+                if parse[0].text.lower() == 'by':
+                    question_type = "XofY"
+                else:
+                    question_type = "passive"  # e.g. 'Which movies are directed by X?'
                 break
             else:
                 if 'pobj' in rel:
@@ -230,8 +233,8 @@ def get_entity_property_deps(parse, question_type):
             ent = parse[entity_istitle[0][0]:entity_istitle[-1][0] + 1].text.split(" ")
         else:
             ent = sent.split(" ")[dep.index("ROOT") + 1:]
-        if parse[-4:-2].text.split(" ") == ['influenced', 'by'] or 'earned' in sent:
-            prop = parse[-4:-2].text.split(" ")
+        if parse[-2:].text.split(" ") == ['influenced', 'by'] or 'earned' in sent:
+            prop = parse[-2:].text.split(" ")
         elif "AUX" in pos:
             prop = parse[1:pos.index("AUX")].text.split(" ")
     elif question_type == "what_which_verb":
@@ -243,6 +246,17 @@ def get_entity_property_deps(parse, question_type):
         # Find property: probably words between first word and POS:AUX
         prop = parse[1:pos.index("AUX")].text.split(" ")
     elif question_type == "about":
+        entity_quotes = []
+        entity_istitle = []
+        for word in parse:
+            if word.text == '"':
+                entity_quotes.append((word.i, word.text))
+            if word.text.istitle() and word.i != 0:
+                entity_istitle.append((word.i, word.text))
+        if len(entity_quotes) > 1:
+            ent = parse[entity_quotes[0][0] + 1:entity_quotes[-1][0]].text.split(" ")
+        elif entity_istitle:
+            ent = parse[entity_istitle[0][0]:entity_istitle[-1][0] + 1].text.split(" ")
         # Find entity
         prop = ["main", "subject"]
     elif question_type == "what_is_Xs_Y":
@@ -256,14 +270,14 @@ def get_entity_property_deps(parse, question_type):
                 if word.istitle():
                     prop.append(word)
         # Find property: probably last two words of sentence (parse[-4:-2])
-        prop = parse[-4:-2].text.split(" ")
+        prop = parse[-2:].text.split(" ")
 
     elif question_type == "count":
         pass
     elif question_type == "yes/no":
         main_verb_id = dep.index("ROOT")
         ent = lemmas[1:main_verb_id]
-        prop_broad = lemmas[main_verb_id + 1:-2]
+        prop_broad = lemmas[main_verb_id + 1:]
         prop = [w for w in prop_broad if pos[lemmas.index(w)] != "DET"]
 
     else:

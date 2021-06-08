@@ -51,7 +51,7 @@ def check_keywords(parse, q):
             'when' in lemmas and 'come out' in q:
         return {'P577': 'publication date'}
     elif 'bear' in lemmas and 'country' in lemmas or 'bear' in lemmas and 'city' in lemmas or \
-            'born' in lemmas and 'place' in lemmas:
+            'bear' in lemmas and 'place' in lemmas:
         return {'P19': 'place of birth'}
     elif 'when' in lemmas and 'bear' in lemmas or 'year' in lemmas and 'bear' in lemmas or \
             'month' and 'bear' in lemmas:
@@ -86,6 +86,9 @@ def check_keywords(parse, q):
         return {'P1922': 'first line'}
     elif 'Kijkwijzer' in q:
         return {'P2684': 'Kijkwijzer rating'}
+    elif 'birth name' in q:
+        return {'P1477': 'name'}
+
 
 
 def retrieve_answer(q, question_type, ents, props):
