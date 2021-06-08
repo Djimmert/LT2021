@@ -14,7 +14,7 @@ nlp.add_pipe("entityLinker", last=True)
 
 def call_falcon(q):
     """
-    Calls the Falcon 2.0 API to identify the relations and entities of Wikidata in q.
+    Calls the Falcon 2.0 API to identify the relations and entities of Wikidata in q
     :param q: question (str)
     :return: dicts of entities and relations where key: id and value: label
     """
@@ -50,7 +50,7 @@ def call_entitylinker(q):
 
 def get_entities_properties_libs(q):
     """
-    Uses Spacy Entity Linker anc Falcon2.0 to identify the entities of Wikidata in q.
+    Uses Spacy Entity Linker and Falcon2.0 to identify the entities of Wikidata in q.
     :param q: question (str)
     :return: dicts of entities and relations where key: id and value: label
     """
