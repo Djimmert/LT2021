@@ -58,7 +58,8 @@ def check_keywords(parse, q):
         return {'P27': 'country of citizenship'}
     elif 'country of origin' in q:
         return {'P495': 'country of origin'}
-
+    elif "follower" in lemmas:
+        return {'P8687': 'social media followers'}
 
 
 def retrieve_answer(q, question_type, ents, props):
@@ -101,7 +102,7 @@ def retrieve_answer(q, question_type, ents, props):
                             else:
                                 results.append(item[var]['value'])
 
-                if 'how many' not in q.lower() and 'how much' not in q.lower() and 'follower' not in q.lower() or 'cost' in q.lower():
+                if question_type != 'count':
                     if 'coordinate' in q.lower():  # No language specified
                         if 'xml:lang' not in item[var]:
                             return results
@@ -130,6 +131,7 @@ def main():
         for row in reader:
             id, q = row[0], row[1]
             # q = "Your question here"  # If you want to test a particular q
+            q = "How many followers does Studio Ghibli have on social media?"
             print('Q:\t', q)
             parse = nlp(q)
             question_type = get_question_type(q)
