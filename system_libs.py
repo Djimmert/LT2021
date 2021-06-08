@@ -55,4 +55,4 @@ def get_entities_properties_libs(q):
     :return: dicts of entities and relations where key: id and value: label
     """
     entities1, relations = call_falcon(q)
-    return entities1 | call_entitylinker(q), relations
+    return {**entities1, **call_entitylinker(q)}, relations

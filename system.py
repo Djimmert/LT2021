@@ -9,7 +9,7 @@ def merge_entities_properties(q, parse, question_type):
     print("deps:\t", deps_ent, deps_prop)
     print("libs:\t", libs_ents, libs_props)
 
-    return libs_ents | deps_ent, libs_props | deps_prop
+    return {**libs_ents, **deps_ent}, {**libs_props, **deps_prop}
 
 
 def check_keywords(parse, q):
