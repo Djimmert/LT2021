@@ -119,6 +119,13 @@ def get_question_type(input_q):
                 if 'dobj' in rel:
                     question_type = "verb_prop"  # e.g. 'Who directed X?'
 
+=======
+                question_type = "cost" # e.g. 'How much did X cost to make?'
+        else:
+            if 'dobj' in rel:
+                question_type = "verb_prop"  # e.g. 'Who directed X?'
+        
+>>>>>>> Stashed changes
     # for keyword in duration_keywords:
     #     if keyword in sent:
     #         question_type = "duration"  # e.g. 'How long is X?'
@@ -261,6 +268,8 @@ def get_entity_property(parse, question_type):
         prop = parse[-4:-2].text.split(" ")
 
     elif question_type == "tall":
+        # Find entity
+        prop = ['height']
     elif question_type == "count":
         pass
     elif question_type == "cost":
