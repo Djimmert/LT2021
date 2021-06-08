@@ -71,12 +71,12 @@ def retrieve_answer(q, question_type, ents, props):
         for property_id in props:
             print(entity_id, property_id)
             # Build query
-            if question_type != "passive":
-                query = "SELECT ?answerLabel WHERE {SERVICE wikibase:label \
-                { bd:serviceParam wikibase:language '[AUTO_LANGUAGE],en'. } wd:" + entity_id + " wdt:" + property_id + " ?answer .}"
-            else:
-                query = "SELECT ?answerLabel WHERE {SERVICE wikibase:label \
-                { bd:serviceParam wikibase:language '[AUTO_LANGUAGE],en'. } ?answer wdt:" + property_id + " wd:" + entity_id + " .}"
+            #if question_type != "passive":
+            query = "SELECT ?answerLabel WHERE {SERVICE wikibase:label \
+            { bd:serviceParam wikibase:language '[AUTO_LANGUAGE],en'. } wd:" + entity_id + " wdt:" + property_id + " ?answer .}"
+            #else:
+            #    query = "SELECT ?answerLabel WHERE {SERVICE wikibase:label \
+            #    { bd:serviceParam wikibase:language '[AUTO_LANGUAGE],en'. } ?answer wdt:" + property_id + " wd:" + entity_id + " .}"
 
             while True:
                 try:
