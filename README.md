@@ -18,13 +18,13 @@
 - [Jas] Find entity and property for count
 - [Jas] Find entity and property for cost
 
-- Detect + answer yes/no question
+- [Esther] Detect + answer yes/no question
 - Handle questions starting with verb
 - For what/which questions   
 - [Jas] Return months if asked for months
 
 #### ANSWER RETRIEVAL ####
-- Choose best answer from candidates
+- [Esther] Choose best answer from candidates
 
 
 ### OTHER ###
