@@ -136,7 +136,6 @@ def main():
         for row in reader:
             id, q = row[0], row[1]
             # q = "Your question here"  # If you want to test a particular q
-            q = "in what month was Meryl Streep born"
             print('Q:\t', q)
             parse = nlp(q)
             question_type = get_question_type(q)
