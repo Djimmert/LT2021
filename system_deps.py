@@ -59,15 +59,12 @@ def get_question_type(input_q):
             question_type = "time" # e.g. 'When was X published?'
         elif parse[0].text == "What" or parse[0].text == "Which":
             if parse[1].pos_ == "NOUN":
-                if "VERB" in pos:
-                    if "AUX" in pos and lemmas[pos.index("AUX")] == "be":
-                        question_type = "what_A_is_X_Y" # e.g 'What book is X based on?'
-                    elif "AUX" in pos and lemmas[pos.index("VERB")] == "earn":
-                        question_type = "what_A_is_X_Y" # e.g. 'Which movies earned X an award?'
-                    else:
-                        question_type = "what_which_verb" # e.g. 'What awards did X receive?'
+                if "AUX" in pos and lemmas[pos.index("AUX")] == "be":
+                    question_type = "what_A_is_X_Y" # e.g 'What book is X based on?'
+                elif "AUX" in pos and lemmas[pos.index("VERB")] == "earn":
+                    question_type = "what_A_is_X_Y" # e.g. 'Which movies earned X an award?'
                 else:
-                    question_type = "whatXisY" # e.g. 'What genre is X?'
+                    question_type = "what_which_verb" # e.g. 'What awards did X receive?'
             elif 'about' in lemmas:
                 question_type = "about"
             else:
