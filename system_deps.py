@@ -74,43 +74,6 @@ def get_question_type(input_q):
                     question_type = "XofY"  # e.g. 'Who is the director of X?'
                 if 'dobj' in rel:
                     question_type = "verb_prop"  # e.g. 'Who directed X?'
-    for rel in dep:
-        if 'pass' in rel:
-            question_type = "passive"  # e.g. 'Which movies are directed by X?'
-            break
-        elif any(item in duration_keywords for item in lemmas):
-            question_type = "duration"  # e.g. 'How long is X?'
-        elif any(item in location_keywords for item in lemmas):
-            question_type = "location"  # e.g. 'Where was X filmed?'
-        elif any(item in time_keywords for item in lemmas):
-            question_type = "time"  # e.g. 'When was X published?'
-        elif parse[0].text.lower() == "what" or parse[0].text.lower() == "which":
-            if parse[1].pos_ == "NOUN":
-                if "VERB" in pos:
-                    if "AUX" in pos and lemmas[pos.index("AUX")] == "be":
-                        question_type = "what_A_is_X_Y"  # e.g 'What book is X based on?'
-                    elif "AUX" in pos and lemmas[pos.index("VERB")] == "earn":
-                        question_type = "what_A_is_X_Y"  # e.g. 'Which movies earned X an award?'
-                    else:
-                        question_type = "what_which_verb" # e.g. 'What awards did X receive?'
-                else:
-                    question_type = "whatXisY"  # e.g. 'What genre is X?'
-            elif 'about' in lemmas:
-                question_type = "about"
-            else:
-                question_type = "what_is_Xs_Y"  # e.g. 'What is X's hair color?'
-        elif "tall" in lemmas:
-            question_type = "tall"  # e.g 'How tall is X?'
-        elif "many" in lemmas and "follower" not in lemmas and "cost" not in lemmas:  # e.g. 'How many X films are there?'
-            question_type = "count"
-        elif "cost" in lemmas:
-            question_type = "cost"  # e.g. 'How much did X cost to make?'
-        else:
-            if 'pobj' in rel:
-                question_type = "XofY"  # e.g. 'Who is the director of X?'
-            if 'dobj' in rel:
-                question_type = "verb_prop"  # e.g. 'Who directed X?'
-
     if not question_type:
         print("Question type could not be found ...")
     else:
