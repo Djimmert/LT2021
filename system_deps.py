@@ -15,6 +15,7 @@ def get_question_type(input_q):
     :param input_q: input question, plain text (str)
     :return: question type, abbreviation (str)
     """
+    
     # Define keywords
     duration_keywords = ['long', 'duration', 'minutes', 'time', 'length']
     time_keywords = ['century', 'year', 'when', 'month']
@@ -80,9 +81,10 @@ def get_question_type(input_q):
 
 def get_entity_property_deps(parse, question_type):
     """
-    Determine and clean entity and property from question type and parse.
-    :param parse: nlp parse of input question
-    :question_type: abbreviation of question type (str)
+    Determine and clean entity and property from question type and parse
+    :param parse: nlp parse of input question (spacy token object)
+    :param question_type: question type abbreviation (str)
+    :return: entity and propery (str)
     """
 
     # Init ent and prop
@@ -292,14 +294,22 @@ def get_entity_property_deps(parse, question_type):
 
 def phrase(word):
     """
-    Returns a list of the full phrase, derived from a word.
-    This was copied (but slightly modified) from examples above.
+    Returns a list of the full phrase, derived from a word
+    :param word: word object from nlp parse (spacy token object)
+    :return: phrase (list)
     """
 
     return [child.text for child in word.subtree]
 
 
 def retrieve_id_label(ent, prop):
+    """
+    Get entity and property dictionaries with ids and labels
+    :param ent: entity (str)
+    :param prop: property (str)
+    :return: entity and property dictionaries with key: id and value: label
+    """
+    
     url = 'https://www.wikidata.org/w/api.php'
 
     params_prop = {'action': 'wbsearchentities',
