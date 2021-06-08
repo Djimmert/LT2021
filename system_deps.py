@@ -249,17 +249,21 @@ def get_entity_property(parse, question_type):
         # Find entity: Either between POS:AUX (lemmas[2]) and 's, or:
         #              istitle()
         if "'s" in lemmas:
-            prop = lemmas[2:lemmas.index("'s")]\
+            prop = lemmas[2:lemmas.index("'s")]
         else:
             prop = []
             for word in lemmas:
                 if word.istitle():
                     prop.append(word)
        # Find property: probably last two words of sentence (parse[-4:-2])
-       prop = parse[-4:-2].text.split(" ")
+        prop = parse[-4:-2].text.split(" ")
+
     elif question_type == "tall":
+        pass
     elif question_type == "count":
+        pass
     elif question_type == "cost":
+        pass
 
     else:
         print("[ERROR] Made possible by Djim")
@@ -292,8 +296,6 @@ def phrase(word):
     for child in word.subtree :
         children.append(child.text)
     return children
-
-
 
 
 def retrieve_answer(prop, ent, question_type):
