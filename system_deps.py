@@ -240,7 +240,6 @@ def get_entity_property_deps(parse, question_type):
         pass
     elif question_type == "cost":
         prop = {'P2130': 'cost'}
-        pass
     elif question_type == "yes/no":
         main_verb_id = dep.index("ROOT")
         ent = lemmas[1:main_verb_id]

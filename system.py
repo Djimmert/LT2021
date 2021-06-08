@@ -6,6 +6,8 @@ import argparse
 def merge_entities_properties(q, parse, question_type):
     deps_ent, deps_prop = get_entity_property_deps(parse, question_type)
     libs_ents, libs_props = get_entities_properties_libs(q)
+    print("deps:\t", deps_ent, deps_prop)
+    print("libs:\t", libs_ents, libs_props)
 
     return libs_ents | deps_ent, libs_props | deps_prop
 
@@ -54,17 +56,20 @@ def check_keywords(parse, q):
         return {'P1971': 'number of children', 'P40': 'child'}
 
 
-def retrieve_answer(q, ents, props):
+def retrieve_answer(q, question_type, ents, props):
     """
     """
 
     for entity_id in ents:
         for property_id in props:
             print(entity_id, property_id)
-            query = 'SELECT ?answerLabel WHERE {' + \
-            'wd:' + entity_id + ' wdt:' + property_id + ' ?answer.' + \
-            ' SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }' + \
-            '}'
+            # Build query
+            if question_type != "passive":
+                query = "SELECT ?answerLabel WHERE {SERVICE wikibase:label \
+                { bd:serviceParam wikibase:language '[AUTO_LANGUAGE],en'. } wd:" + entity_id + " wdt:" + property_id + " ?answer .}"
+            else:
+                query = "SELECT ?answerLabel WHERE {SERVICE wikibase:label \
+                { bd:serviceParam wikibase:language '[AUTO_LANGUAGE],en'. } ?answer wdt:" + property_id + " wd:" + entity_id + " .}"
 
             while True:
                 try:
@@ -123,13 +128,21 @@ def main():
             print('Q:\t', q)
             parse = nlp(q)
             question_type = get_question_type(q)
+            print('QT\t', question_type)
             ents, props = merge_entities_properties(q, parse, question_type)
             if check_keywords(parse, q):  # Overwrite
                 print("[!] Property overwritten by keywords.")
                 props = check_keywords(parse, q)
             print('E:\t', ents)
             print('R:\t', props)
-            print(retrieve_answer(q, ents, props))
+            answer = retrieve_answer(q, question_type, ents, props)
+            if question_type == "yes/no":
+                if answer:
+                    print("yes")
+                else:
+                    print("no")
+            else:
+                print(answer)
             print()
 
 if __name__ == "__main__":
