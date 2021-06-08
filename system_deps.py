@@ -208,10 +208,29 @@ def get_entity_property_deps(parse, question_type):
             ent = parse[entity_istitle[0][0]:entity_istitle[-1][0]+1].text.split(" ")
         else:
             ent = sent.split(" ")[dep.index("ROOT") + 1:]
+        if 'born' in sent or 'birthday' in sent:
+            prop = {'P569': 'date of birth'}
+        elif 'release' in lemmas or 'come out' in sent or 'premiere' in sent\
+        or 'publish' in lemmas or 'publicise' in lemmas:
+            prop = {'P577': 'publication date'}
+        elif 'die' in sent or 'pass away' in sent:
+            prop = {'P570': 'date of death'}
         # Filter property answers based on data type of answer using VALUES
         pass
     elif question_type == "what_A_is_X_Y":
-        # Find entity using Falcon
+        entity_quotes = []
+        entity_istitle = []
+        for word in parse:
+            if word.text == '"':
+                entity_quotes.append((word.i, word.text))
+            if word.text.istitle() and word.i != 0:
+                entity_istitle.append((word.i, word.text))
+        if len(entity_quotes) > 1:
+            ent = parse[entity_quotes[0][0]+1:entity_quotes[-1][0]].text.split(" ")
+        elif entity_istitle:
+            ent = parse[entity_istitle[0][0]:entity_istitle[-1][0]+1].text.split(" ")
+        else:
+            ent = sent.split(" ")[dep.index("ROOT") + 1:]
         # Find property: probably last two words of sentence (parse[-4:-2])
         prop = parse[-4:-2].text.split(" ")
     elif question_type == "what_which_verb":
