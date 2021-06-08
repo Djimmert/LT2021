@@ -1,6 +1,9 @@
 # System.py
 Three packages are required to run `system.py`.
 ## Installation
+### Install simplejson
+`pip3 install simplejson`  
+
 ### Install [SpaCy](https://spacy.io/usage) and its language model
 1. `pip3 install -U spacy`
 2. `python3 -m spacy download en_core_web_md`
