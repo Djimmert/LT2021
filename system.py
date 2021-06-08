@@ -181,7 +181,7 @@ def main():
                 props = check_keywords(parse, q)
             answer = retrieve_answer(q, question_type, ents, props)
             if answer:
-                answer = set(answer)
+                answer = list(set(str(answer)))
                 if question_type == "yes/no":
                     if answer:
                         outf.write(str(i) + '\t' + 'yes\n')
