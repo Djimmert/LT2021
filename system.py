@@ -180,7 +180,7 @@ def main():
             if check_keywords(parse, q):  # Overwrite
                 props = check_keywords(parse, q)
             answer = retrieve_answer(q, question_type, ents, props)
-            answer = set(answer)
+            answer = list(set(answer))
             if answer:
                 if question_type == "yes/no":
                     if answer:
