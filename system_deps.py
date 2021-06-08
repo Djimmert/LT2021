@@ -15,7 +15,7 @@ def get_question_type(input_q):
     :param input_q: input question, plain text (str)
     :return: question type, abbreviation (str)
     """
-    
+
     # Define keywords
     duration_keywords = ['long', 'duration', 'minutes', 'time', 'length']
     time_keywords = ['century', 'year', 'when', 'month']
@@ -157,9 +157,9 @@ def get_entity_property_deps(parse, question_type):
             if word.text.istitle() and word.i != 0:
                 entity_istitle.append((word.i, word.text))
         if len(entity_quotes) > 1:
-            ent = parse[entity_quotes[0][0]+1:entity_quotes[-1][0]].text.split(" ")
+            ent = parse[entity_quotes[0][0] + 1:entity_quotes[-1][0]].text.split(" ")
         elif entity_istitle:
-            ent = parse[entity_istitle[0][0]:entity_istitle[-1][0]+1].text.split(" ")
+            ent = parse[entity_istitle[0][0]:entity_istitle[-1][0] + 1].text.split(" ")
         else:
             ent = sent.split(" ")[dep.index("ROOT") + 1:]
 
@@ -181,9 +181,9 @@ def get_entity_property_deps(parse, question_type):
             if word.text.istitle() and word.i != 0:
                 entity_istitle.append((word.i, word.text))
         if len(entity_quotes) > 1:
-            ent = parse[entity_quotes[0][0]+1:entity_quotes[-1][0]].text.split(" ")
+            ent = parse[entity_quotes[0][0] + 1:entity_quotes[-1][0]].text.split(" ")
         elif entity_istitle:
-            ent = parse[entity_istitle[0][0]:entity_istitle[-1][0]+1].text.split(" ")
+            ent = parse[entity_istitle[0][0]:entity_istitle[-1][0] + 1].text.split(" ")
         else:
             ent = sent.split(" ")[dep.index("ROOT") + 1:]
         if 'from' in lemmas:
@@ -192,7 +192,7 @@ def get_entity_property_deps(parse, question_type):
             prop = {'P915': 'filming location'}
         elif 'born' in lemmas:
             prop = {'P19': 'place of birth'}
-        
+
     elif question_type == "time":
         entity_quotes = []
         entity_istitle = []
@@ -202,15 +202,15 @@ def get_entity_property_deps(parse, question_type):
             if word.text.istitle() and word.i != 0:
                 entity_istitle.append((word.i, word.text))
         if len(entity_quotes) > 1:
-            ent = parse[entity_quotes[0][0]+1:entity_quotes[-1][0]].text.split(" ")
+            ent = parse[entity_quotes[0][0] + 1:entity_quotes[-1][0]].text.split(" ")
         elif entity_istitle:
-            ent = parse[entity_istitle[0][0]:entity_istitle[-1][0]+1].text.split(" ")
+            ent = parse[entity_istitle[0][0]:entity_istitle[-1][0] + 1].text.split(" ")
         else:
             ent = sent.split(" ")[dep.index("ROOT") + 1:]
         if 'born' in sent or 'birthday' in sent:
             prop = {'P569': 'date of birth'}
-        elif 'release' in lemmas or 'come out' in sent or 'premiere' in sent\
-        or 'publish' in lemmas or 'publicise' in lemmas:
+        elif 'release' in lemmas or 'come out' in sent or 'premiere' in sent \
+                or 'publish' in lemmas or 'publicise' in lemmas:
             prop = {'P577': 'publication date'}
         elif 'die' in sent or 'pass away' in sent:
             prop = {'P570': 'date of death'}
@@ -225,12 +225,13 @@ def get_entity_property_deps(parse, question_type):
             if word.text.istitle() and word.i != 0:
                 entity_istitle.append((word.i, word.text))
         if len(entity_quotes) > 1:
-            ent = parse[entity_quotes[0][0]+1:entity_quotes[-1][0]].text.split(" ")
+            ent = parse[entity_quotes[0][0] + 1:entity_quotes[-1][0]].text.split(" ")
         elif entity_istitle:
-            ent = parse[entity_istitle[0][0]:entity_istitle[-1][0]+1].text.split(" ")
+            ent = parse[entity_istitle[0][0]:entity_istitle[-1][0] + 1].text.split(" ")
         else:
             ent = sent.split(" ")[dep.index("ROOT") + 1:]
-        if parse[-4:-2].text.split(" ") == ['based', 'on'] or parse[-4:-2].text.split(" ") == ['influenced', 'by'] or 'earned' in sent:
+        if parse[-4:-2].text.split(" ") == ['based', 'on'] or parse[-4:-2].text.split(" ") == ['influenced',
+                                                                                               'by'] or 'earned' in sent:
             prop = parse[-4:-2].text.split(" ")
         elif "AUX" in pos:
             prop = parse[1:pos.index("AUX")].text.split(" ")
@@ -255,7 +256,7 @@ def get_entity_property_deps(parse, question_type):
             for word in lemmas:
                 if word.istitle():
                     prop.append(word)
-       # Find property: probably last two words of sentence (parse[-4:-2])
+        # Find property: probably last two words of sentence (parse[-4:-2])
         prop = parse[-4:-2].text.split(" ")
 
     elif question_type == "count":
@@ -263,7 +264,7 @@ def get_entity_property_deps(parse, question_type):
     elif question_type == "yes/no":
         main_verb_id = dep.index("ROOT")
         ent = lemmas[1:main_verb_id]
-        prop_broad = lemmas[main_verb_id+1:-2]
+        prop_broad = lemmas[main_verb_id + 1:-2]
         prop = [w for w in prop_broad if pos[lemmas.index(w)] != "DET"]
 
     else:
@@ -271,7 +272,7 @@ def get_entity_property_deps(parse, question_type):
 
     # Filter entity: starts with first capital letter and start is not an adjective (e.g. the Dutch movie ...)
     try:
-        start = min([ent.index(word) for word in ent if word.istitle() and \
+        start = min([ent.index(word) for word in ent if word.istitle() and
                      pos[sent.split(" ").index(word)] != "ADJ"])
         ent = ent[start:]
     except ValueError:
@@ -305,7 +306,7 @@ def retrieve_id_label(ent, prop):
     :param prop: property (str)
     :return: entity and property dictionaries with key: id and value: label
     """
-    
+
     url = 'https://www.wikidata.org/w/api.php'
 
     params_prop = {'action': 'wbsearchentities',

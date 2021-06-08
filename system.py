@@ -7,13 +7,13 @@ import simplejson  # For Python 3.9-
 
 def merge_entities_properties(q, parse, question_type):
     """
-	Merges properties and entities from the dependency and library system
-	:param q: input question, plain text (str)
-	:param parse: nlp parse of input question (spacy token object)
-	:param question_type: question type abbreviation (str)
-	:return: dictionary of entities and properties merged
+    Merges properties and entities from the dependency and library system
+    :param q: input question, plain text (str)
+    :param parse: nlp parse of input question (spacy token object)
+    :param question_type: question type abbreviation (str)
+    :return: dictionary of entities and properties merged
     """
-    
+
     deps_ent, deps_prop = get_entity_property_deps(parse, question_type)
     libs_ents, libs_props = get_entities_properties_libs(q)
 
@@ -22,12 +22,12 @@ def merge_entities_properties(q, parse, question_type):
 
 def check_keywords(parse, q):
     """
-	Detects keywords
-	:param parse: nlp parse of input question (spacy token object)
-	:param q: input question, plain text (str)
-	:return: dictionary where key: property ID and value: name of property if keyword  exists
-	"""
-    
+    Detects keywords
+    :param parse: nlp parse of input question (spacy token object)
+    :param q: input question, plain text (str)
+    :return: dictionary where key: property ID and value: name of property if keyword  exists
+    """
+
     q = q.lower()
     lemmas = [word.lemma_ for word in parse]
 
@@ -83,13 +83,13 @@ def check_keywords(parse, q):
 
 
 def retrieve_answer(q, question_type, ents, props):
-	"""
-	Sends query to Wikidata
-	:param q: input question, plain text (str)
-	:param question_type: question type abbreviation (str)
-	:param ents: possible entities (dict)
-	:param props: possible properties (dict)
-	:return: answer to question (list or int)
+    """
+    Sends query to Wikidata
+    :param q: input question, plain text (str)
+    :param question_type: question type abbreviation (str)
+    :param ents: possible entities (dict)
+    :param props: possible properties (dict)
+    :return: answer to question (list or int)
     """
 
     for entity_id in ents:
@@ -105,7 +105,7 @@ def retrieve_answer(q, question_type, ents, props):
             while True:
                 try:
                     data = requests.get('https://query.wikidata.org/sparql',
-                                    params={'query': query, 'format': 'json'}).json()
+                                        params={'query': query, 'format': 'json'}).json()
                     break
 
                 except (json.decoder.JSONDecodeError, simplejson.errors.JSONDecodeError):  # Sometimes nothing is returned
