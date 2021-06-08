@@ -35,10 +35,11 @@ def check_keywords(parse, q):
     elif 'when' in lemmas and 'publicise' in lemmas or 'when' in lemmas and 'release' in lemmas or \
             'when' in lemmas and 'come out' in q:
         return {'P577': 'publication date'}
-    elif 'born' in lemmas and 'country' in lemmas or 'born' in lemmas and 'city' in lemmas or \
+    elif 'bear' in lemmas and 'country' in lemmas or 'bear' in lemmas and 'city' in lemmas or \
             'born' in lemmas and 'place' in lemmas:
         return {'P19': 'place of birth'}
-    elif 'when' in lemmas and 'born' in lemmas:
+    elif 'when' in lemmas and 'bear' in lemmas or 'year' in lemmas and 'bear' in lemmas or \
+            'month' and 'bear' in lemmas:
         return {'P569': 'date of birth'}
     elif 'genre' in lemmas:
         return {'P136': 'genre'}
@@ -99,6 +100,10 @@ def retrieve_answer(q, question_type, ents, props):
                             elif 'year' in q.lower():  # No language specified and only return year
                                 if 'xml:lang' not in item[var] and len(item[var]['value']) == 20:
                                     results.append(item[var]['value'][:4])
+                            elif 'month' in q.lower():
+                                # No language specified and only return month
+                                if 'xml:lang' not in item[var] and len(item[var]['value']) == 20:
+                                    results.append(item[var]['value'][5:7])
                             else:
                                 results.append(item[var]['value'])
 
@@ -131,7 +136,7 @@ def main():
         for row in reader:
             id, q = row[0], row[1]
             # q = "Your question here"  # If you want to test a particular q
-            q = "How many followers does Studio Ghibli have on social media?"
+            q = "in what month was Meryl Streep born"
             print('Q:\t', q)
             parse = nlp(q)
             question_type = get_question_type(q)
