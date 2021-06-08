@@ -263,8 +263,8 @@ def get_entity_property_deps(parse, question_type):
     elif question_type == "yes/no":
         main_verb_id = dep.index("ROOT")
         ent = lemmas[1:main_verb_id]
-        prop_broad = lemmas[main_verb_id + 1:-2]
-        prop = [w for w in prop_broad if pos[lemmas.index(w)] != "DET"]
+        prop_broad = lemmas[main_verb_id + 1:-1]
+        prop = [w for w in prop_broad if pos[lemmas.index(w)] != "DET" and word != "?"]
 
     else:
         pass
