@@ -55,6 +55,7 @@ def get_question_type(input_q):
     sent = sent.replace("'", "")  # Strip single apostrophe
 
     question_type = ""
+<<<<<<< Updated upstream
     if lemmas[0] == "do":
         question_type = "yes/no"
     else:
@@ -77,6 +78,27 @@ def get_question_type(input_q):
                             question_type = "what_A_is_X_Y" # e.g. 'Which movies earned X an award?'
                         else:
                             question_type = "what_which_verb" # e.g. 'What awards did X receive?'
+=======
+    for rel in dep:
+        if 'pass' in rel:
+            question_type = "passive"  # e.g. 'Which movies are directed by X?'
+            break
+        elif any(item in duration_keywords for item in lemmas):
+            question_type = "duration"  # e.g. 'How long is X?'
+        elif any(item in location_keywords for item in lemmas):
+            question_type = "location" # e.g. 'Where was X filmed?'
+        elif any(item in time_keywords for item in lemmas):
+            question_type = "time" # e.g. 'When was X published?'
+        elif parse[0].text == "What" or parse[0].text == "Which" or parse[0].text == "Who":
+            if 'pobj' in rel:
+                question_type = "XofY"  # e.g. 'Who is the director of X?'
+            elif parse[1].pos_ == "NOUN":
+                if "VERB" in pos:
+                    if "AUX" in pos and lemmas[pos.index("AUX")] == "be":
+                        question_type = "what_A_is_X_Y" # e.g 'What book is X based on?'
+                    elif "AUX" in pos and lemmas[pos.index("VERB")] == "earn":
+                        question_type = "what_A_is_X_Y" # e.g. 'Which movies earned X an award?'
+>>>>>>> Stashed changes
                     else:
                         question_type = "whatXisY" # e.g. 'What genre is X?'
                 elif 'about' in lemmas:
@@ -91,6 +113,7 @@ def get_question_type(input_q):
                 else:
                     question_type = "cost" # e.g. 'How much did X cost to make?'
             else:
+<<<<<<< Updated upstream
                 if 'pobj' in rel:
                     question_type = "XofY"  # e.g. 'Who is the director of X?'
                 if 'dobj' in rel:
@@ -238,7 +261,6 @@ def get_entity_property(parse, question_type):
         prop = parse[-4:-2].text.split(" ")
 
     elif question_type == "tall":
-        pass
     elif question_type == "count":
         pass
     elif question_type == "cost":
@@ -331,6 +353,57 @@ def retrieve_answer(prop, ent, question_type):
         pass  # Not found
 
 
+<<<<<<< Updated upstream
+=======
+def get_entities_properties(q):
+    """
+    Uses Spacy Entity Linker anc Falcon2.0 to identify the entities of Wikidata in q.
+    :param q: question (str)
+    :return: dicts of entities and relations where key: id and value: label
+    """
+    entities1, relations = call_falcon(q)
+    return entities1 | call_entitylinker(q), relations
+
+
+def check_keywords(q):
+    q = q.lower()
+    if 'cult-like church' in q:
+        return 'P140'  # Religion
+    elif 'named' in q and 'after' in q:
+        return 'P138'  # Named after
+    elif 'film' and 'location' in q or 'where' and 'film' in q or 'film' and 'country' in q or 'film' and 'city' in q or 'film' and 'place' in q:
+        return 'P915'  # Filming location
+    elif 'can' and 'watch' in q:
+        return 'P750'
+    elif 'compan' and 'direct' in q or 'compan' and 'produce' in q:
+        return 'P272'
+    elif 'how long' in q:
+        return 'P2047'
+    elif 'cost' in q:
+        return 'P2130'
+    elif 'box office' in q:
+        return 'P2142'
+    elif 'tall' in q.split():
+        return 'P2142' # Overlap with question type tall!
+    elif 'publicised' in q or 'released' in q or 'come out' in q:
+        return 'P577'  # Publication date
+    elif 'born' and 'country' in q or 'born' and 'city' in q or 'born' and 'place' in q:
+        return 'P19'  # Place of birth
+    elif 'when' and 'born' in q:
+        return 'P569'  # Date of birth
+    elif 'genre' in q:
+        return 'P136'  # Genre
+    elif 'main subject' in q:
+        return 'P921'  # Main subject
+    elif 'original language' in q or 'language' and 'spoken' in q:
+        return 'P364'  # Original language of film or TV show
+    elif 'cause' and 'death' in q:
+        return 'P509'
+    elif 'university' in q:
+        return 'P69' # Educated at
+
+
+>>>>>>> Stashed changes
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('questionfile', help='path to .txt file with all questions')
