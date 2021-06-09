@@ -1,0 +1,50 @@
+1	Christopher Nolan
+2	Drew Goddard
+3	1999-01-01T00:00:00Z
+4	1974-10-28T00:00:00Z
+5	yes
+6	France
+7	116
+8	1882-07-25T00:00:00Z
+9	London
+10	1884
+11	829895144
+12	yes
+13	Steven Spielberg
+14	yes
+15	yes
+16	The name is Bond, James Bond
+17	serial killer
+18	crime serial,comedy-drama,psychological thriller,drama television series,black comedy television program
+19	yes
+20	4
+21	Roger Corman
+22	Golden Globe Award,Primetime Emmy Award for Outstanding Lead Actor in a Miniseries or a Movie,James Joyce Awards,Screen Actors Guild Award for Outstanding Performance by a Male Actor in a Miniseries or Television Movie,BAFTA Award for Best Actor in a Supporting Role
+23	James Hamilton, Duke of Châtellerault
+24	yes
+25	Vicky Jenson,Andrew Adamson
+26	telepresence,dream world
+27	France,United Kingdom,United States of America
+28	male
+29	yes
+30	12
+31	1
+32	47
+33	12
+34	12
+35	yes
+36	Columbus Blue Jackets,HC Fribourg-Gottéron,Carolina Hurricanes,Arizona Coyotes,Vancouver Canucks
+37	2007-06-21T00:00:00Z,2007-08-09T00:00:00Z
+38	yes
+39	yes
+40	yes
+41	yes
+42	yes
+43	human
+44	yes
+45	yes
+46	yes
+47	yes
+48	yes
+49	1954-12-28T00:00:00Z
+50	yes

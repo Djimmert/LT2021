@@ -1,0 +1,50 @@
+1	Christopher Nolan
+2	yes
+3	165
+4	1974-10-28T00:00:00Z
+5	yes
+6	France
+7	116
+8	Long Branch
+9	yes
+10	1998
+11	829895144
+12	yes
+13	Steven Spielberg
+14	Brampton
+15	yes
+16	The name is Bond, James Bond
+17	serial killer
+18	black comedy television program,comedy-drama,crime serial,psychological thriller,drama television series
+19	yes
+20	4
+21	yes
+22	Golden Globe Award,James Joyce Awards,Screen Actors Guild Award for Outstanding Performance by a Male Actor in a Miniseries or Television Movie,Primetime Emmy Award for Outstanding Lead Actor in a Miniseries or a Movie,BAFTA Award for Best Actor in a Supporting Role
+23	yes
+24	yes
+25	Vicky Jenson,Andrew Adamson
+26	dream world,telepresence
+27	France
+28	male
+29	Trey Smith,Jaden Smith,Willow Smith
+30	1
+31	1
+32	yes
+33	12
+34	12
+35	yes
+36	yes
+37	yes
+38	yes
+39	yes
+40	yes
+41	yes
+42	yes
+43	yes
+44	yes
+45	yes
+46	yes
+47	yes
+48	yes
+49	yes
+50	yes
